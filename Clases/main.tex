@@ -1,0 +1,48 @@
+\documentclass[11pt, letterpaper]{report}
+\usepackage{sectsty}
+\usepackage[spanish, es-noindentfirst]{babel}
+\spanishdecimal{.}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,microtype} % Required for inserting images
+\setlength{\parskip}{\medskipamount}
+\usepackage[colorlinks, linkcolor=blue, urlcolor=blue]{hyperref}
+\usepackage{url}
+\usepackage[left=3cm, right=3cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{minted, verbatim}
+%\usemintedstyle{default}
+\renewcommand{\ttdefault}{txtt}
+%\usepackage{helvet}
+%\renewcommand{\familydefault}{\sfdefault}
+
+\partfont{\Huge}
+
+\title{\bf\Huge Reducción de datos CCD con IRAF y Python}
+\author{Alexis Andrés}
+\date{\today}
+
+\input{custom}
+
+%\includeonly{Unidad-1/Clase-2}
+\usepackage{titlesec}
+
+%\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\chaptername ~\thechapter ~ | ~}{0pt}{\Huge\bfseries}
+
+\begin{document}
+\renewcommand*\thepart{\arabic{part}}
+\renewcommand{\partname}{Unidad}
+%\renewcommand*\thechapter{}
+\renewcommand{\chaptername}{Clase}
+\renewcommand{\tablename}{Tabla}
+
+\maketitle
+
+\tableofcontents
+
+%\part{Introducción a Python}
+\include{unit-1/lesson-1.tex}
+
+
+
+\end{document}
