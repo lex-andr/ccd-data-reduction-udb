@@ -1,0 +1,173 @@
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+\usepackage{listings}
+\usepackage{textcomp}
+\tcbuselibrary{listingsutf8}
+\tcbuselibrary{minted}
+
+\usepackage{fvextra}
+% Configuración para que mintinline sea en negritas y monoespaciado
+\DefineVerbatimEnvironment{Bash}{Verbatim}{formatcom=\bfseries}
+\newcommand{\mintbold}[2][]{\mintinline[formatcom=\bfseries,#1]{#2}}
+
+\definecolor{grey}{HTML}{CFCFCF}
+\definecolor{light_gray}{rgb}{0.97,0.97,0.97}
+\definecolor{mykey}{rgb}{0.117,0.403,0.713}
+\definecolor{myorange}{HTML}{BF5B3D}
+
+
+\newlength\inwd
+\setlength\inwd{2em}
+
+\newcounter{ipythcntr}
+\renewcommand{\theipythcntr}{\texttt{[\arabic{ipythcntr}]}}
+
+\definecolor{terminalTitle}{RGB}{24,23,34}
+\definecolor{terminalColor}{RGB}{40,42,54}
+\definecolor{Button1}{RGB}{255,85,85}
+\definecolor{Button2}{RGB}{138,255,128}
+\definecolor{Button3}{RGB}{255,255,128}
+
+\newtcblisting{terminal}[1][]{
+    listing engine=minted,minted style=native,
+    minted language=pycon,enhanced,
+    colback=terminalColor,colframe=terminalTitle,listing only, title=\tikz {
+        \node[circle,fill=Button1,inner sep=3pt] (c) at (0,0){};
+        \node[circle,fill=Button2,inner sep=3pt] (c) at (0.5,0){};
+        \node[circle,fill=Button3,inner sep=3pt] (c) at (1,0){};
+    } \qquad \texttt{#1}
+    }
+
+\newtcblisting{bash}[1][]{
+    boxrule=0.5pt,
+    listing engine=minted, minted style=tango,
+    minted language=shell-session,
+    minted options={%
+         breaklines,
+         obeytabs=true,
+         breaksymbolleft=,
+         autogobble,
+         numbersep=2mm,
+         baselinestretch=1,
+         escapeinside=!!},
+    enhanced, colback=light_gray,colframe=grey,listing only, 
+    %coltext=white!40!black,
+    %coltitle=black,
+    %title=\tikz { \centering
+        %\node[circle,fill=Button1,inner sep=3pt] (c) at (0,0){};
+        %\node[circle,fill=Button2,inner sep=3pt] (c) at (0.5,0){};
+        %\node[circle,fill=Button3,inner sep=3pt] (c) at (1,0){};
+    %} \texttt{#1} ,
+    }
+
+\newtcblisting{pyin}[1][]{%
+  enlarge left by=0pt,
+  width=\linewidth,
+  enhanced,
+  colframe=grey,
+  boxrule=0.5pt,
+  arc=1pt,
+  colback=light_gray,
+  listing only,
+  top=0pt,
+  bottom=0pt,
+  left=5pt,
+  right=5pt,
+  breakable,
+  overlay={
+    \node[
+      anchor=north east,
+      text width=\inwd,
+      font=\footnotesize\ttfamily\color{mykey},
+      inner ysep=2mm,
+      inner xsep=0pt,
+      outer sep=0pt
+      ] 
+      at (frame.north west)
+      {\refstepcounter{ipythcntr}\theipythcntr:};
+  }
+  listing engine=minted,
+  minted language=python,
+  minted options={%
+         breaklines,
+         obeytabs=true,
+         breaksymbolleft=,
+         autogobble,
+         numbersep=2mm,
+         baselinestretch=1},
+}
+
+\newtcblisting{pyprint}{
+  sharp corners,
+  enlarge left by=0pt,
+  width=\linewidth,
+  enhanced,
+  coltext=black,
+  colframe=white,
+  boxrule=0pt,
+  colback=white,
+  listing only,
+  top=-7pt,
+  bottom=0pt,
+  left=7pt,
+  right=1pt,
+  overlay={
+    \node[
+      anchor=north east,
+      text width=\inwd,
+      font=\footnotesize\ttfamily\color{mykey},
+      inner ysep=2mm,
+      inner xsep=0pt,
+      outer sep=0pt
+      ] 
+      at (frame.north west)
+      {};
+  }
+  listing engine=minted,
+  minted language=pycon,
+  minted options={%
+         breaklines,
+         obeytabs=true,
+         breaksymbolleft=,
+         autogobble,
+         numbersep=2mm,
+         baselinestretch=1},
+}
+
+\newtcblisting{pyout}[1][\theipythcntr]{
+  sharp corners,
+  enlarge left by=0pt,
+  width=\linewidth,
+  enhanced,
+  colframe=white,
+  boxrule=0pt,
+  colback=white,
+  listing only,
+  top=0pt,
+  bottom=0pt,
+  left=1pt,
+  right=1pt,
+  overlay={
+    \node[
+      anchor=north east,
+      text width=\inwd,
+      font=\footnotesize\ttfamily\color{myorange},
+      inner ysep=2mm,
+      inner xsep=0pt,
+      outer sep=0pt
+      ] 
+      at (frame.north west)
+      {\setcounter{ipythcntr}{\value{ipythcntr}}#1:};
+  }
+  listing engine=minted,
+  minted language=python,
+  minted options={%
+         breaklines,
+         obeytabs=true,
+         breaksymbolleft=,
+         autogobble,
+         numbersep=2mm,
+         baselinestretch=1},
+}

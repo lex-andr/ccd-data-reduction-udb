@@ -1,0 +1,2115 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.15)  15 AUG 2024 22:34
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/12/26 3.84 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen141
+\l@unhyphenated=\language87
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks16
+\es@quotdepth=\count196
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count197
+)
+\MT@toks=\toks20
+\MT@tempbox=\box51
+\MT@count=\count198
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
+LaTeX Info: Redefining \leftprotrusion on input line 1046.
+LaTeX Info: Redefining \rightprotrusion on input line 1056.
+LaTeX Info: Redefining \textls on input line 1234.
+\MT@outer@kern=\dimen144
+LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
+\MT@listname@count=\count199
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 900.
+LaTeX Info: Redefining \lslig on input line 900.
+\MT@outer@space=\skip50
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count266
+)
+\@linkdim=\dimen145
+\Hy@linkcounter=\count267
+\Hy@pagecounter=\count268
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count269
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4045.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count270
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen146
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count271
+\Field@Width=\dimen147
+\Fld@charsize=\dimen148
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring ON on input line 6045.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count272
+\c@Item=\count273
+\c@Hfootnote=\count274
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count275
+\c@bookmark@seq@number=\count276
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2022/12/12 v2.7 Yet another Pygments shim for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2022/11/30 v1.5 fvextra - extensions and patches for fancyvrb
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count280
+\FV@InFile=\read3
+\FV@TabBox=\box52
+\c@FancyVerbLine=\count281
+\FV@StepNumber=\count282
+\FV@OutFile=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/01/19 line numbers on paragraphs v5.1
+\linenopenalty=\count283
+\output=\toks22
+\linenoprevgraf=\count284
+\linenumbersep=\dimen157
+\linenumberwidth=\dimen158
+\c@linenumber=\count285
+\c@pagewiselinenumber=\count286
+\c@LN@truepage=\count287
+\c@internallinenumber=\count288
+\c@internallinenumbers=\count289
+\quotelinenumbersep=\dimen159
+\bframerule=\dimen160
+\bframesep=\dimen161
+\bframebox=\box53
+LaTeX Info: Redefining \\ on input line 3131.
+)
+\c@FV@TrueTabGroupLevel=\count290
+\c@FV@TrueTabCounter=\count291
+\FV@TabBox@Group=\box54
+\FV@TmpLength=\skip52
+\c@FV@HighlightLinesStart=\count292
+\c@FV@HighlightLinesStop=\count293
+\FV@LoopCount=\count294
+\FV@NCharsBox=\box55
+\FV@BreakIndent=\dimen162
+\FV@BreakIndentNChars=\count295
+\FV@BreakSymbolSepLeft=\dimen163
+\FV@BreakSymbolSepLeftNChars=\count296
+\FV@BreakSymbolSepRight=\dimen164
+\FV@BreakSymbolSepRightNChars=\count297
+\FV@BreakSymbolIndentLeft=\dimen165
+\FV@BreakSymbolIndentLeftNChars=\count298
+\FV@BreakSymbolIndentRight=\dimen166
+\FV@BreakSymbolIndentRightNChars=\count299
+\c@FancyVerbLineBreakLast=\count300
+\FV@LineBox=\box56
+\FV@LineIndentBox=\box57
+\c@FV@BreakBufferDepth=\count301
+\FV@LineWidth=\dimen167
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count302
+\calc@Bcount=\count303
+\calc@Adimen=\dimen168
+\calc@Bdimen=\dimen169
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count304
+\calc@Cskip=\skip55
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "main.w18")...executed.
+
+ (./main.w18)
+runsystem(rm -- "main.w18")...executed.
+
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count305
+\decimalpart=\count306
+)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip56
+\fb@frw=\dimen170
+\fb@frh=\dimen171
+\FrameRule=\dimen172
+\FrameSep=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count307
+\float@exts=\toks23
+\float@box=\box58
+\@float@everytoks=\toks24
+\@floatcapt=\box59
+)
+\minted@appexistsfile=\read4
+\minted@bgbox=\box60
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count308
+\c@minted@pygmentizecounter=\count309
+\@float@every@listing=\toks25
+\c@listing=\count310
+)
+runsystem(mkdir -p _minted-main)...executed.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks26
+\verbatim@line=\toks27
+\verbatim@in@stream=\read5
+) (./custom.tex
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2022/06/24 version 5.1.1 text color boxes
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen174
+\pgfutil@tempdimb=\dimen175
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box61
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen176
+\pgf@y=\dimen177
+\pgf@xa=\dimen178
+\pgf@ya=\dimen179
+\pgf@xb=\dimen180
+\pgf@yb=\dimen181
+\pgf@xc=\dimen182
+\pgf@yc=\dimen183
+\pgf@xd=\dimen184
+\pgf@yd=\dimen185
+\w@pgf@writea=\write5
+\r@pgf@reada=\read6
+\c@pgf@counta=\count311
+\c@pgf@countb=\count312
+\c@pgf@countc=\count313
+\c@pgf@countd=\count314
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count315
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count316
+\pgfsyssoftpath@bigbuffer@items=\count317
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen186
+\pgfmath@count=\count318
+\pgfmath@box=\box62
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count319
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count320
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen261
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen265
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count321
+\pgf@shadingcount=\count322
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box66
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box67
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen267
+\pgf@nodesepend=\dimen268
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks38
+)
+\tcb@titlebox=\box68
+\tcb@upperbox=\box69
+\tcb@lowerbox=\box70
+\tcb@phantombox=\box71
+\c@tcbbreakpart=\count323
+\c@tcblayer=\count324
+\c@tcolorbox@number=\count325
+\tcb@temp=\box72
+\tcb@temp=\box73
+\tcb@temp=\box74
+\tcb@temp=\box75
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '5.1.1'
+\c@tcbrastercolumn=\count326
+\c@tcbrasterrow=\count327
+\c@tcbrasternum=\count328
+\c@tcbraster=\count329
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '5.1.1'
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen269
+\pgffor@skip=\dimen270
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count330
+\pgfplotmarksize=\dimen271
+)
+\tikz@lastx=\dimen272
+\tikz@lasty=\dimen273
+\tikz@lastxsaved=\dimen274
+\tikz@lastysaved=\dimen275
+\tikz@lastmovetox=\dimen276
+\tikz@lastmovetoy=\dimen277
+\tikzleveldistance=\dimen278
+\tikzsiblingdistance=\dimen279
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count331
+\tikznumberofchildren=\count332
+\tikznumberofcurrentchild=\count333
+\tikz@fig@count=\count334
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count335
+\pgfmatrixcurrentcolumn=\count336
+\pgf@matrix@numberofcolumns=\count337
+)
+\tikz@expandcount=\count338
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+\tcb@waterbox=\box80
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.1.1'
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '5.1.1'
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box81
+\tcb@totalupperbox=\box82
+\tcb@totallowerbox=\box83
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '5.1.1'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '5.1.1'
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks41
+\ex@=\dimen280
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen281
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count339
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count340
+\leftroot@=\count341
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count342
+\DOTSCASE@=\count343
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box84
+\strutbox@=\box85
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen282
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count344
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count345
+\dotsspace@=\muskip17
+\c@parentequation=\count346
+\dspbrk@lvl=\count347
+\tag@help=\toks42
+\row@=\count348
+\column@=\count349
+\maxfields@=\count350
+\andhelp@=\toks43
+\eqnshift@=\dimen283
+\alignsep@=\dimen284
+\tagshift@=\dimen285
+\tagwidth@=\dimen286
+\totwidth@=\dimen287
+\lineht@=\dimen288
+\@envbody=\toks44
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks45
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\linenoamsmath@ams@eqpen=\count351
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '5.1.1'
+\tcbfitdim=\dimen289
+\tcb@lowerfitdim=\dimen290
+\tcb@upperfitdim=\dimen291
+\tcb@cur@hbadness=\count352
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.1.1'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '5.1.1'
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count353
+\lst@gtempboxa=\box86
+\lst@token=\toks46
+\lst@length=\count354
+\lst@currlwidth=\dimen292
+\lst@column=\count355
+\lst@pos=\count356
+\lst@lostspace=\dimen293
+\lst@width=\dimen294
+\lst@newlines=\count357
+\lst@lineno=\count358
+\lst@maxwidth=\dimen295
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count359
+\lst@skipnumbers=\count360
+\lst@framebox=\box87
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '5.1.1'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '5.1.1'
+)
+\c@tcblisting=\count361
+)) (/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '5.1.1'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '5.1.1'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '5.1.1'
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '5.1.1'
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
+Library (tcolorbox): 'tcbminted.code.tex' version '5.1.1'
+)
+\inwd=\skip60
+\c@ipythcntr=\count362
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box88
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen296
+\ttl@minus=\dimen297
+\ttl@toksa=\toks47
+\titlewidth=\dimen298
+\titlewidthlast=\dimen299
+\titlewidthfirst=\dimen300
+)
+runsystem(which pygmentize && touch main.aex)...executed.
+
+runsystem(rm main.aex)...executed.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count363
+\l__pdf_internal_box=\box89
+)
+(./main.aux
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ (./unit-1/lesson-1.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count364
+\scratchdimen=\dimen301
+\scratchbox=\box90
+\nofMPsegments=\count365
+\nofMParguments=\count366
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count367
+\MPscratchDim=\dimen302
+\MPnumerator=\count368
+\makeMPintoPDFobject=\count369
+\everyMPtoPDFconversion=\toks49
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \microtypecontext on input line 32.
+Package microtype Info: Applying patch `item' on input line 32.
+Package microtype Info: Applying patch `toc' on input line 32.
+Package microtype Info: Applying patch `eqnum' on input line 32.
+Package microtype Info: Applying patch `footnote' on input line 32.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 32.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package hyperref Info: Link coloring ON on input line 32.
+ (./main.out)
+(./main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=443.57848pt
+* \textheight=681.15898pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count370
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 \include{unit-1/lesson-1.tex}
+                                   [1
+
+]
+\openout2 = `unit-1/lesson-1.aux'.
+
+ (./unit-1/lesson-1.tex
+Clase 1.
+\openout4 = `main.pyg'.
+
+(./_minted-main/default.pygstyle)
+(./_minted-main/DCFDD5E021A869FCC6DFAEF8BF31377ED3773C8B440B993359565A23D713B17
+A.pygtex
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 3
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `txtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10.95> not available
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 3.
+)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653DD3773C8B440B993359565A23D713B17
+A.pygtex) [2
+
+
+]
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/124F41FE111916DCBF562D07D7CD6BFED3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/4A69013BE9F08507FACCBECFD71A06E9D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653DD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/06B8B97764C7DAEA255DF9D38103A6B1D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653DD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/A9EBD2F2A5BDBB35E39283B79BAD1846D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/4A69013BE9F08507FACCBECFD71A06E9D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/97E96BF5451C45D418E2B52771A73D5BD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/124F41FE111916DCBF562D07D7CD6BFED3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/37F6E99940B38F3C2EB998F2DEF2BBACD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653DD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/A9EBD2F2A5BDBB35E39283B79BAD1846D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/97E96BF5451C45D418E2B52771A73D5BD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/124F41FE111916DCBF562D07D7CD6BFED3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/97E96BF5451C45D418E2B52771A73D5BD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/B8EF81CC5C06150A1D5CADBDA3217BD4D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/6188A522D33511FDADBFFAC145A4DF82D3773C8B440B993359565A23D713B17
+A.pygtex) [3]
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/D26D1C43A24B0B34AFD74343EA95BCEED3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/97E96BF5451C45D418E2B52771A73D5BD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/60CFBEF33691C704386BF4B25CCBEB04D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/4A69013BE9F08507FACCBECFD71A06E9D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/6D7FCE9FEE471194AA8B5B6E47267F03D3773C8B440B993359565A23D713B17
+A.pygtex)
+\tcb@out=\write8
+\openout8 = `main.listing'.
+
+ (./_minted-main/native.pygstyle)
+(./_minted-main/CC81935932C411523B5E31586DEF7985BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+9.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/3E1CE07401B37846F4D6AAB1EFBE771BD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/753474E1388FF8F32F2FB3B8B440AE68541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/0ECF493029AB94140C3AB5C3F95C8AD3541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/DCE1321896A882B036C907401890FEC1BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+9.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/F4B524261FCE06C1FBD10B4681AD0B97377D2AA7CAC59F8F10B4B3E16FE511A
+1.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/9699F21E2B09F9268FCC89DF9940F561541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex) [4]
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/9106108552DFD4B2B515BAE473A9753ED3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout8 = `main.listing'.
+
+runsystem(pygmentize -S emacs -f latex -P commandprefix=PYG > _minted-main/emac
+s.pygstyle)...executed.
+
+ (./_minted-main/emacs.pygstyle)
+(./_minted-main/56EBCA531CD63EDF331F4D3F4A7428E4E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/F291C47BAD436551001216D9C57497EBD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/F291C47BAD436551001216D9C57497EBD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/DD842A04A294C11F9FB69BD61968E7A8E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/F291C47BAD436551001216D9C57497EBD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/E4EDA6B5E6FE2441CD288A12839EEF69A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/0E06C154F4A96532767C22FAA703C06CD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/A81BE4E9B20632860D20A64C054C4150D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/F9DAE1AB1FB604435BBE5C7144A374C6E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/A81BE4E9B20632860D20A64C054C4150D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/27C1E8B7A74F7A17928504F6205E4B0CE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/180FC6C53F1C2C61051BC5A27214393CD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/E5D402359B2383AA90AFE058231290B0D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/ADF62939FD949C81B998BBF3E3BF03ABD3773C8B440B993359565A23D713B17
+A.pygtex) [5]
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/0ECF493029AB94140C3AB5C3F95C8AD3541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/273FCF5B8FF431A24D7D45953072294AD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/17700799A31EE88732545F96BBBCBB0CD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/E5D402359B2383AA90AFE058231290B0D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/5495B19C1469658B5FA13BBA3934304FD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/FFA332A5371C7659C6CDD0F350E51CFED3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/6DDF8B5F647DE6733D5CBB18C3A63691A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/59F5954CBED961E9C87AD9C480707012D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/1AC2AEF69368B4D498CF86E10432932BA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/20E11EBD79DA8F03C9D072F435200E15D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/C92C3109BEE56AF8931CD7C3D817FABAD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/01ED2647F97C98EC4CB4D957C31C134FD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/D94E2D468C313BF4BC423CD45365EDBCE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/7098579ED8928D5DCB8F21DB18EE66DBD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/F101DA8FA8B127486858DCA616D30805E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/FFA332A5371C7659C6CDD0F350E51CFED3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/C21A8999ADF35613C3C740412310DC95A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/59F5954CBED961E9C87AD9C480707012D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/72C0B892DA19BA58F2EC00AEE3D25675A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/A81BE4E9B20632860D20A64C054C4150D3773C8B440B993359565A23D713B17
+A.pygtex) [6]
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/91C57142DDF5A596C810FFCD18F10381D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/7EC9BC00832E1F536440D4B288EAED0AE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/38D51A0F6338E3318D830A1BD9052E89D3773C8B440B993359565A23D713B17
+A.pygtex)
+<figures/jupyter-interface.png, id=167, 902.9986pt x 375.65344pt>
+File: figures/jupyter-interface.png Graphic file (type png)
+<use figures/jupyter-interface.png>
+Package pdftex.def Info: figures/jupyter-interface.png  used on input line 150.
+
+(pdftex.def)             Requested size: 443.57848pt x 184.53607pt.
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/B3DB44E0B62512E27505251390A09877D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/2BF6B7A5D76D573438773AB8E9694151D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/13D6D0D46E9AD39D526555821E6B9E24D3773C8B440B993359565A23D713B17
+A.pygtex)
+<figures/Jupyter-code.png, id=168, 327.09703pt x 137.7647pt>
+File: figures/Jupyter-code.png Graphic file (type png)
+<use figures/Jupyter-code.png>
+Package pdftex.def Info: figures/Jupyter-code.png  used on input line 159.
+(pdftex.def)             Requested size: 212.91577pt x 89.67421pt.
+<figures/jupyter-markdown.png, id=169, 322.58015pt x 137.01187pt>
+File: figures/jupyter-markdown.png Graphic file (type png)
+<use figures/jupyter-markdown.png>
+Package pdftex.def Info: figures/jupyter-markdown.png  used on input line 159.
+(pdftex.def)             Requested size: 212.91577pt x 90.43228pt.
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/42013D955B7058B221F1EC5BA0869DEF541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/42013D955B7058B221F1EC5BA0869DEF541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/3E1CE07401B37846F4D6AAB1EFBE771B541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/70304B53DE8EC862E8F4A32587D6ED2CD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/70304B53DE8EC862E8F4A32587D6ED2CD3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/42013D955B7058B221F1EC5BA0869DEF541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex) [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.167 
+       <./figures/jupyter-interface.png (PNG copy)>]
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/42013D955B7058B221F1EC5BA0869DEF541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/0ECF493029AB94140C3AB5C3F95C8AD3541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/E8C6A30B33684DCD61F58EDA855EA1A7D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/0ECF493029AB94140C3AB5C3F95C8AD382A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/2512C1590C703FE7B419BFF1192E43D2BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+9.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/723A649DE61E9DDAA38171021969F1ECD3773C8B440B993359565A23D713B17
+A.pygtex) [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186 \section{Python como calculadora}
+                                        <./figures/Jupyter-code.png (PNG copy)>
+ <./figures/jupyter-markdown.png (PNG copy)>]
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/B519D08EF66FD54910EDBEDBA6181EC2541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/85AC4B69A93BE6625FEE9C5A402D3F8C541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/42013D955B7058B221F1EC5BA0869DEF541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/CF036B0B5CD170E2F76417711A8A5D9682A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/367764329430DB34BE92FD14A7A770EE82A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/6198E8833DC0AB507046567ABD3CAD0682A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/DBBF8220893D497D403BB9CDF49DB7A482A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/A4648669433BF575F380B0487EAD4C1782A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/484CC042C65CBC34668BB467AE6437F782A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/FA21996CAB35542FA82869BE1FDA422C82A15B1DCA8D177369A2514541E452D
+C.pygtex) [9
+pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.236 \end{pyin}
+                ]
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/2A52A5E65FC3C43F409550DFAD1F904F82A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/B519D08EF66FD54910EDBEDBA6181EC2541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/905E9C45E47663173F9D9F038C01A9E682A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/26AB0DB90D72E28AD0BA1E22EE51051082A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/905E9C45E47663173F9D9F038C01A9E6541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/9FE6734BF2B8BEECEF35809014BD2DC382A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/29DACDD04CA35BEFE9DF98CE6A5D58FA82A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/9FE6734BF2B8BEECEF35809014BD2DC3541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/29DACDD04CA35BEFE9DF98CE6A5D58FA541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/2584A3C0531ABF9688E50C2E56C8FD0E82A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/B026324C6904B2A9CB4B88D6D61C81D182A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/2584A3C0531ABF9688E50C2E56C8FD0E541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/674F3DEF787399AF6E8148D5C09EC115541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/674F3DEF787399AF6E8148D5C09EC115541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/451C6F6F942EBA07F20DE1721BE74002541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/674F3DEF787399AF6E8148D5C09EC115541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/674F3DEF787399AF6E8148D5C09EC115541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/6F08BD48EB52FB171F28DAC61CFD5BE4541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/BDD75DB6859C2EC814D64E6160901EA582A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+9.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/A0531DB54FA845D213FD40D3A3146D46541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/6F08BD48EB52FB171F28DAC61CFD5BE4541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/674F3DEF787399AF6E8148D5C09EC115541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/3DBB38F0852E7579EC726AF15FE0B5D582A15B1DCA8D177369A2514541E452D
+C.pygtex) [10]
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+9.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/168B079BE1EA0880C15BD80513059A20541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/6F08BD48EB52FB171F28DAC61CFD5BE4541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/B9628C4AB9B595F72F280B90C4FD093D541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout8 = `main.listing'.
+
+
+(./_minted-main/DB5341AFDBD4E87D9B7368FF9A5A936682A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+9.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/AFF9D944719B24376D58AB050C89834482A15B1DCA8D177369A2514541E452D
+C.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout8 = `main.listing'.
+
+
+(./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+9.pygtex)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+) [11]
+runsystem(rm _minted-main/manni.pygstyle)...executed.
+
+ (./main.aux
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ (./unit-1/lesson-1.aux))
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 3DDE83E737ABA565F59AB1A6181B6088;2450.
+runsystem(rm main.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 34607 strings out of 476091
+ 731659 string characters out of 5794081
+ 1879330 words of memory out of 5000000
+ 53875 multiletter control sequences out of 15000+600000
+ 532809 words of font info for 137 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 98i,9n,102p,1124b,1145s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/txfonts/t1xtt.pfb>
+Output written on main.pdf (12 pages, 419270 bytes).
+PDF statistics:
+ 289 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 37148 words of extra memory for PDF output out of 42996 (max. 10000000)
+
