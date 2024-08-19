@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+go}{source \PYGZti{}/omm/bin/activate}
+\PYG{g+go}{pip install notebook}
+\end{Verbatim}

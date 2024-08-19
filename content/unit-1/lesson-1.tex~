@@ -76,22 +76,22 @@ pip install virtualenv
 
  Cuando termine, escribe la siguiente instrucción para crear un entorno virtual llamado <<\mintinline{bash}{omm}>> (puedes cambiar la palabra \mintinline{bash}{omm} a cualquier otro nombre que prefieras, pero debe ser una única palabra, sin espacios):
 
-\begin{bash}
+\begin{shell}
 python3 -m venv omm
-\end{bash}
+\end{shell}
 
 El comando anterior creó un directorio llamado <<\mintinline{bash}{omm}>> (o el nombre que hayas elegido) en el directorio en el que abriste la terminal de comandos. Por defecto, la terminal de comandos se abre en el directorio <<\mintinline{shell-session}{C:\Users\user}>> en Windows, y en el directorio <<\mintinline{bash}{/home/user/}>> en Linux/MacOSX (donde \mintinline{bash}{user} es tu nombre de usuario en tu computadora, independientemente de tu sistema operativo). 
 
 Para activar el entorno virtual en Windows, debes ejecutar el siguiente comando:
-\begin{bash}
+\begin{shell}
 C:\Users\user\omm\Scripts\activate 
-\end{bash}
+\end{shell}
 Ten en cuenta que debes cambiar la palabra \mintinline{bash}{user} por tu nombre de usuario.
 
 En cambio, para activarlo en Linux y Mac OSX, se hace con el comando:
-\begin{bash}
+\begin{shell}
 source ~/omm/bin/activate
-\end{bash}
+\end{shell}
 
 Como resultado, verás que a la izquierda de tu terminal de comandos aparece el nombre de tu entorno virtual encerrado en paréntesis, esto indica que está activado. Deberás ejecutar este comando para utilizar el entorno virtual de Python cada vez que abras una nueva terminal. Para desactivarlo, debes escribir el comando \mintbold{bash}{deactivate} y ejecutarlo.
 
@@ -121,16 +121,16 @@ El resultado debería ser un mensaje que dice <<¡Hola mundo!>>, tal como cuando
 
 \subsubsection{Geany en Linux y Mac OSX}
 Para instalar Geany en Linux, es suficiente con que ejecutes los siguientes comandos en una terminal:
-\begin{bash}[Instalar Geany en Linux]
+\begin{shell}[Instalar Geany en Linux]
 sudo apt update
 sudo apt install geany
-\end{bash}
+\end{shell}
 
 En Mac OSX, puedes usar \mintinline{bash}{Homebrew} para instalar Geany desde una terminal con el comando:
 
-\begin{bash}[Instalar Geany en Mac OSX]
+\begin{shell}[Instalar Geany en Mac OSX]
 brew install --cask geany
-\end{bash}
+\end{shell}
 
 La configuración de Geany en Linux y Mac OSX es la misma. Para hacerlo, sigue los pasos descritos en la sección <<Configuración de Geany en Windows>> con la única diferencia que el campo <<\mintinline{bash}{Compile}>> debe contener lo siguiente: \mintinline{shell-session}{/home/user/omm/bin/python -m py_compile "%f"}  y el campo <<\mintinline{bash}{Execute}>> debe tener: \mintinline{shell-session}{/home/user/omm/bin/python "%f"}.
 
@@ -139,10 +139,10 @@ Ten en cuenta que tanto en Windows como en Linux y Mac OSX, debes reemplazar la 
 \subsection{Jupyter Notebook}
 Jupyter Notebook es un IDE de Python basado en navegadores web, que además de ejecutar códigos de Python, permite incluir texto con formato, ecuaciones, imágenes y mucho más. Esencialmente, es un cuaderno donde es posible escribir código y tomar apuntes. Para instalarlo debes abrir una nueva terminal, activar el entorno virtual que creaste anteriormente y ejecutar la instrucción \mintbold{bash}{pip install notebook}. En una terminal se vería así:
 
-\begin{terminal}
+\begin{shell}
 source ~/omm/bin/activate
 pip install notebook
-\end{terminal}
+\end{shell}
 Recuerda utilizar los comandos adecuados si usas Windows. Una vez que termine la instalación, puedes usar Jupyter Notebook escribiendo la instrucción \mintbold{bash}{jupyter notebook} (separado y en minúsculas) en la misma terminal de comandos. Esto abrirá una nueva pestaña en tu navegador predeterminado y te mostrará un explorador de archivos con el contenido de la carpeta donde ejecutaste la instrucción anterior, como se muestra en la Figura \ref{fig:jupyter-interface}
 
 \begin{figure}[htb]

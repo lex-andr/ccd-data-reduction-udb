@@ -6,11 +6,20 @@
 \usepackage{textcomp}
 \tcbuselibrary{listingsutf8}
 \tcbuselibrary{minted}
+\usepackage{cprotect}
 
 \usepackage{fvextra}
 % Configuración para que mintinline sea en negritas y monoespaciado
 \DefineVerbatimEnvironment{Bash}{Verbatim}{formatcom=\bfseries}
 \newcommand{\mintbold}[2][]{\mintinline[formatcom=\bfseries,#1]{#2}}
+
+% Python inline
+\newcommand{\pybold}[1]{\mintinline[style=friendly,formatcom=\bfseries]{python}{#1}}
+\newcommand{\pynormal}[1]{\mintinline[style=friendly]{python}{#1}}
+
+% Bash inline
+\newcommand{\bashbold}[1]{\mintinline[style=bw,formatcom=\bfseries]{shell}{#1}}
+\newcommand{\bashnormal}[1]{\mintinline[style=bw]{shell-session}{#1}}
 
 \definecolor{grey}{HTML}{CFCFCF}
 \definecolor{light_gray}{rgb}{0.97,0.97,0.97}
@@ -24,20 +33,21 @@
 \newcounter{ipythcntr}
 \renewcommand{\theipythcntr}{\texttt{[\arabic{ipythcntr}]}}
 
-\definecolor{terminalTitle}{RGB}{24,23,34}
-\definecolor{terminalColor}{RGB}{40,42,54}
-\definecolor{Button1}{RGB}{255,85,85}
-\definecolor{Button2}{RGB}{138,255,128}
-\definecolor{Button3}{RGB}{255,255,128}
+\definecolor{terminalTitle}{RGB}{214,233,246}
+\definecolor{terminalColor}{RGB}{238,238,238}
+\definecolor{Button1}{RGB}{211,25,25}
+\definecolor{Button2}{RGB}{55,124,241}
+\definecolor{Button3}{RGB}{253,125,0}
 
 \newtcblisting{terminal}[1][]{
-    listing engine=minted,minted style=native,
+	coltitle=gray,
+    listing engine=minted,minted style=bw,
     minted language=pycon,enhanced,
-    colback=terminalColor,colframe=terminalTitle,listing only, title=\tikz {
+    colback=light_gray,colframe=terminalTitle,listing only, title=\tikz {
         \node[circle,fill=Button1,inner sep=3pt] (c) at (0,0){};
         \node[circle,fill=Button2,inner sep=3pt] (c) at (0.5,0){};
         \node[circle,fill=Button3,inner sep=3pt] (c) at (1,0){};
-    } \qquad \texttt{#1}
+    } \qquad %\texttt{#1}
     }
 
 \newtcblisting{bash}[1][]{
@@ -54,6 +64,28 @@
          escapeinside=!!},
     enhanced, colback=light_gray,colframe=grey,listing only, 
     %coltext=white!40!black,
+    %coltitle=black,
+    %title=\tikz { \centering
+        %\node[circle,fill=Button1,inner sep=3pt] (c) at (0,0){};
+        %\node[circle,fill=Button2,inner sep=3pt] (c) at (0.5,0){};
+        %\node[circle,fill=Button3,inner sep=3pt] (c) at (1,0){};
+    %} \texttt{#1} ,
+    }
+    
+\newtcblisting{shell}[1][]{
+    boxrule=0.5pt,
+    listing engine=minted, minted style=bw,
+    minted language=shell-session,
+    minted options={%
+         breaklines,
+         obeytabs=true,
+         breaksymbolleft=,
+         autogobble,
+         numbersep=2mm,
+         baselinestretch=1,
+         escapeinside=!!},
+    enhanced, colback=light_gray,colframe=grey,listing only, 
+    coltext=black,
     %coltitle=black,
     %title=\tikz { \centering
         %\node[circle,fill=Button1,inner sep=3pt] (c) at (0,0){};
@@ -89,6 +121,7 @@
       {\refstepcounter{ipythcntr}\theipythcntr:};
   }
   listing engine=minted,
+  minted style=friendly,
   minted language=python,
   minted options={%
          breaklines,

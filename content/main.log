@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.15)  15 AUG 2024 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.15)  19 AUG 2024 12:45
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,17 +895,28 @@ File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
 Library (tcolorbox): 'tcbminted.code.tex' version '5.1.1'
+) (/usr/share/texlive/texmf-dist/tex/latex/cprotect/cprotect.sty
+Package: cprotect 2011/01/27 v1.0e (Bruno Le Floch)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+\CPT@WriteOut=\write6
+\c@CPT@WriteCount=\count362
+\c@CPT@numB=\count363
+\CPT@commandatend@toks=\toks47
 )
 \inwd=\skip60
-\c@ipythcntr=\count362
-) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+\c@ipythcntr=\count364
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box88
 \beforetitleunit=\skip61
 \aftertitleunit=\skip62
 \ttl@plus=\dimen296
 \ttl@minus=\dimen297
-\ttl@toksa=\toks47
+\ttl@toksa=\toks48
 \titlewidth=\dimen298
 \titlewidthlast=\dimen299
 \titlewidthfirst=\dimen300
@@ -917,7 +928,7 @@ runsystem(rm main.aex)...executed.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count363
+\l__color_backend_stack_int=\count365
 \l__pdf_internal_box=\box89
 )
 (./main.aux
@@ -949,17 +960,17 @@ LaTeX Info: Redefining \% on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
+\scratchcounter=\count366
 \scratchdimen=\dimen301
 \scratchbox=\box90
-\nofMPsegments=\count365
-\nofMParguments=\count366
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count367
+\nofMPsegments=\count367
+\nofMParguments=\count368
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count369
 \MPscratchDim=\dimen302
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
-\everyMPtoPDFconversion=\toks49
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -992,8 +1003,8 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 Package hyperref Info: Link coloring ON on input line 32.
  (./main.out)
 (./main.out)
-\@outlinefile=\write6
-\openout6 = `main.out'.
+\@outlinefile=\write7
+\openout7 = `main.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1030,15 +1041,15 @@ Package hyperref Info: Link coloring ON on input line 32.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count370
+\c@lstlisting=\count372
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@toc=\write7
-\openout7 = `main.toc'.
+\tf@toc=\write8
+\openout8 = `main.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1055,9 +1066,9 @@ l.44 \include{unit-1/lesson-1.tex}
 Clase 1.
 \openout4 = `main.pyg'.
 
-(./_minted-main/default.pygstyle)
-(./_minted-main/DCFDD5E021A869FCC6DFAEF8BF31377ED3773C8B440B993359565A23D713B17
-A.pygtex
+(./_minted-main/bw.pygstyle)
+(./_minted-main/DCFDD5E021A869FCC6DFAEF8BF31377E8A449B50EE51364726AD8715BAD1C7E
+9.pygtex
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 3
 .
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
@@ -1073,135 +1084,135 @@ LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10.95> not available
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653DD3773C8B440B993359565A23D713B17
-A.pygtex) [2
+(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653D8A449B50EE51364726AD8715BAD1C7E
+9.pygtex) [2
 
 
 ]
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/124F41FE111916DCBF562D07D7CD6BFED3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/124F41FE111916DCBF562D07D7CD6BFE8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/4A69013BE9F08507FACCBECFD71A06E9D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/4A69013BE9F08507FACCBECFD71A06E9A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653DD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653D8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/06B8B97764C7DAEA255DF9D38103A6B1D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/06B8B97764C7DAEA255DF9D38103A6B1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653DD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653D8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/A9EBD2F2A5BDBB35E39283B79BAD1846D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/A9EBD2F2A5BDBB35E39283B79BAD18468A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/4A69013BE9F08507FACCBECFD71A06E9D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/4A69013BE9F08507FACCBECFD71A06E9A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/97E96BF5451C45D418E2B52771A73D5BD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/97E96BF5451C45D418E2B52771A73D5B8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/124F41FE111916DCBF562D07D7CD6BFED3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/124F41FE111916DCBF562D07D7CD6BFE8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/37F6E99940B38F3C2EB998F2DEF2BBACD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/37F6E99940B38F3C2EB998F2DEF2BBAC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653DD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/50E2C9D9C6FD8E2C1FDD25A7C02B653D8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/A9EBD2F2A5BDBB35E39283B79BAD1846D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/A9EBD2F2A5BDBB35E39283B79BAD18468A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/97E96BF5451C45D418E2B52771A73D5BD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/97E96BF5451C45D418E2B52771A73D5B8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/124F41FE111916DCBF562D07D7CD6BFED3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/124F41FE111916DCBF562D07D7CD6BFE8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/97E96BF5451C45D418E2B52771A73D5BD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/97E96BF5451C45D418E2B52771A73D5B8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/B8EF81CC5C06150A1D5CADBDA3217BD4D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/B8EF81CC5C06150A1D5CADBDA3217BD48A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/6188A522D33511FDADBFFAC145A4DF82D3773C8B440B993359565A23D713B17
-A.pygtex) [3]
+(./_minted-main/6188A522D33511FDADBFFAC145A4DF828A449B50EE51364726AD8715BAD1C7E
+9.pygtex) [3]
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/D26D1C43A24B0B34AFD74343EA95BCEED3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/D26D1C43A24B0B34AFD74343EA95BCEE8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/97E96BF5451C45D418E2B52771A73D5BD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/97E96BF5451C45D418E2B52771A73D5B8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/60CFBEF33691C704386BF4B25CCBEB04D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/60CFBEF33691C704386BF4B25CCBEB048A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/4A69013BE9F08507FACCBECFD71A06E9D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/4A69013BE9F08507FACCBECFD71A06E98A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/6D7FCE9FEE471194AA8B5B6E47267F03D3773C8B440B993359565A23D713B17
-A.pygtex)
-\tcb@out=\write8
-\openout8 = `main.listing'.
+(./_minted-main/6D7FCE9FEE471194AA8B5B6E47267F038A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\tcb@out=\write9
+\openout9 = `main.listing'.
 
- (./_minted-main/native.pygstyle)
+
 (./_minted-main/CC81935932C411523B5E31586DEF7985BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/3E1CE07401B37846F4D6AAB1EFBE771BD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/3E1CE07401B37846F4D6AAB1EFBE771B8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
-
+ (./_minted-main/friendly.pygstyle)
 (./_minted-main/753474E1388FF8F32F2FB3B8B440AE68541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout4 = `main.pyg'.
@@ -1209,16 +1220,21 @@ C.pygtex)
 
 (./_minted-main/0ECF493029AB94140C3AB5C3F95C8AD3541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/DCE1321896A882B036C907401890FEC1BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex)
+9.pygtex
+LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10> not available
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10> not available
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 2.
+)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/F4B524261FCE06C1FBD10B4681AD0B97377D2AA7CAC59F8F10B4B3E16FE511A
-1.pygtex)
+(./_minted-main/F4B524261FCE06C1FBD10B4681AD0B97541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
 \openout4 = `main.pyg'.
 
 
@@ -1227,36 +1243,33 @@ C.pygtex) [4]
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/9106108552DFD4B2B515BAE473A9753ED3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout8 = `main.listing'.
+(./_minted-main/9106108552DFD4B2B515BAE473A9753EA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = `main.listing'.
 
-runsystem(pygmentize -S emacs -f latex -P commandprefix=PYG > _minted-main/emac
-s.pygstyle)...executed.
 
- (./_minted-main/emacs.pygstyle)
-(./_minted-main/56EBCA531CD63EDF331F4D3F4A7428E4E9066CE88DE613FA1374184A315C1E1
-E.pygtex)
+(./_minted-main/56EBCA531CD63EDF331F4D3F4A7428E440A465C13C61724B730B788CC354837
+0.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/F291C47BAD436551001216D9C57497EBD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/F291C47BAD436551001216D9C57497EBA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/F291C47BAD436551001216D9C57497EBD3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout8 = `main.listing'.
+(./_minted-main/F291C47BAD436551001216D9C57497EBA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = `main.listing'.
 
 
-(./_minted-main/DD842A04A294C11F9FB69BD61968E7A8E9066CE88DE613FA1374184A315C1E1
-E.pygtex)
+(./_minted-main/DD842A04A294C11F9FB69BD61968E7A840A465C13C61724B730B788CC354837
+0.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/F291C47BAD436551001216D9C57497EBD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/F291C47BAD436551001216D9C57497EBA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
@@ -1265,43 +1278,43 @@ A.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/0E06C154F4A96532767C22FAA703C06CD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/0E06C154F4A96532767C22FAA703C06CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/A81BE4E9B20632860D20A64C054C4150D3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout8 = `main.listing'.
+(./_minted-main/A81BE4E9B20632860D20A64C054C4150A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = `main.listing'.
 
 
-(./_minted-main/F9DAE1AB1FB604435BBE5C7144A374C6E9066CE88DE613FA1374184A315C1E1
-E.pygtex)
+(./_minted-main/F9DAE1AB1FB604435BBE5C7144A374C640A465C13C61724B730B788CC354837
+0.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/A81BE4E9B20632860D20A64C054C4150D3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout8 = `main.listing'.
+(./_minted-main/A81BE4E9B20632860D20A64C054C4150A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = `main.listing'.
 
 
-(./_minted-main/27C1E8B7A74F7A17928504F6205E4B0CE9066CE88DE613FA1374184A315C1E1
-E.pygtex)
+(./_minted-main/27C1E8B7A74F7A17928504F6205E4B0C40A465C13C61724B730B788CC354837
+0.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/180FC6C53F1C2C61051BC5A27214393CD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/180FC6C53F1C2C61051BC5A27214393C8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/E5D402359B2383AA90AFE058231290B0D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/E5D402359B2383AA90AFE058231290B0A10B244115FA357BA46ABB99F7249CA
+9.pygtex) [5]
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/ADF62939FD949C81B998BBF3E3BF03ABD3773C8B440B993359565A23D713B17
-A.pygtex) [5]
+(./_minted-main/ADF62939FD949C81B998BBF3E3BF03ABA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
@@ -1310,78 +1323,97 @@ C.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/273FCF5B8FF431A24D7D45953072294AD3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout4 = `main.pyg'.
-
-
-(./_minted-main/17700799A31EE88732545F96BBBCBB0CD3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout4 = `main.pyg'.
-
-
-(./_minted-main/E5D402359B2383AA90AFE058231290B0D3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout4 = `main.pyg'.
-
-
-(./_minted-main/5495B19C1469658B5FA13BBA3934304FD3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout4 = `main.pyg'.
-
-
-(./_minted-main/FFA332A5371C7659C6CDD0F350E51CFED3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout4 = `main.pyg'.
-
-
-(./_minted-main/6DDF8B5F647DE6733D5CBB18C3A63691A10B244115FA357BA46ABB99F7249CA
+(./_minted-main/273FCF5B8FF431A24D7D45953072294A8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/59F5954CBED961E9C87AD9C480707012D3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout4 = `main.pyg'.
-
-
-(./_minted-main/1AC2AEF69368B4D498CF86E10432932BA10B244115FA357BA46ABB99F7249CA
+(./_minted-main/17700799A31EE88732545F96BBBCBB0CA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/20E11EBD79DA8F03C9D072F435200E15D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/E5D402359B2383AA90AFE058231290B0A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/C92C3109BEE56AF8931CD7C3D817FABAD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/5495B19C1469658B5FA13BBA3934304FA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/01ED2647F97C98EC4CB4D957C31C134FD3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout8 = `main.listing'.
+(./_minted-main/FFA332A5371C7659C6CDD0F350E51CFEA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = `main.listing'.
 
 
-(./_minted-main/D94E2D468C313BF4BC423CD45365EDBCE9066CE88DE613FA1374184A315C1E1
+(./_minted-main/4CF8939B0825AB3BE1B00B90E257E811E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/7098579ED8928D5DCB8F21DB18EE66DBD3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout8 = `main.listing'.
+(./_minted-main/59F5954CBED961E9C87AD9C480707012A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = `main.listing'.
+
+runsystem(which python3 && touch main.aex)...executed.
+
+runsystem(rm main.aex)...executed.
+
+runsystem(python3 -c "import sys; import os; import textwrap; from io import op
+en; fname = os.path.expanduser(os.path.expandvars(\"main.listing\")); f = open(
+fname, \"r\", encoding=\"UTF8\") if os.path.isfile(fname) else None; t = f.read
+lines() if f is not None else None; t_opt = t if t is not None else []; f.close
+() if f is not None else None; tmpfname = os.path.expanduser(os.path.expandvars
+(\"main.pyg\")); f = open(tmpfname, \"w\", encoding=\"UTF8\") if t is not None 
+else None; fvstartnum = 0; fvstopnum = -1; s = max(0, fvstartnum-1); e = max(s,
+ fvstopnum) if fvstopnum > 0 else len(t_opt); [f.write(textwrap.dedent(\"\".joi
+n(x))) for x in (t_opt[0:s], t_opt[s:e], t_opt[e:]) if x and t is not None]; f.
+close() if t is not None else os.remove(tmpfname);")...executed.
+
+runsystem(pygmentize -l 'shell-session' -f latex -P commandprefix=PYG -F tokenm
+erge -P stripnl='False' -P escapeinside='!!' -o _minted-main/A9432188AC1F0A3CF8
+246D3E552A5687E9066CE88DE613FA1374184A315C1E1E.pygtex main.pyg)...executed.
 
 
-(./_minted-main/F101DA8FA8B127486858DCA616D30805E9066CE88DE613FA1374184A315C1E1
+(./_minted-main/A9432188AC1F0A3CF8246D3E552A5687E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/FFA332A5371C7659C6CDD0F350E51CFED3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/20E11EBD79DA8F03C9D072F435200E15A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/C92C3109BEE56AF8931CD7C3D817FABAA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/01ED2647F97C98EC4CB4D957C31C134FA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = `main.listing'.
+
+
+(./_minted-main/D94E2D468C313BF4BC423CD45365EDBC40A465C13C61724B730B788CC354837
+0.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/7098579ED8928D5DCB8F21DB18EE66DBA10B244115FA357BA46ABB99F7249CA
+9.pygtex) [6]
+\openout9 = `main.listing'.
+
+
+(./_minted-main/F101DA8FA8B127486858DCA616D3080540A465C13C61724B730B788CC354837
+0.pygtex)
+\openout4 = `main.pyg'.
+
+
+(./_minted-main/FFA332A5371C7659C6CDD0F350E51CFEA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
@@ -1390,8 +1422,8 @@ A.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/59F5954CBED961E9C87AD9C480707012D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/59F5954CBED961E9C87AD9C480707012A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
@@ -1400,53 +1432,53 @@ A.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/A81BE4E9B20632860D20A64C054C4150D3773C8B440B993359565A23D713B17
-A.pygtex) [6]
+(./_minted-main/A81BE4E9B20632860D20A64C054C4150A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/91C57142DDF5A596C810FFCD18F10381D3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout8 = `main.listing'.
+(./_minted-main/91C57142DDF5A596C810FFCD18F103818A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = `main.listing'.
 
 
-(./_minted-main/7EC9BC00832E1F536440D4B288EAED0AE9066CE88DE613FA1374184A315C1E1
-E.pygtex)
+(./_minted-main/7EC9BC00832E1F536440D4B288EAED0A40A465C13C61724B730B788CC354837
+0.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/38D51A0F6338E3318D830A1BD9052E89D3773C8B440B993359565A23D713B17
-A.pygtex)
-<figures/jupyter-interface.png, id=167, 902.9986pt x 375.65344pt>
+(./_minted-main/38D51A0F6338E3318D830A1BD9052E898A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+<figures/jupyter-interface.png, id=168, 902.9986pt x 375.65344pt>
 File: figures/jupyter-interface.png Graphic file (type png)
 <use figures/jupyter-interface.png>
-Package pdftex.def Info: figures/jupyter-interface.png  used on input line 150.
+Package pdftex.def Info: figures/jupyter-interface.png  used on input line 160.
 
 (pdftex.def)             Requested size: 443.57848pt x 184.53607pt.
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/B3DB44E0B62512E27505251390A09877D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/B3DB44E0B62512E27505251390A09877A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/2BF6B7A5D76D573438773AB8E9694151D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/2BF6B7A5D76D573438773AB8E9694151A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/13D6D0D46E9AD39D526555821E6B9E24D3773C8B440B993359565A23D713B17
-A.pygtex)
-<figures/Jupyter-code.png, id=168, 327.09703pt x 137.7647pt>
+(./_minted-main/13D6D0D46E9AD39D526555821E6B9E24A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+<figures/Jupyter-code.png, id=169, 327.09703pt x 137.7647pt>
 File: figures/Jupyter-code.png Graphic file (type png)
 <use figures/Jupyter-code.png>
-Package pdftex.def Info: figures/Jupyter-code.png  used on input line 159.
+Package pdftex.def Info: figures/Jupyter-code.png  used on input line 169.
 (pdftex.def)             Requested size: 212.91577pt x 89.67421pt.
-<figures/jupyter-markdown.png, id=169, 322.58015pt x 137.01187pt>
+<figures/jupyter-markdown.png, id=170, 322.58015pt x 137.01187pt>
 File: figures/jupyter-markdown.png Graphic file (type png)
 <use figures/jupyter-markdown.png>
-Package pdftex.def Info: figures/jupyter-markdown.png  used on input line 159.
+Package pdftex.def Info: figures/jupyter-markdown.png  used on input line 169.
 (pdftex.def)             Requested size: 212.91577pt x 90.43228pt.
 \openout4 = `main.pyg'.
 
@@ -1466,39 +1498,33 @@ C.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/70304B53DE8EC862E8F4A32587D6ED2CD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/70304B53DE8EC862E8F4A32587D6ED2CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/70304B53DE8EC862E8F4A32587D6ED2CD3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/70304B53DE8EC862E8F4A32587D6ED2CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
 (./_minted-main/42013D955B7058B221F1EC5BA0869DEF541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.167 
-       <./figures/jupyter-interface.png (PNG copy)>]
+C.pygtex) [7]
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
@@ -1507,8 +1533,8 @@ C.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
@@ -1517,9 +1543,9 @@ C.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/E8C6A30B33684DCD61F58EDA855EA1A7D3773C8B440B993359565A23D713B17
-A.pygtex)
-\openout8 = `main.listing'.
+(./_minted-main/E8C6A30B33684DCD61F58EDA855EA1A78A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = `main.listing'.
 
 
 (./_minted-main/0ECF493029AB94140C3AB5C3F95C8AD382A15B1DCA8D177369A2514541E452D
@@ -1537,9 +1563,9 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
-
+(./_minted-main/default.pygstyle)
 (./_minted-main/2512C1590C703FE7B419BFF1192E43D2BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
 Missing character: There is no l in font nullfont!
@@ -1558,15 +1584,21 @@ Missing character: There is no e in font nullfont!
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/723A649DE61E9DDAA38171021969F1ECD3773C8B440B993359565A23D713B17
-A.pygtex) [8
+(./_minted-main/723A649DE61E9DDAA38171021969F1ECA10B244115FA357BA46ABB99F7249CA
+9.pygtex) [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.191 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.186 \section{Python como calculadora}
-                                        <./figures/Jupyter-code.png (PNG copy)>
- <./figures/jupyter-markdown.png (PNG copy)>]
+l.191 
+       <./figures/jupyter-interface.png (PNG copy)> <./figures/Jupyter-code.png
+ (PNG copy)> <./figures/jupyter-markdown.png (PNG copy)>]
 \openout4 = `main.pyg'.
 
 
@@ -1580,14 +1612,14 @@ C.pygtex)
 \openout4 = `main.pyg'.
 
 
-(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1D3773C8B440B993359565A23D713B17
-A.pygtex)
+(./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = `main.pyg'.
 
 
 (./_minted-main/42013D955B7058B221F1EC5BA0869DEF541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/CF036B0B5CD170E2F76417711A8A5D9682A15B1DCA8D177369A2514541E452D
@@ -1605,7 +1637,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/367764329430DB34BE92FD14A7A770EE82A15B1DCA8D177369A2514541E452D
@@ -1623,7 +1655,14 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.226 
+      ]
+\openout9 = `main.listing'.
 
 
 (./_minted-main/6198E8833DC0AB507046567ABD3CAD0682A15B1DCA8D177369A2514541E452D
@@ -1641,7 +1680,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/DBBF8220893D497D403BB9CDF49DB7A482A15B1DCA8D177369A2514541E452D
@@ -1659,7 +1698,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/A4648669433BF575F380B0487EAD4C1782A15B1DCA8D177369A2514541E452D
@@ -1677,7 +1716,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/484CC042C65CBC34668BB467AE6437F782A15B1DCA8D177369A2514541E452D
@@ -1695,17 +1734,11 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/FA21996CAB35542FA82869BE1FDA422C82A15B1DCA8D177369A2514541E452D
-C.pygtex) [9
-pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.236 \end{pyin}
-                ]
+C.pygtex)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1719,7 +1752,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/2A52A5E65FC3C43F409550DFAD1F904F82A15B1DCA8D177369A2514541E452D
@@ -1742,7 +1775,7 @@ Missing character: There is no e in font nullfont!
 
 (./_minted-main/B519D08EF66FD54910EDBEDBA6181EC2541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/905E9C45E47663173F9D9F038C01A9E682A15B1DCA8D177369A2514541E452D
@@ -1760,7 +1793,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/26AB0DB90D72E28AD0BA1E22EE51051082A15B1DCA8D177369A2514541E452D
@@ -1783,7 +1816,7 @@ Missing character: There is no e in font nullfont!
 
 (./_minted-main/905E9C45E47663173F9D9F038C01A9E6541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/9FE6734BF2B8BEECEF35809014BD2DC382A15B1DCA8D177369A2514541E452D
@@ -1801,7 +1834,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/29DACDD04CA35BEFE9DF98CE6A5D58FA82A15B1DCA8D177369A2514541E452D
@@ -1829,7 +1862,7 @@ C.pygtex)
 
 (./_minted-main/29DACDD04CA35BEFE9DF98CE6A5D58FA541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/2584A3C0531ABF9688E50C2E56C8FD0E82A15B1DCA8D177369A2514541E452D
@@ -1847,7 +1880,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/B026324C6904B2A9CB4B88D6D61C81D182A15B1DCA8D177369A2514541E452D
@@ -1874,7 +1907,7 @@ C.pygtex)
 
 
 (./_minted-main/674F3DEF787399AF6E8148D5C09EC115541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
+C.pygtex) [10]
 \openout4 = `main.pyg'.
 
 
@@ -1900,7 +1933,7 @@ C.pygtex)
 
 (./_minted-main/6F08BD48EB52FB171F28DAC61CFD5BE4541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/BDD75DB6859C2EC814D64E6160901EA582A15B1DCA8D177369A2514541E452D
@@ -1918,7 +1951,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
@@ -1951,11 +1984,11 @@ C.pygtex)
 
 (./_minted-main/674F3DEF787399AF6E8148D5C09EC115541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/3DBB38F0852E7579EC726AF15FE0B5D582A15B1DCA8D177369A2514541E452D
-C.pygtex) [10]
+C.pygtex)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1969,7 +2002,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
@@ -2002,7 +2035,7 @@ C.pygtex)
 
 (./_minted-main/B9628C4AB9B595F72F280B90C4FD093D541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/DB5341AFDBD4E87D9B7368FF9A5A936682A15B1DCA8D177369A2514541E452D
@@ -2020,7 +2053,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
@@ -2038,7 +2071,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/AFF9D944719B24376D58AB050C89834482A15B1DCA8D177369A2514541E452D
@@ -2056,7 +2089,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-\openout8 = `main.listing'.
+\openout9 = `main.listing'.
 
 
 (./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
@@ -2075,7 +2108,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 ) [11]
-runsystem(rm _minted-main/manni.pygstyle)...executed.
+runsystem(rm _minted-main/1AC2AEF69368B4D498CF86E10432932BA10B244115FA357BA46AB
+B99F7249CA9.pygtex)...executed.
 
  (./main.aux
 LaTeX Info: Redefining \. on input line 22.
@@ -2087,13 +2121,13 @@ runsystem(rm main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 34607 strings out of 476091
- 731659 string characters out of 5794081
- 1879330 words of memory out of 5000000
- 53875 multiletter control sequences out of 15000+600000
- 532809 words of font info for 137 fonts, out of 8000000 for 9000
+ 34756 strings out of 476091
+ 734970 string characters out of 5794081
+ 1884330 words of memory out of 5000000
+ 54014 multiletter control sequences out of 15000+600000
+ 533526 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,9n,102p,1124b,1145s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,9n,102p,1078b,1132s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
@@ -2105,11 +2139,12 @@ pe1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/txfonts/t1xtt.pfb>
-Output written on main.pdf (12 pages, 419270 bytes).
+type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/txfonts/t1xtt.pfb>
+Output written on main.pdf (12 pages, 422318 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
+ 294 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
  51 named destinations out of 1000 (max. 500000)
- 37148 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 38172 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -23,7 +23,7 @@
 
 \input{custom}
 
-\includeonly{Unidad-1/Clase-2}
+%\includeonly{Unidad-1/Clase-2}
 \usepackage{titlesec}
 
 %\titlespacing*{\chapter}{0pt}{0pt}{40pt}
@@ -43,29 +43,6 @@
 %\part{Introducción a Python}
 \include{unit-1/lesson-1.tex}
 
-\begin{comment}
-\include{Unidad-1/Clase-2}
-\include{Unidad-1/Clase-3}
-\include{Unidad-1/Clase-4}
 
-
-%\part{Astronomía en el rango óptico}
-\include{Unidad-2/Clase-5}
-\include{Unidad-2/Clase-6}
-\include{Unidad-2/Clase-7}
-\include{Unidad-2/Clase-8}
-
-%\part{Reducción básica con Python}
-\include{Unidad-3/Clase-9}
-\include{Unidad-3/Clase-10}
-\include{Unidad-3/Clase-11}
-\include{Unidad-3/Clase-12}
-
-%\part{Reducción básica y fotométrica con IRAF}
-\include{Unidad-4/Clase-13} 
-\include{Unidad-4/Clase-14}
-\include{Unidad-4/Clase-15}
-\include{Unidad-4/Clase-16}
-\end{comment}
 
 \end{document}
