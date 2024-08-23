@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{name} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}Jocelyn\PYGZsq{}}
+\PYG{n}{name}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}
+\end{Verbatim}

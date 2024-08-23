@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+go}{dict\PYGZus{}values([\PYGZsq{}Albert\PYGZsq{}, \PYGZsq{}Einstein\PYGZsq{}, (14, 3, 1879)])}
+\end{Verbatim}

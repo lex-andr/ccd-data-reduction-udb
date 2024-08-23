@@ -1,0 +1,425 @@
+\chapter{Variables y contenedores}
+%\counterwithout{section}{chapter}
+
+% Setting the cell notebooks again to zero
+\setcounter{ipythcntr}{0}
+
+%Introduction
+\section{Introducción}
+En cualquier lenguaje de programación, las variables actúan como nombres simbólicos que almacenan datos, permitiéndonos utilizar la información de manera eficiente a lo largo de nuestros programas. Los contenedores, por otro lado, son estructuras de datos que permiten agrupar múltiples valores en una sola entidad, facilitando la organización y gestión de conjuntos de datos. A lo largo de esta lección, aprenderemos cómo declarar variables, entenderemos los tipos de datos básicos y profundizaremos en los contenedores más utilizados en Python, como listas, tuplas, conjuntos y diccionarios.
+
+\subsection{Variables}
+
+Las variables son parte fundamental en cualquier lenguaje de programación y constan simplemente de dos partes: el nombre de la variable y su valor. Ambas partes están separadas por el signo de igual (\pynorm{=}). Es decir, se escribe el nombre de la variable a la izquierda del símbolo \pynorm{=} y su valor se escribe a la derecha. Si se quisiera por ejemplo definir una variable llamada \pynorm{var_1} y asignarle el valor numérico \(53\), se haría de la siguiente manera:
+
+\begin{pyin}
+var_1 = 53
+\end{pyin}
+
+Los nombres de las variables pueden contener letras minúsculas, mayúsculas, dígitos (\pynorm{0 - 9}) y guiones bajos (\pynorm{_}). Sin embargo, los nombres no pueden empezar con dígitos; deben iniciar necesariamente con una letra o un guion bajo. Por ejemplo, los nombres <<\pynorm{_var}>>, <<\pynorm{_var1}>> o <<\pynorm{_var_1}>> son válidos, pero <<\pynorm{1_var}>> y <<\pynorm{1var}>> son nombres no permitidos y devuelven un error, como puedes verificar con el siguiente ejemplo:
+
+\begin{pyin}
+1var = 53
+\end{pyin}
+
+\begin{pyerror}
+    Cell In[1], line 1
+    1var = 53
+    ^
+SyntaxError: invalid decimal literal    
+\end{pyerror}
+
+El mensaje de error nos indica que estamos colcando un valor numérico en una posición inválida al momento de definir la variable.
+
+\subsubsection{Variables tipo int/float}
+
+En Python se distinguen dos tipos principales de variables numéricas: las variables tipo \pybold{int}, que corresponden a los números enteros y las variables tipo \pybold{float}, que corresponden a números decimales o muy grandes escritos con notación científica. Por ejemplo, la variable definida anteriormente y que llamamos \pynorm{var_1} es de tipo \pybold{int}. En cambio, los valores numéricos \(1.5\) y \(4 \times 10^{3}\) son de tipo \pybold{float}. En realidad, la diferencia entre variables tipo \pybold{int} y \pybold{float} es más complicada que simplemente eso, pero no entraremos en detalles. En el siguiente ejemplo se definen dos variables tipo \pybold{float}.
+
+\begin{pyin}
+var_2 = 1.5
+var_3 = 4e3
+\end{pyin}
+
+Nota cómo la expresión \(4 \times 10^{3}\) se sustituye por \pynorm{4e3}, haciendo muy fácil escribir expresiones con valores numéricos grandes. Las variables \pybold{int} y \pybold{float} admiten las operaciones aritméticas vistas en la Clase 1. Al realizar una operación aritmética entre un \pybold{int} y un \pybold{float}, el resultado será un \pybold{float}.
+
+\subsubsection{Variables de tipo string}
+Otro tipo de variables son las de tipo \emph{string} (o cadena de caracteres), que se caracterizan porque son un conjunto de palabras o caracteres formando un mensaje, tales como <<¡Hola mundo!>>. En Python, estas variables se identifican como de tipo \pybold{str} y para definirlas se debe escribir el mensaje que queramos dentro de comillas simples (\pynorm{'}) o comillas dobles (\pynorm{"}). Esto se muestra en el siguiente ejemplo:
+
+\begin{pyin}
+message_1 = 'Hola'
+message_2 = "y buenos días" 
+\end{pyin}
+
+Es posible aplicar las operaciones aritméticas de suma y multiplicación a las variables \pybold{str}. Al aplicar la suma a las variables \pynorm{message_1} y \pynorm{message_2} se forma una nueva oración. Intenta ejecutar las siguientes dos celdas de código:
+
+\begin{pyin}
+message_4 = message_1 + message_2
+print(message_4)
+\end{pyin}
+
+\begin{pyprint}
+Holay buenos días
+\end{pyprint}
+
+\begin{pyin}
+message_5 = message_1 + ' ' + message_2
+print(message_5)
+\end{pyin}
+    
+\begin{pyprint}
+Hola y buenos días
+\end{pyprint}
+
+La diferencia entre las variables \pynorm{message_4} y \pynorm{message_5} es que a \pynorm{message_5} se le agregó explícitamente un espacio en blanco (\pynorm{' '}) al momento de sumar las variables \pynorm{message_1} y \pynorm{message_2}. Las variables \pybold{str} no pueden sumarse con variables tipo \pybold{int} ni \pybold{float}.
+
+
+Por otro lado, la multiplicación de una variable \pybold{str} y una de tipo \pybold{int} sí está permitida. Intenta ejecutar lo siguiente:
+
+\begin{pyin}
+message_1 * 3
+\end{pyin}
+
+\begin{pyout}
+HolaHolaHola
+\end{pyout}
+
+En resumen, se multiplicó \pynorm{message_1} por el número \pynorm{3}, y el mensaje apareción tres veces. Las variables \pybold{str} no pueden ser multiplicadas por variables tipo \pybold{float}
+
+
+\subsubsection{Comentarios}
+
+Los comentarios son parte esencial de cualquier lenguaje de programación. Se trata de líneas de código que son ignorados por el intérprete/compilador y sirven para documentar el código. Mientras más líneas de código escribas, más difícil será recordar qué hace cada línea o bloque de código. Debido a esto se hacen necesarios los comentarios, y en Python hay dos formas de escribirlos. La primera es usando el símbolo de numeral: \mintinline[style=friendly]{python}{#}. Cualquier cosa que escribamos después del símbolo será ignorada por Python:
+
+\begin{pyin}
+pi = 3.14159265     #- Una variable float
+
+num = 5             #- Una variable int
+    
+message = "nueve"   #- Una variable str
+\end{pyin} 
+
+En la primera línea del ejemplo anterior, se declaró una variable llamada \pynorm{pi} y se le asignó un valor de \pynorm{3.14159265} y seguidamente se escribió un comentario para aclarar el tipo de variable que se está definiendo. Esto se repitió para las variables \pynorm{num} y \pynorm{message}. 
+
+La otra forma de escribir comentarios consisten en colocarlos dentro de triples comillas simples (\pynorm{''' '''}) o triples comillas dobles (\pynorm{""" """}). Las triples comillas permiten que el texto entre ellas abarque más de una sola línea. En realidad, estas son un tipo especial de comentarios que se utilizan para documentar las funciones, métodos, clases o módulos y por lo tanto son llamadas \emph{docstrings} (cadenas de documentación). 
+
+\subsubsection{Variables tipo bool}
+Las variables tipo bool, o variables booleanas son aquellas que solo pueden tomar dos posibles valores: \pybold{True} (verdadero) o \pybold{False} (falso), a las cuales corresponden los valores numéricos de \pynorm{0} y \pynorm{1}, respectivamente. Este tipo de variables aparecen cuando se hacen comparaciones entre una o más variables. Para eso se utilizan operadores de comparación, de los cuales, los más comunes se muestran en la Tabla \ref{tab:comparison-operators}
+
+\begin{table}[htb]
+    \centering
+    \caption{Operadores de comparación}
+    \label{tab:comparison-operators}
+
+    \begin{tabular}{c c} \hline
+        Operador & Significado \\ \hline
+        \pynorm{>} & Mayor que \\
+        \pynorm{<} & Menor que \\
+        \pynorm{>=} & Mayor o igual que \\
+        \pynorm{<=} & Menor o igual que \\
+        \pynorm{==} & Igual que \\
+        \pynorm{!=} & Diferente de \\ \hline        
+    \end{tabular}
+\end{table}
+
+Por ejemplo, sabemos que el número \pynorm{3} es menor que el número 5. Entonces la expresión \pynorm{3 > 5} es falsa, como puedes comprobarlo:
+
+\begin{pyin}
+3 > 5
+\end{pyin}
+\begin{pyout}
+False
+\end{pyout}
+
+Estos operadores también pueden ser acompañados por las palabras clave definidas en Python: \pybold{and} y \pybold{or}. Intenta ejecutar los siguientes ejemplos:
+
+\begin{pyin}
+5 <= 2 and 4 > 2
+\end{pyin}
+\begin{pyout}
+False
+\end{pyout}
+
+Veamos con detalle qué es lo que está pasando en este ejemplo. El número \pynorm{5} es mayor que \pynorm{2}, por lo tanto, la expresión \pynorm{5 <= 2} es falsa. Por otro lado, el número \pynorm{4} es mayor que \pynorm{2}, por lo tanto, la expresión \pynorm{4 > 2} es verdadera. En otras palabras, la expresión es quivalente a: \pynorm{False and True}. El operador \pybold{and} devuelve un valor verdadero únicamente si todas las expresiones son verdaderas, de lo contrario devuelve un valor falso. Ya que en este caso una de las expresiones es falsa, entonces el resultado es \pybold{False}. Ahora revisa el siguiente ejemplo:
+
+\begin{pyin}
+5 <= 2 or 4 > 2
+\end{pyin}
+\begin{pyout}
+True
+\end{pyout}
+
+Estamos haciendo las mismas comparaciones que en el ejemplo anterior, pero ahora con el operador \pybold{or}, el cual devuelve un valor falso únicamente si todas las expresiones son falsas, de lo contrario devuelve un valor verdadero. En este caso, la expresión de la derecha es verdadera y por lo tanto, el resultado es un valor \pybold{True}.
+
+Las variables booleanas se utilizan para iniciar, terminar o repetir algún proceso dependiendo si alguna condición se cumple o no. Esto lo veremos más adelante cuando trabajemos con controladores de flujo.
+
+\subsection{Contenedores}
+Los contenedores son un tipo de estructuras de datos que se utilizan para almacenar múltiples elementos o variables bajo un solo nombre. A diferencia de las variables, que pueden contener un único valor a la vez, los contenedores permiten mantener una colección de valores, los cuales a su vez pueden ser otros contenedores. Los contenedores son fundamentales para manejar datos de manera eficiente en Python, ya que permiten agrupar, iterar, acceder y manipular conjuntos de valores de manera ordenada y flexible. Los contenedores disponibles en python son las listas, tuplas, conjuntos y diccionarios.
+
+\subsubsection{Listas}
+Las listas son secuencias ordenadas de elementos o variables de cualquier tipo, que no tienen que estar relacionadas entre sí. Para definir una lista se se colocan los elementos separados por comas y encerrados entre corchetes. El siguiente ejemplo muestra que una lista puede contener cualquier tipo de variable:
+
+\begin{pyin}
+lista_1 = [1, 'Uno', True]
+print(lista_1)
+\end{pyin}
+\begin{pyprint}
+[1, 'Uno', True]
+\end{pyprint}
+
+También es posible que una lista contenga a otras listas:
+\begin{pyin}
+lista_2 = [lista_1, [0, 'Cero', False]]
+\end{pyin}
+\begin{pyprint}
+[[1, 'Uno', True], [0, 'Cero', False]]
+\end{pyprint}
+
+Además, el operador numérico de la suma está permitido en las listas. El resultado es una nueva lista:
+\begin{pyin}
+lista_3 = lista_1 + lista_2
+print(lista_3)
+\end{pyin}
+\begin{pyprint}
+[1, 'Uno', True, [1, 'Uno', True], [0, 'Cero', False]]
+\end{pyprint}
+
+Como se mencionó, las listas son una colección ordenada de elementos. Debido a esta característica, sus elementos pueden ser accedidos mediante índices, que corresponden a la posición del elemento en la lista. Sin embargo, se debe tener en cuenta que Python es un lenguaje de programación que comienza a contar desde el número cero. Es decir, al primer elemento le corresponde la posición (o índice) \pynorm{0}, al segundo elemento la posición \pynorm{1} y así sucesivamente. Por ejemplo, definamos una nueva lista con los nombres de algunos astrónomos:
+
+\begin{pyin}
+astronomers = ['Carl Sagan', 'Stephen Hawking', 'Jocelyn Bell']
+\end{pyin}
+
+Para acceder a un elemento de la lista \pynorm{astronomers}, se escribe el nombre de la lista y se acompaña del índice encerrado entre corchetes y sin espacios. Específicamente, para acceder a \pynorm{'Carl Sagan'}, que es el primer elemento, lo hacemos de la siguiente manera:
+
+\begin{pyin}
+astronomers[0] # Selecciona el primer elemento
+\end{pyin}
+\begin{pyout}
+'Carl Sagan'
+\end{pyout}
+
+El último elemento de cualquier lista, independiente de cuántos elementos tenga, puede ser accedido mediante el índice \pynorm{-1}, como puedes verificar:
+
+\begin{pyin}
+astronomers[-1] # Selecciona el último elemento
+\end{pyin}
+\begin{pyout}
+'Jocelyn Bell'
+\end{pyout}
+
+Una de las características de las listas es que sus elementos pueden ser modificados. En un contexto de programación, esto significa que las listas son \emph{mutables}. Por ejemplo, para reemplazar el primer elemento de la lista por el nombre algún otro astrónomo, podemos hacerlo de la siguiente manera:
+
+\begin{pyin}
+astronomers[0] = 'Johannes Kepler'
+print(astronomers)
+\end{pyin}
+\begin{pyprint}
+['Johannes Kepler', 'Stephen Hawking', 'Jocelyn Bell']
+\end{pyprint}
+
+Puedes agregar elementos a una lista usando el método \pynorm{list.append()} (el cual permite agregar un elemento a la vez) y el método \pynorm{list.extend()} (el cual permite agregar varios elementos a la vez, en formato de lista). Ambos métodos agregan los elementos al final de la lista. Por ejemplo, para agregar nuevamente a Carl Sagan a la lista de astrónomos, podemos hacerlo de la siguiente manera: 
+
+\begin{pyin}
+astronomers.append('Carl Sagan')
+print(astronomers)
+\end{pyin}
+\begin{pyprint}
+['Johannes Kepler', 'Stephen Hawking', 'Jocelyn Bell', 'Carl Sagan']
+\end{pyprint}
+
+Podemos en cambio, agregar dos elementos al mismo tiempo de la siguiente manera:
+
+\begin{pyin}
+astronomers.extend(['Henrietta Leavitt', 'Vera Rubin'])
+print(astronomers)
+\end{pyin}
+\begin{pyprint}
+['Johannes Kepler', 'Stephen Hawking', 'Jocelyn Bell', 'Carl Sagan', 'Henrietta Leavitt', 'Vera Rubin']
+\end{pyprint}
+
+Algunos tipos de variables permiten ser convertidos a listas, como es el caso de las variables de tipo \pybold{str}. Para lograrlo, se utiliza la función \pynorm{list()} predefinida en Python. Revisa el siguiente ejemplo:
+
+\begin{pyin}
+letters = list(astronomers[2])
+print(letters)
+\end{pyin}
+\begin{pyprint}
+['J', 'o', 'c', 'e', 'l', 'y', 'n', ' ', 'B', 'e', 'l', 'l']
+\end{pyprint}
+
+Adicionalmente, las variables de tipo \pybold{str} también admiten acceder a sus elementos mediante índices:
+
+\begin{pyin}
+name = 'Jocelyn'
+name[0]
+\end{pyin}
+\begin{pyout}
+'J'
+\end{pyout}
+
+También puedes definir listas que sean una porción de otra lista. A esto se le conoce como <<\emph{rebanar}>> o en inglés, <<\emph{slice}>>. Supongamos por ejemplo, que solo queremos seleccionar los primeros 3 elementos de la lista \pynorm{astronomers}, entonces usamos la siguiente sintaxis:
+
+\begin{pyin}
+new_astronomers = astronomers[0:3]
+print(new_astronomers)
+\end{pyin}
+\begin{pyprint}
+['Johannes Kepler', 'Stephen Hawking', 'Jocelyn Bell']
+\end{pyprint}
+
+El ejemplo anterior está seleccionando los elementos de la lista que van desde el índice \pynorm{0} (primer elemento) hasta el índice {3} (cuarto elemento). Por defecto en Python, el índice despúes de los dos puntos (\pynorm{:}) no se incluye, por eso la lista \pynorm{new_astronomers} solo tiene tres elementos y no cuatro.
+
+\subsubsection{Tuplas}
+Las tuplas representan la versión inmutable de las listas, es decir, pueden almacenar cualquier tipo de elementos pero sus valores no se pueden modificar. Para definirlas, basta con escribir los elementos separados por comas sin encerrarlos:
+
+\begin{pyin}
+planets_1 = 'Mercurio', 'Venus', 'Tierra'
+planets_1
+\end{pyin}
+\begin{pyout}
+('Mercurio', 'Venus', 'Tierra')
+\end{pyout}
+
+Alternativamente, las tuplas se definen al escribir los elementos separados por comas y encerrarlos entre paréntesis:
+
+\begin{pyin}
+planets_2 = ('Marte', 'Júpiter', 'Saturno')
+planets_2
+\end{pyin}
+\begin{pyout}
+('Marte', 'Júpiter', 'Saturno')
+\end{pyout}
+
+Al igual que en el caso de las listas, se puede acceder a los elementos de una tupla mediante índices y se puede convertir una variable de tipo \pybold{str} a una tupla usando la función \pynorm{tuple()}. usando esa misma función, también puedes convertir una lista en una tupla.
+
+\subsubsection{Conjuntos}
+Los conjuntos (en inglés llamados <<\emph{sets}>>) son colecciones de datos no ordenados y además no permiten elementos duplicados. Esto significa que no es posible acceder a sus elementos mediante índices y que ninguno de sus elementos se repite. Los conjuntos se definen con sus elementos separados por comas y encerrados entre llaves:
+
+\begin{pyin}
+my_set = {1,2,3,4,5,5,5}
+print(my_set)
+\end{pyin}
+\begin{pyprint}
+{1, 2, 3, 4, 5}
+\end{pyprint}
+
+También puedes definirlos con la función \pynorm{set()}:
+\begin{pyin}
+my_set = set([1,2,3,4,5,5,5])
+\end{pyin}
+\begin{pyprint}
+{1, 2, 3, 4, 5}
+\end{pyprint}
+
+Los conjuntos también son contenedores mutables. Para añadir elementos se utiliza la función \pynorm{add()}:
+\begin{pyin}
+my_set.add(6)
+print(my_set)
+\end{pyin}
+\begin{pyprint}
+{1, 2, 3, 4, 5, 6}
+\end{pyprint}
+
+Para eliminar un elemento se utilizan los métodos \pynorm{remove()} o \pynorm{doscard()}, como puedes comprobar:
+
+\begin{pyin}
+my_set.remove(3) 
+print(my_set) 
+\end{pyin}
+\begin{pyprint}
+{1, 2, 4, 5, 6}
+\end{pyprint}
+
+\begin{pyin}
+my_set.discard(2)
+print(my_set) 
+\end{pyin}
+\begin{pyprint}
+{1, 4, 5, 6}
+\end{pyprint}
+La diferencia en ambos métodos es que \pynorm{remove()} lanzará un error si el elemento no existe, mientras que \pynorm{discard()} no hará nada si el elemento no está presente.
+
+También puedes usar el operador \pybold{in} para verificar si un elemento está en el conjunto. Ten en cuenta que este operador también puede utilizarse para verificar si un elemento está en una lista o en una tupla. Veamos un ejemplo solo para los conjuntos:
+
+\begin{pyin}
+print(2 in my_set)
+\end{pyin}
+\begin{pyprint}
+False
+\end{pyprint}
+
+Otras operaciones disponibles para los conjuntos son:
+\begin{itemize}
+    \item \textbf{Unión:} combina todos los elementos de dos conjuntos, eliminando los duplicados, mediante el operador <<\pynorm{|}>>.
+    \item \textbf{Intersección:} Devuelve los elementos comunes en ambos conjuntos, mediante el operador <<\pynorm{&}>>.
+    \item \textbf{Diferencia:} Devuelve los elementos que están en el primer elemento pero no en el segundo, mediante el operador <<\pynorm{-}>>.
+    \item \textbf{Diferencia simétrica:} Devuelve los elementos que están en un set o en otro, pero no en ambos, mediante el operador <<\pynorm{^}>>.
+\end{itemize}
+
+\subsubsection{Diccionarios}
+Los diccionarios son estructuras de datos no ordenados y están compuestos de pares \emph{clave-valor} (en inglés \emph{key-values}), donde cada valor está asociado a una clave única. Para crear un diccionario se escriben los pares de clave-valor sperados por comas y encerrados con llaves \pynorm{{}}, o encerrados por la función \pynorm{dict()}. Para entenderlo mejor, revisa el siguiente ejemplo:
+
+\begin{pyin}
+stephen = {
+    "first_name": "Stephen", 
+    "last_name": "Hawking", 
+    "birthday": (8, 1, 1942)
+    }
+print(stephen)
+\end{pyin}
+\begin{pyprint}
+{'first_name': 'Stephen', 'last_name': 'Hawking', 'birthday': (8, 1, 1942)}   
+\end{pyprint}
+\begin{pyin}
+albert = dict(
+    first_name="Albert", 
+    last_name='Einstein',
+    birthday= (14, 3, 1879) 
+    )
+print(albert)
+\end{pyin}
+\begin{pyprint}
+{'first_name': 'Albert', 'last_name': 'Einstein', 'birthday': (14, 3, 1879)}
+\end{pyprint}
+
+Las dos sintaxis anteriores son totalmente equivalentes para definir un diccionario. Para acceder a cualquier valor de un diccionario, se escribe el nombre del dicionario y en seguida, encerrado entre corchetes se escribe su clave correspondiente. Por ejemplo:
+
+\begin{pyin}
+stephen['first_name']
+\end{pyin}
+\begin{pyout}
+'Stephen'
+\end{pyout}
+
+Los diccionarios son contendores mutables, por lo tanto sus valores pueden cambiar, pero no sus claves. Puedes agregar un par clave-valor simplemente asignando un valor a una nueva clave:
+
+\begin{pyin}
+stephen['nationality'] = "British"
+print(stephen)
+\end{pyin}
+\begin{pyprint}
+{'first_name': 'Stephen', 'last_name': 'Hawking', 'birthday': (8, 1, 1942), 'nationality': 'British'}
+\end{pyprint}
+
+Puedes obtener todas las claves, valores, o pares clave-valor usando los métodos \pynorm{keys()}, \pynorm{values()} y \pynorm{items()}, respectivamente:
+
+\begin{pyin}
+albert.keys()
+\end{pyin}
+\begin{pyout}
+dict_keys(['first_name', 'last_name', 'birthday'])
+\end{pyout}
+
+\begin{pyin}
+albert.values()
+\end{pyin}
+\begin{pyout}
+dict_values(['Albert', 'Einstein', (14, 3, 1879)])
+\end{pyout}
+
+\begin{pyin}
+albert.items()
+\end{pyin}
+\begin{pyout}
+dict_items([('first_name', 'Albert'), ('last_name', 'Einstein'), ('birthday', (14, 3, 1879))])
+\end{pyout}

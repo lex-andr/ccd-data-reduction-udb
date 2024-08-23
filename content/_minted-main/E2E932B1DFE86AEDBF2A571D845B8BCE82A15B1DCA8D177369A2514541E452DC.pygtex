@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{my\PYGZus{}set}\PYG{o}{.}\PYG{n}{remove}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{my\PYGZus{}set}\PYG{p}{)}
+\end{Verbatim}

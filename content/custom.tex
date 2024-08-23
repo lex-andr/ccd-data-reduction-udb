@@ -15,7 +15,7 @@
 
 % Python inline
 \newcommand{\pybold}[1]{\mintinline[style=friendly,formatcom=\bfseries]{python}{#1}}
-\newcommand{\pynormal}[1]{\mintinline[style=friendly]{python}{#1}}
+\newcommand{\pynorm}[1]{\mintinline[style=friendly]{python}{#1}}
 
 % Bash inline
 \newcommand{\bashbold}[1]{\mintinline[style=bw,formatcom=\bfseries]{shell}{#1}}
@@ -25,10 +25,11 @@
 \definecolor{light_gray}{rgb}{0.97,0.97,0.97}
 \definecolor{mykey}{rgb}{0.117,0.403,0.713}
 \definecolor{myorange}{HTML}{BF5B3D}
+\definecolor{cellerror}{HTML}{FFDDDD}
 
 
 \newlength\inwd
-\setlength\inwd{2em}
+\setlength\inwd{2.5em}
 
 \newcounter{ipythcntr}
 \renewcommand{\theipythcntr}{\texttt{[\arabic{ipythcntr}]}}
@@ -40,14 +41,23 @@
 \definecolor{Button3}{RGB}{253,125,0}
 
 \newtcblisting{terminal}[1][]{
-	coltitle=gray,
     listing engine=minted,minted style=bw,
-    minted language=#1,enhanced,
-    colback=light_gray,colframe=terminalTitle,listing only, title=\tikz {
+    minted language=#1,
+    minted options={%
+         breaklines,
+         obeytabs=true,
+         breaksymbolleft=,
+         autogobble,
+         numbersep=2mm,
+         baselinestretch=1},
+    coltitle=gray,
+    enhanced,
+    colback=light_gray,colframe=terminalTitle,listing only, title=\tikz{
         \node[circle,fill=Button1,inner sep=3pt] (c) at (0,0){};
         \node[circle,fill=Button2,inner sep=3pt] (c) at (0.5,0){};
         \node[circle,fill=Button3,inner sep=3pt] (c) at (1,0){};
-    } \qquad %\texttt{#1}
+    },
+    every listing/.style={\singlespacing}
     }
 
 \newtcblisting{bash}[1][]{
@@ -88,7 +98,6 @@
     }
 
 \newtcblisting{pyin}[1][]{%
-  enlarge left by=0pt,
   width=\linewidth,
   enhanced,
   colframe=grey,
@@ -127,7 +136,6 @@
 
 \newtcblisting{pyprint}{
   sharp corners,
-  enlarge left by=0pt,
   width=\linewidth,
   enhanced,
   coltext=black,
@@ -137,7 +145,7 @@
   listing only,
   top=-7pt,
   bottom=0pt,
-  left=7pt,
+  left=2pt,
   right=1pt,
   overlay={
     \node[
@@ -163,7 +171,6 @@
 }
 
 \newtcblisting{pyout}[1][\theipythcntr]{
-  sharp corners,
   enlarge left by=0pt,
   width=\linewidth,
   enhanced,
@@ -173,7 +180,7 @@
   listing only,
   top=0pt,
   bottom=0pt,
-  left=1pt,
+  left=7pt,
   right=1pt,
   overlay={
     \node[
@@ -187,7 +194,45 @@
       at (frame.north west)
       {\setcounter{ipythcntr}{\value{ipythcntr}}#1:};
   }
+  listing engine=minted, 
+  minted language=pycon,
+  minted options={%
+         breaklines,
+         obeytabs=true,
+         breaksymbolleft=,
+         autogobble,
+         numbersep=2mm,
+         baselinestretch=1},
+}
+
+\newtcblisting{pyerror}{
+  sharp corners,
+  enlarge left by=0pt,
+  width=\linewidth,
+  enhanced,
+  coltext=black,
+  colframe=cellerror,
+  boxrule=0pt,
+  colback=cellerror,
+  listing only,
+  top=0pt,
+  bottom=0pt,
+  left=7pt,
+  right=1pt,
+  overlay={
+    \node[
+      anchor=north east,
+      text width=\inwd,
+      font=\footnotesize\ttfamily\color{mykey},
+      inner ysep=2mm,
+      inner xsep=0pt,
+      outer sep=0pt
+      ] 
+      at (frame.north west)
+      {};
+  }
   listing engine=minted,
+  minted style=pastie,
   minted language=python,
   minted options={%
          breaklines,

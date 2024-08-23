@@ -1,18 +1,30 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{\numberline {1}Introducción a Python}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Nociones básicas}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Python en diferentes sistemas operativos}{2}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Python en Windows}{2}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Python en Linux}{3}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Python en Mac OSX}{3}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}Ejecutando Python}{4}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Creando un entorno virtual}{5}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}El editor Geany}{5}{subsection.1.3.2}%
-\contentsline {subsubsection}{Geany en Windows}{6}{subsection.1.3.2}%
-\contentsline {subsubsection}{Configuración de Geany en Windows}{6}{subsection.1.3.2}%
-\contentsline {subsubsection}{Geany en Linux y Mac OSX}{6}{Item.9}%
-\contentsline {subsection}{\numberline {1.3.3}Jupyter Notebook}{7}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Visual Studio Code y PyCharm}{9}{subsection.1.3.4}%
-\contentsline {section}{\numberline {1.4}Python como calculadora}{9}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Operaciones aritméticas}{9}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Operaciones matemáticas avanzadas}{11}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1}Nociones básicas}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1}Python en diferentes sistemas operativos}{2}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Python en Windows}{3}{subsubsection.1.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Python en Linux}{3}{subsubsection.1.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Python en Mac OSX}{4}{subsubsection.1.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}Ejecutando Python}{5}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Creando un entorno virtual}{6}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}El editor Geany}{7}{subsubsection.1.1.2.2}%
+\contentsline {paragraph}{Geany en Windows:}{7}{subsubsection.1.1.2.2}%
+\contentsline {paragraph}{Configuración de Geany en Windows:}{7}{subsubsection.1.1.2.2}%
+\contentsline {paragraph}{Geany en Linux y Mac OSX:}{8}{Item.9}%
+\contentsline {subsubsection}{\numberline {1.2.3}Jupyter Notebook}{9}{subsubsection.1.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Visual Studio Code y PyCharm}{11}{subsubsection.1.1.2.4}%
+\contentsline {subsection}{\numberline {1.3}Python como calculadora}{11}{subsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Operaciones aritméticas}{11}{subsubsection.1.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Operaciones matemáticas avanzadas}{13}{subsubsection.1.1.3.2}%
+\contentsline {chapter}{\numberline {2}Variables y contenedores}{15}{chapter.2}%
+\contentsline {section}{\numberline {2}Introducción}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1}Variables}{15}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Variables tipo int/float}{16}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Variables de tipo string}{16}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Comentarios}{17}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Variables tipo bool}{18}{subsubsection.2.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}Contenedores}{19}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Listas}{19}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Tuplas}{22}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Conjuntos}{23}{subsubsection.2.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Diccionarios}{24}{subsubsection.2.2.2.4}%

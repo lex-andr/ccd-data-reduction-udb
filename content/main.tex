@@ -4,16 +4,37 @@
 \spanishdecimal{.}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+
+\usepackage{caption} 
+\captionsetup[table]{skip=4pt}
+\usepackage{setspace}
+\setstretch{1.5}
 \usepackage{graphicx,microtype} % Required for inserting images
+%\usepackage{chngcntr} % sections without chapter numbers
+\setcounter{secnumdepth}{3} % Numbered subsubsections
+\setcounter{tocdepth}{3} % subsubsections in toc
 \setlength{\parskip}{\medskipamount}
 \usepackage[colorlinks, linkcolor=blue, urlcolor=blue]{hyperref}
 \usepackage{url}
 \usepackage[left=3cm, right=3cm, top=2cm, bottom=2cm]{geometry}
 \usepackage{minted, verbatim}
 %\usemintedstyle{default}
-\renewcommand{\ttdefault}{txtt}
+%\usepackage{inconsolata}
+%\renewcommand*{\ttdefault}{cmtt}
+%\renewcommand{\ttdefault}{txtt}
 %\usepackage{helvet}
 %\renewcommand{\familydefault}{\sfdefault}
+
+%\usepackage{fontspec}
+%\setmonofont{Consolas}
+%setmainfont{Arial}
+
+\usepackage{unicode-math} 
+\usepackage{fontspec}
+\setmainfont{Arial}
+%\setsansfont{Calibri
+\setmonofont{Consolas}
+\setmathfont{Cambria Math}
 
 \partfont{\Huge}
 
@@ -23,11 +44,19 @@
 
 \input{custom}
 
-%\includeonly{Unidad-1/Clase-2}
+\usepackage{tocloft} % Edit toc
+\renewcommand{\cftchappresnum}{Clase } %Add this word to toc
+\addtolength{\cftchapnumwidth}{3em} % extra space for the above
+\renewcommand{\cftchapaftersnum}{ |} % put : after chapter number
+
+%\includeonly{unit-1/lesson-2}
 \usepackage{titlesec}
 
-%\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+\titlespacing*{\chapter}{0pt}{-20pt}{10pt}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\chaptername ~\thechapter ~ | ~}{0pt}{\Huge\bfseries}
+
+%\renewcommand{\thesection}{\arabic{section}}
+\counterwithout{section}{chapter}
 
 \begin{document}
 \renewcommand*\thepart{\arabic{part}}
@@ -42,6 +71,7 @@
 
 %\part{Introducción a Python}
 \include{unit-1/lesson-1.tex}
+\include{unit-1/lesson-2.tex}
 
 
 
