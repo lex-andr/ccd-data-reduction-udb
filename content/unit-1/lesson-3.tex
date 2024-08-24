@@ -1,0 +1,433 @@
+\chapter{Control de flujo y lógica}
+
+% Setting the cell notebooks again to zero
+\setcounter{ipythcntr}{0}
+
+\section{Controles de flujo}
+Los controles de flujo en un lenguaje de programación permiten que ciertas partes de un código se ejecuten y otras no, dependiendo de si se cumplen o no algunas condiciones. Adicionalmente, también permiten ejecutar líneas de código una y otra vez mientras alguna condición siga siendo válida. Debido a esto, los principales controles de flujo y lógica son llamados \emph{condicionales} y \emph{bucles} (en inglés, \emph{loops}). En esta clase revisaremos ambos conceptos.
+
+\subsection{Condicionales}
+Son el tipo de controladores de flujo más sencillos, su funcionamiento puede describirse de la siguiente manera: "Si la variable $x$ es verdadera, entonces realiza una tarea; en caso contrario, realiza esta otra tarea". Para escribir este tipo de condiciones se utilizan las palabras en inglés <<if>> y <<else>>, que significan <<si>> y <<en caso contrario>>, respectivamente.  
+
+\subsubsection{Declaraciones if}
+La forma más sencilla de usar los condicionales es cuando solo se quiere comprobar si alguna condición es verdadera y no hacer nada si la condición es falsa. En ese caso, se utiliza la palabra clave \pybold{if} una única vez. La sintaxis es la siguiente:
+
+\begin{shell}
+if <condition>:
+    <if-block>
+\end{shell}
+
+Para este tipo de declaraciones, la condición, identificada como \pynorm{<condition>} puede ser cualquier tipo de expresión de comparación o lógica que devuelva un valor \pybold{True} o \pybold{False}. Además, inmediatamente después de dicha condición se escriben dos puntos (\pynorm{:}). El segmento \pynorm{<if-block>} representa aquellos comandos o instrucciones que se ejecutarán únicamente si la condición es verdadera.
+
+Algo muy importante es que los comandos del \pynorm{<if-block>} deberán ser escritos abajo del <<\pynorm{if <condition>:}>> con una sangría (en inglés <<\emph{indent}>>) de cuatro espacios. En Python, esta sangría es obligatoria siempre que se quiera separar bloques de código del resto de líneas de código. De no usar la sangría de cuatro espacios en los condicionales, el código generará un error. Como ejemplo, intenta ejecutar la siguiente celda de código:
+
+\begin{pyin}[]
+#- Definiendo un número
+number = 0 
+if number == 0.0:
+print(f"El número {number} es igual a 0.0")
+\end{pyin}
+\begin{pyerror}
+  Cell In[1], line 3
+    print(f"El número {number} es igual a 0.0")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 2
+\end{pyerror}
+
+Este error es bastante simple. Python nos está diciendo que se esperaba un bloque con sangría después de la declaración \pynorm{if}. Puedes corregirlo simplemente agregando la sangría de cuatro espacios:
+
+\begin{pyin}[]
+#- Definiendo un número
+number = 0 
+if number == 0.0:
+    print(f"El número {number} es igual a 0.0")
+\end{pyin}
+\begin{pyout}
+El número 0 es igual a 0.0
+\end{pyout}
+
+La condición \pynorm{number == 0.0} es verdadera y por lo tanto se mostró el mensaje. Si la condición hubiera sido falsa, no se habría mostrado ningún mensaje. Nota cómo se definió a la variable \pynorm{number} como de tipo \pybold{int} y en la condición se comparó con una variable de tipo \pybold{float}, de modo que la condición sería equivalente a \pynorm{0 == 0.0}. Esta condición resulta ser cierta porque el operador \pynorm{==} únicamente compara si dos valores son equivalentes.
+
+\subsubsection{Declaraciones if-else}
+Cada bloque \pynorm{if} puede ir seguido de un bloque opcional \pynorm{else}, que se ejecutará únicamente si la primera condición es falsa. El bloque \pynorm{else} no necesita de ninguna condición pero sí de los dos puntos (\pynorm{:}) y la línea siguiente también debe tener sangría de cuatro espacios. La sintaxis para este tipo de declaraciones es la siguiente:
+
+\begin{shell}
+if <condition>:
+    <if-block>
+
+else:
+    <else-block>
+\end{shell}
+
+Por ejemplo, podemos escribir un código que verifique si un número es par o impar, comprobando si el número es divisible por 2. Esto se puede hacer con una declaración \pynorm{if-else} de la siguiente manera:
+
+\begin{pyin}[]
+#- Definiendo un número
+number = 15 
+
+#- Comprobando si es par o impar
+if number % 2 == 0:
+    result = "par"
+else:
+    result = "impar"
+    
+# Muestra un mensaje con el resultado
+print(f"El número {number} es {result}.")    
+\end{pyin}
+\begin{pyprint}
+El número 15 es impar.
+\end{pyprint}
+
+El número 15 no es divisible entre dos, por lo tanto la condición \mintinline[style=friendly]{python}|number % 2 == 0| es falsa. Como resultado el bloque \pynorm{result = "par"} no se ejecuta. En cambio, se ejecuta el bloque \pynorm{result = "impar"} y se muestra el mensaje \pynorm{"El número 15 es impar"}.
+
+\subsubsection{Declaraciones if-elif-else}
+En muchas ocasiones será necesario comprobar más de dos posibles situaciones, y para esto se utiliza la sintaxis \pynorm{if-elif-else}. La palabra \emph{elif} es una abreviación de <<\emph{else if}>> en inglés y en las declaraciones pueden haber cuantos bloques \pynorm{elif} sean necesarios. El primer bloque que devuelva un valor \pybold{True} será ejecutado, y ninguno de los restantes será comprobado ni ejecutado. La sintaxis de este tipo de declaraciones es la siguiente:
+
+\begin{shell}
+if <condition>:
+    <if-block>
+
+elif <condition1>:
+    <elif-block1>
+
+elif <condition2>:
+    <elif-block2>
+
+else:
+    <else-block>
+\end{shell}
+
+El siguiente ejemplo muestra cómo usar las declaraciones \pynorm{if-elif-else} para clasificar a una partícula fundamental de acuerdo a su masa:
+
+\begin{pyin}[]
+#- Masa de la partícula hipotética
+mass = 5.0  # en GeV/c^2
+
+#- Clasificación basada en su masa
+if mass < 0.1:
+    classification = "Mesón Ligero"
+
+elif 0.1 <= mass < 1.0:
+    classification = "Mesón Pesado"
+
+elif 1.0 <= mass < 10.0:
+    classification = "Barión"
+
+else:
+    classification = "Partícula Exótica"
+
+#- Mostrar su classificación
+print(f"La partícula con masa {mass} GeV/c^2 es un {classification}.")
+\end{pyin}
+\begin{pyout}
+La partícula con masa 5.0 GeV/c^2 es un Barión.
+\end{pyout}
+
+Nuevamente, ten en cuenta que en cada bloque \pynorm{if-elif-else} se neesita colocar una sangría obligatoria. 
+
+\subsubsection{Expresiones if-else}
+Para finalizar con los condicionales, es posible aplicar la sintaxis \pynorm{if-else} en una simple expresión de una línea (sin los bloques de sangría). Se necesita de tres elementos y por lo tanto se le conoce como un operador condicional ternario. La sintaxis es la siguiente:
+
+\begin{shell}
+x if <condition> else y
+\end{shell}
+
+Si la condición es verdadera, entonces el resultado de la expresión anterior es \pynorm{x}, si es falsa, el resultado es \pynorm{y}. Esta expresión resulta muy útil para asignar valores a una variable con base en alguna condición. Esto se verifica en el siguiente ejemplo.
+
+\begin{pyin}[]
+#-Definiendo un número
+number = -5 
+
+#- Comprobar si es positivo o negativo y guardar el resultado
+result = "positivo" if number > 0 else "negativo"
+
+#- Mostrar el resultado
+print(f"El número {number} es {result}.")
+\end{pyin}
+\begin{pyout}
+El número -5 es negativo.
+\end{pyout}
+
+En este ejemplo, el operador ternario verifica si la variable \pynorm{number} es mayor que cero. Si de hecho lo es, le asigna el valor \pynorm{"positivo"} a la variable \pynorm{result}, en caso contrario le asigna el valor \pynorm{"negativo"}. 
+
+\subsection{Bucles}
+Como se ha visto, los condicionales permiten que los bloques de código con sangría se ejecuten una única vez dependiendo de alguna condición. Los bucles, en cambio, permiten que el mismo bloque se ejecute muchas veces. Los tipos de bucles disponibles en Python son el bucle \pynorm{while}, el bucle \pynorm{for} y algo que es conocido como <<contenedores por comprensión>>. 
+
+\subsubsection{Bucle while}
+Los bucles \pynorm{while} se relacionan con los condicionales porque permiten que el bloque de código se siga ejecutando mientras alguna condición sea verdadera. Su sintaxis es muy similar a la de las declaraciones \pynorm{if}:
+
+\begin{shell}
+while <condition>:
+    <while-block>
+\end{shell}
+
+Para este tipo de declaraciones también se deben aplicar los dos puntos luego de la condición y el bloque de instrucciones también debe tener sangría. La condición es evaluada al inicio de cada iteración y si es verdadera, el bloque se ejecuta. Si la condición es falsa, el bloque es ignorado y el programa continúa. 
+
+El ejemplo más simple usando un bucle while consiste en generar una cuenta regresiva comenzando en un número entero arbitrario:
+
+\begin{pyin}[]
+#- Número inicial
+count = 5
+
+#- Cuenta regresiva
+while count > 0:
+    print(count)
+    count -= 1
+
+print("¡Fin!")  # Se muestra cuando el bucle termina
+\end{pyin}
+\begin{pyprint}
+5
+4
+3
+2
+1
+¡Fin!
+\end{pyprint}
+
+En este ejemplo particular, sucede lo siguiente:
+\begin{itemize}
+    \item Se inicia con la variable \pynorm{count} igual a 5
+    \item El bucle while se ejecuta siempre y cuando \pynorm{count} sea mayor que cero
+    \item En cada iteración se imprime el valor actual de \pynorm{count} y posteriormente su valor disminuye en una unidad
+    \item Eventualmente, la variable \pynorm{count} toma el valor de \pynorm{0} y la condición se vuelve falsa
+    \item Cuando el bucle termina, se imprime el mensaje \pynorm{"¡Fin!"}
+\end{itemize}
+
+Es muy común cometer errores en los bucles \pynorm{while}, el más frecuente es iniciar por accidente un bucle infinito. Esto sucede cuando la condición evaluada es siempre verdadera. Si en el ejemplo anterior no hubiésemos escrito la instrucción \pynorm{count -= 1}, la variable \pynorm{count} hubiera tenido siempre un valor igual a \pynorm{5} y por lo tanto el bucle nunca habría finalizado. Al iniciar un bucle \pynorm{while} debemos asegurarnos de agregar una línea de código que haga que la condición sea falsa en algún momento. Si por algún motivo inicias un bucle infinito, siempre puedes detenerlo con la combinación de teclas \bashbold{Ctrl+C}.
+
+También es posible terminar con el bucle \pynorm{while} en cualquier momento, haciendo uso de la instrucción \pynorm{break}. Por ejemplo, si quisiéramos encontrar el primer número par de una lista, podríamos hacerlo con el bucle \pynorm{while} de la siguiente manera:
+
+\begin{pyin}[]
+#- Lista de números
+numbers = [3, 7, 12, 5, 8, 10, 15]
+
+#- Variable para guardar el número par
+first_even = None
+
+#- Bucle while 
+index = 0
+while index < len(numbers):
+    if numbers[index] % 2 == 0:
+        first_even = numbers[index]
+        break  # El bucle termina al encontrar el primer número par
+    index += 1
+
+#- Imprime el valor encontrado
+if first_even is not None:
+    print(f"El primer número par encontrado fue {first_even}.")
+else:
+    print("No hay números pares en la lista.")
+\end{pyin}
+\begin{pyout}
+El primer número par encontrado fue 12.
+\end{pyout}
+
+\subsubsection{Bucle for}
+Aunque los bucles \pynorm{while} son bastante útiles para repetir declaraciones, en general resulta de mayor utilidad el iterar sobre un contenedor (como las listas, tuplas, conjuntos y diccionarios) o algún otro tipo de variable iterable (como las cadenas de caracteres). En estos casos, se toma un elemento del contenedor en cada iteración y el bucle termina cuando ya no hay más elementos. Esto se logra usando un bucle \pynorm{for}. La sintaxis para los bucles \pynorm{for} es diferente a la del bucle \pynorm{while}, ya que no depende de ninguna condición y consta de lo siguiente:
+
+\begin{shell}
+for <variable> in <iterable>:
+    <for-block>
+\end{shell}
+
+De nuevo, necesitamos escribir los dos puntos para especificar cuándo inicia el bloque de código que se va a repetir, que a su vez debe tener sangría. En la sintaxis anterior, \pynorm{<variable>} es el nombre de una variable que se asigna a un elemento cada vez que se ejecuta el bucle. El \pynorm{<iterable>} es cualquier objeto que pueda devolver elementos. Todos los tipos de contenedores vistos en la Clase 2 son iterables. La cuenta regresiva puede reescribirse de la siguiente manera usando el bucle \pynorm{for}:
+
+\begin{pyin}
+for count in [5,4,3,2,1]:
+    print(count)
+    
+print("¡Fin!")
+\end{pyin}
+\begin{pyprint}
+5
+4
+3
+2
+1
+¡Fin!
+\end{pyprint}
+
+La instrucción \pynorm{break} también se puede usar con los bucles \pynorm{for}, y funcionan de la misma manera. Adicionalmente, también es posible utilizar la instrucción \pynorm{continue}, que ignora el bloque de código únicamente en la iteración actual y luego continua con la siguiente. Por ejemplo, el siguiente ejemplo muestra cómo ignorar los números impares en una lista:
+
+\begin{pyin}
+for num in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
+    if num % 2 != 0:
+        continue  # Ignorar y continuar con la siguiente iteración
+    print(num)
+
+print("¡Listo!")
+\end{pyin}
+\begin{pyprint}
+2
+4
+6
+8
+¡Listo!
+\end{pyprint}
+
+La instrucción \pynorm{continue} también se puede utilizar en los bucles \pynorm{while}.
+
+Para usar un bucle \pynorm{for} con una cadena de caracteres se procede de la misma forma que con las listas. El resultado es que se itera por cada una de las letras, por ejemplo:
+
+\begin{pyin}
+for letter in "Hola":
+    print(letter)
+\end{pyin}
+\begin{pyprint}
+H
+o
+l
+a
+\end{pyprint}
+
+También es posible aplicar un bucle \pynorm{for} en conjuntos y diccionarios, pero recuerda que este tipo de contenedores no está ordenado, así que el resultado podría no verse como esperarías. Para ilustrar esto se muestra el siguiente ejemplo:
+
+\begin{pyin}[]
+# Iteración sobre un conjunto
+for key in {'a', 'b', 'c', 'd', 'e'}:
+    print(key)
+\end{pyin}
+\begin{pyprint}
+b
+c
+f
+d
+a
+e
+\end{pyprint}
+
+El orden en que se muestra el resultado no es necesariamente al orden en el que se escribieron las letras \pynorm{"a", "b", "c", "d", "e" y "f"}. Como último ejemplo en esta sección, se muestra cómo puede usarse el ciclo \pynorm{for} para iterar sobre los pares de clave-valor de un diccionario.
+
+\begin{pyin}[]
+#- Definiendo el diccionario
+d = {'a': 1, 'b': 2, 'c': 3}
+\end{pyin}
+
+\begin{pyin}[]
+#- Iterar sobre las claves
+print("Keys:")
+for key in d.keys():
+    print(key)
+print("===========")
+\end{pyin}
+\begin{pyprint}
+Keys:
+a
+b
+c
+===========
+\end{pyprint}
+
+\begin{pyin}[]
+#- Iterar sobre los valores
+print("Values:")
+for value in d.values():
+    print(value)
+print("===========")
+\end{pyin}
+\begin{pyprint}
+Values:
+1
+2
+3
+===========
+\end{pyprint}
+
+\begin{pyin}[]
+#Iterar sobre los pares clave-valor
+print("Items")
+for key, value in d.items():
+    print(f"Key: {key}, Value: {value}")
+\end{pyin}
+\begin{pyprint}
+Items
+Key: a, Value: 1
+Key: b, Value: 2
+Key: c, Value: 3   
+\end{pyprint}
+
+\subsubsection{Contenedores por comprensión}
+Como se ha visto, los ciclos \pynorm{while} y \pynorm{for} permiten hacer muchas cosas, pero para usarlos se necesita de al menos dos líneas de código: una para definir el bucle y la otra para especificar las acciones. Por ejemplo, supongamos que tenemos una lista con los nombres de los primeros cuatro planetas escritos en minúscula, y también tenemos una lista vacía en la que deseamos agregar esos mismos nombres pero en mayúscula:
+
+\begin{pyin}[]
+#- Lista con planetas
+planetas = ['mercurio', 'venus', 'tierra', 'marte']
+
+#- Lista vacía
+planetas_mayus = []
+\end{pyin}
+
+Para lograrlo podemos aplicar el método \pynorm{list.upper()} a cada elemento de la lista \pynorm{planetas} y luego anexarlos a la lista \pynorm{planetas_mayus} en un bucle \pynorm{for}:
+
+\begin{pyin}
+for planet in planetas:
+    planetas_mayus.append(planet.upper())
+
+print(planetas_mayus)
+\end{pyin}
+\begin{pyprint}
+['MERCURIO', 'VENUS', 'TIERRA', 'MARTE']
+\end{pyprint}
+
+Lo anterior puede realizarse de manera equivalente en una sola línea gracias a la sintaxis de contenedores por comprensión, que puede aplicarse tanto a listas como a diccionarios. La sintaxis en cada caso es:
+
+\begin{shell}[]
+# Lista por comprensión
+[<expr> for <loop-var> in <iterable>]
+
+# Diccionario por comprensión
+{<key-expr>: <value-expr> for <loop-var> in <iterable>}
+\end{shell}
+
+Así, volviendo al ejemplo de los planetas, se puede crear la lista de la siguiente manera:
+
+\begin{pyin}
+planetas_mayus = [planet.upper() for planet in planetas]
+\end{pyin}
+
+Para el caso de un diccionario, supongamos que tenemos una lista de números y queremos crear una nueva lista con el cuadrado de esos números, entonces:
+
+\begin{pyin}[]
+#- Definiendo una lista de números
+numbers = [1, 10, 12.5, 65, 88]
+
+#- Creando un diccionario por comprensión
+results = {x: x**2 for x in numbers}
+
+#- Mostrar el resultado
+print(results)
+\end{pyin}
+\begin{pyprint}
+{1: 1, 10: 100, 12.5: 156.25, 65: 4225, 88: 7744}
+\end{pyprint}
+
+También es posible realizar filtros a los contenedores por comprensión, con ayuda de condicionales. La sintaxis es la siguiente:
+
+\begin{pyin}[]
+# Lista por comprensión con filtro
+[<expr> for <loop-var> in <iterable> if <condition>]
+
+# Diccionario por comprensión con filtro
+{<key-expr>: <value-expr> for <loop-var> in <iterable> if <condition>}
+\end{pyin}
+
+En este caso, si la condición resulta ser verdadera, entonces se agrega el elemento actual, en caso contrario se ignora y se evalúa el siguiente iterable. En este último ejemplo, se creará una lista con los planetas escritos en mayúscula si el nombre inicia con <<m>>, y se calcularán los cuadrados de los números si el número es par:
+
+\begin{pyin}[]
+#- Planetas que inician con M
+new_list = [planet.upper() for planet in planetas if planet[0] == 'm']
+print(new_list)
+\end{pyin}
+\begin{pyprint}
+['MERCURIO', 'MARTE']
+\end{pyprint}
+
+\begin{pyin}[]
+#- Cuadrado de números pares
+results_even = {x: x**2 for x in numbers if x%2 ==0}
+print(results_even)
+\end{pyin}
+\begin{pyprint}
+{10: 100, 88: 7744}
+\end{pyprint}

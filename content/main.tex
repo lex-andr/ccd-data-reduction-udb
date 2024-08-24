@@ -18,16 +18,7 @@
 \usepackage{url}
 \usepackage[left=3cm, right=3cm, top=2cm, bottom=2cm]{geometry}
 \usepackage{minted, verbatim}
-%\usemintedstyle{default}
-%\usepackage{inconsolata}
-%\renewcommand*{\ttdefault}{cmtt}
-%\renewcommand{\ttdefault}{txtt}
-%\usepackage{helvet}
-%\renewcommand{\familydefault}{\sfdefault}
 
-%\usepackage{fontspec}
-%\setmonofont{Consolas}
-%setmainfont{Arial}
 
 \usepackage{unicode-math} 
 \usepackage{fontspec}
@@ -49,9 +40,11 @@
 \addtolength{\cftchapnumwidth}{3em} % extra space for the above
 \renewcommand{\cftchapaftersnum}{ |} % put : after chapter number
 
-%\includeonly{unit-1/lesson-2}
-\usepackage{titlesec}
 
+\includeonly{unit-1/lesson-3}
+
+
+\usepackage{titlesec}
 \titlespacing*{\chapter}{0pt}{-20pt}{10pt}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\chaptername ~\thechapter ~ | ~}{0pt}{\Huge\bfseries}
 
@@ -70,8 +63,9 @@
 \tableofcontents
 
 %\part{Introducción a Python}
-\include{unit-1/lesson-1.tex}
-\include{unit-1/lesson-2.tex}
+\include{unit-1/lesson-1}
+\include{unit-1/lesson-2}
+\include{unit-1/lesson-3}
 
 
 

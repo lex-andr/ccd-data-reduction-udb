@@ -1,1 +1,1 @@
-dict_items([('first_name', 'Albert'), ('last_name', 'Einstein'), ('birthday', (14, 3, 1879))])
+{10: 100, 88: 7744}

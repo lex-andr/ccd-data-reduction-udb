@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{]}
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Masa de la partícula hipotética}
+\PYG{n}{mass} \PYG{o}{=} \PYG{l+m+mf}{5.0}  \PYG{c+c1}{\PYGZsh{} en GeV/c\PYGZca{}2}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Clasificación basada en su masa}
+\PYG{k}{if} \PYG{n}{mass} \PYG{o}{\PYGZlt{}} \PYG{l+m+mf}{0.1}\PYG{p}{:}
+    \PYG{n}{classification} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Mesón Ligero\PYGZdq{}}
+
+\PYG{k}{elif} \PYG{l+m+mf}{0.1} \PYG{o}{\PYGZlt{}=} \PYG{n}{mass} \PYG{o}{\PYGZlt{}} \PYG{l+m+mf}{1.0}\PYG{p}{:}
+    \PYG{n}{classification} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Mesón Pesado\PYGZdq{}}
+
+\PYG{k}{elif} \PYG{l+m+mf}{1.0} \PYG{o}{\PYGZlt{}=} \PYG{n}{mass} \PYG{o}{\PYGZlt{}} \PYG{l+m+mf}{10.0}\PYG{p}{:}
+    \PYG{n}{classification} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Barión\PYGZdq{}}
+
+\PYG{k}{else}\PYG{p}{:}
+    \PYG{n}{classification} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Partícula Exótica\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Mostrar su classificación}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}La partícula con masa }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{mass}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ GeV/c\PYGZca{}2 es un }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{classification}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{.\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

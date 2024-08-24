@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{number} \PYG{o}{=} \PYG{l+m+mi}{0} \PYG{c+c1}{\PYGZsh{} Definiendo un número}
+\PYG{k}{if} \PYG{n}{number} \PYG{o}{==} \PYG{l+m+mf}{0.0}\PYG{p}{:}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}El número }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{number}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ es igual a 0.0\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

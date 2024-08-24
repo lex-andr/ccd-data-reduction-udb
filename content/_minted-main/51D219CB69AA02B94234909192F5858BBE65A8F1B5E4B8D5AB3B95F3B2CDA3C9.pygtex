@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+go}{Items}
+\PYG{g+go}{Key: a, Value: 1}
+\PYG{g+go}{Key: b, Value: 2}
+\PYG{g+go}{Key: c, Value: 3}
+\end{Verbatim}

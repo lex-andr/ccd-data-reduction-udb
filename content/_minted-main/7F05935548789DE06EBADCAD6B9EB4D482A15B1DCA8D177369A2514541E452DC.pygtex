@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{Cell} \PYG{n}{In}\PYG{p}{[}\PYG{l+m+mi}{55}\PYG{p}{],} \PYG{n}{line} \PYG{l+m+mi}{3}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}El número }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{number}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ es igual a 0.0\PYGZdq{}}\PYG{p}{)}
+    \PYG{o}{\PYGZca{}}
+\PYG{n+ne}{IndentationError}\PYG{p}{:} \PYG{n}{expected} \PYG{n}{an} \PYG{n}{indented} \PYG{n}{block} \PYG{n}{after} \PYG{l+s+s1}{\PYGZsq{}if\PYGZsq{}} \PYG{n}{statement} \PYG{n}{on} \PYG{n}{line} \PYG{l+m+mi}{2}
+\end{Verbatim}

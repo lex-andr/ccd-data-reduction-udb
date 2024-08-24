@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{if \PYGZlt{}condition\PYGZgt{}:}
+\PYG{g+go}{    \PYGZlt{}if\PYGZhy{}block\PYGZgt{}}
+
+\PYG{g+go}{elif \PYGZlt{}condition\PYGZgt{}:}
+\PYG{g+go}{    \PYGZlt{}elif\PYGZhy{}block1\PYGZgt{}}
+
+\PYG{g+go}{elif \PYGZlt{}condition\PYGZgt{}:}
+\PYG{g+go}{    \PYGZlt{}elif\PYGZhy{}block2\PYGZgt{}}
+
+\PYG{g+go}{else:}
+\PYG{g+go}{    \PYGZlt{}else\PYGZhy{}block\PYGZgt{}}
+\end{Verbatim}

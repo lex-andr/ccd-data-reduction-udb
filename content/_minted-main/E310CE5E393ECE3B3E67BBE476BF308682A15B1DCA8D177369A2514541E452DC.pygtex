@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Lista con planetas}
+\PYG{n}{planetas} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}mercurio\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}venus\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}tierra\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}marte\PYGZsq{}}\PYG{p}{]}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Lista vacía}
+\PYG{n}{planetas\PYGZus{}mayus} \PYG{o}{=} \PYG{p}{[]}
+\end{Verbatim}

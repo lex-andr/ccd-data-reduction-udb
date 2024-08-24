@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Iteración sobre un conjunto}
+\PYG{k}{for} \PYG{n}{key} \PYG{o+ow}{in} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}c\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}d\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}e\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}f\PYGZsq{}}\PYG{p}{\PYGZcb{}:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{key}\PYG{p}{)}
+\end{Verbatim}
