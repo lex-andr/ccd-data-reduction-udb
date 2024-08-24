@@ -1,0 +1,43 @@
+\begin{tikzpicture}[every text node part/.style={align=center,execute at begin node=\setlength{\baselineskip}{1.2em}},
+    function/.style={text centered, font=\ttfamily},
+    arrow/.style={-Stealth, thick},
+    ]
+
+    % Definiendo la función
+    \node[function] (def) at (0,0) {{\color{green!50!black}def}};
+    \node[function] (name) at (1.2, 0) {nombre};
+    \node[function] (params) at (3.7, 0) {(param1, param2)};
+    \node[function] (puntos) at (5.6, 0) {:};
+
+    
+    % Cuerpo de la función
+    \node[function] (commands) at (1.4, -1.5) {comando1 \\ comando2 \\ . \\ . \\ .};
+
+    % Cuerpo de la función
+    \node[function, below=2.5cm of name] (return) {\color{green!50!black} return};
+    \node[function] (value) at (2.6, -3.0) {valor};
+
+
+    % Explicaciones
+    \node[function, left=1cm of def] (defexp) {Palabra clave \\ para definir \\ una función};
+
+    \node[function, above=1cm of name] (namexp) {Identificador};
+
+    \node[function, above=2cm of params] (parexp) {Lista de parámetros (opcional)};
+
+    \node[function, right=1cm of commands] (comexp) {Cuerpo de la función, \\ bloque de instrucciones};
+
+    \node[function, right=2cm of puntos] (punexp) {Dos puntos};
+    % Valor de retorno
+    \node[function, below= 0.5cm of return] (rexp) {Palabra clave para devolver un valor (opcional)};
+    
+
+    % Flechas de conexión
+    \draw[arrow] (return) -- (rexp);
+    \draw[arrow] (def) -- (defexp);
+    \draw[arrow] (name) -- (namexp);
+    \draw[arrow] (params) -- (parexp);
+    \draw[arrow] (puntos) -- (punexp);
+    \draw[arrow] (commands) -- (comexp);
+
+\end{tikzpicture}
