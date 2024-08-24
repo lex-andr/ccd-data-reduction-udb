@@ -1,0 +1,29 @@
+\chapter{Funciones}
+
+% Setting the cell notebooks again to zero
+\setcounter{ipythcntr}{0}
+
+\section{Funciones en Python}
+Una función en Python es un bloque de declaraciones (comandos) que devuelven una tarea específica. Es común que en un mismo código, algunas tareas se realicen de forma común o repetida. El propósito de las funciones es, que en lugar de escribir el mismo código una y otra vez para diferentes entradas, podamos realizar llamadas a funciones para reutilizar el código contenido en ella una y otra vez.
+
+Algunos beneficios de usar funciones son:
+\begin{itemize}
+    \item Mejora la legibilidad del código
+    \item Mejora la reutilización del código
+\end{itemize}
+
+\subsection{Declaración de funciones}
+La estructura y sintaxis para declarar una función en Python se muestra en la Figura \ref{fig:func-structure}.
+
+\begin{figure}[htb]
+    \centering
+    \input{figures/function_structure.tex}
+    \caption{Estructura de una función en Python}
+    \label{fig:func-structure}
+\end{figure}
+
+
+\begin{pyin}
+def name(param1, param2):
+    print("Hello")
+\end{pyin}
