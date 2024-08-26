@@ -1,5 +1,4 @@
-\begin{tikzpicture}[every text node part/.style={align=center,execute at begin node=\setlength{\baselineskip}{1.2em}},
-    function/.style={text centered, font=\ttfamily},
+\begin{tikzpicture}[function/.style={text centered, font=\ttfamily},
     arrow/.style={-Stealth, thick},
     ]
 
@@ -11,26 +10,41 @@
 
     
     % Cuerpo de la función
-    \node[function] (commands) at (1.4, -1.5) {comando1 \\ comando2 \\ . \\ . \\ .};
+    \node[function] (docstring) at (3.1, -0.6) {\color{orange} '''Info de la función'''};
+
+    \node[function, align=center] (commands) at (1.4, -2) {comando1 \\ comando2 \\ . \\ . \\ .};
 
     % Cuerpo de la función
-    \node[function, below=2.5cm of name] (return) {\color{green!50!black} return};
-    \node[function] (value) at (2.6, -3.0) {valor};
+    \node[function, below=3cm of name] (return) {\color{green!50!black} return};
+    \node[function] (value) at (2.6, -3.5) {valor};
 
 
     % Explicaciones
-    \node[function, left=1cm of def] (defexp) {Palabra clave \\ para definir \\ una función};
+    \node[function, left=1cm of def, align=center, font=\footnotesize] (defexp) {
+        Palabra clave \\ 
+        para definir \\ 
+        una función
+        };
 
-    \node[function, above=1cm of name] (namexp) {Identificador};
+    \node[function, above=1cm of name, font=\footnotesize] (namexp) {Identificador};
 
-    \node[function, above=2cm of params] (parexp) {Lista de parámetros (opcional)};
+    \node[function, above=2cm of params, font=\footnotesize] (parexp) {Lista de parámetros (opcional)};
 
-    \node[function, right=1cm of commands] (comexp) {Cuerpo de la función, \\ bloque de instrucciones};
+    \node[function, right=1.5cm of commands, align=center, font=\footnotesize] (comexp) {
+        Cuerpo de la función, \\ 
+        bloque de instrucciones
+        };
 
-    \node[function, right=2cm of puntos] (punexp) {Dos puntos};
+    \node[function, right=1.5cm of puntos, font=\footnotesize] (punexp) {Dos puntos};
+
     % Valor de retorno
-    \node[function, below= 0.5cm of return] (rexp) {Palabra clave para devolver un valor (opcional)};
+    \node[function, below= 0.5cm of return, font=\footnotesize] (rexp) {Palabra clave para devolver un valor (opcional)};
     
+    %Indent
+    \node[function, left=1.5cm of commands, align=center, font=\footnotesize] (indexp) {
+        El cuerpo de la función \\
+        debe tener sangría
+        };
 
     % Flechas de conexión
     \draw[arrow] (return) -- (rexp);
@@ -39,5 +53,6 @@
     \draw[arrow] (params) -- (parexp);
     \draw[arrow] (puntos) -- (punexp);
     \draw[arrow] (commands) -- (comexp);
+    \draw[arrow] (commands) -- (indexp);
 
 \end{tikzpicture}

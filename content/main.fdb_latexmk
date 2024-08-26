@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1724477484 "/home/alexis/Documents/ccd-data-reduction-udb/content/main.tex" "main.pdf" "main" 1724477485 2
-  "/dev/null" 1724376883 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1724656690 "/home/alexis/Documents/ccd-data-reduction-udb/content/main.tex" "main.pdf" "main" 1724656690 2
+  "/dev/null" 1724552616 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1723741934 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/alexis/Documents/ccd-data-reduction-udb/content/main.tex" 1724469189 1859 2c3ad8415bf2fc22b743aed045660890 ""
+  "/home/alexis/Documents/ccd-data-reduction-udb/content/main.tex" 1724656689 1860 0309e64c437750a1ae4375183ce37122 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -85,8 +85,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1723743140 7881385 f8a0d0ce525dde764313fdc92ef1cf1a ""
-  "main.aux" 1724477484 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "main.tex" 1724469189 1859 2c3ad8415bf2fc22b743aed045660890 ""
+  "main.aux" 1724656690 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1724656689 1860 0309e64c437750a1ae4375183ce37122 ""
   (generated)
   "main.aux"
   "main.log"

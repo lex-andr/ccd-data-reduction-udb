@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{es\PYGZus{}par}\PYG{p}{(}\PYG{n}{n}\PYG{p}{):}
+    \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Muestra si es par o no\PYGZdq{}}
+\PYG{l+s+s2}{    return n \PYGZpc{} 2 == 0}
+\end{Verbatim}

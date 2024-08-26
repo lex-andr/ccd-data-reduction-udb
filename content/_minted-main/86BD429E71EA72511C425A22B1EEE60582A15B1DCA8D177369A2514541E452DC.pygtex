@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{salu2}\PYG{p}{():}
+    \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Muestra un mensaje\PYGZdq{}}
+\PYG{l+s+s2}{    print(\PYGZdq{}Hello\PYGZdq{})}
+
+\PYG{l+s+s2}{salu2()}
+\end{Verbatim}

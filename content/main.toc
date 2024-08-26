@@ -1,0 +1,53 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {part}{1\hspace {1em}Introducción a Python}{3}{part.1}%
+\contentsline {chapter}{\numberline {1}Introducción a Python}{4}{chapter.1}%
+\contentsline {section}{\numberline {1}Nociones básicas}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1}Python en diferentes sistemas operativos}{4}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Python en Windows}{5}{subsubsection.1.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Python en Linux}{5}{subsubsection.1.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Python en Mac OSX}{6}{subsubsection.1.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}Ejecutando Python}{7}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Creando un entorno virtual}{8}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}El editor Geany}{9}{subsubsection.1.1.2.2}%
+\contentsline {paragraph}{Geany en Windows:}{9}{subsubsection.1.1.2.2}%
+\contentsline {paragraph}{Configuración de Geany en Windows:}{9}{subsubsection.1.1.2.2}%
+\contentsline {paragraph}{Geany en Linux y Mac OSX:}{10}{Item.9}%
+\contentsline {subsubsection}{\numberline {1.2.3}Jupyter Notebook}{11}{subsubsection.1.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Visual Studio Code y PyCharm}{13}{subsubsection.1.1.2.4}%
+\contentsline {subsection}{\numberline {1.3}Python como calculadora}{13}{subsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Operaciones aritméticas}{13}{subsubsection.1.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Operaciones matemáticas avanzadas}{15}{subsubsection.1.1.3.2}%
+\contentsline {chapter}{\numberline {2}Variables y contenedores}{17}{chapter.2}%
+\contentsline {section}{\numberline {2}Introducción}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1}Variables}{17}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Variables tipo int/float}{18}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Variables de tipo string}{18}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Comentarios}{19}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Variables tipo bool}{20}{subsubsection.2.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}Contenedores}{21}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Listas}{21}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Tuplas}{24}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Conjuntos}{25}{subsubsection.2.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Diccionarios}{26}{subsubsection.2.2.2.4}%
+\contentsline {chapter}{\numberline {3}Control de flujo y lógica}{28}{chapter.3}%
+\contentsline {section}{\numberline {3}Controles de flujo}{28}{section.3.3}%
+\contentsline {subsection}{\numberline {3.1}Condicionales}{28}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Declaraciones if}{28}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Declaraciones if-else}{29}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Declaraciones if-elif-else}{30}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Expresiones if-else}{31}{subsubsection.3.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}Bucles}{32}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Bucle while}{32}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Bucle for}{34}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Contenedores por comprensión}{37}{subsubsection.3.3.2.3}%
+\contentsline {chapter}{\numberline {4}Funciones}{39}{chapter.4}%
+\contentsline {section}{\numberline {4}Funciones en Python}{39}{section.4.4}%
+\contentsline {subsection}{\numberline {4.1}Funciones predefinidas}{39}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.2}Funciones definidas por el usuario}{40}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Funciones sin parámetros}{41}{subsubsection.4.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Funciones con parámetros}{42}{subsubsection.4.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Funciones que devuelven un valor}{42}{subsubsection.4.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Más sobre funciones con parámetros}{43}{subsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Argumentos con un valor predeterminado}{44}{subsubsection.4.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Argumentos de palabras clave}{45}{subsubsection.4.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Problemas}{47}{subsection.4.4.4}%

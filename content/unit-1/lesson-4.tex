@@ -4,15 +4,54 @@
 \setcounter{ipythcntr}{0}
 
 \section{Funciones en Python}
-Una función en Python es un bloque de declaraciones (comandos) que devuelven una tarea específica. Es común que en un mismo código, algunas tareas se realicen de forma común o repetida. El propósito de las funciones es, que en lugar de escribir el mismo código una y otra vez para diferentes entradas, podamos realizar llamadas a funciones para reutilizar el código contenido en ella una y otra vez.
+Una función en Python es un bloque de declaraciones (comandos) que realizan una tarea específica. Es posible que dicha tarea necesite ejecutarse en repetidas ocasiones para diferentes valores de entrada en un mismo código. El propósito de las funciones es, que en lugar de escribir el mismo código múltiples veces para diferentes entradas, podamos realizar llamadas a funciones y así reutilizar el código contenido en ella una y otra vez. En esta clase aprenderás a escribir funciones y comprenderás por qué utilizarlas hace que los programas sean más fáciles de escribir, leer y corregir.
 
-Algunos beneficios de usar funciones son:
-\begin{itemize}
-    \item Mejora la legibilidad del código
-    \item Mejora la reutilización del código
-\end{itemize}
+\subsection{Funciones predefinidas}
+En Python existen funciones predefinidas, las cuales están disponibles para cualquier usuario. La más común y quizás la que más hemos utilizado a lo largo de este curso es la función \pynorm{print()}. En este \href{https://docs.python.org/3/library/functions.html}{enlace} puedes ver la lista completa de las funciones predefinidas en Python y recomiendo que revises qué es lo que hacen y cómo se utilizan.
 
-\subsection{Declaración de funciones}
+Tomemos como ejemplo la función predefinida llamada \pynorm{input()}, que se utiliza para pedir al usuario que ingrese cualquier información que se le pida:
+
+\begin{pyin}
+input('Ingresa tu nombre: ')
+\end{pyin}
+\begin{pyprint}
+Ingresa tu nombre: Python
+\end{pyprint}
+\begin{pyout}
+'Python'
+\end{pyout}
+
+En el ejemplo anterior, se ingresó la palabra <<Python>> y el resultado fue esa misma cadena de caracteres. Debes tener cuidado, porque la función \pynorm{input()} siempre asume que lo que ingresas es una cadena de caracteres, incluso si lo que ingresas es un número:
+
+\begin{pyin}
+number = input('Ingresa un número: ')
+print(number)
+print(type(number))
+\end{pyin}
+\begin{pyout}
+Ingresa un número:  5
+5
+<class 'str'>
+\end{pyout}
+
+En el ejemplo anterior, se ingresó el número \pynorm{5}, pero al utilizar la función \pynorm{type()} vemos que se guardó como una variable de tipo \pybold{str} y no como de tipo \pybold{int}. 
+
+Para que el número sea almacenado como de tipo \pybold{int}, se debe usar explícitamente la función \pybold{int()} en conjunto con \pynorm{input()} de la siguiente manera:
+
+\begin{pyin}
+number = int( input('Ingresa un número: ') )
+print(number)
+print(type(number))
+\end{pyin}
+\begin{pyout}
+Ingresa un número:  5
+5
+<class 'int'>
+\end{pyout}
+
+Como puedes darte cuenta, las funciones son parte fundamental de cualquier código ya que permiten realizar tareas específicas. Ahora veremos cómo crear nuestras propias funciones para realizar cualquier tarea que se nos ocurra.
+
+\subsection{Funciones definidas por el usuario}
 La estructura y sintaxis para declarar una función en Python se muestra en la Figura \ref{fig:func-structure}.
 
 \begin{figure}[htb]
@@ -22,8 +61,279 @@ La estructura y sintaxis para declarar una función en Python se muestra en la F
     \label{fig:func-structure}
 \end{figure}
 
+Para declarar una función, primero se utiliza la palabra clave <<\pynorm{def}>>, que le informa a Python que se está definiendo una función. Luego de la palabra \pynorm{def} y separado por un espacio, se debe escribir el nombre de la función, que sirve como \emph{identificador} de la función. Inmediatamente después y sin espacios se colocan paréntesis y entre ellos se escriben los parámetros de la función separados por comas. Los parámetros son opcionales, como veremos más adelante. Al cerrar los paréntesis se escriben dos puntos. Esta primera línea constituye la <<\emph{definición de la función}>>.
+
+Cualquier línea con sangría de cuatro espacios que se encuentre abajo de la definición de la función constituye el cuerpo de la función. El texto inmediatamente abajo de la definición, que en la figura dice \pynorm{'''Info de la función'''}, constituye la documentación, o \emph{docstring}, que describe qué es lo que hace la función. La documentación siempre se escribe entre comillas triples. 
+
+Las líneas debajo de la documentación son las líneas de código reales en el cuerpo de la función. En el ejemplo, estas líneas dicen \pynorm{commando1, commando2, ...} y le indican a la función qué tarea debe realizar.
+
+Si en el cuerpo de la función se calculó una variable llamada \pynorm{valor}, dicha variable puede ser devuelta por la función en la última línea con ayuda de la palabra clave <<\pynorm{return}>>.
+
+A continuación revisaremos diferentes tipos de funciones, comenzando por las más simples hasta llegar a declaraciones más estructuradas.
+
+\subsubsection{Funciones sin parámetros}
+El ejemplo más sencillo es el de una función que no requiere de parámetros de entrada y que imprime un saludo. Veamos cómo definirla siguiendo la sintaxis de la Figura \ref{fig:func-structure}:
 
 \begin{pyin}
-def name(param1, param2):
-    print("Hello")
+def salu2():
+    """Muestra un mensaje"""
+    print("¡Hola!")
 \end{pyin}
+
+Para utilizarla, la llamamos mediante su nombre:
+\begin{pyin}[]
+#- Invocando la función
+salu2()
+\end{pyin}
+\begin{pyout}
+¡Hola!
+\end{pyout}
+
+Como la función no necesita de ningún parámetro, fue suficiente con escribir \pynorm{salu2()} y no escribir nada más. Ahora veamos un poco sobre funciones que sí requieren de parámetros de entrada.
+
+\subsubsection{Funciones con parámetros}
+La siguiente función requiere de un parámetro de entrada y muestra un mensaje personalizado cada vez que se invoca. Debes tener en cuenta que en este caso en particular, el parámetro de entrada tiene que ser una variable de tipo \pybold{str}.
+
+\begin{pyin}
+def salu3(name):
+    """Muestra un mensaje personalizado"""
+    print(f"¡Hola, {name}!")
+\end{pyin}
+
+Para utilizarla, debemos llamarla mediante su nombre pero esta vez necesitamos agregar un \emph{argumento}:
+
+\begin{pyin}
+salu3("Señor Doctor Profesor Patricio")
+\end{pyin}
+\begin{pyout}
+¡Hola, Señor Doctor Profesor Patricio!
+\end{pyout}
+
+Vale la pena hacer una aclaración: la variable <<\pynorm{name}>> en la definición de la función \pynorm{salu3()} es un parámetro, una pieza de información que la función necesita para hacer su trabajo. En cambio, el valor \pynorm{"Señor Profesor Patricio"} en la expresión \pynorm{salu3("Señor Profesor Patricio")} es un argumento. Es decir, un argumento es una pieza de información que se pasa de la llamada de una función hacia la función misma.
+
+\subsubsection{Funciones que devuelven un valor}
+Ahora veamos un ejemplo sencillo de una función que requiere de parámetros de entrada y que además devuelve un valor. 
+
+\begin{pyin}
+def suma(a, b):
+    """Calcula la suma de dos números"""
+    c = a + b
+    return c 
+
+resultado = suma(3, 5)
+print(resultado)
+\end{pyin}
+\begin{pyprint}
+8
+\end{pyprint}
+Este ejemplo muestra una nueva propiedad sobre las funciones. Hemos utilizado la palabra \pynorm{return} para ser capaces de almacenar el resultado de la suma en una variable al momento de invocar la función. En realidad, la variable <<\pynorm{c}>> definida dentro de la función no es necesaria. Hay una forma más simple de escribir una función que haga la misma tarea:
+
+\begin{pyin}
+def sumar(a, b):
+    """Calcula la suma de dos números"""
+    return a + b
+\end{pyin}
+
+La función <<\pynorm{suma}>> y la función <<\pynorm{sumar}>> son totalmente equivalentes. Al momento de declarar funciones, intenta escribirlas de la manera más simple posible.
+
+Veamos un ejemplo más. La siguiente función toma un número como parámetro de entrada y devuelve \pynorm{True} si el número es par, o \pynorm{False} si es impar.
+
+\begin{pyin}
+def es_par(n):
+    """Muestra si es par o no"""
+    return n % 2 == 0
+\end{pyin}
+
+Comprobamos si los números \pynorm{7} y \pynorm{10} son pares o no:
+\begin{pyin}
+es_par(7)
+\end{pyin}
+\begin{pyout}
+False
+\end{pyout}
+
+\begin{pyin}
+es_par(10)
+\end{pyin}
+\begin{pyout}
+True
+\end{pyout}
+
+\subsection{Más sobre funciones con parámetros}
+Como habrás notado, es posible definir funciones con más de un parámetro. En la práctica, una función puede admitir una cantidad arbitraria de argumentos. Debido a esto, existen diferentes tipos de argumentos que pueden utilizarse en las funciones. Acontinuación revisaremos únicamente dos de ellos y cómo podemos combinarlos.
+
+\subsubsection{Argumentos con un valor predeterminado}
+Al momendo de declarar una función es posible especificar un valor predeterminado para uno o más de sus argumentos. Esto resulta bastante útil, ya que permite invocar a la función con menos argumentos de los definidos. Por ejemplo:
+
+\begin{pyin}
+def saludar(name, repeat=True, bye='¡Adiós!'):
+    """Muestra un saludo y despedida personalizados"""
+
+    print(f'Hola, {name}.')
+    if repeat:
+        print(f'Hola de nuevo, {name}.')
+    print(bye)
+\end{pyin}
+
+Esta función se compone de un argumento obligatorio llamado <<\pynorm{name}>> y dos argumentos opcionales, llamados <<\pynorm{repeat}>> y <<\pynorm{bye}>>. El argumento \pynorm{name} es obligatorio porque no tiene nigún valor asignado por defecto y sin él, la función devolverá un error. 
+
+De manera concreta, la función \pynorm{saludar()} puede ser invocada de muchas formas. La primera, brindando solo el argumento obligatorio:
+
+\begin{pyin}
+saludar('Marty McFly')
+\end{pyin}
+\begin{pyprint}
+Hola, Marty McFly.
+Hola de nuevo, Marty McFly.
+¡Adiós!
+\end{pyprint}
+
+Ya que se ingresó un solo valor, la función le asignó ese valor al primer parámetro definido en la función. En este caso, al parámetro \pynorm{name}. A este tipo de asignaciones se les llama argumentos posicionales, porque se asignan según el orden en que se proporcionan.
+
+La segunda forma de invocar la función es brindando uno de los argumentos opcionales:
+\begin{pyin}
+saludar('Marty McFly', False)
+\end{pyin}
+\begin{pyprint}
+Hola, Marty McFly.
+¡Adiós!
+\end{pyprint}
+
+O como tercera opción, brindando todos los argumentos:
+\begin{pyin}
+ saludar('Marty McFly', False, 'Nos vemos')   
+\end{pyin}
+\begin{pyprint}
+Hola, Marty McFly.
+Nos vemos
+\end{pyprint}
+
+\subsubsection{Argumentos de palabras clave}
+Las funciones también pueden ser invocadas haciendo uso de los argumentos de palabras clave (en inglés llamados \emph{keyword arguments}), los cuales tienen la forma <<\pynorm{kwarg=value}>>. En esencia, al invocar la función se especifica el nombre del argumento y se le asigna un valor. Para comprenderlo, revisemos de nuevo la función \pynorm{saludar()}. Esta función puede ser invocada en cualquiera de las siguientes formas:
+
+\begin{pyin}
+saludar('Dr. Brown')        # 1 argumento posicional
+\end{pyin}
+\begin{pyprint}
+Hola, Dr. Brown.
+Hola de nuevo, Dr. Brown.
+¡Adiós!
+\end{pyprint}
+
+\begin{pyin}
+saludar(name='Dr. Brown')   # 1 argumento de palabra clave
+\end{pyin}
+\begin{pyprint}
+Hola, Dr. Brown.
+Hola de nuevo, Dr. Brown.
+¡Adiós!
+\end{pyprint}
+
+\begin{pyin}
+saludar(name='Dr. Brown', repeat=False) # 2 argumentos palabra clave
+\end{pyin}
+\begin{pyprint}
+Hola, Dr. Brown.
+¡Adiós!
+\end{pyprint}
+
+\begin{pyin}
+saludar(repeat=False, name='Dr. Brown') # 2 argumentos palabra clave
+\end{pyin}
+\begin{pyprint}
+Hola, Dr. Brown.
+¡Adiós!
+\end{pyprint}
+
+\begin{pyin}
+saludar('Dr. Brown', False, 'Nos vemos') # 3 argumentos posicionales
+\end{pyin}
+\begin{pyprint}
+Hola, Dr. Brown.
+Nos vemos
+\end{pyprint}
+
+\begin{pyin}
+saludar('Dr. Brown', bye='Nos vemos') # 1 posicional, 1 palabra clave
+\end{pyin}
+\begin{pyprint}
+Hola, Dr. Brown.
+Hola de nuevo, Dr. Brown.
+Nos vemos
+\end{pyprint}
+
+Pero todas las siguientes formas de invocarla son inválidas y resultan en un error:
+
+\begin{pyin}
+saludar()
+\end{pyin}
+\begin{pyerror}
+---------------------------------------------------------------------
+TypeError                           Traceback (most recent call last)
+Cell In[25], line 1
+----> 1 saludar()
+
+TypeError: saludar() missing 1 required positional argument: 'name'
+\end{pyerror}
+El mensaje de error en este caso es bastante claro: se invocó a la función sin brindarle el argumento obligatorio. Intenta lo siguiente:
+
+\begin{pyin}
+saludar(name='Dr. Brown', False)
+\end{pyin}
+\begin{pyerror}
+  Cell In[26], line 1
+    saludar(name='Dr. Brown', False)
+                                   ^
+SyntaxError: positional argument follows keyword argument
+\end{pyerror}
+El error ocurre porque se intenta usar un argumento posicional después de un argumento de palabra clave y eso no está permitido en Python. Nuevamente, intenta:
+
+\begin{pyin}
+saludar(False, name='Dr. Brown')
+\end{pyin}
+\begin{pyerror}
+    ---------------------------------------------------------------------
+    TypeError                           Traceback (most recent call last)
+    Cell In[27], line 1
+    ----> 1 saludar(False, name='Dr. Brown')
+    
+    TypeError: saludar() got multiple values for argument 'name'
+\end{pyerror}
+
+Este error se debe a que Python asigna el valor \pybold{False} al argumento \pynorm{name} ya que ese valor se ingresa al principio como argumento posicional. Sin embargo, luego se ingresa el valor \pynorm{'Dr. Brown'} al argumento \pynorm{name} como argumento de palabra clave. De modo que se le está intentando asignar más de un valor al mismo argumento y eso resulta en un error. Para terminar, intenta ejecutar los siguiente:
+
+\begin{pyin}
+saludar(action='Repetir')
+\end{pyin}
+\begin{pyerror}
+---------------------------------------------------------------------
+TypeError                           Traceback (most recent call last)
+Cell In[28], line 1
+----> 1 saludar(action='Repetir')
+
+TypeError: saludar() got an unexpected keyword argument 'action'
+\end{pyerror}
+En este caso, el error se debe a que se intenta invocar a la función con un argumento que no está definido.
+
+En conclusión, puedes observar lo siguiente al momento de invocar una función: 
+\begin{itemize}
+    \item Los argumentos de palabra clave deben ir después de los argumentos posicionales.
+    \item Todos los argumentos de palabra clave deben coincidir con uno de los argumentos aceptados por la función (por ejemplo, \pynorm{action} no es un argumento válido para la función \pynorm{saludar}) y el orden en el que aparecen no es importante. Esto también incluye a los argumentos no opcionales (por ejemplo, \pynorm{saludar(name='Dr. Brown')} es una forma válida de invocar la función).
+    \item Ningún argumento puede recibir más de un solo valor. 
+\end{itemize}
+
+\subsection{Problemas}
+Los siguientes problemas están pensados para que te familiarices aún más con Python y las funciones. El objetivo es que realices las tareas que se te piden SIN utilizar las funciones predefinidas de Python.
+
+\begin{enumerate}
+    \item Escribe una función que encuentre el mayor entre dos números.
+    \item Escribe una función que encuentre el mayor entre tres números.
+    \item Escribe una función que encuentre el mayor número en una lista.
+    \item Escribe una función que calcule la suma de los elementos en una lista.
+    \item Escribe una función que calcule el producto de los elementosen una lista.
+    \item Escribe una función que calcule el factorial de un número.
+    \item Escribe una función que invierta los caracteres de una variable de tipo \pybold{str}. Es decir, si se ingresa la palabra \pynorm{'AMOR'}, la función debe devolver la palabra \pynorm{'ROMA'}.
+    \item Escribe una función que compruebe si una palabra/oración es un palíndromo.
+    \item Escribe una función que calcule la cantidad de caracteres que tiene una palabra.
+    \item Escribe una función que calcule la cantidad de caracteres que tienen todas las palabras en una lista.
+\end{enumerate}

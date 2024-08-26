@@ -1,2 +1,6 @@
-def name(param1, param2):
-    print("Hello")
+---------------------------------------------------------------------
+TypeError                           Traceback (most recent call last)
+Cell In[28], line 1
+----> 1 saludar(action='Repetir')
+
+TypeError: saludar() got an unexpected keyword argument 'action'
