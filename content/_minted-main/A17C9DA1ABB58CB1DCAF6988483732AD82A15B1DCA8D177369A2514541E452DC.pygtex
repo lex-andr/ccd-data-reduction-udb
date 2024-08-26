@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{n}{new\PYGZus{}astronomers} \PYG{o}{=} \PYG{n}{astronomers}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{3}\PYG{p}{]}
-\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{new\PYGZus{}astronomers}\PYG{p}{)}
-\end{Verbatim}

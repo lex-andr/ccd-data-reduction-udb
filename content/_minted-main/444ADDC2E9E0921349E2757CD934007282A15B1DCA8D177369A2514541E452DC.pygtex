@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Cuadrado de números pares}
-\PYG{n}{results\PYGZus{}even} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{n}{x}\PYG{p}{:} \PYG{n}{x}\PYG{o}{**}\PYG{l+m+mi}{2} \PYG{k}{for} \PYG{n}{x} \PYG{o+ow}{in} \PYG{n}{numbers} \PYG{k}{if} \PYG{n}{x}\PYG{o}{\PYGZpc{}}\PYG{l+m+mi}{2} \PYG{o}{==}\PYG{l+m+mi}{0}\PYG{p}{\PYGZcb{}}
-\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{results\PYGZus{}even}\PYG{p}{)}
-\end{Verbatim}

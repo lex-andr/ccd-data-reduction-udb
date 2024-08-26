@@ -1,3 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{g+go}{dict\PYGZus{}items([(\PYGZsq{}first\PYGZus{}name\PYGZsq{}, \PYGZsq{}Albert\PYGZsq{}), (\PYGZsq{}last\PYGZus{}name\PYGZsq{}, \PYGZsq{}Einstein\PYGZsq{}), (\PYGZsq{}birthday\PYGZsq{}, (14, 3, 1879))])}
-\end{Verbatim}

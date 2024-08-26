@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
-\PYG{g+go}{if \PYGZlt{}condition\PYGZgt{}:}
-\PYG{g+go}{    \PYGZlt{}if\PYGZhy{}block\PYGZgt{}}
-\end{Verbatim}

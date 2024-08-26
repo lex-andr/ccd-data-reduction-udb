@@ -41,15 +41,30 @@
 \renewcommand{\cftchapaftersnum}{ |} % put : after chapter number
 
 
-%\includeonly{unit-1/lesson-4}
+\includeonly{unit-2/lesson-5}
 
 
 \usepackage{titlesec}
-\titlespacing*{\chapter}{0pt}{-20pt}{10pt}
-\titleformat{\chapter}[hang]{\Huge\bfseries}{\chaptername ~\thechapter ~ | ~}{0pt}{\Huge\bfseries}
+\titlespacing*{\chapter}{0pt}{-20pt}{28pt}
+\titleformat{\chapter}[hang]{\bfseries\fontsize{24}{24}\selectfont}{\chaptername ~\thechapter ~|~}{0pt}{\normalfont\fontsize{24}{24}\selectfont}
+
+%\titlespacing*{\section}{0pt}{0pt}{-2pt}
+\titleformat{\section}[hang]{\normalfont\fontsize{24}{24}\selectfont}{\thesection}{1em}{}
+
+%\titlespacing*{\subsection}{0pt}{0pt}{-2pt}  
+\titleformat{\subsection}[hang]{\normalfont\fontsize{18}{18}\selectfont}{\thesubsection}{1em}{}
+
+%\titlespacing*{\subsubsection}{0pt}{0pt}{-2pt}  
+\titleformat{\subsubsection}[hang]{\normalfont\fontsize{14}{14}\selectfont}{\thesubsubsection}{1em}{}
 
 %\renewcommand{\thesection}{\arabic{section}}
 \counterwithout{section}{chapter}
+
+%\chapterfont{\normalfont\fontsize{24}{30}\selectfont}
+%\sectionfont{\normalfont\Huge\selectfont}
+%\subsectionfont{\normalfont\LARGE\selectfont}
+%\subsubsectionfont{\normalfont\Large\selectfont}
+
 
 \begin{document}
 \renewcommand*\thepart{\arabic{part}}
@@ -67,6 +82,11 @@
 \include{unit-1/lesson-2}
 \include{unit-1/lesson-3}
 \include{unit-1/lesson-4}
+
+\part{Introducción a la astronomía observacional}
+\include{unit-2/lesson-5}
+
+
 
 
 

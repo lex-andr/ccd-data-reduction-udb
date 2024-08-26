@@ -1,3 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{n}{saludar}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Dr. Brown\PYGZsq{}}\PYG{p}{,} \PYG{k+kc}{False}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Nos vemos\PYGZsq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} 3 argumentos posicionales}
-\end{Verbatim}
