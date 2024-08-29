@@ -57,16 +57,12 @@ Todos los telescopios tienen un rango de longitudes de onda en los que son capac
 El extremo opuesto a la magnitud monocromática es la \textbf{magnitud bolométrica}, que para su medición incluye la radiación en todas las longitudes de onda emitidas por la fuente. Estas magnitudes se indican con el subíndice <<bol>> y es posible aplicar una corrección bolométrica (BC, por sus siglas en inglés) a cualquier medición, simplemente calculando la diferencia entre la magnitud bolométrica y la magnitud en cualquier otra banda de longitudes de onda (como la visual):
 \[ BC_{\mathrm{bol}} = m_{\mathrm{bol}} - m_{\mathrm{band}} \]
 
-Otra cantidad de importancia es la \textbf{magnitud absoluta}, la cual se define como la magnitud aparente que tendría una estrella si estuviera ubicada a $10 ~\mathrm{pc}$. Supongamos que el flujo de una estrella a una distancia $ d $ es $ F $. Si ahora colocamos esa misma estrella a una distancia $ d_0 $, entonces su flujo será $ F_0 $. Como se trata de la misma estrella, la luminosidad es la misma y entonces:
+Otra cantidad de importancia es la \textbf{magnitud absoluta}, la cual se define como la magnitud aparente que tendría una estrella si estuviera ubicada a $10 ~\mathrm{pc}$. Supongamos que la magnitud de una estrella a una distancia $ d $ es $ F $. Si ahora colocamos esa misma estrella a una distancia $ d_0 $, entonces su flujo será $ F_0 $. Como se trata de la misma estrella, la luminosidad es la misma y entonces:
 \[ L = 4\pi d_0^2 F_0 = 4\pi d^2 F,\]
 de aquí se obtiene que
-\[ \frac{F}{F_0} = \left( \frac{d_0}{d} \right)^2. \] 
+\[ F = \left( \right)^2 F_0 \] 
 
-Sea $ m $ la magnitud de la estrella a una distancia $ d $ y $ M $ su magnitud absoluta, es decir, a una distancia $ d_0 = 10 \mathrm{pc} $, entonces la relación entre $ m $ y $ M $ es la siguiente:
-\[ m - M =  -2.5\log\left( \frac{F}{F_0} \right) = -2.5\log\left( \frac{d_0}{d} \right)^2 = 2.5 \log\left( \frac{d}{d_0} \right)^2 = 5 \log\left( \frac{d}{d_0} \right), \]
-y sustituyendo $ d_0 = 10 \mathrm{pc} $:
-\[ m - M = 5\log\left( \frac{d}{10pc} \right) = 5\log(d) - 5. \]
 
-La cantidad $ m - M $ es conocida como el \textbf{módulo de distancia}.
+
 
  
