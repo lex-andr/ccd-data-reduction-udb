@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1724959774 "main.tex" "main.pdf" "main" 1724959777 0
+["lualatex"] 1725044771 "main.tex" "main.pdf" "main" 1725044775 0
   "/home/alexis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/arial-italic.luc" 1724115993 101342 16b11231faa276b7f28af2537f78070b ""
   "/home/alexis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/arial.luc" 1724115993 141416 4b0f3a61f6bf0e3da39a6189f3279142 ""
   "/home/alexis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/arialbd.luc" 1724115993 142004 241d64fa635c279cb701332357625244 ""
@@ -287,17 +287,20 @@
   "/var/lib/texmf/tex/generic/config/language.dat" 1723743111 5130 c7c1525c52e2327aae14c98f2e3e94bf ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1723743214 11864157 fc959f8006997a34ebb02b00ea8f915d ""
   "custom.tex" 1724735487 5907 e1513e215387073d8dfeb74920fe85ff ""
-  "main.aux" 1724959777 1140 f6c4e80a204c5567312fbac25c68c63a "lualatex"
-  "main.out" 1724959777 1460 b64c8fc69262b386ca84b5a3828e8082 "lualatex"
-  "main.tex" 1724959774 2697 8112d87b3ce35493a92d9593ed2be718 ""
-  "main.toc" 1724959777 6052 238a714fc994c8a19935fb94e07c1574 "lualatex"
+  "figures/Black_body.png" 1725043184 155741 ec983aa8a1f7e40a73a8856eea91f366 ""
+  "figures/Inverse_square_law.png" 1725044112 411244 9d93673ea89f23fcc6d8fc8073fda994 ""
+  "figures/UBV-filter.png" 1725043333 117346 0deb4853802cc5da0562112c21245bbd ""
+  "main.aux" 1725044774 1140 d97e325fcbca6b02421a6c4ef7a8274a "lualatex"
+  "main.out" 1725044774 1978 f09745ee8678d4b2ae6f90fb0028c883 "lualatex"
+  "main.tex" 1725044771 2697 8112d87b3ce35493a92d9593ed2be718 ""
+  "main.toc" 1725044774 6338 d2ea3de033053dbdd1a42380a22a8a3c "lualatex"
   "unit-1/lesson-1.aux" 1724701537 4785 ea309ee38683d8c65f721514bf956bc6 ""
   "unit-1/lesson-2.aux" 1724701539 3444 96f20a8face969f3b5c81cf9415a0f5b ""
   "unit-1/lesson-3.aux" 1724701541 3095 d13cd94b51764eb44f7f9dd15c92e6e2 ""
   "unit-1/lesson-4.aux" 1724701543 3431 972b3f3e4310d15d20eb34b5bfa35c7b ""
   "unit-2/lesson-5.aux" 1724789000 3135 9ea3fdeb56b0afc076dfe2f8a00ad0de ""
-  "unit-2/lesson-6.aux" 1724959777 2803 2dc591e40dff390f10a257e7ed5adb1b "lualatex"
-  "unit-2/lesson-6.tex" 1724959771 10084 19482db711d9568d7aab844c0c2c8394 ""
+  "unit-2/lesson-6.aux" 1725044774 3862 4e0d14dc49172b9d4d72585b9a4e354a "lualatex"
+  "unit-2/lesson-6.tex" 1725044741 14984 0f5f0c31bf6f8511b74758ad9e595ce8 ""
   (generated)
   "main.aux"
   "main.log"

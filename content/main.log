@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.8.15)  29 AUG 2024 13:29
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.8.15)  30 AUG 2024 13:06
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1617,7 +1617,36 @@ Clase 6.
 
 
 
-] [54] [55] [56]) [57]
+]
+<figures/Inverse_square_law.png, id=246, 2569.6pt x 1713.40125pt>
+File: figures/Inverse_square_law.png Graphic file (type png)
+<use figures/Inverse_square_law.png>
+Package luatex.def Info: figures/Inverse_square_law.png  used on input line 17.
+
+(luatex.def)             Requested size: 354.86412pt x 236.60649pt.
+[54<./figures/Inverse_square_law.png>] [55] [56] [57] [58]
+<figures/UBV-filter.png, id=273, 519.44063pt x 426.84468pt>
+File: figures/UBV-filter.png Graphic file (type png)
+<use figures/UBV-filter.png>
+Package luatex.def Info: figures/UBV-filter.png  used on input line 92.
+(luatex.def)             Requested size: 443.57848pt x 364.50659pt.
+[59<./figures/UBV-filter.png>]
+
+LaTeX Warning: Reference `fig:planck-function' on page 60 undefined on input li
+ne 112.
+
+
+Overfull \hbox (20.05603pt too wide) in paragraph at lines 111--113
+\TU/Arial(0)/m/n/10.95 don-de las uni-da-des son $[]$ en la pri-me-ra ecua-ci
+ón y $[]$
+ []
+
+<figures/Black_body.png, id=281, 480.3546pt x 368.3361pt>
+File: figures/Black_body.png Graphic file (type png)
+<use figures/Black_body.png>
+Package luatex.def Info: figures/Black_body.png  used on input line 116.
+(luatex.def)             Requested size: 443.57848pt x 340.1379pt.
+[60<./figures/Black_body.png>]) [61]
 
 Package caption Warning: Unused \captionsetup[table] on input line 9.
 See the caption package documentation for explanation.
@@ -1627,21 +1656,24 @@ LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 (./unit-1/lesson-1.aux) (./unit-1/lesson-2.aux) (./unit-1/lesson-3.aux) (./unit
 -1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux))
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B64C8FC69262B386CA84B5A3828E8082;1460.
+(rerunfilecheck)             Checksum: F09745EE8678D4B2AE6F90FB0028C883;1978.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44575 strings out of 478382
+ 44629 strings out of 478382
  125240,1977958 words of node,token memory allocated
- 1682 words of node memory still in use:
-   32 hlist, 2 vlist, 14 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 3 glyph, 
-118 attribute, 95 glue_spec, 97 attribute_list, 4 write, 24 pdf_literal, 24 pdf_
-colorstack nodes
-   avail lists: 2:1551,3:315,4:153,5:173,6:96,7:5719,8:66,9:472,10:27,11:738
- 62990 multiletter control sequences out of 65536+600000
- 112 fonts using 42702735 bytes
- 95i,6n,114p,1028b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1687 words of node memory still in use:
+   32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 3 glyph, 
+127 attribute, 95 glue_spec, 101 attribute_list, 4 write, 24 pdf_literal, 24 pdf
+_colorstack nodes
+   avail lists: 2:1538,3:315,4:153,5:174,6:96,7:5335,8:66,9:472,10:27,11:687
+ 63017 multiletter control sequences out of 65536+600000
+ 112 fonts using 42702975 bytes
+ 95i,10n,114p,1028b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'subsubsection.5.5.4.
 1'
@@ -1786,10 +1818,10 @@ warning  (pdf backend): unreferenced destination with name 'chapter.1'
 usr/share/fonts/truetype/msttcorefonts/arial.ttf></usr/share/fonts/ppviewer/CAMB
 RIA.TTC></usr/share/fonts/truetype/msttcorefonts/arial.ttf></usr/share/fonts/tru
 etype/msttcorefonts/arialbd.ttf>
-Output written on main.pdf (11 pages, 170073 bytes).
+Output written on main.pdf (15 pages, 812828 bytes).
 
-PDF statistics: 297 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 131072)
- 320 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 338 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 131072)
+ 344 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -578,6 +578,15 @@ OUTPUT main.toc
 OUTPUT unit-2/lesson-6.aux
 INPUT ./unit-2/lesson-6.tex
 INPUT ./unit-2/lesson-6.tex
+INPUT ./figures/Inverse_square_law.png
+INPUT ./figures/Inverse_square_law.png
+INPUT ./figures/Inverse_square_law.png
+INPUT ./figures/UBV-filter.png
+INPUT ./figures/UBV-filter.png
+INPUT ./figures/UBV-filter.png
+INPUT ./figures/Black_body.png
+INPUT ./figures/Black_body.png
+INPUT ./figures/Black_body.png
 INPUT ./main.aux
 INPUT ./unit-1/lesson-1.aux
 INPUT ./unit-1/lesson-1.aux
