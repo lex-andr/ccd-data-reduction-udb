@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.8.15)  30 AUG 2024 13:06
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.8.15)  1 SEP 2024 22:03
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1456,7 +1456,8 @@ runsystem(rm main.aex)...executed
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 (./unit-1/lesson-1.aux) (./unit-1/lesson-2.aux) (./unit-1/lesson-3.aux) (./unit
--1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux))
+-1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux) (./unit-2/less
+on-7.aux))
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -1610,43 +1611,58 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 
 ]
-\openout2 = unit-2/lesson-6.aux
- (./unit-2/lesson-6.tex
-Clase 6.
-[53
+\openout2 = unit-2/lesson-7.aux
+ (./unit-2/lesson-7.tex
+Clase 7.
+<figures/solar-spectrum.png, id=257, 501.875pt x 50.1875pt>
+File: figures/solar-spectrum.png Graphic file (type png)
+<use figures/solar-spectrum.png>
+Package luatex.def Info: figures/solar-spectrum.png  used on input line 12.
+(luatex.def)             Requested size: 443.57848pt x 44.3604pt.
+[62
 
 
 
-]
-<figures/Inverse_square_law.png, id=246, 2569.6pt x 1713.40125pt>
-File: figures/Inverse_square_law.png Graphic file (type png)
-<use figures/Inverse_square_law.png>
-Package luatex.def Info: figures/Inverse_square_law.png  used on input line 17.
 
-(luatex.def)             Requested size: 354.86412pt x 236.60649pt.
-[54<./figures/Inverse_square_law.png>] [55] [56] [57] [58]
-<figures/UBV-filter.png, id=273, 519.44063pt x 426.84468pt>
-File: figures/UBV-filter.png Graphic file (type png)
-<use figures/UBV-filter.png>
-Package luatex.def Info: figures/UBV-filter.png  used on input line 92.
-(luatex.def)             Requested size: 443.57848pt x 364.50659pt.
-[59<./figures/UBV-filter.png>]
-
-LaTeX Warning: Reference `fig:planck-function' on page 60 undefined on input li
-ne 112.
-
-
-Overfull \hbox (20.05603pt too wide) in paragraph at lines 111--113
-\TU/Arial(0)/m/n/10.95 don-de las uni-da-des son $[]$ en la pri-me-ra ecua-ci
-ón y $[]$
- []
-
-<figures/Black_body.png, id=281, 480.3546pt x 368.3361pt>
-File: figures/Black_body.png Graphic file (type png)
-<use figures/Black_body.png>
-Package luatex.def Info: figures/Black_body.png  used on input line 116.
-(luatex.def)             Requested size: 443.57848pt x 340.1379pt.
-[60<./figures/Black_body.png>]) [61]
+<./figures/solar-spectrum.png>]
+<figures/H-spectrum.png, id=268, 647.2983pt x 95.6373pt>
+File: figures/H-spectrum.png Graphic file (type png)
+<use figures/H-spectrum.png>
+Package luatex.def Info: figures/H-spectrum.png  used on input line 32.
+(luatex.def)             Requested size: 443.57848pt x 65.53886pt.
+[63]
+<figures/hydrogen-lines-transitions.png, id=279, 501.875pt x 466.74374pt>
+File: figures/hydrogen-lines-transitions.png Graphic file (type png)
+<use figures/hydrogen-lines-transitions.png>
+Package luatex.def Info: figures/hydrogen-lines-transitions.png  used on input 
+line 41.
+(luatex.def)             Requested size: 354.86412pt x 330.0372pt.
+[64<./figures/H-spectrum.png><./figures/hydrogen-lines-transitions.png>]
+<figures/types-of-spectra.jpg, id=291, 1284.8pt x 722.7pt>
+File: figures/types-of-spectra.jpg Graphic file (type jpg)
+<use figures/types-of-spectra.jpg>
+Package luatex.def Info: figures/types-of-spectra.jpg  used on input line 53.
+(luatex.def)             Requested size: 443.57848pt x 249.50821pt.
+[65<./figures/types-of-spectra.jpg>] [66] [67]
+<figures/doppler-shift.jpg, id=317, 481.8pt x 200.75pt>
+File: figures/doppler-shift.jpg Graphic file (type jpg)
+<use figures/doppler-shift.jpg>
+Package luatex.def Info: figures/doppler-shift.jpg  used on input line 89.
+(luatex.def)             Requested size: 310.50357pt x 129.38013pt.
+[68<./figures/doppler-shift.jpg>]
+<figures/Orbits-binary.png, id=327, 1163.3061pt x 730.8906pt>
+File: figures/Orbits-binary.png Graphic file (type png)
+<use figures/Orbits-binary.png>
+Package luatex.def Info: figures/Orbits-binary.png  used on input line 105.
+(luatex.def)             Requested size: 443.57848pt x 278.68927pt.
+[69<./figures/Orbits-binary.png>]
+<figures/spectroscopic-binary-lc.png, id=336, 635.37375pt x 437.38406pt>
+File: figures/spectroscopic-binary-lc.png Graphic file (type png)
+<use figures/spectroscopic-binary-lc.png>
+Package luatex.def Info: figures/spectroscopic-binary-lc.png  used on input lin
+e 116.
+(luatex.def)             Requested size: 443.57848pt x 305.36588pt.
+) [70<./figures/spectroscopic-binary-lc.png>]
 
 Package caption Warning: Unused \captionsetup[table] on input line 9.
 See the caption package documentation for explanation.
@@ -1655,25 +1671,46 @@ See the caption package documentation for explanation.
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 (./unit-1/lesson-1.aux) (./unit-1/lesson-2.aux) (./unit-1/lesson-3.aux) (./unit
--1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux))
-
-LaTeX Warning: There were undefined references.
-
+-1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux) (./unit-2/less
+on-7.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F09745EE8678D4B2AE6F90FB0028C883;1978.
+(rerunfilecheck)             Checksum: 29253502E9DF68E4ADF037A24540118E;2189.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44629 strings out of 478382
+ 44738 strings out of 478382
  125240,1977958 words of node,token memory allocated
- 1687 words of node memory still in use:
-   32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 3 glyph, 
-127 attribute, 95 glue_spec, 101 attribute_list, 4 write, 24 pdf_literal, 24 pdf
-_colorstack nodes
-   avail lists: 2:1538,3:315,4:153,5:174,6:96,7:5335,8:66,9:472,10:27,11:687
- 63017 multiletter control sequences out of 65536+600000
- 112 fonts using 42702975 bytes
- 95i,10n,114p,1028b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1616 words of node memory still in use:
+   32 hlist, 2 vlist, 14 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 3 glyph, 
+94 attribute, 95 glue_spec, 85 attribute_list, 4 write, 24 pdf_literal, 1 pdf_ac
+tion, 24 pdf_colorstack nodes
+   avail lists: 2:1587,3:315,4:153,5:173,6:95,7:7217,8:66,9:472,10:28,11:880
+ 63065 multiletter control sequences out of 65536+600000
+ 113 fonts using 42857623 bytes
+ 95i,6n,114p,1150b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'subsection.6.6.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.6.6.1.
+5'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.6.6.1.
+4'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.6.6.1.
+3'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.6.6.1.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.6.6.1.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.6.6.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.6.6'
+
+warning  (pdf backend): unreferenced destination with name 'chapter.6'
 
 warning  (pdf backend): unreferenced destination with name 'subsubsection.5.5.4.
 1'
@@ -1814,14 +1851,14 @@ warning  (pdf backend): unreferenced destination with name 'subsection.1.1.1'
 warning  (pdf backend): unreferenced destination with name 'section.1.1'
 
 warning  (pdf backend): unreferenced destination with name 'chapter.1'
-</usr/share/fonts/ppviewer/CAMBRIA.TTC></usr/share/fonts/ppviewer/CAMBRIA.TTC></
-usr/share/fonts/truetype/msttcorefonts/arial.ttf></usr/share/fonts/ppviewer/CAMB
-RIA.TTC></usr/share/fonts/truetype/msttcorefonts/arial.ttf></usr/share/fonts/tru
-etype/msttcorefonts/arialbd.ttf>
-Output written on main.pdf (15 pages, 812828 bytes).
+</usr/share/fonts/truetype/msttcorefonts/Arial_Italic.ttf></usr/share/fonts/ppvi
+ewer/CAMBRIA.TTC></usr/share/fonts/truetype/msttcorefonts/arial.ttf></usr/share/
+fonts/ppviewer/CAMBRIA.TTC></usr/share/fonts/truetype/msttcorefonts/arial.ttf></
+usr/share/fonts/truetype/msttcorefonts/arialbd.ttf>
+Output written on main.pdf (15 pages, 1295208 bytes).
 
-PDF statistics: 338 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 131072)
+PDF statistics: 394 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 97 named destinations out of 1000 (max. 131072)
  344 words of extra memory for PDF output out of 10000 (max. 100000000)
 
