@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Acceder al tercer elemento (índice 2)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{arreglo\PYGZus{}1}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{])}
+\end{Verbatim}

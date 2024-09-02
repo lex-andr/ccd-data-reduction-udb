@@ -1,6 +1,6 @@
----------------------------------------------------------------------
-TypeError                           Traceback (most recent call last)
-Cell In[28], line 1
-----> 1 saludar(action='Repetir')
-
-TypeError: saludar() got an unexpected keyword argument 'action'
+plt.contourf(X, Y, Z, cmap='viridis')
+plt.colorbar(label='Densidad de probabilidad')
+plt.title('Distribución Gaussiana en 2D')
+plt.xlabel('X')
+plt.ylabel('Y')
+plt.show()

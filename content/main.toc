@@ -77,3 +77,15 @@
 \contentsline {subsection}{\numberline {7.2}Velocidades radiales}{66}{subsection.7.7.2}%
 \contentsline {subsubsection}{\numberline {7.2.1}El efecto Doppler}{67}{subsubsection.7.7.2.1}%
 \contentsline {subsubsection}{\numberline {7.2.2}Sistemas binarios espectroscópicos}{68}{subsubsection.7.7.2.2}%
+\contentsline {part}{3\hspace {1em}Python para datos CCD}{71}{part.3}%
+\contentsline {chapter}{\numberline {8}Visualización de datos con Python}{72}{chapter.8}%
+\contentsline {section}{\numberline {8}Numpy y Matplotlib}{72}{section.8.8}%
+\contentsline {subsection}{\numberline {8.1}Arreglos numéricos con numpy}{72}{subsection.8.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Arreglos de ceros y unos}{73}{subsubsection.8.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Arreglos ordenados}{74}{subsubsection.8.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.3}Arreglos aleatorios}{75}{subsubsection.8.8.1.3}%
+\contentsline {subsection}{\numberline {8.2}Visualización con Matplotlib}{76}{subsection.8.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Gráfico de funciones}{76}{subsubsection.8.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Gráfico de histogramas}{77}{subsubsection.8.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Visualización de matrices}{78}{subsubsection.8.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}Gráfico de una función de dos variables}{79}{subsubsection.8.8.2.4}%

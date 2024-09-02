@@ -1,0 +1,47 @@
+\chapter{Visualización de datos con Python}
+
+% Setting the cell notebooks again to zero
+\setcounter{ipythcntr}{0}
+
+Una de las múltiples aplicaciones de Python es la visualización de datos, que permite crear gráficas de funciones con una o dos variables y generar imágenes a partir de matrices de datos. En Python, estas matrices se representan mediante arreglos numéricos multidimensionales utilizando el módulo \pynorm{numpy}. Las imágenes astronómicas obtenidas con dispositivos CCD también consisten en arreglos numéricos de dos o más dimensiones, por lo que es esencial aprender a manipular este tipo de datos de manera eficiente antes de visualizarlos.
+
+En esta clase, abordaremos el uso de los módulos \pynorm{numpy} y \pynorm{matplotlib}. Con \pynorm{numpy}, aprenderemos a crear y manejar arreglos numéricos de diversas dimensiones, facilitando el procesamiento y análisis de datos complejos. Posteriormente, utilizaremos \pynorm{matplotlib} para visualizar estos datos de forma clara y efectiva, creando gráficos e imágenes que nos permitan interpretar y comunicar mejor la información obtenida.
+
+\section{Arreglos numéricos con numpy}
+Los arreglos, en inglés llamados \emph{arrays}, son una estructura de datos que permiten almacenar múltiples valores en una sola variable. Son similares a las listas, con la diferencia que todos sus elementos son del mismo tipo de dato. El módulo \pynorm{numpy}, que es una abreviación de \emph{NUMerical PYthon}, está diseñado para realizar tareas matemáticas de cualquier tipo sobre arreglos de manera eficiente. Si por algún motivo tu versión de Python no cuenta con este módulo, puedes instalarlo escribiendo \pybold{pip install numpy} en una terminal.
+
+Para usarlo, primero debemos importarlo de la misma manera que hicimos con el módulo \pynorm{math} anteriormente. Por convención, \pynorm{numpy} siempre se importa asignándole el alias \pynorm{np}. Para crear una arreglo, se utiliza la función \pynorm{array()} definida dentro de \pynorm{numpy}. Los elementos se escriben separados por comas y encerrados entre corchetes dentro de \pynorm{array()}. Por ejemplo, para crear un arreglo unidimensional, se hace de la siguiente manera: 
+
+\begin{pyin}
+import numpy as np
+
+#- Crear un arreglo
+arreglo_1 = np.array([1, 2, 3, 4, 5])
+\end{pyin}
+
+Los arreglos también admiten acceder a tus elementos mediante índices. Por ejemplo, para acceder al tercer elemento de \pynorm{arreglo_1}:
+\begin{pyin}[]
+#- Acceder al tercer elemento (índice 2)
+print(arreglo_1[2])
+\end{pyin}
+\begin{pyprint}
+3
+\end{pyprint}
+
+Presta atención a la siguiente sintaxis, particularmente a la cantidad de corchetes que se necesitan y en qué ubicación se encuentran para definir un arreglo de dos dimensiones (una matriz):
+
+\begin{pyin}[]
+#- Crear un arreglo bidimensional (matriz de 2x3 elementos)
+arreglo_bidimensional = np.array([ [1, 2, 3], [4, 5, 6] ])
+arreglo_bidimensional
+\end{pyin}
+\begin{pyout}
+array([[1, 2, 3],
+       [4, 5, 6]])
+\end{pyout}
+
+Para acceder a los elementos de una matriz también se utilizan índices pero en formato de lista:
+
+
+
+
