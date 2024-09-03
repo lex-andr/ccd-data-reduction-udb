@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Distancia en kilopársec}
+\PYG{n}{distance} \PYG{o}{=} \PYG{l+m+mi}{1} \PYG{o}{*} \PYG{n}{u}\PYG{o}{.}\PYG{n}{kpc}
+\PYG{n}{distance}
+\end{Verbatim}

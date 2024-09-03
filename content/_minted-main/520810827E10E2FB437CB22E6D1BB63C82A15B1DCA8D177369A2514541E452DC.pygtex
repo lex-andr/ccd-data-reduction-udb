@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{distance\PYGZus{}units} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}cm\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}m\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}km\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}lyr\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}pc\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}nm\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}au\PYGZsq{}}\PYG{p}{]}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Distancia equivalente en varias unidades}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+si}{\PYGZob{}}\PYG{n}{distance}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{ es equivalente a:}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s1}{=========================\PYGZsq{}}\PYG{p}{)}
+
+\PYG{k}{for} \PYG{n}{unit} \PYG{o+ow}{in} \PYG{n}{distance\PYGZus{}units}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(} \PYG{n}{distance}\PYG{o}{.}\PYG{n}{to}\PYG{p}{(}\PYG{n}{u}\PYG{o}{.}\PYG{n}{Unit}\PYG{p}{(}\PYG{n}{unit}\PYG{p}{))} \PYG{p}{)}
+\end{Verbatim}

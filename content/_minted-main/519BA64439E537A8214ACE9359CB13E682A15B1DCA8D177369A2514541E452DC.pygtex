@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{calibrated\PYGZus{}stars} \PYG{o}{=} \PYG{p}{(}\PYG{n}{realistic\PYGZus{}stars} \PYG{o}{\PYGZhy{}} \PYG{n}{bias\PYGZus{}with\PYGZus{}noise} \PYG{o}{\PYGZhy{}} \PYG{n}{scaled\PYGZus{}dark\PYGZus{}current}\PYG{p}{)} \PYG{o}{/} \PYG{n}{flat}
+\end{Verbatim}

@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+go}{SIMPLE  =                    T / Fits standard}
+\PYG{g+go}{BITPIX  =                   16 / Bits per pixel}
+\PYG{g+go}{NAXIS   =                    2 / Number of axes}
+\PYG{g+go}{NAXIS1  =                 1049 / Axis length}
+\PYG{g+go}{NAXIS2  =                 2051 / Axis length}
+\PYG{g+go}{EXTEND  =                    F / File may contain extensions}
+\PYG{g+go}{BSCALE  =           1.000000E0 / REAL = TAPE*BSCALE + BZERO}
+\PYG{g+go}{BZERO   =           3.276800E4 /}
+\PYG{g+go}{ORIGIN  = \PYGZsq{}NOAO\PYGZhy{}IRAF FITS Image Kernel July 2003\PYGZsq{} / FITS file originator}
+\PYG{g+go}{DATE    = \PYGZsq{}2021\PYGZhy{}10\PYGZhy{}07T01:52:03\PYGZsq{} / Date FITS file was generated}
+\PYG{g+go}{IRAF\PYGZhy{}TLM= \PYGZsq{}2021\PYGZhy{}10\PYGZhy{}07T01:52:03\PYGZsq{} / Time of last modification}
+\PYG{g+go}{OBJECT  = \PYGZsq{}BIAS    \PYGZsq{}           / Name of the object observed}
+\PYG{g+go}{ORIGFILE= \PYGZsq{}Jul12\PYGZus{}204354.fits\PYGZsq{}  / Filename}
+\PYG{g+go}{INSTRUME= \PYGZsq{}OSIRIS  \PYGZsq{}           / Instrument Name}
+\PYG{g+go}{DETECTOR= \PYGZsq{}E2V CCD44\PYGZus{}82\PYGZus{}BI\PYGZsq{}    / Detectors Model}
+\PYG{g+go}{DETSIZE = \PYGZsq{}[1:4096,1:4102]\PYGZsq{}    / Maximum Imaging Pixel Area}
+\PYG{g+go}{DATE\PYGZhy{}OBS= \PYGZsq{}2020\PYGZhy{}07\PYGZhy{}12T20:43:39.592\PYGZsq{} / Time when starts the first exposure (in fr}
+\PYG{g+go}{ELAPSED = \PYGZsq{}22.969  \PYGZsq{}           / Total elapsed time from start to end (s)}
+\PYG{g+gp}{...}
+\end{Verbatim}

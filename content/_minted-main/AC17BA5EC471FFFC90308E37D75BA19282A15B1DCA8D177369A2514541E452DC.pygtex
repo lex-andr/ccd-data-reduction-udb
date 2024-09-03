@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Ruta a la ubicación de los datos}
+\PYG{n}{bias\PYGZus{}image} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}OB0001/bias/0002611406\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits\PYGZsq{}}
+\PYG{n}{flat\PYGZus{}image} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}OB0001/flat/0002615401\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisSkyFlat1.fits\PYGZsq{}}
+\PYG{n}{object\PYGZus{}image} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}OB0001/object/0002611437\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBroadBandImage1.fits\PYGZsq{}}
+\end{Verbatim}

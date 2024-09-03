@@ -1,5 +1,5 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {part}{1\hspace {1em}Introducción a Python}{4}{part.1}%
+\contentsline {part}{1\hspace {1em}Introducción a Python}{5}{part.1}%
 \contentsline {chapter}{\numberline {1}Introducción a Python}{4}{chapter.1}%
 \contentsline {section}{\numberline {1}Nociones básicas}{4}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1}Python en diferentes sistemas operativos}{4}{subsection.1.1.1}%
@@ -89,3 +89,8 @@
 \contentsline {subsubsection}{\numberline {8.2.2}Gráfico de histogramas}{77}{subsubsection.8.8.2.2}%
 \contentsline {subsubsection}{\numberline {8.2.3}Visualización de matrices}{78}{subsubsection.8.8.2.3}%
 \contentsline {subsubsection}{\numberline {8.2.4}Gráfico de una función de dos variables}{79}{subsubsection.8.8.2.4}%
+\contentsline {chapter}{\numberline {9}Reducción de datos con Python}{82}{chapter.9}%
+\contentsline {section}{\numberline {9}El paquete Astropy}{82}{section.9.9}%
+\contentsline {subsection}{\numberline {9.1}El módulo astropy.units}{82}{subsection.9.9.1}%
+\contentsline {subsection}{\numberline {9.2}Trabajando con tablas}{84}{subsection.9.9.2}%
+\contentsline {subsection}{\numberline {9.3}Un ejemplo un poco realista}{87}{subsection.9.9.3}%

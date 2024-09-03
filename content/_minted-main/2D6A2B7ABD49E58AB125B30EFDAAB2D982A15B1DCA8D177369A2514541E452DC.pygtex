@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{image\PYGZus{}sim} \PYG{k}{as} \PYG{n+nn}{imsim}
+\end{Verbatim}

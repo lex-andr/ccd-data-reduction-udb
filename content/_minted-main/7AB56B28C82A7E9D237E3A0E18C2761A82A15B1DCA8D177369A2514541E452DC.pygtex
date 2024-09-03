@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{realistic\PYGZus{}stars} \PYG{o}{=} \PYG{p}{(}\PYG{n}{imsim}\PYG{o}{.}\PYG{n}{stars}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,}\PYG{l+m+mi}{50}\PYG{p}{,}\PYG{n}{max\PYGZus{}counts}\PYG{o}{=}\PYG{n}{max\PYGZus{}stars\PYGZus{}counts}\PYG{p}{)} \PYG{o}{+}
+                   \PYG{n}{imsim}\PYG{o}{.}\PYG{n}{dark\PYGZus{}current}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,} \PYG{n}{dark}\PYG{p}{,} \PYG{n}{stars\PYGZus{}exposure}\PYG{p}{,}  \PYG{n}{hot\PYGZus{}pixels}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)} \PYG{o}{+}
+                   \PYG{n}{imsim}\PYG{o}{.}\PYG{n}{bias}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,} \PYG{n}{bias\PYGZus{}level}\PYG{p}{,} \PYG{n}{realistic}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)} \PYG{o}{+}
+                   \PYG{n}{imsim}\PYG{o}{.}\PYG{n}{read\PYGZus{}noise}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,} \PYG{n}{read\PYGZus{}noise}\PYG{p}{)}
+                  \PYG{p}{)}
+\end{Verbatim}

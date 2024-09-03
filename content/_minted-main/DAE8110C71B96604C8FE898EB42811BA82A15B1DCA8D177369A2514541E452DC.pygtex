@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{bias\PYGZus{}with\PYGZus{}noise} \PYG{o}{=} \PYG{p}{(}\PYG{n}{imsim}\PYG{o}{.}\PYG{n}{bias}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,} \PYG{n}{bias\PYGZus{}level}\PYG{p}{,} \PYG{n}{realistic}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)} \PYG{o}{+}
+                   \PYG{n}{imsim}\PYG{o}{.}\PYG{n}{read\PYGZus{}noise}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,} \PYG{n}{read\PYGZus{}noise}\PYG{p}{))}
+
+\PYG{n}{dark\PYGZus{}frame\PYGZus{}with\PYGZus{}noise} \PYG{o}{=} \PYG{p}{(}\PYG{n}{imsim}\PYG{o}{.}\PYG{n}{bias}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,}\PYG{n}{bias\PYGZus{}level}\PYG{p}{,}\PYG{n}{realistic}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)} \PYG{o}{+}
+                         \PYG{n}{imsim}\PYG{o}{.}\PYG{n}{dark\PYGZus{}current}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,} \PYG{n}{dark}\PYG{p}{,} \PYG{n}{dark\PYGZus{}exposure}\PYG{p}{,} \PYG{n}{hot\PYGZus{}pixels}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)} \PYG{o}{+}
+                         \PYG{n}{imsim}\PYG{o}{.}\PYG{n}{read\PYGZus{}noise}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,} \PYG{n}{read\PYGZus{}noise}\PYG{p}{))}
+
+\PYG{n}{flat} \PYG{o}{=} \PYG{n}{imsim}\PYG{o}{.}\PYG{n}{sensitivity\PYGZus{}variations}\PYG{p}{(}\PYG{n}{image}\PYG{p}{)}
+\end{Verbatim}

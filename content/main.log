@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.8.15)  2 SEP 2024 16:25
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.8.15)  2 SEP 2024 18:34
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1457,7 +1457,7 @@ LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 (./unit-1/lesson-1.aux) (./unit-1/lesson-2.aux) (./unit-1/lesson-3.aux) (./unit
 -1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux) (./unit-2/less
-on-7.aux) (./unit-3/lesson-9.aux))
+on-7.aux) (./unit-3/lesson-9.aux) (./unit-3/lesson-10.aux))
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -1598,11 +1598,11 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1] [2])
+[1] [2] [3])
 \tf@toc=\write8
 
 \openout8 = main.toc
-[3] [4
+[4] [5
 
 ] [48
 
@@ -1616,18 +1616,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 
 ]
-\openout2 = unit-3/lesson-9.aux
- (./unit-3/lesson-9.tex
-Clase 8.
-
-Overfull \hbox (10.42874pt too wide) in paragraph at lines 1--1
-|[]\TU/Arial(0)/m/n/24 Vi-sua-li-za-ción de da-tos con Python| 
- []
-
+\openout2 = unit-3/lesson-10.aux
+ (./unit-3/lesson-10.tex
+Clase 9.
 
 \openout4 = main.pyg
 (./_minted-main/friendly.pygstyle)
-(./_minted-main/93D7964EC38E9A2894A602B6C93F8CB7541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Consolas' (encoding: TU).
@@ -1636,148 +1631,107 @@ Package microtype Info: Loading generic protrusion settings for font family
 )
 \openout4 = main.pyg
 
-(./_minted-main/93D7964EC38E9A2894A602B6C93F8CB7541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/92EEBA6A4A64A763F34C9EDA4F0A420E541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/BFDD14487827B806DFC0B0E3C5E38A54541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/93D7964EC38E9A2894A602B6C93F8CB7541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/92EEBA6A4A64A763F34C9EDA4F0A420E541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+ (./_minted-main/bw.pygstyle)
+(./_minted-main/013C6705FDA216E418CD85A38EE7E1068A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/E00CF001DD1B9411808595A64FB36AFB541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/BFDD14487827B806DFC0B0E3C5E38A54541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/5323583C5E13C55F28CADCB46D93D13E541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/93D7964EC38E9A2894A602B6C93F8CB7541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/A9391AC7E39DD775943376DBE2DFF158541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/700E356AC91D153CD005C63E87878AE0541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/674F3DEF787399AF6E8148D5C09EC115541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/93D7964EC38E9A2894A602B6C93F8CB7541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/A681902E65722C790DF8BD891CDC0EAB541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/60BB504C6D237EF94117733BE20E2D29541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/93D7964EC38E9A2894A602B6C93F8CB7541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/60BB504C6D237EF94117733BE20E2D29541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/C4D5BF75C0F9B0FAE6FAD34539AE2826541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \tcb@out=\write9
 
 \openout9 = main.listing
 
-(./_minted-main/B9352A2A925487D3E7F24DB5E649539682A15B1DCA8D177369A2514541E452D
-C.pygtex) [72
-
-
-]
-\openout4 = main.pyg
-
-(./_minted-main/C6600D32C8D5F2AC9D8D5259C4180C4F541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/6C683FAE35B59653DE35598BBBF078C982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/B85FEAA50FA45940B273579FAF7487E482A15B1DCA8D177369A2514541E452D
-C.pygtex)
+(./_minted-main/BB7D31CC4F2C082FD3788A73DEF7847C82A15B1DCA8D177369A2514541E452D
+C.pygtex) [82
+
+
+
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+]
 \openout9 = main.listing
  (./_minted-main/default.pygstyle)
-(./_minted-main/6D7FCE9FEE471194AA8B5B6E47267F03BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/FA1FEC964E78D17B534BBF4E116E0EB882A15B1DCA8D177369A2514541E452D
-C.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/50A8B76D929467D421D7BE6D3B5D5F00BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/8B9270481C4432ED0BE1727DEED550B982A15B1DCA8D177369A2514541E452D
-C.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/26AB0DB90D72E28AD0BA1E22EE510510BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+(./_minted-main/DA6866D6A0F5BF1C31325408A0D43FEEBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/24224928EF170962CD7ECA5C4769F2BB541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/92EEBA6A4A64A763F34C9EDA4F0A420E541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/CC737CF6671ADED014BE08C9E3BAAD44541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/93B891B79358C92F1AABB4CE06192947541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/9A65861BADDD864715C802C6BEEF6105541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/13F6D98A2BFD5FB58595BEC5C15DD69C82A15B1DCA8D177369A2514541E452D
+(./_minted-main/12E8634313A1DEB039DDF8DA8181721582A15B1DCA8D177369A2514541E452D
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/164271C6921AFAD2BC42928E72947F7EBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+(./_minted-main/92CD41B609D59039B6691FF34FBBAA30BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/9A65861BADDD864715C802C6BEEF6105541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/8F6DB841166185F14FD87925FC54E9E3541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/520810827E10E2FB437CB22E6D1BB63C82A15B1DCA8D177369A2514541E452D
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/B343EB6D7DDEC7E524D9F879F9697C84BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/66F30EEAA4C0411DFED9DA98963827CA82A15B1DCA8D177369A2514541E452D
-C.pygtex) [73
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
+(./_minted-main/15085FBCB1C45439371B14EC732C3BC082A15B1DCA8D177369A2514541E452D
+C.pygtex) [83
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -1859,138 +1813,80 @@ Missing character: There is no e (U+0065) in font nullfont!
 ]
 \openout9 = main.listing
 
-(./_minted-main/A774EB5FD33FECC443ADC2C83B56457ABE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+(./_minted-main/B8BE2EBFB5C92CB5EBAF671C71303868BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/1722356DB8B3BA501190FA53639F803382A15B1DCA8D177369A2514541E452D
+(./_minted-main/7FDADB779740A12E32FDF469D085520482A15B1DCA8D177369A2514541E452D
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/9D34C724AA1F2F885AD6E5B3A728C9EFBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/37EB49C580BDB9672255C5ED8B2899D682A15B1DCA8D177369A2514541E452D
-C.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/B8F9BEEB6B00720282F92B34408EC3C6BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+(./_minted-main/CBD8BFB1681E7C76079884B38894AC14BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/51BA8A4C799DB10D82330BDA8E0EEBAD541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/1A11348AC8AACE91506F1C302D57B1D0541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/51BA8A4C799DB10D82330BDA8E0EEBAD541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/77E53546874F3AF602E2D8CBE4EEF974541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/B026324C6904B2A9CB4B88D6D61C81D1541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout9 = main.listing
+(./_minted-main/89AE37F74AE998AC7322C5B745566E62A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
 
-(./_minted-main/2F791461B637321AFE8D9C082054F5BB82A15B1DCA8D177369A2514541E452D
+(./_minted-main/1A11348AC8AACE91506F1C302D57B1D0541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout4 = main.pyg
 
-(./_minted-main/304C1E4EE41D9B3E333E6618D375AAB7BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+(./_minted-main/89AE37F74AE998AC7322C5B745566E62A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/A9391AC7E39DD775943376DBE2DFF158541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/D9B3D4BF20E314536E74AF4FB7B98E1B541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/69C397244A3D7E23B370ADBDA862760FA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/66BC7270326B0BCD08B5FC0C83536629A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2224CAFFA98B46DA55ED4131B01A9989A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/E35B4382E6BE702FBA12F42ECA26EF06A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/69C397244A3D7E23B370ADBDA862760FA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C9A5AA53B1891AA96B1BB76C7D4619B3A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2224CAFFA98B46DA55ED4131B01A9989A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/E35B4382E6BE702FBA12F42ECA26EF06A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/D3F061C1697F2E4742AFC8ABE3FA59A682A15B1DCA8D177369A2514541E452D
-C.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/C2F23B5B543B1C867807FE9781E444E6BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/3BC3B04C0D6AE0E03D974578D70BE28482A15B1DCA8D177369A2514541E452D
-C.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/B25FB31128B2D2C2E9A9BECC49404725BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [74
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
+(./_minted-main/AC17BA5EC471FFFC90308E37D75BA19282A15B1DCA8D177369A2514541E452D
+C.pygtex) [84
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -2059,53 +1955,32 @@ Missing character: There is no e (U+0065) in font nullfont!
 ]
 \openout4 = main.pyg
 
-(./_minted-main/9C5E99F4C8827FFA03142778107191C0541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/A9391AC7E39DD775943376DBE2DFF158541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/9F9D27F328DD3DDF25B248AE5856BAEE82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/DED9EEEF0E7D8DE0AFAF41817F0CE389541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/71A15B456DAB4C7B9C98F33BD0E619C3541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/223988808F12194D00935F3CE7893B4B82A15B1DCA8D177369A2514541E452D
+(./_minted-main/D36D9D416C291461AF0FDEC8F1BCC87682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/7A37CAF1F6FB15650265E127BAE853D0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+(./_minted-main/78632FD351738BAD5F3C8124FD1AB9A7BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/93D7964EC38E9A2894A602B6C93F8CB7541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/14595AED938F6287C9D0136E51E44DB8541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/8A682A90B5230F568138FA5BC7EE94D4541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/6137CDE4893C59F76F005A8123D8E8E6541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/8165BA516B7FFEF2179FDA4626DF627282A15B1DCA8D177369A2514541E452D
-C.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/D83BF44C08C8DDF6481FCAF0DE32C241BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [75
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
+(./_minted-main/7D09C33207059AD00023DAEB809EEE3682A15B1DCA8D177369A2514541E452D
+C.pygtex) [85
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -2159,199 +2034,45 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout4 = main.pyg
-
-(./_minted-main/83AA8FBACB3C94BB93478F97EF998D45541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-Overfull \hbox (30.73108pt too wide) in paragraph at lines 153--155
-\TU/Arial(0)/m/n/10.95 ción $\TU/CambriaMath(1)/m/n/10.95 𝜆$\TU/Arial(0)/m/
-n/10.95 . Pa-ra crear un arre-glo que si-ga es-ta dis-tri-bu-ción se uti-li-za la fun-ci
-ón []
- []
-
-
 \openout9 = main.listing
 
-(./_minted-main/3A6F7B167170186D27E1BAB09E0B2AD082A15B1DCA8D177369A2514541E452D
-C.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/048F7E994D0959A0200D7B126F8F93E5BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+(./_minted-main/6FB8BCD372383D483398052CE7E84AA4BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/BFDD14487827B806DFC0B0E3C5E38A54541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/597D7F1A44B3750A6E34D039643A5116541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/93D7964EC38E9A2894A602B6C93F8CB7541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/D7CB0044FE3B2A357B1F0976C2AC8F11541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/4F2338257C9D07F42739A849BC89CB7C82A15B1DCA8D177369A2514541E452D
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/93D7964EC38E9A2894A602B6C93F8CB7541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/D7CB0044FE3B2A357B1F0976C2AC8F11541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/775D6B1824E55EEBA322E4D3FE87835B541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/5DB1BA45F6C9EFCE0CB6D59689D027D082A15B1DCA8D177369A2514541E452D
-C.pygtex) [76
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-]
-\openout4 = main.pyg
-
-(./_minted-main/083EEC8F92D4071AB82385AAEA7C1979541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/D7CB0044FE3B2A357B1F0976C2AC8F11541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-Overfull \hbox (53.69884pt too wide) in paragraph at lines 187--188
-[]\TU/Arial(0)/m/n/10.95 Pa-ra vi-sua-li-zar-las, uti-li-za-mos la fun-ción 
-«[]» de-fi-ni-da den-tro del sub-mó-du-lo []
- []
-
-
-\openout9 = main.listing
-
-(./_minted-main/BC2DAB40E541883FBCC14356AB04FD7082A15B1DCA8D177369A2514541E452D
-C.pygtex)
-<figures/matplotlib_lines.png, id=336, 404.4711pt x 301.6068pt>
-File: figures/matplotlib_lines.png Graphic file (type png)
-<use figures/matplotlib_lines.png>
-Package luatex.def Info: figures/matplotlib_lines.png  used on input line 206.
-(luatex.def)             Requested size: 310.50357pt x 231.53381pt.
-
-\openout4 = main.pyg
-
-(./_minted-main/489EC2A7F1C439DCFC132736E769DC98541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/BFDD14487827B806DFC0B0E3C5E38A54541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout9 = main.listing
-
-(./_minted-main/7D8BC440E4A7EA21AA720281655B2E5D82A15B1DCA8D177369A2514541E452D
-C.pygtex) [77
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-<./figures/matplotlib_lines.png>]
-<figures/matplotlib_hist.png, id=344, 135.6267pt x 104.0688pt>
-File: figures/matplotlib_hist.png Graphic file (type png)
-<use figures/matplotlib_hist.png>
-Package luatex.def Info: figures/matplotlib_hist.png  used on input line 227.
-(luatex.def)             Requested size: 310.50357pt x 238.25592pt.
-
 \openout4 = main.pyg
 
 (./_minted-main/F38021CA65B082E9B82B0E88D5BFAD09541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/FD4322AB6C35BF223F0F4ED7228D4AAD82A15B1DCA8D177369A2514541E452D
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/B0D0A0C769F2ADED2FD40B8804FE3F24BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
+9.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/D7CB0044FE3B2A357B1F0976C2AC8F11541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
+(./_minted-main/05DED513C04CC177A08AEFEFFCF6C6AFA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
 \openout4 = main.pyg
 
-(./_minted-main/14595AED938F6287C9D0136E51E44DB8541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-Overfull \hbox (31.57803pt too wide) in paragraph at lines 230--231
-\TU/Arial(0)/m/n/10.95 Pa-ra vi-sua-li-zar ma-tri-ces en Python, se uti-li-za la
- fun-ción «[]» de-fi-ni-da en [].
- []
+(./_minted-main/C9D4EE7BA50EBC3EEE2EF0161F5DA2AEA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
 
+(./_minted-main/2D4EDF7544441868D89A1EB8216F150082A15B1DCA8D177369A2514541E452D
+C.pygtex)
+<figures/binary_bias_example.png, id=327, 145.2627pt x 200.9106pt>
+File: figures/binary_bias_example.png Graphic file (type png)
+<use figures/binary_bias_example.png>
+Package luatex.def Info: figures/binary_bias_example.png  used on input line 17
+1.
+(luatex.def)             Requested size: 177.42868pt x 245.41711pt.
 
 \openout9 = main.listing
 
-(./_minted-main/26FB8C4B73CBB57DA7CF08BA600E889C82A15B1DCA8D177369A2514541E452D
-C.pygtex)
-<figures/matplotlib_matrix.png, id=345, 118.5228pt x 100.2144pt>
-File: figures/matplotlib_matrix.png Graphic file (type png)
-<use figures/matplotlib_matrix.png>
-Package luatex.def Info: figures/matplotlib_matrix.png  used on input line 245.
-
-(luatex.def)             Requested size: 310.50357pt x 262.58807pt.
-[78
+(./_minted-main/8F5A901870233FB153D32CA353050D8182A15B1DCA8D177369A2514541E452D
+C.pygtex) [86
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -2378,136 +2099,213 @@ Missing character: There is no g (U+0067) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-<./figures/matplotlib_hist.png>]
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+<./figures/binary_bias_example.png>]
+<figures/binary_flat_example.png, id=336, 213.1965pt x 185.9748pt>
+File: figures/binary_flat_example.png Graphic file (type png)
+<use figures/binary_flat_example.png>
+Package luatex.def Info: figures/binary_flat_example.png  used on input line 18
+1.
+(luatex.def)             Requested size: 221.78923pt x 193.47733pt.
+
 \openout9 = main.listing
 
-(./_minted-main/56941E7BD14920F7032BF9CB75A3D9B582A15B1DCA8D177369A2514541E452D
+(./_minted-main/B0B9B92A273EAF5A97B34A79C242391082A15B1DCA8D177369A2514541E452D
 C.pygtex)
+<figures/binary_object_example.png, id=337, 211.0284pt x 185.9748pt>
+File: figures/binary_object_example.png Graphic file (type png)
+<use figures/binary_object_example.png>
+Package luatex.def Info: figures/binary_object_example.png  used on input line 
+191.
+(luatex.def)             Requested size: 221.78923pt x 195.46942pt.
+
 \openout4 = main.pyg
 
-(./_minted-main/CC5372698C562C0B1D250DC999380D79541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
+(./_minted-main/14241705640D22B183BF3BBF4CBD6DB4541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex) [87
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+<./figures/binary_flat_example.png><./figures/binary_object_example.png>]
+\openout9 = main.listing
 
-(./_minted-main/2C3E605002732EDBF8157C2E11253B86541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/2D6A2B7ABD49E58AB125B30EFDAAB2D982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/D67FF5706C4D6815DF874B42C60A819182A15B1DCA8D177369A2514541E452D
+(./_minted-main/3F6F69FD2DD3154C351FE87A51AC6BEC82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/8504E947914A66F0BAFB0C449D308FFF82A15B1DCA8D177369A2514541E452D
-C.pygtex) [79
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-<./figures/matplotlib_matrix.png>]
-<figures/matplotlib_contour.png, id=361, 129.8451pt x 100.6962pt>
-File: figures/matplotlib_contour.png Graphic file (type png)
-<use figures/matplotlib_contour.png>
-Package luatex.def Info: figures/matplotlib_contour.png  used on input line 277
-.
-(luatex.def)             Requested size: 310.50357pt x 240.79997pt.
-
-\openout9 = main.listing
-
-(./_minted-main/E41663210309A1245366221245CC7D6C82A15B1DCA8D177369A2514541E452D
+(./_minted-main/DAE8110C71B96604C8FE898EB42811BA82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/7DF7755DD30183DE8EEA171C47D6181982A15B1DCA8D177369A2514541E452D
+(./_minted-main/7AB56B28C82A7E9D237E3A0E18C2761A82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/06E6BD1249DEC936802D2A740853B44D82A15B1DCA8D177369A2514541E452D
-C.pygtex) [80
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-<./figures/matplotlib_contour.png>]
-\openout4 = main.pyg
-
-(./_minted-main/6865C8D2A62484F058029C09BF1DCC05541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/157A973CF09F2BD15FE2B88BB548E262541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)
-\openout4 = main.pyg
-
-(./_minted-main/86DFDE310E41F035B15F8FB33A911580541C68F80C6A6F06151AFD63BAE50EB
+(./_minted-main/7B4F179C20B29B93817E578EC10F105182A15B1DCA8D177369A2514541E452D
 C.pygtex)
 \openout9 = main.listing
 
-(./_minted-main/12763CF0EA37C561C65D683DD6F817E982A15B1DCA8D177369A2514541E452D
+(./_minted-main/519BA64439E537A8214ACE9359CB13E682A15B1DCA8D177369A2514541E452D
+C.pygtex) [88
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+]
+\openout9 = main.listing
+
+(./_minted-main/2945E945CC74547F838BC54D8AF9FB1582A15B1DCA8D177369A2514541E452D
 C.pygtex)
-<figures/matplotlib_2d_gaussian.png, id=370, 137.313pt x 109.1277pt>
-File: figures/matplotlib_2d_gaussian.png Graphic file (type png)
-<use figures/matplotlib_2d_gaussian.png>
-Package luatex.def Info: figures/matplotlib_2d_gaussian.png  used on input line
- 318.
-(luatex.def)             Requested size: 310.50357pt x 246.76721pt.
-) [81
+\openout9 = main.listing
+
+(./_minted-main/7911CF9B2799D19DFDD281AECFC29CCA82A15B1DCA8D177369A2514541E452D
+C.pygtex)
+<figures/counts_hist_simulated.png, id=357, 190.5519pt x 182.1204pt>
+File: figures/counts_hist_simulated.png Graphic file (type png)
+<use figures/counts_hist_simulated.png>
+Package luatex.def Info: figures/counts_hist_simulated.png  used on input line 
+264.
+(luatex.def)             Requested size: 310.50357pt x 296.79526pt.
+) [89
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -2534,7 +2332,7 @@ Missing character: There is no g (U+0067) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-<./figures/matplotlib_2d_gaussian.png>]
+<./figures/counts_hist_simulated.png>]
 
 Package caption Warning: Unused \captionsetup[table] on input line 9.
 See the caption package documentation for explanation.
@@ -2544,24 +2342,53 @@ LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 (./unit-1/lesson-1.aux) (./unit-1/lesson-2.aux) (./unit-1/lesson-3.aux) (./unit
 -1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux) (./unit-2/less
-on-7.aux) (./unit-3/lesson-9.aux))
+on-7.aux) (./unit-3/lesson-9.aux) (./unit-3/lesson-10.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 86D4231ABD46CB53BDA3AB11FDBAA26F;2834.
+(rerunfilecheck)             Checksum: 4571C00C7EE7053E2004E1E57AD0C4A4;1549.
 runsystem(rm main.pyg)...executed
 )
 
 Here is how much of LuaTeX's memory you used:
- 46642 strings out of 478382
+ 46349 strings out of 478382
  125240,1977958 words of node,token memory allocated
- 1627 words of node memory still in use:
-   32 hlist, 2 vlist, 14 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 1 margin_
-kern, 4 glyph, 96 attribute, 95 glue_spec, 86 attribute_list, 4 write, 24 pdf_li
-teral, 24 pdf_colorstack nodes
-   avail lists: 1:1,2:5937,3:2107,4:297,5:206,6:105,7:4886,8:78,9:1204,10:17,11:
-627,12:2
- 63497 multiletter control sequences out of 65536+600000
- 118 fonts using 44833583 bytes
- 95i,11n,114p,1000b,1250s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1610 words of node memory still in use:
+   32 hlist, 2 vlist, 14 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 3 glyph, 
+92 attribute, 95 glue_spec, 84 attribute_list, 4 write, 24 pdf_literal, 1 pdf_ac
+tion, 24 pdf_colorstack nodes
+   avail lists: 2:4232,3:1205,4:363,5:192,6:112,7:5087,8:90,9:952,10:13,11:537,1
+2:5
+ 63468 multiletter control sequences out of 65536+600000
+ 117 fonts using 44612455 bytes
+ 95i,10n,114p,1000b,1341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.8.8.2.
+4'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.8.8.2.
+3'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.8.8.2.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.8.8.2.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.8.8.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.8.8.1.
+3'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.8.8.1.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.8.8.1.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.8.8.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.8.8'
+
+warning  (pdf backend): unreferenced destination with name 'chapter.8'
 
 warning  (pdf backend): unreferenced destination with name 'subsubsection.7.7.2.
 2'
@@ -2748,16 +2575,16 @@ warning  (pdf backend): unreferenced destination with name 'subsection.1.1.1'
 warning  (pdf backend): unreferenced destination with name 'section.1.1'
 
 warning  (pdf backend): unreferenced destination with name 'chapter.1'
-</usr/share/fonts/truetype/msttcorefonts/arial.ttf></usr/share/fonts/ppviewer/CA
-MBRIA.TTC></usr/share/fonts/ppviewer/CAMBRIA.TTC></usr/share/fonts/ppviewer/CONS
-OLAI.TTF></usr/share/fonts/ppviewer/CONSOLAB.TTF></usr/share/fonts/truetype/mstt
-corefonts/Arial_Italic.ttf></usr/share/fonts/ppviewer/CONSOLA.TTF></usr/share/fo
+</usr/share/fonts/truetype/msttcorefonts/Arial_Italic.ttf></usr/share/fonts/ppvi
+ewer/CAMBRIA.TTC></usr/share/fonts/ppviewer/CAMBRIA.TTC></usr/share/fonts/truety
+pe/msttcorefonts/arial.ttf></usr/share/fonts/ppviewer/CONSOLAI.TTF></usr/share/f
+onts/ppviewer/CONSOLAB.TTF></usr/share/fonts/ppviewer/CONSOLA.TTF></usr/share/fo
 nts/truetype/msttcorefonts/arial.ttf></usr/share/fonts/truetype/msttcorefonts/ar
 ialbd.ttf>
-Output written on main.pdf (17 pages, 429388 bytes).
+Output written on main.pdf (16 pages, 1815970 bytes).
 
-PDF statistics: 444 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
- 130 named destinations out of 1000 (max. 131072)
- 368 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 431 PDF objects out of 1000 (max. 8388607)
+ 350 compressed objects within 4 object streams
+ 131 named destinations out of 1000 (max. 131072)
+ 320 words of extra memory for PDF output out of 10000 (max. 100000000)
 

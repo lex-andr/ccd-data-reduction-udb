@@ -1,0 +1,20 @@
+\chapter{Reducción de datos con Python}
+\setcounter{ipythcntr}{0}
+
+Para realizar las tareas básicas de reducción de datos astronómicos usando Python se utiliza el módulo llamado <<\pynorm{ccdproc}>>. Este módulo es una herramienta poderosa diseñada para la reducción y el procesamiento de datos de imágenes CCD. Está desarrollado como parte del ecosistema de <<\pynorm{astropy}>> y proporciona una serie de funciones y clases para manejar tareas comunes en el preprocesamiento de datos astronómicos, como la calibración de imágenes, la corrección de bias, la corrección de flat-field, y la combinación de imágenes. Primero revisaremos el módulo astropy.
+
+\section{El paquete Astropy}
+Astropy es un paquete diseñado específicamente para la astronomía y la astrofísica. Cuenta con muchas funciones y módulos, pero nosotros revisaremos algunos de los más utilizados y que nos serán de ayuda para comprender el funcionamiento de \pynorm{ccdproc}. Para instalar \pynorm{astropy}, si es que no lo tienes aún, es suficiente con escribir \bashbold{pip install astropy} en una terminal. 
+
+Algunos de los módulos más populares dentro del ecosistema de astropy son \pynorm{units}, \pynorm{Coordinates}, y \pynorm{fits}. Como es costumbre en Python, es recomendable importar los módulos que se usarán siempre al inicio del código:
+
+\begin{pyin}[]
+#- Módulos de astropy
+from astropy import units as u 
+from astropy.coordinates import SkyCoord  
+from astropy.io import fits
+
+#- Visualización
+import matplotlib.pyplot as plt
+\end{pyin}
+

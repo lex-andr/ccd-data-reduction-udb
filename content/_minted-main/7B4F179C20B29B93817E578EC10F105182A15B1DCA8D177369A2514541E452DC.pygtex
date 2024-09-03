@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{scaled\PYGZus{}dark\PYGZus{}current} \PYG{o}{=} \PYG{n}{stars\PYGZus{}exposure} \PYG{o}{*} \PYG{p}{(}\PYG{n}{dark\PYGZus{}frame\PYGZus{}with\PYGZus{}noise} \PYG{o}{\PYGZhy{}} \PYG{n}{bias\PYGZus{}with\PYGZus{}noise}\PYG{p}{)} \PYG{o}{/} \PYG{n}{dark\PYGZus{}exposure}
+\end{Verbatim}

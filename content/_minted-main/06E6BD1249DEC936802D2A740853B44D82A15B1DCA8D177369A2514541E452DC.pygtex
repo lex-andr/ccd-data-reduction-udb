@@ -1,3 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{n}{Z} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{/} \PYG{p}{(}\PYG{l+m+mi}{2} \PYG{o}{*} \PYG{n}{np}\PYG{o}{.}\PYG{n}{pi} \PYG{o}{*} \PYG{n}{sigma\PYGZus{}x} \PYG{o}{*} \PYG{n}{sigma\PYGZus{}y}\PYG{p}{))} \PYG{o}{*} \PYG{n}{np}\PYG{o}{.}\PYG{n}{exp}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{p}{((}\PYG{n}{X} \PYG{o}{\PYGZhy{}} \PYG{n}{mu\PYGZus{}x}\PYG{p}{)}\PYG{o}{**}\PYG{l+m+mi}{2} \PYG{o}{/} \PYG{p}{(}\PYG{l+m+mi}{2} \PYG{o}{*} \PYG{n}{sigma\PYGZus{}x}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)} \PYG{o}{+} \PYG{p}{(}\PYG{n}{Y} \PYG{o}{\PYGZhy{}} \PYG{n}{mu\PYGZus{}y}\PYG{p}{)}\PYG{o}{**}\PYG{l+m+mi}{2} \PYG{o}{/} \PYG{p}{(}\PYG{l+m+mi}{2} \PYG{o}{*} \PYG{n}{sigma\PYGZus{}y}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)))}
-\end{Verbatim}

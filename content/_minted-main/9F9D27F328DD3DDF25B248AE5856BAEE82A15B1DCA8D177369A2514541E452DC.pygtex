@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Leyendo la imagen con astropy}
+\PYG{n}{bias\PYGZus{}data}   \PYG{o}{=} \PYG{n}{fits}\PYG{o}{.}\PYG{n}{open}\PYG{p}{(}\PYG{n}{bias\PYGZus{}image}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{]}
+\PYG{n}{flat\PYGZus{}data}   \PYG{o}{=} \PYG{n}{fits}\PYG{o}{.}\PYG{n}{open}\PYG{p}{(}\PYG{n}{flat\PYGZus{}image}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{]}
+\PYG{n}{object\PYGZus{}data} \PYG{o}{=} \PYG{n}{fits}\PYG{o}{.}\PYG{n}{open}\PYG{p}{(}\PYG{n}{object\PYGZus{}image}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{]}
+\end{Verbatim}
