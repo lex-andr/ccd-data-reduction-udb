@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{combined\PYGZus{}darks} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{n}{ccd}\PYG{o}{.}\PYG{n}{header}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}exptime\PYGZsq{}}\PYG{p}{]:} \PYG{n}{ccd} \PYG{k}{for} \PYG{n}{ccd} \PYG{o+ow}{in} \PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{ccds}\PYG{p}{(}\PYG{n}{imagetyp}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}dark\PYGZsq{}}\PYG{p}{,} \PYG{n}{combined}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)\PYGZcb{}}
+\end{Verbatim}

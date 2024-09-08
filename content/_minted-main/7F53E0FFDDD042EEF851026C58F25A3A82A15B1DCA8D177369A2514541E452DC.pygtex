@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{actual\PYGZus{}exposure\PYGZus{}times} \PYG{o}{=} \PYG{n+nb}{set}\PYG{p}{(}\PYG{n}{h}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}exptime\PYGZsq{}}\PYG{p}{]} \PYG{k}{for} \PYG{n}{h} \PYG{o+ow}{in} \PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{headers}\PYG{p}{(}\PYG{n}{imagetyp}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}dark\PYGZsq{}}\PYG{p}{,} \PYG{n}{combined}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{))}
+\PYG{n}{actual\PYGZus{}exposure\PYGZus{}times}
+\end{Verbatim}

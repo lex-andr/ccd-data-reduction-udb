@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Actualizando la meta data}
+\PYG{n}{combined\PYGZus{}bias}\PYG{o}{.}\PYG{n}{meta}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}combined\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{k+kc}{True}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Guardando el archivo}
+\PYG{n}{combined\PYGZus{}bias}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{calibrated\PYGZus{}data} \PYG{o}{/} \PYG{l+s+s1}{\PYGZsq{}master\PYGZus{}bias.fits\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

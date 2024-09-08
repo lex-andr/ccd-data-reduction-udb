@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Actualizando el contenido de la carpeta}
+\PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{refresh}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Definiendo el tipo de imagen}
+\PYG{n}{flat\PYGZus{}imagetyp} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}flatfield\PYGZsq{}}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Buscando los filtros usados en este tipo de imagen}
+\PYG{n}{flat\PYGZus{}filters} \PYG{o}{=} \PYG{n+nb}{set}\PYG{p}{(}\PYG{n}{h}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}filter\PYGZsq{}}\PYG{p}{]} \PYG{k}{for} \PYG{n}{h} \PYG{o+ow}{in}
+                   \PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{headers}\PYG{p}{(}\PYG{n}{imagetyp}\PYG{o}{=}\PYG{n}{flat\PYGZus{}imagetyp}\PYG{p}{))}
+\PYG{n}{flat\PYGZus{}filters}
+\end{Verbatim}

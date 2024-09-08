@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{saludar}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Dr. Brown\PYGZsq{}}\PYG{p}{,} \PYG{n}{bye}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}Nos vemos\PYGZsq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} 1 posicional, 1 palabra clave}
+\end{Verbatim}

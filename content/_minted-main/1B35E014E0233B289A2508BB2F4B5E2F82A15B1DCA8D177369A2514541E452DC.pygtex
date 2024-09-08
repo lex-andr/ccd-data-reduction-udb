@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Seleccionando una sola imagen}
+\PYG{n}{first\PYGZus{}bias} \PYG{o}{=} \PYG{n}{CCDData}\PYG{o}{.}\PYG{n}{read}\PYG{p}{(}\PYG{n}{biases}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{n}{unit}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}adu\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

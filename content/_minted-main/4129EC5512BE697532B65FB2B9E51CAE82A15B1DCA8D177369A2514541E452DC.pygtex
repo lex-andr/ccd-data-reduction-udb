@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{a\PYGZus{}flat\PYGZus{}reduced} \PYG{o}{=} \PYG{n}{subtract\PYGZus{}dark}\PYG{p}{(}\PYG{n}{a\PYGZus{}flat\PYGZus{}reduced}\PYG{p}{,}
+                               \PYG{n}{combined\PYGZus{}darks}\PYG{p}{[}\PYG{n}{closest\PYGZus{}dark}\PYG{p}{],}
+                               \PYG{n}{exposure\PYGZus{}time}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}exptime\PYGZsq{}}\PYG{p}{,}
+                               \PYG{n}{exposure\PYGZus{}unit}\PYG{o}{=}\PYG{n}{u}\PYG{o}{.}\PYG{n}{second}\PYG{p}{,} \PYG{n}{scale}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,65 @@
+\chapter{Imágenes BIAS y DARK}
+\setcounter{ipythcntr}{0}
+
+El primer tipo de imágenes con las que trabajaremos son las imágenes de bias y las de corriente oscura. En este documento se presenta un resumen de ambos casos, para más detalles dirígete a los Notebooks \norbash{Example-1-BIAS.ipynb} y \norbash{Example-1-DARK.ipynb}. Los datos que usaremos se encuentran en la siguiente enlace: \url{https://zenodo.org/records/3254683}. Debes descargar el archivo y descomprimirlo en tu misma carpeta de trabajo para que las rutas mostradas en los Notebooks funcionen. 
+
+\section{El módulo ccdproc}
+Como se mencionó anteriormente, el módulo que se utiliza en Python para la reducción de datos astronómicos es \pynorm{ccdproc}. Para instalarlo, simplemente escribe \bashbold{pip install ccdproc} en la terminal cuando tu entorno de Python esté activado.
+
+El módulo \pynorm{ccdproc} permite combinar archivos de bias, dark current y flat fields, además de corregir las imágenes de objetos por cada una de estas fuentes de ruido. Las imágenes combinadas de cada tipo suelen denominarse "master" (master bias, master dark, master flat). En esta clase aprenderemos a crear este tipo de archivos.
+
+Es importante tener en cuenta que cada análisis de datos CCD es único. Los pasos que revisaremos para este conjunto de datos son apropiados para el instrumento específico, pero podrían no ser aplicables a otros telescopios o instrumentos. Para determinar los pasos adecuados en cada caso, es fundamental conocer la naturaleza de los datos y su organización. En realidad, el aprendizaje de la reducción de datos es una cuestión de práctica y experiencia. Por ello, cuando utilicemos IRAF, trabajaremos con datos de otro instrumento, de modo que puedas ver que, aunque los principios básicos son los mismos, cada procedimiento varía según el instrumento y las características de los datos.
+
+\subsection{Creando un archivo master bias}
+Este ejemplo está basado en la guía <<\href{}{CCD Data reduction guide}>> de Python. Los datos corresponden al instrumento <<Large Field Camera>> (LFC) del Observatorio de Palomar. Los datos se encuentran dentro de la carpeta llamada \pynorm{'example-cryo-LFC'} y dentro de ella existen imágenes de bias, dark y flat. Comencemos leyendo un archivo de cada tipo:
+
+\begin{pyin}
+from ccdproc import CCDData, ImageFileCollection
+import pathlib
+\end{pyin}
+
+\begin{pyin}[]
+#- Definiendo la ruta a los datos
+cryo_path = pathlib.Path('example-cryo-LFC')
+
+#- Leyendo unas cuantas imágenes
+bias_lfc   = CCDData.read(cryo_path / 'ccd.001.0.fits', unit='count')
+object_lfc = CCDData.read(cryo_path / 'ccd.037.0.fits' , unit='count')
+flat_lfc   = CCDData.read(cryo_path / 'ccd.014.0.fits', unit='count') 
+\end{pyin}
+
+El CCD de este instrumento cuenta con una sección llamada <<\emph{overscan}>>, que consiste de una parte cubierta del CCD. Se trata de una región adicional que no corresponde a ninguna parte de la imagen física, sino a píxeles ficticios que se utilizan para medir y corregir el nivel de bias. Los detalles técnicos del LFC pueden encontrarse en su \href{https://sites.astro.caltech.edu/palomar/observer/200inchResources/lfcspecs.html}{página oficial}, donde se muestra que sus imágenes cuentan con $ 2048 \times 4096 $ pixeles. Sin embargo, cuando leemos los datos nos damos cuenta que existen pixeles extra, los cuales conforman el overscan:
+
+\begin{pyin}[]
+#- Obteniendo la cantidad de pixeles
+bias_lfc.shape
+\end{pyin}
+\begin{pyout}
+(4128, 2080)
+\end{pyout}
+
+\begin{figure}[htb]
+  \centering
+				\includegraphics[width=0.7\textwidth]{figures/overscan.png}
+				\caption{Intensidad con respecto a los pixeles}
+				\label{fig:overscan} 
+\end{figure}
+
+Al hacer un gráfico de la intensidad de la señal con respecto a cada pixel obtenemos lo mostrado en la Figura \ref{fig:overscan}. Lo que observamos es que a partir del pixel 2048, la señal detectada para el objeto y para las imágenes flat comienzan a disminuir y eventualmente alcanzan la misma intensidad que las imágenes de bias. El hecho de que se observe esta caída y que además se mantiene constante nos indica que sí podemos utilizar la información que nos brinda el overscan. Lo que debemos hacer es restar el valor constante que se alcanza luego del pixel $ \gtrsim 2048 $ a todas nuestras imágenes, con eso estaríamos al mismo tiempo corrigiendo por bias. 
+
+Primero debemos crear una carpeta donde colocaremos las imágenes a las que aplicaremos esta corrección. Preferiblmente deberá estar ubicada en tu mismo directorio de trabajo. Puedes por ejemplo llamar a esta carpeta \pynorm{'example-reduced'} y crearla de la siguiente manera:
+
+\begin{pyin}[]
+#- Crea una nueva carpeta
+calibrated_data = Path('.', 'example-reduced')
+calibrated_data.mkdir(exist_ok=True)
+\end{pyin}
+
+Ahora creamos una colección de archivos con todos los datos:
+\begin{pyin}
+files = ImageFileCollection(cryo_path)
+\end{pyin}
+La variable \pynorm
+
+
+\subsection{Creando un archivo master dark}

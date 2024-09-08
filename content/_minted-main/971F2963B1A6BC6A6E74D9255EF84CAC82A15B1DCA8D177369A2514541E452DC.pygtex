@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Seleccionando una imagen flat}
+\PYG{n}{a\PYGZus{}flat} \PYG{o}{=} \PYG{n}{CCDData}\PYG{o}{.}\PYG{n}{read}\PYG{p}{(}\PYG{n}{files}\PYG{o}{.}\PYG{n}{files\PYGZus{}filtered}\PYG{p}{(}\PYG{n}{imagetyp}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}flatfield\PYGZsq{}}\PYG{p}{,}
+                    \PYG{n}{include\PYGZus{}path}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{n}{unit}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}adu\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Definiendo la ruta a los datos}
+\PYG{n}{cryo\PYGZus{}path} \PYG{o}{=} \PYG{n}{pathlib}\PYG{o}{.}\PYG{n}{Path}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}example\PYGZhy{}cryo\PYGZhy{}LFC\PYGZsq{}}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Leyendo unas cuantas imágenes}
+\PYG{n}{bias\PYGZus{}lfc}   \PYG{o}{=} \PYG{n}{CCDData}\PYG{o}{.}\PYG{n}{read}\PYG{p}{(}\PYG{n}{cryo\PYGZus{}path} \PYG{o}{/} \PYG{l+s+s1}{\PYGZsq{}ccd.001.0.fits\PYGZsq{}}\PYG{p}{,} \PYG{n}{unit}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}count\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{object\PYGZus{}lfc} \PYG{o}{=} \PYG{n}{CCDData}\PYG{o}{.}\PYG{n}{read}\PYG{p}{(}\PYG{n}{cryo\PYGZus{}path} \PYG{o}{/} \PYG{l+s+s1}{\PYGZsq{}ccd.037.0.fits\PYGZsq{}} \PYG{p}{,} \PYG{n}{unit}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}count\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{flat\PYGZus{}lfc}   \PYG{o}{=} \PYG{n}{CCDData}\PYG{o}{.}\PYG{n}{read}\PYG{p}{(}\PYG{n}{cryo\PYGZus{}path} \PYG{o}{/} \PYG{l+s+s1}{\PYGZsq{}ccd.014.0.fits\PYGZsq{}}\PYG{p}{,} \PYG{n}{unit}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}count\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

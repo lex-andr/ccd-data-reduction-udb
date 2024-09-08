@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Creando una colección de imágenes}
+\PYG{n}{reduced\PYGZus{}images} \PYG{o}{=} \PYG{n}{ImageFileCollection}\PYG{p}{(}\PYG{n}{calibrated\PYGZus{}data}\PYG{p}{)}
+
+\PYG{n}{calibrated\PYGZus{}biases} \PYG{o}{=} \PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{files\PYGZus{}filtered}\PYG{p}{(}\PYG{n}{imagetyp}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}bias\PYGZsq{}}\PYG{p}{,}
+                                                  \PYG{n}{include\PYGZus{}path}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\end{Verbatim}

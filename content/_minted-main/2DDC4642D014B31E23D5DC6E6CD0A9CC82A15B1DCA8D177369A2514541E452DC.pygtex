@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Actualizando el contenido de la carpeta}
+\PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{refresh}\PYG{p}{()}
+
+\end{Verbatim}

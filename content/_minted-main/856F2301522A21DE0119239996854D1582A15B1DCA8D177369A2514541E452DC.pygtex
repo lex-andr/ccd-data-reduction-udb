@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{filt} \PYG{o+ow}{in} \PYG{n}{flat\PYGZus{}filters}\PYG{p}{:}
+    \PYG{n}{to\PYGZus{}combine} \PYG{o}{=} \PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{files\PYGZus{}filtered}\PYG{p}{(}
+                                \PYG{n}{imagetyp}\PYG{o}{=}\PYG{n}{flat\PYGZus{}imagetyp}\PYG{p}{,}
+                                \PYG{n+nb}{filter}\PYG{o}{=}\PYG{n}{filt}\PYG{p}{,} \PYG{n}{include\PYGZus{}path}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+
+    \PYG{n}{combined\PYGZus{}flat} \PYG{o}{=} \PYG{n}{ccdp}\PYG{o}{.}\PYG{n}{combine}\PYG{p}{(}\PYG{n}{to\PYGZus{}combine}\PYG{p}{,}
+                                 \PYG{n}{method}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}average\PYGZsq{}}\PYG{p}{,}
+                                 \PYG{n}{scale}\PYG{o}{=}\PYG{n}{inv\PYGZus{}median}\PYG{p}{,}
+                                 \PYG{n}{sigma\PYGZus{}clip}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,}
+                                 \PYG{n}{sigma\PYGZus{}clip\PYGZus{}low\PYGZus{}thresh}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{,}
+                                 \PYG{n}{sigma\PYGZus{}clip\PYGZus{}high\PYGZus{}thresh}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{,}
+                                 \PYG{n}{sigma\PYGZus{}clip\PYGZus{}func}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{ma}\PYG{o}{.}\PYG{n}{median}\PYG{p}{,}
+                                 \PYG{n}{signma\PYGZus{}clip\PYGZus{}dev\PYGZus{}func}\PYG{o}{=}\PYG{n}{mad\PYGZus{}std}\PYG{p}{,}
+                                 \PYG{n}{mem\PYGZus{}limit}\PYG{o}{=}\PYG{l+m+mf}{350e6}
+                                \PYG{p}{)}
+
+    \PYG{n}{combined\PYGZus{}flat}\PYG{o}{.}\PYG{n}{meta}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}combined\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{k+kc}{True}
+
+    \PYG{n}{flat\PYGZus{}file\PYGZus{}name} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}combined\PYGZus{}flat\PYGZus{}filter\PYGZus{}}\PYG{l+s+si}{\PYGZob{}\PYGZcb{}}\PYG{l+s+s1}{.fits\PYGZsq{}}\PYG{o}{.}\PYG{n}{format}\PYG{p}{(}\PYG{n}{filt}\PYG{o}{.}\PYG{n}{replace}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}\PYGZsq{}\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}p\PYGZdq{}}\PYG{p}{))}
+    \PYG{n}{combined\PYGZus{}flat}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{calibrated\PYGZus{}data} \PYG{o}{/} \PYG{n}{flat\PYGZus{}file\PYGZus{}name}\PYG{p}{)}
+\end{Verbatim}

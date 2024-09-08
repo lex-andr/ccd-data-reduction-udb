@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{bias\PYGZus{}overscan\PYGZus{}substracted} \PYG{o}{=} \PYG{n}{subtract\PYGZus{}overscan}\PYG{p}{(}\PYG{n}{first\PYGZus{}bias}\PYG{p}{,}
+                                       \PYG{n}{overscan}\PYG{o}{=}\PYG{n}{first\PYGZus{}bias}\PYG{p}{[:,} \PYG{l+m+mi}{2055}\PYG{p}{:} \PYG{p}{],}
+                                       \PYG{n}{median}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\end{Verbatim}

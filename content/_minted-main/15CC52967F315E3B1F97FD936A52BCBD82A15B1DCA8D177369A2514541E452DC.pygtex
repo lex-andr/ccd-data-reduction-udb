@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{exp\PYGZus{}time} \PYG{o+ow}{in} \PYG{n+nb}{sorted}\PYG{p}{(}\PYG{n}{dark\PYGZus{}times}\PYG{p}{):}
+
+    \PYG{c+c1}{\PYGZsh{}\PYGZhy{} Selecciona las imágenes dark dentro de la carpeta}
+    \PYG{n}{calibrated\PYGZus{}darks} \PYG{o}{=} \PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{files\PYGZus{}filtered}\PYG{p}{(}\PYG{n}{imagetyp}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}dark\PYGZsq{}}\PYG{p}{,}
+                                                     \PYG{n}{exptime}\PYG{o}{=}\PYG{n}{exp\PYGZus{}time}\PYG{p}{,}
+                                                     \PYG{n}{include\PYGZus{}path}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{}\PYGZhy{} Combina las imágenes}
+    \PYG{n}{combined\PYGZus{}dark} \PYG{o}{=} \PYG{n}{combine}\PYG{p}{(}\PYG{n}{calibratwrite}\PYG{p}{(}\PYG{n}{ed\PYGZus{}darks}\PYG{p}{,}
+                            \PYG{n}{method}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}average\PYGZsq{}}\PYG{p}{,}
+                            \PYG{n}{sigma\PYGZus{}clip}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,} \PYG{n}{sigma\PYGZus{}clip\PYGZus{}low\PYGZus{}thresh}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{,}
+                            \PYG{n}{sigma\PYGZus{}clip\PYGZus{}high\PYGZus{}thresh}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{,}
+                            \PYG{n}{sigma\PYGZus{}clip\PYGZus{}func}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{ma}\PYG{o}{.}\PYG{n}{median}\PYG{p}{,}
+                            \PYG{n}{sigma\PYGZus{}clip\PYGZus{}dev\PYGZus{}func}\PYG{o}{=}\PYG{n}{mad\PYGZus{}std}\PYG{p}{,}
+                            \PYG{n}{mem\PYGZus{}limit}\PYG{o}{=}\PYG{l+m+mf}{350e6}
+                            \PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{}\PYGZhy{} Actualiza la información}
+    \PYG{n}{combined\PYGZus{}dark}\PYG{o}{.}\PYG{n}{meta}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}combined\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{k+kc}{True}
+
+    \PYG{c+c1}{\PYGZsh{}\PYGZhy{} Guarda los archivos}
+    \PYG{n}{dark\PYGZus{}file\PYGZus{}name} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}combined\PYGZus{}dark\PYGZus{}}\PYG{l+s+si}{\PYGZob{}:6.3f\PYGZcb{}}\PYG{l+s+s1}{.fits\PYGZsq{}}\PYG{o}{.}\PYG{n}{format}\PYG{p}{(}\PYG{n}{exp\PYGZus{}time}\PYG{p}{)}
+    \PYG{n}{combined\PYGZus{}dark}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{calibrated\PYGZus{}data} \PYG{o}{/} \PYG{n}{dark\PYGZus{}file\PYGZus{}name}\PYG{p}{)}
+\end{Verbatim}

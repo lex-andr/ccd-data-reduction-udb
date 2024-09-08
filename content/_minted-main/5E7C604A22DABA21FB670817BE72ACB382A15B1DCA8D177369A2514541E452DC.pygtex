@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Lista de números}
+\PYG{n}{numbers} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{7}\PYG{p}{,} \PYG{l+m+mi}{12}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{,} \PYG{l+m+mi}{8}\PYG{p}{,} \PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mi}{15}\PYG{p}{]}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Variable para guardar el número par}
+\PYG{n}{first\PYGZus{}even} \PYG{o}{=} \PYG{k+kc}{None}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Bucle while}
+\PYG{n}{index} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{k}{while} \PYG{n}{index} \PYG{o}{\PYGZlt{}} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{numbers}\PYG{p}{):}
+    \PYG{k}{if} \PYG{n}{numbers}\PYG{p}{[}\PYG{n}{index}\PYG{p}{]} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{2} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+        \PYG{n}{first\PYGZus{}even} \PYG{o}{=} \PYG{n}{numbers}\PYG{p}{[}\PYG{n}{index}\PYG{p}{]}
+        \PYG{k}{break}  \PYG{c+c1}{\PYGZsh{} El bucle termina al encontrar el primer número par}
+    \PYG{n}{index} \PYG{o}{+=} \PYG{l+m+mi}{1}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Imprime el valor encontrado}
+\PYG{k}{if} \PYG{n}{first\PYGZus{}even} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{k+kc}{None}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}El primer número par encontrado fue }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{first\PYGZus{}even}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{.\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}No hay números pares en la lista.\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

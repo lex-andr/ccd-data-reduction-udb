@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+go}{Ingresa un número:  5}
+\PYG{g+go}{5}
+\PYG{g+go}{\PYGZlt{}class \PYGZsq{}str\PYGZsq{}\PYGZgt{}}
+\end{Verbatim}

@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{ccd}\PYG{p}{,} \PYG{n}{file\PYGZus{}name} \PYG{o+ow}{in} \PYG{n}{files}\PYG{o}{.}\PYG{n}{ccds}\PYG{p}{(}\PYG{n}{imagetyp}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}FLATFIELD\PYGZsq{}}\PYG{p}{,}
+                                 \PYG{n}{ccd\PYGZus{}kwargs}\PYG{o}{=}\PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}unit\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}adu\PYGZsq{}}\PYG{p}{\PYGZcb{},}
+                                 \PYG{n}{return\PYGZus{}fname}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{):}
+    \PYG{c+c1}{\PYGZsh{} Subtract the overscan}
+    \PYG{n}{ccd} \PYG{o}{=} \PYG{n}{subtract\PYGZus{}overscan}\PYG{p}{(}\PYG{n}{ccd}\PYG{p}{,} \PYG{n}{overscan}\PYG{o}{=}\PYG{n}{ccd}\PYG{p}{[:,}\PYG{l+m+mi}{2055}\PYG{p}{:],} \PYG{n}{median}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} Trim the overscan}
+    \PYG{n}{ccd} \PYG{o}{=} \PYG{n}{ccdp}\PYG{o}{.}\PYG{n}{trim\PYGZus{}image}\PYG{p}{(}\PYG{n}{ccd}\PYG{p}{[:,} \PYG{p}{:}\PYG{l+m+mi}{2048}\PYG{p}{])}
+
+    \PYG{c+c1}{\PYGZsh{} Find the correct dark exposure}
+    \PYG{n}{closest\PYGZus{}dark} \PYG{o}{=} \PYG{n}{find\PYGZus{}nearest\PYGZus{}dark\PYGZus{}exposure}\PYG{p}{(}\PYG{n}{ccd}\PYG{p}{,}
+                                              \PYG{n}{actual\PYGZus{}exposure\PYGZus{}times}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} Subtract the dark current}
+    \PYG{n}{ccd} \PYG{o}{=} \PYG{n}{subtract\PYGZus{}dark}\PYG{p}{(}\PYG{n}{ccd}\PYG{p}{,} \PYG{n}{combined\PYGZus{}darks}\PYG{p}{[}\PYG{n}{closest\PYGZus{}dark}\PYG{p}{],}
+                        \PYG{n}{exposure\PYGZus{}time}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}exptime\PYGZsq{}}\PYG{p}{,}
+                        \PYG{n}{exposure\PYGZus{}unit}\PYG{o}{=}\PYG{n}{u}\PYG{o}{.}\PYG{n}{second}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} Save the result;}
+    \PYG{n}{ccd}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{calibrated\PYGZus{}data} \PYG{o}{/} \PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}flat\PYGZhy{}\PYGZsq{}} \PYG{o}{+} \PYG{n}{file\PYGZus{}name}\PYG{p}{))}
+\end{Verbatim}

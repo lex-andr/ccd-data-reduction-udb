@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{darks} \PYG{o}{=} \PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{summary}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}imagetyp\PYGZsq{}}\PYG{p}{]} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}DARK\PYGZsq{}}
+\PYG{n}{dark\PYGZus{}times} \PYG{o}{=} \PYG{n+nb}{set}\PYG{p}{(}\PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{summary}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}exptime\PYGZsq{}}\PYG{p}{][}\PYG{n}{darks}\PYG{p}{])}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{dark\PYGZus{}times}\PYG{p}{)}
+\end{Verbatim}

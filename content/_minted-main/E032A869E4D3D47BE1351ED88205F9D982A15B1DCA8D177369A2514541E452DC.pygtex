@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{trimmed\PYGZus{}bias} \PYG{o}{=} \PYG{n}{trim\PYGZus{}image}\PYG{p}{(}\PYG{n}{bias\PYGZus{}overscan\PYGZus{}substracted}\PYG{p}{[} \PYG{p}{:,} \PYG{p}{:}\PYG{l+m+mi}{2048}\PYG{p}{])}
+\end{Verbatim}

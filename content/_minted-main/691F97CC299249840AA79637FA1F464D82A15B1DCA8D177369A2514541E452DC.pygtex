@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{closest\PYGZus{}dark} \PYG{o}{=} \PYG{n}{find\PYGZus{}nearest\PYGZus{}dark\PYGZus{}exposure}\PYG{p}{(}\PYG{n}{a\PYGZus{}flat\PYGZus{}reduced}\PYG{p}{,} \PYG{n}{actual\PYGZus{}exposure\PYGZus{}times}\PYG{p}{)}
+\PYG{n}{closest\PYGZus{}dark}
+\end{Verbatim}

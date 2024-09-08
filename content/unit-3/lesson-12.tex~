@@ -1,0 +1,54 @@
+\chapter{Master flat y calibración final}
+\setcounter{ipythcntr}{0}
+
+En las clases anteriores aprendimos a crear archivos master bias y master dark. Lo único que queda por hacer es crear un archivo master flat con las imágenes de flat fields y así podremos finalmente realizar la calibración básica de nuestros datos. 
+
+\section{Calibración de imágenes}
+Ahora trabajaremos con las imágenes de flat fields, con las que vamos a necesitar realizar un poco más de tareas. Recuerda que este es solo un resumen, para más detalles del procedimiento refiérete al archivo \norbash{Example-FLAT.ipynb}. 
+
+\subsubsection{Creando un archivo master flat}
+Volveremos a utilizar el módulo \pynorm{ccdproc} junto con sus submódulos y funciones. Por lo tanto, como es usual, primero importamos todo lo que usaremos en nuestro código:
+
+\begin{pyin}
+from pathlib import Path
+
+from astropy import units as u
+from astropy.nddata import CCDData
+from ccdproc import ImageFileCollection
+import ccdproc as ccdp
+import numpy as np
+from astropy.stats import mad_std
+from astropy.visualization import hist
+\end{pyin}
+
+Como encontramos anteriormente, los drak frames tienen diferentes tiempos de exposición y necesitaremos la función llamada \pynorm{find_nearest_dark_exposure()} para encontrar cuál es el tiempo más cercano a los tiempos de exposición de los flat fields.
+
+\begin{pyin}
+from functions import find_nearest_dark_exposure
+\end{pyin}
+
+Definimos nuevamente las rutas a los archivos:
+\begin{pyin}[]
+#- Definiendo la ruta a los datos
+cryo_path = pathlib.Path('example-cryo-LFC')
+calibrated_data = Path('example-reduced')
+
+#- Selecciona las imágenes
+files = ImageFileCollection(cryo_path)
+reduced_images = ImageFileCollection(calibrated_data)
+combined_dark_files = reduced_images.files_filtered(imagetyp='dark', 
+                                                    combined=True)
+\end{pyin}
+
+Al igual que con las imágenes de bias y corriente oscura, necesitaremos restar el overscan y recortar las imágenes flat. Adicionalmente, también debemos corregir por corriente oscura. Primero veamos cómo hacerlo para una sola imagen y luego lo aplicaremos a todas. Seleccionamos una sola imagen flat:
+\begin{pyin}[]
+#- Seleccionando una imagen flat
+a_flat = CCDData.read(files.files_filtered(imagetyp='flatfield',
+                    include_path=True)[0], unit='adu')
+\end{pyin}
+
+Y ahora podemos corregirla por overscan y recortarla:
+\begin{
+
+
+ 

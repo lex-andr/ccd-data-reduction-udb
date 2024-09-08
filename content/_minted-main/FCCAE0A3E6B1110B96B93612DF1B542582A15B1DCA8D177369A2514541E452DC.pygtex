@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{ccd\PYGZus{}file}\PYG{p}{,} \PYG{n}{file\PYGZus{}name} \PYG{o+ow}{in} \PYG{n}{files}\PYG{o}{.}\PYG{n}{ccds}\PYG{p}{(}\PYG{n}{imagetyp}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}BIAS\PYGZsq{}}\PYG{p}{,}
+                                      \PYG{n}{ccd\PYGZus{}kwargs}\PYG{o}{=}\PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}unit\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}adu\PYGZsq{}}\PYG{p}{\PYGZcb{},}
+                                      \PYG{n}{return\PYGZus{}fname}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{):}
+
+    \PYG{c+c1}{\PYGZsh{}\PYGZhy{} Restar el oberscan}
+    \PYG{n}{ccd\PYGZus{}file} \PYG{o}{=} \PYG{n}{subtract\PYGZus{}overscan}\PYG{p}{(}\PYG{n}{ccd\PYGZus{}file}\PYG{p}{,}
+                                 \PYG{n}{overscan}\PYG{o}{=}\PYG{n}{ccd\PYGZus{}file}\PYG{p}{[:} \PYG{p}{,} \PYG{l+m+mi}{2055}\PYG{p}{:],}
+                                 \PYG{n}{median} \PYG{o}{=} \PYG{k+kc}{True}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{}\PYGZhy{} Recortar los archivos}
+    \PYG{n}{ccd\PYGZus{}file} \PYG{o}{=} \PYG{n}{trim\PYGZus{}image}\PYG{p}{(}\PYG{n}{ccd\PYGZus{}file}\PYG{p}{[:,} \PYG{p}{:}\PYG{l+m+mi}{2048}\PYG{p}{])}
+
+    \PYG{c+c1}{\PYGZsh{}\PYGZhy{} Guardar el resultado}
+    \PYG{n}{ccd\PYGZus{}file}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{calibrated\PYGZus{}data} \PYG{o}{/} \PYG{n}{file\PYGZus{}name} \PYG{p}{)}
+\end{Verbatim}

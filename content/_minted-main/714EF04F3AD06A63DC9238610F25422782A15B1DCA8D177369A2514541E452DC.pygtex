@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Planetas que inician con M}
+\PYG{n}{new\PYGZus{}list} \PYG{o}{=} \PYG{p}{[}\PYG{n}{planet}\PYG{o}{.}\PYG{n}{upper}\PYG{p}{()} \PYG{k}{for} \PYG{n}{planet} \PYG{o+ow}{in} \PYG{n}{planetas} \PYG{k}{if} \PYG{n}{planet}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}m\PYGZsq{}}\PYG{p}{]}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{new\PYGZus{}list}\PYG{p}{)}
+\end{Verbatim}

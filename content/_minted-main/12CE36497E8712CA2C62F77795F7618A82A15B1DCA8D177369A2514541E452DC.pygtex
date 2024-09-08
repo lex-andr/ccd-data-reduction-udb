@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{planet} \PYG{o+ow}{in} \PYG{n}{planetas}\PYG{p}{:}
+    \PYG{n}{planetas\PYGZus{}mayus}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{planet}\PYG{o}{.}\PYG{n}{upper}\PYG{p}{())}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{planetas\PYGZus{}mayus}\PYG{p}{)}
+\end{Verbatim}

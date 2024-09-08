@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Creando un master bias}
+\PYG{n}{combined\PYGZus{}bias} \PYG{o}{=} \PYG{n}{combine}\PYG{p}{(}\PYG{n}{calibrated\PYGZus{}biases}\PYG{p}{,}
+                        \PYG{n}{method}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}average\PYGZsq{}}\PYG{p}{,}
+                        \PYG{n}{sigma\PYGZus{}clip}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,} \PYG{n}{sigma\PYGZus{}clip\PYGZus{}low\PYGZus{}thresh}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{,}
+                        \PYG{n}{sigma\PYGZus{}clip\PYGZus{}high\PYGZus{}thresh}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{,}
+                        \PYG{n}{sigma\PYGZus{}clip\PYGZus{}func}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{ma}\PYG{o}{.}\PYG{n}{median}\PYG{p}{,}
+                        \PYG{n}{sigma\PYGZus{}clip\PYGZus{}dev\PYGZus{}func}\PYG{o}{=}\PYG{n}{mad\PYGZus{}std}\PYG{p}{,}
+                        \PYG{n}{mem\PYGZus{}limit}\PYG{o}{=}\PYG{l+m+mf}{350e6}
+                        \PYG{p}{)}
+\end{Verbatim}

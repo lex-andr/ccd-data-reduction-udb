@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{functions} \PYG{k+kn}{import} \PYG{n}{find\PYGZus{}nearest\PYGZus{}dark\PYGZus{}exposure}
+\end{Verbatim}

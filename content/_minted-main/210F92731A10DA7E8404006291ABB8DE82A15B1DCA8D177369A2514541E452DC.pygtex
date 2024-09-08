@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Definiendo la ruta a los datos}
+\PYG{n}{cryo\PYGZus{}path} \PYG{o}{=} \PYG{n}{pathlib}\PYG{o}{.}\PYG{n}{Path}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}example\PYGZhy{}cryo\PYGZhy{}LFC\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{calibrated\PYGZus{}data} \PYG{o}{=} \PYG{n}{Path}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}example\PYGZhy{}reduced\PYGZsq{}}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Selecciona las imágenes}
+\PYG{n}{files} \PYG{o}{=} \PYG{n}{ImageFileCollection}\PYG{p}{(}\PYG{n}{cryo\PYGZus{}path}\PYG{p}{)}
+\PYG{n}{reduced\PYGZus{}images} \PYG{o}{=} \PYG{n}{ImageFileCollection}\PYG{p}{(}\PYG{n}{calibrated\PYGZus{}data}\PYG{p}{)}
+\PYG{n}{combined\PYGZus{}dark\PYGZus{}files} \PYG{o}{=} \PYG{n}{reduced\PYGZus{}images}\PYG{o}{.}\PYG{n}{files\PYGZus{}filtered}\PYG{p}{(}\PYG{n}{imagetyp}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}dark\PYGZsq{}}\PYG{p}{,}
+                                                    \PYG{n}{combined}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\end{Verbatim}

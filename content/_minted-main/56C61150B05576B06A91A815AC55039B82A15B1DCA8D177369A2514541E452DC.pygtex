@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{Cell} \PYG{n}{In}\PYG{p}{[}\PYG{l+m+mi}{26}\PYG{p}{],} \PYG{n}{line} \PYG{l+m+mi}{1}
+    \PYG{n}{saludar}\PYG{p}{(}\PYG{n}{name}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}Dr. Brown\PYGZsq{}}\PYG{p}{,} \PYG{k+kc}{False}\PYG{p}{)}
+                                   \PYG{o}{\PYGZca{}}
+\PYG{n+ne}{SyntaxError}\PYG{p}{:} \PYG{n}{positional} \PYG{n}{argument} \PYG{n}{follows} \PYG{n}{keyword} \PYG{n}{argument}
+\end{Verbatim}

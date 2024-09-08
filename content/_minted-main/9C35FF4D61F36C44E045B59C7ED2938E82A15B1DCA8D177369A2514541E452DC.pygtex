@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Para trabajar con rutas}
+\PYG{k+kn}{from} \PYG{n+nn}{pathlib} \PYG{k+kn}{import} \PYG{n}{Path}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Modulos de astropy y ccd proc}
+\PYG{k+kn}{from} \PYG{n+nn}{astropy} \PYG{k+kn}{import} \PYG{n}{units} \PYG{k}{as} \PYG{n}{u}
+\PYG{k+kn}{from} \PYG{n+nn}{astropy.nddata} \PYG{k+kn}{import} \PYG{n}{CCDData}
+\PYG{k+kn}{from} \PYG{n+nn}{ccdproc} \PYG{k+kn}{import} \PYG{n}{ImageFileCollection}
+\PYG{k+kn}{from}  \PYG{n+nn}{ccdproc} \PYG{k+kn}{import} \PYG{n}{substract\PYGZus{}overscan}\PYG{p}{,} \PYG{n}{trim\PYGZus{}image}\PYG{p}{,} \PYG{n}{substract\PYGZus{}dark}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Módulos para estadística}
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+\PYG{k+kn}{from} \PYG{n+nn}{astropy.stats} \PYG{k+kn}{import} \PYG{n}{mad\PYGZus{}std}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Modulos para visualización}
+\PYG{k+kn}{from} \PYG{n+nn}{show\PYGZus{}image} \PYG{k+kn}{import} \PYG{n}{show\PYGZus{}image}
+\end{Verbatim}

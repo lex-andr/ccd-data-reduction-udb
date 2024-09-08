@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Crea una nueva carpeta}
+\PYG{n}{calibrated\PYGZus{}data} \PYG{o}{=} \PYG{n}{Path}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}.\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}example\PYGZhy{}reduced\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{calibrated\PYGZus{}data}\PYG{o}{.}\PYG{n}{mkdir}\PYG{p}{(}\PYG{n}{exist\PYGZus{}ok}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\end{Verbatim}

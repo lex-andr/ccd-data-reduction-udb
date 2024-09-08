@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{pi} \PYG{o}{=} \PYG{l+m+mf}{3.14159265}     \PYG{c+c1}{\PYGZsh{}\PYGZhy{} Una variable float}
+
+\PYG{n}{num} \PYG{o}{=} \PYG{l+m+mi}{5}             \PYG{c+c1}{\PYGZsh{}\PYGZhy{} Una variable int}
+
+\PYG{n}{message} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}nueve\PYGZdq{}}   \PYG{c+c1}{\PYGZsh{}\PYGZhy{} Una variable str}
+\end{Verbatim}

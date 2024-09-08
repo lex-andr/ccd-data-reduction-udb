@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZhy{} Seleccionando solo imágenes tipo bias}
+\PYG{n}{biases} \PYG{o}{=} \PYG{n}{files}\PYG{o}{.}\PYG{n}{files\PYGZus{}filtered}\PYG{p}{(}\PYG{n}{include\PYGZus{}path}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,} \PYG{n}{imagetyp}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}BIAS\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

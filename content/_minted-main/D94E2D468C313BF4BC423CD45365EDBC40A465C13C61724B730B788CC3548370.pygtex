@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+go}{sudo apt update}
+\PYG{g+go}{sudo apt install geany}
+\end{Verbatim}

@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Restar el overscan}
+\PYG{n}{a\PYGZus{}flat\PYGZus{}reduced} \PYG{o}{=} \PYG{n}{subtract\PYGZus{}overscan}\PYG{p}{(}\PYG{n}{a\PYGZus{}flat}\PYG{p}{,}
+                                        \PYG{n}{overscan}\PYG{o}{=}\PYG{n}{a\PYGZus{}flat}\PYG{p}{[:,} \PYG{l+m+mi}{2055}\PYG{p}{:],}
+                                        \PYG{n}{median}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Recortar}
+\PYG{n}{a\PYGZus{}flat\PYGZus{}reduced} \PYG{o}{=} \PYG{n}{trim\PYGZus{}image}\PYG{p}{(}\PYG{n}{a\PYGZus{}flat\PYGZus{}reduced}\PYG{p}{[:,} \PYG{p}{:}\PYG{l+m+mi}{2048}\PYG{p}{])}
+
+\PYG{c+c1}{\PYGZsh{} Visualizar}
+\PYG{n}{show\PYGZus{}image}\PYG{p}{(}\PYG{n}{a\PYGZus{}flat\PYGZus{}reduced}\PYG{p}{,} \PYG{n}{cmap}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}gray\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{title}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Single flat frame, overscan subtracted and trimmed\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}
