@@ -1,0 +1,26 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{ccdred\PYGZgt{} lpar zerocombine}
+\PYG{g+go}{        input =                 List of zero level images to combine}
+\PYG{g+go}{      (output = \PYGZdq{}Zero\PYGZdq{})         Output zero level name}
+\PYG{g+go}{     (combine = \PYGZdq{}average\PYGZdq{})      Type of combine operation}
+\PYG{g+go}{      (reject = \PYGZdq{}minmax\PYGZdq{})       Type of rejection}
+\PYG{g+go}{     (ccdtype = \PYGZdq{}zero\PYGZdq{})         CCD image type to combine}
+\PYG{g+go}{     (process = no)             Process images before combining?}
+\PYG{g+go}{      (delete = no)             Delete input images after combining?}
+\PYG{g+go}{     (clobber = no)             Clobber existing output image?}
+\PYG{g+go}{       (scale = \PYGZdq{}none\PYGZdq{})         Image scaling}
+\PYG{g+go}{     (statsec = \PYGZdq{}\PYGZdq{})             Image section for computing statistics}
+\PYG{g+go}{        (nlow = 0)              minmax: Number of low pixels to reject}
+\PYG{g+go}{       (nhigh = 1)              minmax: Number of high pixels to reject}
+\PYG{g+go}{       (nkeep = 1)              Minimum to keep (pos) or maximum to reject (neg)}
+\PYG{g+go}{       (mclip = yes)            Use median in sigma clipping algorithms?}
+\PYG{g+go}{      (lsigma = 3.)             Lower sigma clipping factor}
+\PYG{g+go}{      (hsigma = 3.)             Upper sigma clipping factor}
+\PYG{g+go}{     (rdnoise = \PYGZdq{}0.\PYGZdq{})           ccdclip: CCD readout noise (electrons)}
+\PYG{g+go}{        (gain = \PYGZdq{}1.\PYGZdq{})           ccdclip: CCD gain (electrons/DN)}
+\PYG{g+go}{      (snoise = \PYGZdq{}0.\PYGZdq{})           ccdclip: Sensitivity noise (fraction)}
+\PYG{g+go}{       (pclip = \PYGZhy{}0.5)           pclip: Percentile clipping parameter}
+\PYG{g+go}{       (blank = 0.)             Value if there are no pixels}
+\PYG{g+go}{        (mode = \PYGZdq{}ql\PYGZdq{})}
+\PYG{g+go}{ccdred\PYGZgt{}}
+\end{Verbatim}

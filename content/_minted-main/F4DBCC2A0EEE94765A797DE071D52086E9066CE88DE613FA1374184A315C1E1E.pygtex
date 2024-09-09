@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{} cd bias/}
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{} ls}
+\PYG{g+go}{0002611406\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\PYG{g+go}{0002611407\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\PYG{g+go}{0002611408\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\PYG{g+go}{0002611409\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\PYG{g+go}{0002611410\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\PYG{g+go}{0002611411\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\PYG{g+go}{0002611412\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\PYG{g+go}{0002611413\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\PYG{g+go}{0002611414\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\PYG{g+go}{0002611415\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\PYG{g+go}{0002611416\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBias1.fits}
+\end{Verbatim}

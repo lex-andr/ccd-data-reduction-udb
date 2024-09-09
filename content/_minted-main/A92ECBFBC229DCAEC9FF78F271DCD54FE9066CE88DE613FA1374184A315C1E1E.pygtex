@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+gp}{astronomer@PC:\PYGZti{}/Documents \PYGZdl{} }rm\PYG{+w}{ }New\PYGZhy{}folder/
+\PYG{g+go}{rm: cannot remove \PYGZsq{}New\PYGZhy{}folder/\PYGZsq{}: Is a directory}
+\end{Verbatim}

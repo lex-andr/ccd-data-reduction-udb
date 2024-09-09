@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+gp}{astronomer@PC:\PYGZti{} \PYGZdl{} }ls
+\PYG{g+go}{Desktop    Downloads  Pictures  Templates}
+\PYG{g+go}{Documents  Music      Public    Videos}
+\end{Verbatim}

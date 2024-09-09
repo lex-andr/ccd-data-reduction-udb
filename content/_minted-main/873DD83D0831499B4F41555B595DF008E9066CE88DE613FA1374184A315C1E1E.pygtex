@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+gp}{astronomer@PC:\PYGZti{} \PYGZdl{} }sudo\PYG{+w}{ }apt\PYG{+w}{ }install\PYG{+w}{ }gcc\PYG{+w}{ }make\PYG{+w}{ }bison\PYG{+w}{ }flex\PYG{+w}{ }zlib1g\PYGZhy{}dev\PYG{+w}{ }libreadline\PYGZhy{}dev
+\end{Verbatim}

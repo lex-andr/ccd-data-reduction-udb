@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{IrafError: Error running IRAF task ccdproc}
+\PYG{g+go}{IRAF task terminated abnormally}
+\PYG{g+go}{ERROR (1, \PYGZdq{}Size of DATASEC and CCDSEC do not agree\PYGZdq{})}
+
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\end{Verbatim}

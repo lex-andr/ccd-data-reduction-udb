@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+gp}{\PYGZdl{} }pyraf
+\PYG{g+go}{clpackage/:}
+\PYG{g+go}{ clpackage/     images/         noao/           proto/          utilities/}
+\PYG{g+go}{ dataio/        language/       obsolete/       softools/       vo/}
+\PYG{g+go}{ dbms/          lists/          plot/           system/}
+\PYG{g+go}{PyRAF 2.1.10 Copyright (c) 2002 AURA}
+\PYG{g+go}{Python 2.7.18 Copyright (c) 2001\PYGZhy{}2020 Python Software Foundation.}
+\PYG{g+go}{Python/CL command line wrapper}
+\PYG{g+go}{  .help describes executive commands}
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\end{Verbatim}

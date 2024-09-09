@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{} ls}
+\PYG{g+go}{0002611441\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBroadBandImage1.fits}
+\PYG{g+go}{0002611442\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBroadBandImage1.fits}
+\PYG{g+go}{0002611443\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBroadBandImage1.fits}
+\PYG{g+go}{0002611444\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBroadBandImage1.fits}
+\PYG{g+go}{0002611445\PYGZhy{}20200712\PYGZhy{}OSIRIS\PYGZhy{}OsirisBroadBandImage1.fits}
+\PYG{g+go}{...}
+\end{Verbatim}

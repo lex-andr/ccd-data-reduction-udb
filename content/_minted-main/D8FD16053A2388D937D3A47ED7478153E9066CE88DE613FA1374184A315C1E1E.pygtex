@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+gp}{astronomer@PC:\PYGZti{} \PYGZdl{} }ls\PYG{+w}{ }Documents/
+\PYG{g+go}{Clases\PYGZhy{}CCD  Datos\PYGZhy{}CCD  Notebooks\PYGZhy{}CCD}
+\end{Verbatim}

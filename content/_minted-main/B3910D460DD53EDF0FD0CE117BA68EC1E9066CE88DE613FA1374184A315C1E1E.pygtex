@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{archivo1.txt}
+\PYG{g+go}{archivo2.txt}
+\PYG{g+go}{archivo3.pdf}
+\PYG{g+go}{archivo4.pdf}
+\end{Verbatim}

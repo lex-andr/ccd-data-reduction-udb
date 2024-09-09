@@ -1,0 +1,6 @@
+\chapter{Reducción de datos con IRAF}
+En esta clase abordaremos el procedimiento estándar para combinar imágenes y crear archivos master. Los datos que usaremos son los de un sistema binario de una estrella de neutrones y una estrella normal. Dicha clase de sistemas se conoce como <<\emph{viuda negra}>>. Los datos se encuentran en este enlace: \url{https://drive.google.com/drive/folders/1TxopD_fIa1ZHplm_SH0Gvhe663psuJn-?usp=sharing}.
+
+\section{Combinando imágenes}
+
+

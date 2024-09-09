@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{ecl\PYGZgt{} imred}
+\PYG{g+go}{      argus.       dtoi.        irred.       specred.}
+\PYG{g+go}{      bias.        echelle.     irs.         vtel.}
+\PYG{g+go}{      ccdred.      generic.     kpnocoude.}
+\PYG{g+go}{      crutil.      hydra.       kpnoslit.}
+\PYG{g+go}{      ctioslit.    iids.        quadred.}
+
+\PYG{g+go}{imred\PYGZgt{}}
+\end{Verbatim}

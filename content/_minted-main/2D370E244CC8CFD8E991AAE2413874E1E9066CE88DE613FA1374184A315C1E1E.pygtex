@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{} ccdproc}
+\PYG{g+go}{List of CCD images to correct (\PYGZsq{}@lista\PYGZus{}flat\PYGZsq{}):}
+\end{Verbatim}

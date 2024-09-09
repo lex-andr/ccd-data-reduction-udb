@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{} cd OB0001/}
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{} ls}
+\PYG{g+go}{bias  flat  GTC11\PYGZhy{}20AMEX\PYGZus{}0001\PYGZus{}qc.txt  object  stds	}
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\end{Verbatim}

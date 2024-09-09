@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{ecl.e: README.md}
+\PYG{g+go}{ecl.e: files.md ......}
+\PYG{g+go}{ecl.e: images.imcoords.md ...........}
+\PYG{g+go}{ecl.e: images.imfilter.md .x............}
+\PYG{g+go}{ecl.e: images.imfit.md ...}
+\PYG{g+go}{ecl.e: images.imgeom.md ........}
+\PYG{g+go}{ecl.e: images.immatch.md ..}
+\PYG{g+go}{ecl.e: lists.md .......}
+\PYG{g+go}{ecl.e: noao.astutil.md ........}
+\PYG{g+go}{ecl.e: noao.digiphot.photcal.md .}
+\PYG{g+go}{ecl.e: numerical\PYGZhy{}recipes.md ..........}
+\PYG{g+go}{ecl.e: os.md ..}
+\PYG{g+go}{ecl.e: programming.md ............}
+\PYG{g+go}{ecl.e: sys.vops.md .}
+\PYG{g+go}{ecl.e: test\PYGZhy{}syntax.md ...xs.}
+\PYG{g+go}{ecl.e: testproc.md ..........................}
+\PYG{g+go}{ecl.e: utilities.nttools.md ..............}
+\PYG{g+go}{Test summary:  128 passed}
+\PYG{g+go}{   1 skipped}
+\PYG{g+go}{   2 xfailed}
+\end{Verbatim}

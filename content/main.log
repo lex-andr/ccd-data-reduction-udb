@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.8.15)  6 SEP 2024 18:38
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.8.15)  9 SEP 2024 13:24
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1458,7 +1458,8 @@ LaTeX Info: Redefining \% on input line 22.
 (./unit-1/lesson-1.aux) (./unit-1/lesson-2.aux) (./unit-1/lesson-3.aux) (./unit
 -1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux) (./unit-2/less
 on-7.aux) (./unit-2/lesson-8.aux) (./unit-3/lesson-9.aux) (./unit-3/lesson-10.a
-ux) (./unit-3/lesson-11.aux) (./unit-3/lesson-12.aux))
+ux) (./unit-3/lesson-11.aux) (./unit-3/lesson-12.aux) (./unit-4/lesson-13.aux) 
+(./unit-4/lesson-14.aux) (./unit-4/lesson-15.aux) (./unit-4/lesson-16.aux))
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -1599,17 +1600,17 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1] [2] [3])
+[1] [2] [3] [4])
 \tf@toc=\write8
 
 \openout8 = main.toc
-[4] [5
+[5] [6
 
 ]
 \openout2 = unit-1/lesson-1.aux
  (./unit-1/lesson-1.tex
 Clase 1.
-[6
+[7
 
 
 ]
@@ -1661,7 +1662,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 \openout4 = main.pyg
 
 (./_minted-main/124F41FE111916DCBF562D07D7CD6BFE8A449B50EE51364726AD8715BAD1C7E
-9.pygtex) [7]
+9.pygtex) [8]
 \openout4 = main.pyg
 
 (./_minted-main/37F6E99940B38F3C2EB998F2DEF2BBAC8A449B50EE51364726AD8715BAD1C7E
@@ -1713,7 +1714,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 \openout4 = main.pyg
 
 (./_minted-main/6D7FCE9FEE471194AA8B5B6E47267F038A449B50EE51364726AD8715BAD1C7E
-9.pygtex) [8]
+9.pygtex) [9]
 \tcb@out=\write9
 
 \openout9 = main.listing
@@ -1743,7 +1744,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/9699F21E2B09F9268FCC89DF9940F561541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [9]
+C.pygtex) [10]
 \openout4 = main.pyg
 
 (./_minted-main/9106108552DFD4B2B515BAE473A9753EA10B244115FA357BA46ABB99F7249CA
@@ -1795,7 +1796,7 @@ C.pygtex) [9]
 \openout4 = main.pyg
 
 (./_minted-main/180FC6C53F1C2C61051BC5A27214393C8A449B50EE51364726AD8715BAD1C7E
-9.pygtex) [10]
+9.pygtex) [11]
 \openout4 = main.pyg
 
 (./_minted-main/E5D402359B2383AA90AFE058231290B0A10B244115FA357BA46ABB99F7249CA
@@ -1839,7 +1840,7 @@ E.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/A9432188AC1F0A3CF8246D3E552A5687E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [11]
+E.pygtex) [12]
 \openout4 = main.pyg
 
 (./_minted-main/20E11EBD79DA8F03C9D072F435200E15A10B244115FA357BA46ABB99F7249CA
@@ -1892,7 +1893,7 @@ Overfull \hbox (39.69856pt too wide) in paragraph at lines 146--147
 \openout4 = main.pyg
 
 (./_minted-main/91C57142DDF5A596C810FFCD18F103818A449B50EE51364726AD8715BAD1C7E
-9.pygtex) [12]
+9.pygtex) [13]
 \openout9 = main.listing
 
 (./_minted-main/7EC9BC00832E1F536440D4B288EAED0A40A465C13C61724B730B788CC354837
@@ -1901,7 +1902,7 @@ Overfull \hbox (39.69856pt too wide) in paragraph at lines 146--147
 
 (./_minted-main/38D51A0F6338E3318D830A1BD9052E898A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-<figures/jupyter-interface.png, id=632, 902.9986pt x 375.65344pt>
+<figures/jupyter-interface.png, id=773, 902.9986pt x 375.65344pt>
 File: figures/jupyter-interface.png Graphic file (type png)
 <use figures/jupyter-interface.png>
 Package luatex.def Info: figures/jupyter-interface.png  used on input line 162.
@@ -1920,12 +1921,12 @@ Package luatex.def Info: figures/jupyter-interface.png  used on input line 162.
 
 (./_minted-main/13D6D0D46E9AD39D526555821E6B9E24A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-<figures/Jupyter-code.png, id=633, 327.09703pt x 137.7647pt>
+<figures/Jupyter-code.png, id=774, 327.09703pt x 137.7647pt>
 File: figures/Jupyter-code.png Graphic file (type png)
 <use figures/Jupyter-code.png>
 Package luatex.def Info: figures/Jupyter-code.png  used on input line 171.
 (luatex.def)             Requested size: 212.91577pt x 89.67421pt.
-<figures/jupyter-markdown.png, id=634, 322.58015pt x 137.01187pt>
+<figures/jupyter-markdown.png, id=775, 322.58015pt x 137.01187pt>
 File: figures/jupyter-markdown.png Graphic file (type png)
 <use figures/jupyter-markdown.png>
 Package luatex.def Info: figures/jupyter-markdown.png  used on input line 171.
@@ -1942,7 +1943,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/3E1CE07401B37846F4D6AAB1EFBE771B541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [13<./figures/jupyter-interface.png>]
+C.pygtex) [14<./figures/jupyter-interface.png>]
 \openout4 = main.pyg
 
 (./_minted-main/3339C3B5D0F0A25B93F02E49DF07D5E1A10B244115FA357BA46ABB99F7249CA
@@ -1994,7 +1995,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/723A649DE61E9DDAA38171021969F1ECA10B244115FA357BA46ABB99F7249CA
-9.pygtex) [14
+9.pygtex) [15
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -2041,7 +2042,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/CF036B0B5CD170E2F76417711A8A5D9682A15B1DCA8D177369A2514541E452D
-C.pygtex) [15]
+C.pygtex) [16]
 \openout9 = main.listing
 
 (./_minted-main/367764329430DB34BE92FD14A7A770EEBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
@@ -2081,7 +2082,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/26AB0DB90D72E28AD0BA1E22EE510510BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [16
+9.pygtex) [17
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -2259,7 +2260,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/BDD75DB6859C2EC814D64E6160901EA582A15B1DCA8D177369A2514541E452D
-C.pygtex) [17
+C.pygtex) [18
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -2377,7 +2378,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex)) [18
+9.pygtex)) [19
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -2544,7 +2545,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 (./_minted-main/pastie.pygstyle)
 (./_minted-main/B37477618518183B632750B6925923D982A15B1DCA8D177369A2514541E452D
-C.pygtex) [19
+C.pygtex) [20
 
 
 
@@ -2686,7 +2687,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/A5DAC0228470308DFEFA5A81276C3C0582A15B1DCA8D177369A2514541E452D
-C.pygtex) [20
+C.pygtex) [21
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -2837,7 +2838,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/F089ACA85111DB698D1186830A8DCDD4541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [21
+C.pygtex) [22
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -3043,7 +3044,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/79F5C9AEC1851D24424DE38AD3DE6F98541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [22
+C.pygtex) [23
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -3126,7 +3127,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/DB469A3C93932F04B310C090231CF8FFBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [23
+9.pygtex) [24
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -3209,7 +3210,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/56DB5AC089A94F9976CB3BCFD14E0EA0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [24
+9.pygtex) [25
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -3396,7 +3397,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/2B63039DDE19C6D73B27D30ED63A236382A15B1DCA8D177369A2514541E452D
-C.pygtex) [25
+C.pygtex) [26
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -3566,7 +3567,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/B56EA44752EDC04118D17497A4113405541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [26
+C.pygtex) [27
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -3743,7 +3744,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/66D0DB86262C9C98AB44B4167FB4C0CE82A15B1DCA8D177369A2514541E452D
-C.pygtex) [27
+C.pygtex) [28
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -3918,7 +3919,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/C83202DA22BA78AD2C126BEF2B51AFC0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [28
+9.pygtex) [29
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -4049,7 +4050,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/169B6C6224D15BBD45B6D9A9DC43C019BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex)) [29
+9.pygtex)) [30
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -4220,7 +4221,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/26300F8760043F6D16977D01DA9B2F7D541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [30
+C.pygtex) [31
 
 
 
@@ -4295,7 +4296,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/788A70EB892FDE50B99A892031583240E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [31
+E.pygtex) [32
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -4395,7 +4396,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/B14BC2B4C03BDCF0C5DA083844E2304CE9066CE88DE613FA1374184A315C1E1
-E.pygtex) [32
+E.pygtex) [33
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -4457,7 +4458,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/009520053B00386D1173F3988C55D192541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [33
+C.pygtex) [34
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -4531,7 +4532,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/BEBBC54A864A4EC4EF647C7B021FC6C7E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [34
+E.pygtex) [35
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -4633,7 +4634,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/5E7C604A22DABA21FB670817BE72ACB382A15B1DCA8D177369A2514541E452D
-C.pygtex) [35
+C.pygtex) [36
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -4703,7 +4704,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/E2AAC97F1079193CE37315CE35ACBF3482A15B1DCA8D177369A2514541E452D
-C.pygtex) [36
+C.pygtex) [37
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -4791,7 +4792,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/BF6A1E2768B99C5EFDF30F339A53CE4F82A15B1DCA8D177369A2514541E452D
-C.pygtex) [37
+C.pygtex) [38
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -4925,7 +4926,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/51D219CB69AA02B94234909192F5858BBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [38
+9.pygtex) [39
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -5083,7 +5084,7 @@ E.pygtex)
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 18'
-[39
+[40
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -5189,7 +5190,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/D0ADD780E0C5D35A304582CB26AC0B02BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex)) [40
+9.pygtex)) [41
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -5323,7 +5324,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/82DAA4A4277902E2B9A34300E59F3832BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [41
+9.pygtex) [42
 
 
 
@@ -5427,7 +5428,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/614DD0E977BECB4C6F7FA99E64549B12541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [42
+C.pygtex) [43
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -5505,7 +5506,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout4 = main.pyg
 
 (./_minted-main/63A1FDE42A0CC1A61D1F64C483B3FE25541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [43
+C.pygtex) [44
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -5599,7 +5600,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/C30F7472766D25AF1DC80B3FFC9A58C7BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [44
+9.pygtex) [45
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -5720,7 +5721,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/2367D0D41BA13117405DFA47FDFF7B3BBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [45
+9.pygtex) [46
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -5884,7 +5885,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/5839A7782AA1AABFCB0F6378A136AAE7541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [46
+C.pygtex) [47
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -6053,7 +6054,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/166C3043AE7AACE2C0DB81CA7E90A2B482A15B1DCA8D177369A2514541E452D
-C.pygtex) [47
+C.pygtex) [48
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -6272,7 +6273,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/E4D7A894EB02AB6D974100E5E9EBB12182A15B1DCA8D177369A2514541E452D
-C.pygtex) [48
+C.pygtex) [49
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -6388,7 +6389,7 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/D801DD2754E838E5DF673EB8E0C8A069541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)) [49] [50
+C.pygtex)) [50] [51
 
 
 
@@ -6396,46 +6397,46 @@ C.pygtex)) [49] [50
 \openout2 = unit-2/lesson-5.aux
  (./unit-2/lesson-5.tex
 Clase 5.
-[51
+[52
 
 
 ]
-<figures/em_spectrum.png, id=874, 676.4472pt x 118.041pt>
+<figures/em_spectrum.png, id=1015, 676.4472pt x 118.041pt>
 File: figures/em_spectrum.png Graphic file (type png)
 <use figures/em_spectrum.png>
 Package luatex.def Info: figures/em_spectrum.png  used on input line 20.
 (luatex.def)             Requested size: 443.57848pt x 77.40475pt.
-[52<./figures/em_spectrum.png>]
-<figures/light_laws.png, id=882, 849.8952pt x 331.9602pt>
+[53<./figures/em_spectrum.png>]
+<figures/light_laws.png, id=1023, 849.8952pt x 331.9602pt>
 File: figures/light_laws.png Graphic file (type png)
 <use figures/light_laws.png>
 Package luatex.def Info: figures/light_laws.png  used on input line 39.
 (luatex.def)             Requested size: 443.57848pt x 173.25851pt.
-[53<./figures/light_laws.png>]) [54]
+[54<./figures/light_laws.png>]) [55]
 \openout2 = unit-2/lesson-6.aux
  (./unit-2/lesson-6.tex
 Clase 6.
-[55
+[56
 
 
 
 
 ]
-<figures/Inverse_square_law.png, id=900, 2569.6pt x 1713.40125pt>
+<figures/Inverse_square_law.png, id=1041, 2569.6pt x 1713.40125pt>
 File: figures/Inverse_square_law.png Graphic file (type png)
 <use figures/Inverse_square_law.png>
 Package luatex.def Info: figures/Inverse_square_law.png  used on input line 17.
 
 (luatex.def)             Requested size: 354.86412pt x 236.60649pt.
-[56<./figures/Inverse_square_law.png>] [57] [58] [59] [60]
-<figures/UBV-filter.png, id=927, 519.44063pt x 426.84468pt>
+[57<./figures/Inverse_square_law.png>] [58] [59] [60] [61]
+<figures/UBV-filter.png, id=1068, 519.44063pt x 426.84468pt>
 File: figures/UBV-filter.png Graphic file (type png)
 <use figures/UBV-filter.png>
 Package luatex.def Info: figures/UBV-filter.png  used on input line 92.
 (luatex.def)             Requested size: 443.57848pt x 364.50659pt.
-[61<./figures/UBV-filter.png>]
+[62<./figures/UBV-filter.png>]
 
-LaTeX Warning: Reference `fig:planck-function' on page 62 undefined on input li
+LaTeX Warning: Reference `fig:planck-function' on page 63 undefined on input li
 ne 112.
 
 
@@ -6444,73 +6445,73 @@ Overfull \hbox (20.05603pt too wide) in paragraph at lines 111--113
 ón y $[]$
  []
 
-<figures/Black_body.png, id=935, 480.3546pt x 368.3361pt>
+<figures/Black_body.png, id=1076, 480.3546pt x 368.3361pt>
 File: figures/Black_body.png Graphic file (type png)
 <use figures/Black_body.png>
 Package luatex.def Info: figures/Black_body.png  used on input line 116.
 (luatex.def)             Requested size: 443.57848pt x 340.1379pt.
-[62<./figures/Black_body.png>]) [63]
+[63<./figures/Black_body.png>]) [64]
 \openout2 = unit-2/lesson-7.aux
  (./unit-2/lesson-7.tex
 Clase 7.
-<figures/solar-spectrum.png, id=947, 501.875pt x 50.1875pt>
+<figures/solar-spectrum.png, id=1088, 501.875pt x 50.1875pt>
 File: figures/solar-spectrum.png Graphic file (type png)
 <use figures/solar-spectrum.png>
 Package luatex.def Info: figures/solar-spectrum.png  used on input line 12.
 (luatex.def)             Requested size: 443.57848pt x 44.3604pt.
-[64
+[65
 
 
 
 
 <./figures/solar-spectrum.png>]
-<figures/H-spectrum.png, id=958, 647.2983pt x 95.6373pt>
+<figures/H-spectrum.png, id=1099, 647.2983pt x 95.6373pt>
 File: figures/H-spectrum.png Graphic file (type png)
 <use figures/H-spectrum.png>
 Package luatex.def Info: figures/H-spectrum.png  used on input line 32.
 (luatex.def)             Requested size: 443.57848pt x 65.53886pt.
-[65]
-<figures/hydrogen-lines-transitions.png, id=966, 501.875pt x 466.74374pt>
+[66]
+<figures/hydrogen-lines-transitions.png, id=1107, 501.875pt x 466.74374pt>
 File: figures/hydrogen-lines-transitions.png Graphic file (type png)
 <use figures/hydrogen-lines-transitions.png>
 Package luatex.def Info: figures/hydrogen-lines-transitions.png  used on input 
 line 41.
 (luatex.def)             Requested size: 354.86412pt x 330.0372pt.
-[66<./figures/H-spectrum.png><./figures/hydrogen-lines-transitions.png>]
-<figures/types-of-spectra.jpg, id=979, 1284.8pt x 722.7pt>
+[67<./figures/H-spectrum.png><./figures/hydrogen-lines-transitions.png>]
+<figures/types-of-spectra.jpg, id=1119, 1284.8pt x 722.7pt>
 File: figures/types-of-spectra.jpg Graphic file (type jpg)
 <use figures/types-of-spectra.jpg>
 Package luatex.def Info: figures/types-of-spectra.jpg  used on input line 53.
 (luatex.def)             Requested size: 443.57848pt x 249.50821pt.
-[67<./figures/types-of-spectra.jpg>] [68] [69]
-<figures/doppler-shift.jpg, id=1003, 481.8pt x 200.75pt>
+[68<./figures/types-of-spectra.jpg>] [69] [70]
+<figures/doppler-shift.jpg, id=1145, 481.8pt x 200.75pt>
 File: figures/doppler-shift.jpg Graphic file (type jpg)
 <use figures/doppler-shift.jpg>
 Package luatex.def Info: figures/doppler-shift.jpg  used on input line 89.
 (luatex.def)             Requested size: 310.50357pt x 129.38013pt.
-[70<./figures/doppler-shift.jpg>]
-<figures/Orbits-binary.png, id=1014, 1163.3061pt x 730.8906pt>
+[71<./figures/doppler-shift.jpg>]
+<figures/Orbits-binary.png, id=1155, 1163.3061pt x 730.8906pt>
 File: figures/Orbits-binary.png Graphic file (type png)
 <use figures/Orbits-binary.png>
 Package luatex.def Info: figures/Orbits-binary.png  used on input line 105.
 (luatex.def)             Requested size: 443.57848pt x 278.68927pt.
-[71<./figures/Orbits-binary.png>]
-<figures/spectroscopic-binary-lc.png, id=1023, 635.37375pt x 437.38406pt>
+[72<./figures/Orbits-binary.png>]
+<figures/spectroscopic-binary-lc.png, id=1164, 635.37375pt x 437.38406pt>
 File: figures/spectroscopic-binary-lc.png Graphic file (type png)
 <use figures/spectroscopic-binary-lc.png>
 Package luatex.def Info: figures/spectroscopic-binary-lc.png  used on input lin
 e 116.
 (luatex.def)             Requested size: 443.57848pt x 305.36588pt.
-) [72<./figures/spectroscopic-binary-lc.png>]
+) [73<./figures/spectroscopic-binary-lc.png>]
 \openout2 = unit-2/lesson-8.aux
  (./unit-2/lesson-8.tex
 Clase 8.
-) [73
+) [74
 
 
 
 
-] [74
+] [75
 
 
 
@@ -6579,7 +6580,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/B9352A2A925487D3E7F24DB5E649539682A15B1DCA8D177369A2514541E452D
-C.pygtex) [75
+C.pygtex) [76
 
 
 ]
@@ -6645,7 +6646,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/66F30EEAA4C0411DFED9DA98963827CA82A15B1DCA8D177369A2514541E452D
-C.pygtex) [76
+C.pygtex) [77
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -6837,7 +6838,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/B25FB31128B2D2C2E9A9BECC49404725BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [77
+9.pygtex) [78
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7023,7 +7024,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/D83BF44C08C8DDF6481FCAF0DE32C241BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [78
+9.pygtex) [79
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7150,7 +7151,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/5DB1BA45F6C9EFCE0CB6D59689D027D082A15B1DCA8D177369A2514541E452D
-C.pygtex) [79
+C.pygtex) [80
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7214,7 +7215,7 @@ Overfull \hbox (53.69884pt too wide) in paragraph at lines 187--188
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 17'
-<figures/matplotlib_lines.png, id=1061, 404.4711pt x 301.6068pt>
+<figures/matplotlib_lines.png, id=1203, 404.4711pt x 301.6068pt>
 File: figures/matplotlib_lines.png Graphic file (type png)
 <use figures/matplotlib_lines.png>
 Package luatex.def Info: figures/matplotlib_lines.png  used on input line 206.
@@ -7231,7 +7232,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/7D8BC440E4A7EA21AA720281655B2E5D82A15B1DCA8D177369A2514541E452D
-C.pygtex) [80
+C.pygtex) [81
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7261,7 +7262,7 @@ Missing character: There is no e (U+0065) in font nullfont!
 <./figures/matplotlib_lines.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 18'
-<figures/matplotlib_hist.png, id=1068, 135.6267pt x 104.0688pt>
+<figures/matplotlib_hist.png, id=1209, 135.6267pt x 104.0688pt>
 File: figures/matplotlib_hist.png Graphic file (type png)
 <use figures/matplotlib_hist.png>
 Package luatex.def Info: figures/matplotlib_hist.png  used on input line 227.
@@ -7291,13 +7292,13 @@ Overfull \hbox (31.57803pt too wide) in paragraph at lines 230--231
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 19'
-<figures/matplotlib_matrix.png, id=1069, 118.5228pt x 100.2144pt>
+<figures/matplotlib_matrix.png, id=1210, 118.5228pt x 100.2144pt>
 File: figures/matplotlib_matrix.png Graphic file (type png)
 <use figures/matplotlib_matrix.png>
 Package luatex.def Info: figures/matplotlib_matrix.png  used on input line 245.
 
 (luatex.def)             Requested size: 310.50357pt x 262.58807pt.
-[81
+[82
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7350,7 +7351,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/8504E947914A66F0BAFB0C449D308FFF82A15B1DCA8D177369A2514541E452D
-C.pygtex) [82
+C.pygtex) [83
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7380,7 +7381,7 @@ Missing character: There is no e (U+0065) in font nullfont!
 <./figures/matplotlib_matrix.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 22'
-<figures/matplotlib_contour.png, id=1080, 129.8451pt x 100.6962pt>
+<figures/matplotlib_contour.png, id=1221, 129.8451pt x 100.6962pt>
 File: figures/matplotlib_contour.png Graphic file (type png)
 <use figures/matplotlib_contour.png>
 Package luatex.def Info: figures/matplotlib_contour.png  used on input line 277
@@ -7404,7 +7405,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/06E6BD1249DEC936802D2A740853B44D82A15B1DCA8D177369A2514541E452D
-C.pygtex) [83
+C.pygtex) [84
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7466,13 +7467,13 @@ C.pygtex)
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 26'
-<figures/matplotlib_2d_gaussian.png, id=1086, 137.313pt x 109.1277pt>
+<figures/matplotlib_2d_gaussian.png, id=1227, 137.313pt x 109.1277pt>
 File: figures/matplotlib_2d_gaussian.png Graphic file (type png)
 <use figures/matplotlib_2d_gaussian.png>
 Package luatex.def Info: figures/matplotlib_2d_gaussian.png  used on input line
  318.
 (luatex.def)             Requested size: 310.50357pt x 246.76721pt.
-) [84
+) [85
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7550,7 +7551,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/BB7D31CC4F2C082FD3788A73DEF7847C82A15B1DCA8D177369A2514541E452D
-C.pygtex) [85
+C.pygtex) [86
 
 
 
@@ -7621,7 +7622,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/15085FBCB1C45439371B14EC732C3BC082A15B1DCA8D177369A2514541E452D
-C.pygtex) [86
+C.pygtex) [87
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7785,7 +7786,7 @@ C.pygtex)
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 7'
-[87
+[88
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7888,7 +7889,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/7D09C33207059AD00023DAEB809EEE3682A15B1DCA8D177369A2514541E452D
-C.pygtex) [88
+C.pygtex) [89
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7978,7 +7979,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 13'
-<figures/binary_bias_example.png, id=1112, 145.2627pt x 200.9106pt>
+<figures/binary_bias_example.png, id=1253, 145.2627pt x 200.9106pt>
 File: figures/binary_bias_example.png Graphic file (type png)
 <use figures/binary_bias_example.png>
 Package luatex.def Info: figures/binary_bias_example.png  used on input line 17
@@ -7988,7 +7989,7 @@ Package luatex.def Info: figures/binary_bias_example.png  used on input line 17
 \openout9 = main.listing
 
 (./_minted-main/8F5A901870233FB153D32CA353050D8182A15B1DCA8D177369A2514541E452D
-C.pygtex) [89
+C.pygtex) [90
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8057,7 +8058,7 @@ Missing character: There is no e (U+0065) in font nullfont!
 <./figures/binary_bias_example.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 14'
-<figures/binary_flat_example.png, id=1118, 213.1965pt x 185.9748pt>
+<figures/binary_flat_example.png, id=1260, 213.1965pt x 185.9748pt>
 File: figures/binary_flat_example.png Graphic file (type png)
 <use figures/binary_flat_example.png>
 Package luatex.def Info: figures/binary_flat_example.png  used on input line 18
@@ -8070,7 +8071,7 @@ Package luatex.def Info: figures/binary_flat_example.png  used on input line 18
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 15'
-<figures/binary_object_example.png, id=1119, 211.0284pt x 185.9748pt>
+<figures/binary_object_example.png, id=1261, 211.0284pt x 185.9748pt>
 File: figures/binary_object_example.png Graphic file (type png)
 <use figures/binary_object_example.png>
 Package luatex.def Info: figures/binary_object_example.png  used on input line 
@@ -8080,7 +8081,7 @@ Package luatex.def Info: figures/binary_object_example.png  used on input line
 \openout4 = main.pyg
 
 (./_minted-main/14241705640D22B183BF3BBF4CBD6DB4541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [90
+C.pygtex) [91
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8149,7 +8150,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 21'
-[91
+[92
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8242,13 +8243,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 23'
-<figures/counts_hist_simulated.png, id=1131, 190.5519pt x 182.1204pt>
+<figures/counts_hist_simulated.png, id=1272, 190.5519pt x 182.1204pt>
 File: figures/counts_hist_simulated.png Graphic file (type png)
 <use figures/counts_hist_simulated.png>
 Package luatex.def Info: figures/counts_hist_simulated.png  used on input line 
 264.
 (luatex.def)             Requested size: 310.50357pt x 296.79526pt.
-) [92
+) [93
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8307,7 +8308,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 14.
 \openout4 = main.pyg
 
 (./_minted-main/0569EB1F71B91FB4EF857083622C9D23541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [93
+C.pygtex) [94
 
 
 
@@ -8338,7 +8339,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/5CFDA142846275DAE1EC814E351A173DBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-<figures/overscan.png, id=1145, 417.7206pt x 302.0886pt>
+<figures/overscan.png, id=1286, 417.7206pt x 302.0886pt>
 File: figures/overscan.png Graphic file (type png)
 <use figures/overscan.png>
 Package luatex.def Info: figures/overscan.png  used on input line 45.
@@ -8351,7 +8352,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/FB8B7FE91C7C06E34D313E70969F2A6282A15B1DCA8D177369A2514541E452D
-C.pygtex) [94
+C.pygtex) [95
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8440,7 +8441,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 7'
-[95
+[96
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8530,7 +8531,7 @@ C.pygtex)
 
 (./_minted-main/015B3AB25FCD3E9A7F9AA3C2D8964C70541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-<figures/first_bias.png, id=1161, 432.1746pt x 591.8913pt>
+<figures/first_bias.png, id=1302, 432.1746pt x 591.8913pt>
 File: figures/first_bias.png Graphic file (type png)
 <use figures/first_bias.png>
 Package luatex.def Info: figures/first_bias.png  used on input line 109.
@@ -8539,7 +8540,7 @@ Package luatex.def Info: figures/first_bias.png  used on input line 109.
 \openout4 = main.pyg
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [96
+C.pygtex) [97
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8632,7 +8633,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/F237B7F9649804EBF40A8F78F03975AB82A15B1DCA8D177369A2514541E452D
-C.pygtex) [97
+C.pygtex) [98
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8732,7 +8733,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/8E55A1192AA4BA47F3FF3530307E9740BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [98
+9.pygtex) [99
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8811,7 +8812,7 @@ U/Consolas(0)/m/n/10.95 )|
 )
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 21'
-) [99
+) [100
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8873,7 +8874,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout4 = main.pyg
 
 (./_minted-main/2B7FB7E53878FE8B456DF82CFC73BAF7541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [100
+C.pygtex) [101
 
 
 
@@ -8919,7 +8920,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 5'
-[101
+[102
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8973,7 +8974,7 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-<figures/flat_trimmed.png, id=1191, 435.0654pt x 602.7318pt>
+<figures/flat_trimmed.png, id=1332, 435.0654pt x 602.7318pt>
 File: figures/flat_trimmed.png Graphic file (type png)
 <use figures/flat_trimmed.png>
 Package luatex.def Info: figures/flat_trimmed.png  used on input line 75.
@@ -9015,7 +9016,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/E823AF6E9AF9063AC2063155B0EFDC17BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [102
+9.pygtex) [103
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -9110,7 +9111,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/5D8D3BD50BC6E7C4DD4D9346B0025F8582A15B1DCA8D177369A2514541E452D
-C.pygtex) [103
+C.pygtex) [104
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -9188,7 +9189,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout9 = main.listing
 
 (./_minted-main/2DDC4642D014B31E23D5DC6E6CD0A9CC82A15B1DCA8D177369A2514541E452D
-C.pygtex) [104
+C.pygtex) [105
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -9244,7 +9245,7 @@ Missing character: There is no e (U+0065) in font nullfont!
 ]
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 15'
-<figures/master_flats.png, id=1208, 714.7503pt x 567.3195pt>
+<figures/master_flats.png, id=1349, 714.7503pt x 567.3195pt>
 File: figures/master_flats.png Graphic file (type png)
 <use figures/master_flats.png>
 Package luatex.def Info: figures/master_flats.png  used on input line 209.
@@ -9271,7 +9272,7 @@ C.pygtex)
 \openout9 = main.listing
 
 (./_minted-main/9FB9B05243BB0B2422076A4317B2C6B382A15B1DCA8D177369A2514541E452D
-C.pygtex) [105
+C.pygtex) [106
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -9314,12 +9315,12 @@ Missing character: There is no e (U+0065) in font nullfont!
 <./figures/master_flats.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 18'
-<figures/reduced_images.png, id=1217, 714.7503pt x 1193.1777pt>
+<figures/reduced_images.png, id=1358, 714.7503pt x 1193.1777pt>
 File: figures/reduced_images.png Graphic file (type png)
 <use figures/reduced_images.png>
 Package luatex.def Info: figures/reduced_images.png  used on input line 270.
 (luatex.def)             Requested size: 354.86412pt x 592.41812pt.
-) [106
+) [107
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -9333,43 +9334,1353 @@ Missing character: There is no g (U+0067) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-] [107<./figures/reduced_images.png>] (./main.aux
+] [108<./figures/reduced_images.png>] [109
+
+
+
+]
+\openout2 = unit-4/lesson-13.aux
+ (./unit-4/lesson-13.tex
+Clase 13.
+
+\openout4 = main.pyg
+
+(./_minted-main/06B8B97764C7DAEA255DF9D38103A6B1D3773C8B440B993359565A23D713B17
+A.pygtex)
+\openout9 = main.listing
+ (./_minted-main/tango.pygstyle)
+(./_minted-main/1E87ABAD275058642428FFF6C39E92D7E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [110
+
+
+]
+\openout4 = main.pyg
+
+(./_minted-main/3E98E629598C42C318F592C85674ED968A449B50EE51364726AD8715BAD1C7E
+9.pygtex) [111]
+\openout4 = main.pyg
+
+(./_minted-main/C6AD4D9C5B03D1B42AEC7D14899614DB8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/7EA0193579E662AD546E21C5ED479F8EE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B75DB1826C8A2B4BC177A85ECD6974F28A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/166101F93D4B4599F352974EF2EB1C488A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/4A0E85610CDB329DE6055BDA6CBF9A3B8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C6AD4D9C5B03D1B42AEC7D14899614DB8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/D0781A20299A0AC7F2473649CF514ABC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/9ED5B064975DA25E1AA6BBF1B30215028A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/D0781A20299A0AC7F2473649CF514ABC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/8A45607572F777786AD50EB899C64F87E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/874947DD4696BE6473847EFD4D4611BE8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/D8FD16053A2388D937D3A47ED7478153E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [112]
+\openout4 = main.pyg
+
+(./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/0C22F99BD4736D8EBBB0ECDA75E7B2548A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/3BCB244E506A284C51E5A64DE9187D178A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/3F3F6AED1E8CAE091EE47EEA7EB0AE168A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/2A481611DC960BF7937E44D28AF2165AE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/D0781A20299A0AC7F2473649CF514ABC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/633A8487BF87509EB00CE1E206F4A4D78A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C6AD4D9C5B03D1B42AEC7D14899614DB8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/44B2566DA834EE37881D9EA9A608EDF2E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/CA3509477F7FE2C1B5F35409FEE51E148A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/529267B4146F2E18421B95C5C56856A98A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/0C22F99BD4736D8EBBB0ECDA75E7B2548A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/73ABFAD55F169B8026E26557E9933F3CE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/39F12E6D5019C15D7360E57B402BC7858A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/DDEA62553E43E934742F6835E54A6C938A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/33A09DD15064998F1A63F53596A8A7A5E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [113]
+\openout4 = main.pyg
+
+(./_minted-main/9E85C099A5D5155DA0F4671BA34C60648A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/0A1F21A3417389E0C0A13392C79A7A898A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/92520A5A9CF893220B9CD447F585F1448A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/9E85C099A5D5155DA0F4671BA34C60648A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/3017FBEE26F2955BABBCF0C81783F700E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/19FC6DBDF96AF7EA646CF374DBF4831FE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/1F96324DF833FE829014ECEB5744F4D68A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B3DB44E0B62512E27505251390A098778A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/901617D21D535B07BE0D69801C23DB318A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/F789C38B2C1923C5BEF063EB9DD4CAA68A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/AF5D4D883C8C9C50711D86A7E1807CAB8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/82F2219656AF32DCA2C5AA04270373A9E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [114]
+\openout4 = main.pyg
+
+(./_minted-main/AF5D4D883C8C9C50711D86A7E1807CAB8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/B4FB1941406A9B7A504C99BF6E62AFCFE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/78E11253033B011BCBF902FC0FBA9B9EE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/80CA213EF99F2C2B9BE9C3886B6B137DE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B3136A962C78ED1216A17F6C0E30B9C08A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/EE9F11505D0160B459A18BFC992CE4FC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/BE0FB0394AF271A4013FFE21984AF4778A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/BE0FB0394AF271A4013FFE21984AF4778A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/50621BDEBCB759C4F4BCF5AA202A1438E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/DDA87DC3B80423B5EF1EC8B88E13FB308A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/747DE66AAC7D145949B5B1647FB9FD318A449B50EE51364726AD8715BAD1C7E
+9.pygtex) [115]
+\openout4 = main.pyg
+
+(./_minted-main/BE0FB0394AF271A4013FFE21984AF4778A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/F834977FB662BA345B8A824495EDCBCE8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/BE0FB0394AF271A4013FFE21984AF4778A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/E3D0B00EA65457E183EC55173AF1E886E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/B3910D460DD53EDF0FD0CE117BA68EC1E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/36F9FD751879BD7BD142048BA0F74B64E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/8798336199E3EAEF5B2213295D26E6828A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/F834977FB662BA345B8A824495EDCBCE8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/8798336199E3EAEF5B2213295D26E6828A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/029CBB5C76272D2F2317692FFDC7D402E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [116]
+\openout4 = main.pyg
+
+(./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/9E85C099A5D5155DA0F4671BA34C60648A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/AF5D4D883C8C9C50711D86A7E1807CAB8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/53C617844FACB87F9CD5F30DAB6BF94AE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/FA67425BC3AAD3A3B6814B434453A2BEE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B3136A962C78ED1216A17F6C0E30B9C08A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/CD615D8338B4DF2E0EB405BEAAFD985EE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/4931D3E7F5E542747BB4C21BFBCFAB18E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/1661D2CCC3AEC23B297907A8C75C77E4E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/A92ECBFBC229DCAEC9FF78F271DCD54FE9066CE88DE613FA1374184A315C1E1
+E.pygtex) [117]
+\openout4 = main.pyg
+
+(./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/AC26395EFAB835B305F02DEC4962CCCE8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/AEA9A269908B80CD9CEFE58B89063D20E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/BCC527EBE864E6B7440FCD239EB8A9C0E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/B9009656949B708CCFE86CB9D6649A55E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7AAB2F78CD69BF5027B311ED4D9D59518A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/33D29F2AD4826D4C99B9488CE11571C5E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [118]
+\openout9 = main.listing
+
+(./_minted-main/9A990E0A65390FD6FDD2813677F0EFB0E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/0C22F99BD4736D8EBBB0ECDA75E7B2548A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/7846959333008E5169A8FC7923AD5176E9066CE88DE613FA1374184A315C1E1
+E.pygtex)) [119]
+\openout2 = unit-4/lesson-14.aux
+ (./unit-4/lesson-14.tex
+Clase 14.
+
+\openout4 = main.pyg
+
+(./_minted-main/C449E65874F029FFCFE547404CEEA8438A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/EB2D505950D2B192BACEBBA7E4FF8A288A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/961A10F2EC32592245F9C66EDADC804BE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/38F60CCEDE9FE459AB0495BC728D305CE9066CE88DE613FA1374184A315C1E1
+E.pygtex) [120
+
+
+
+
+]
+\openout9 = main.listing
+
+(./_minted-main/873DD83D0831499B4F41555B595DF008E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/E8DD36A5E4086E63E105442262DEEA918A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/7F229E23C41BBC29F831C6D3736225CCE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/A0B804D2222F077AB014AB148FF0E76BE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/A529865B288660EE0FE801ED50489025E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/5CA2056C9A60B9749AE02EEC792CA160E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/06ABCB97F2B98F599CB471DC24B53A7DE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/F38E783C2EC6E7AD01CD876ABB3098DCE9066CE88DE613FA1374184A315C1E1
+E.pygtex) [121]
+\openout9 = main.listing
+
+(./_minted-main/9139039C59C1B5C523B7C98217BEED05E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/72DB785C05CCC2B209B7ACBA0BBB4FD7E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/94C24942547626F8EDA2007205D9A09DE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/12CCEF7B801436355B025A2FFC4F9EA58A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/DA48E20A36C08E884437835208A81491E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [122]
+\openout4 = main.pyg
+
+(./_minted-main/12CCEF7B801436355B025A2FFC4F9EA58A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/215D50130934BB740CEA1FCF14413705E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/50DDEAE9DADAA4A723B9BAFA1CF301F0E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/09D670A4B13F9F7F1DBC6B5B2E45774BE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/4D320054BB78D510C0B032803B491F54E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/43D4047B507443641474E89F31A73CE4E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [123]
+\openout4 = main.pyg
+
+(./_minted-main/46667170DE66E9FCDAF350F3F5D4D785A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/A7AB8847C4D56CBBBAA9E8D5F052B0A3A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/A7AB8847C4D56CBBBAA9E8D5F052B0A3A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/A7AB8847C4D56CBBBAA9E8D5F052B0A3A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/5E84F31D90CDC509F44A6872C3CE3B0BA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+<figures/ecl-output.png, id=1452, 481.4236pt x 266.87202pt>
+File: figures/ecl-output.png Graphic file (type png)
+<use figures/ecl-output.png>
+Package luatex.def Info: figures/ecl-output.png  used on input line 151.
+(luatex.def)             Requested size: 443.57848pt x 245.89987pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/5E84F31D90CDC509F44A6872C3CE3B0BA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/5E84F31D90CDC509F44A6872C3CE3B0BA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/51998888EE584038291F52F56F995C3FA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/FFD3D4E01826451EA0086E483753E49CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/D594676AA60E9FA49FF821E5C121F0CBE9066CE88DE613FA1374184A315C1E1
+E.pygtex) [124<./figures/ecl-output.png>]
+\openout4 = main.pyg
+
+(./_minted-main/FFD3D4E01826451EA0086E483753E49CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/CF5A599A81A8CB56B42D3062039C840CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/1452E138FBDC3688C26DB014C0B4A4AFE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/CF5A599A81A8CB56B42D3062039C840CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/475A842B4A0A3EEE00DFB9429BED20E2A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7D0DE531B3ABE12E9BD11F1B76FE0619A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/15C19BD6FC0FDD9216FAD14771F7B06CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/28D07647484F1751AAB8BAA5F22B806BA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/475A842B4A0A3EEE00DFB9429BED20E2A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2F851AEEE4D0F07D942EEDB1BC7FC2EBA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/475A842B4A0A3EEE00DFB9429BED20E2A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/37320DB2812D1C361464A17D82BC41A8E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [125]
+\openout4 = main.pyg
+
+(./_minted-main/2F851AEEE4D0F07D942EEDB1BC7FC2EBA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/5EDA798A8A7BA15B6DDA8A3E521D452BA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2F851AEEE4D0F07D942EEDB1BC7FC2EBA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/AFC3F748C0FF6EBC1028CE68190BFDD9A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/89AE37F74AE998AC7322C5B745566E62A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/A7AB8847C4D56CBBBAA9E8D5F052B0A3A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/12CCEF7B801436355B025A2FFC4F9EA5A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/51998888EE584038291F52F56F995C3FA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/F2F0BB95FABF88E9E1D93E8D8BD38333A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/FFD3D4E01826451EA0086E483753E49CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/CF5A599A81A8CB56B42D3062039C840CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/44858AC758E67BB62A95C0F7D8F82154A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/3E23E865C71D28049F24DCDC985E9C03E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [126]
+<figures/pyraf-epar-example.png, id=1468, 258.21469pt x 281.92828pt>
+File: figures/pyraf-epar-example.png Graphic file (type png)
+<use figures/pyraf-epar-example.png>
+Package luatex.def Info: figures/pyraf-epar-example.png  used on input line 239
+.
+(luatex.def)             Requested size: 310.50357pt x 339.05215pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/7D0DE531B3ABE12E9BD11F1B76FE0619A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/15C19BD6FC0FDD9216FAD14771F7B06CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/28D07647484F1751AAB8BAA5F22B806BA10B244115FA357BA46ABB99F7249CA
+9.pygtex)) [127<./figures/pyraf-epar-example.png>] [128]
+\openout2 = unit-4/lesson-15.aux
+ (./unit-4/lesson-15.te
+x
+Clase 15.
+
+\openout4 = main.pyg
+
+(./_minted-main/F2F0BB95FABF88E9E1D93E8D8BD38333A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/F2F0BB95FABF88E9E1D93E8D8BD38333E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/8183AA57A23658EFE7BA7AEBE60816BCA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/119CF76B990CB7A741756B03270C5037541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/D506248D4955D96FFB1A8FAE8733B07FE9066CE88DE613FA1374184A315C1E1
+E.pygtex) [129
+
+
+
+
+]
+\openout9 = main.listing
+
+(./_minted-main/4DE573C84AD210C443EBC29BB97DB2C9E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/A7C4582BD968121153DC87A5C0A12003541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/F4DBCC2A0EEE94765A797DE071D52086E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/A7C4582BD968121153DC87A5C0A12003541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/57AFF3DA6F1834899BA2FDAB10E4DC83E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/C3012635649767666CF858F98D8E47BEE9066CE88DE613FA1374184A315C1E1
+E.pygtex) [130]
+\openout4 = main.pyg
+
+(./_minted-main/9CB6B36E1B440172CD56367654D5688D541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/475A842B4A0A3EEE00DFB9429BED20E2A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/D594D5EC6DBB0FEE274D29F6AACFDEA0E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+<figures/pyraf-zerocombine.png, id=1492, 259.3439pt x 281.92828pt>
+File: figures/pyraf-zerocombine.png Graphic file (type png)
+<use figures/pyraf-zerocombine.png>
+Package luatex.def Info: figures/pyraf-zerocombine.png  used on input line 79.
+(luatex.def)             Requested size: 310.50357pt x 337.58092pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/350B4BF5BA1E381150B7CC87D0B24247541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/BE47903447490C648611C2F6003B8D96A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2417B81960D49811AD2C5A3592459B24541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/24FE67AC78DFEFB079906B97CF2A8305541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/72B62691FF56B308CBF2559C1C8D7A18541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/59F5954CBED961E9C87AD9C4807070128A449B50EE51364726AD8715BAD1C7E
+9.pygtex) [131<./figures/pyraf-zerocombine.png>]
+\openout9 = main.listing
+
+(./_minted-main/4DC160AFAF434B0E86DAEF9C34A395D6E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C9FB40DDBA255309D2DF0496BB4B1965541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B8E59A7D4020792C412DA75E589FF4FCA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/15C19BD6FC0FDD9216FAD14771F7B06CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/6BCB9FCBBBBF2EA882000784B679F73CE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/D605B7884888B9CC6E77E6E9679B51E8E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/59598A031C880A15D95B148FD81126B8E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [132]
+\openout4 = main.pyg
+
+(./_minted-main/89AE37F74AE998AC7322C5B745566E62A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/F834977FB662BA345B8A824495EDCBCEA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/02625E0E1FBE2A3084DDF5056190493FA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/FB10B6F4533DA457307136422E57BCE2541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/314D8277A796F191BC197B79709DA3B8541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/3434A0A223B86AEC9F5ADD5158D31D81E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/0AE1620A800861025D1A0428FE9BBD3E541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/0B0A61E48E0D14F251EE85559278A115E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/8D625638FB8A490463AF90C3747F85C6E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [133]
+<figures/pyraf-correct-flat.png, id=1508, 258.9675pt x 271.76532pt>
+File: figures/pyraf-correct-flat.png Graphic file (type png)
+<use figures/pyraf-correct-flat.png>
+Package luatex.def Info: figures/pyraf-correct-flat.png  used on input line 174
+.
+(luatex.def)             Requested size: 310.50357pt x 325.88452pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/9EAA7685B9EA0A046647E5A8FD4A24C1541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/314D8277A796F191BC197B79709DA3B8541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2417B81960D49811AD2C5A3592459B24541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/0AE1620A800861025D1A0428FE9BBD3E541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/72B62691FF56B308CBF2559C1C8D7A18541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2D86E0BAAC9ACF7730B06470108E07E3A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/3AE2EA0C3867B219EF54D914437E76BEA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/CA13D43E42955A22EE2589930108FD6A541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/5F31C77A7AC9962B3DFE80C62AAD45F6541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/E14B420B7266F69A2B2B457F3BBEC804A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/ECCE9744FC117E36C38EE3DF9FA96D31541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/08D6EC0AA5810EEDA7E9F0BCD756BB20541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+Overfull \hbox (10.20192pt too wide) in paragraph at lines 179--180
+\TU/Arial(0)/m/n/10.95 «[]». En el cam-po lla-ma-do [] cu-ya des-crip-ción es
+ [],
+ []
+
+
+\openout9 = main.listing
+
+(./_minted-main/C75F833C6077A54C28FE25B29DD15900E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [134<./figures/pyraf-correct-flat.png>]
+\openout4 = main.pyg
+
+(./_minted-main/8C976A88759BE6B3491F2CF81EB2FDF6A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/4D86331A46B92EDBD1B84E4BDF2A879FA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+<figures/pyraf-hedit-flat.png, id=1517, 255.95625pt x 165.99516pt>
+File: figures/pyraf-hedit-flat.png Graphic file (type png)
+<use figures/pyraf-hedit-flat.png>
+Package luatex.def Info: figures/pyraf-hedit-flat.png  used on input line 194.
+(luatex.def)             Requested size: 212.91577pt x 138.08241pt.
+<figures/pyraf-hedit-master-bias.png, id=1518, 257.83829pt x 169.00641pt>
+File: figures/pyraf-hedit-master-bias.png Graphic file (type png)
+<use figures/pyraf-hedit-master-bias.png>
+Package luatex.def Info: figures/pyraf-hedit-master-bias.png  used on input lin
+e 195.
+(luatex.def)             Requested size: 212.91577pt x 139.5635pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/8C976A88759BE6B3491F2CF81EB2FDF6A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/8C976A88759BE6B3491F2CF81EB2FDF6A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/58B22F92AAA3306BB3ACA690D1C6B940A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/2D370E244CC8CFD8E991AAE2413874E1E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B8E59A7D4020792C412DA75E589FF4FCA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/095362D56BA1AC43F2B2184EA92218E3541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C9D6E9E55A1A229EE1BBF99DC49D27EEA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/D4938929B8B58370DC8BEFD711EED641E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+<figures/pyraf-flatcombine.png, id=1519, 257.08546pt x 289.83281pt>
+File: figures/pyraf-flatcombine.png Graphic file (type png)
+<use figures/pyraf-flatcombine.png>
+Package luatex.def Info: figures/pyraf-flatcombine.png  used on input line 220.
+
+(luatex.def)             Requested size: 310.50357pt x 350.08405pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/15C19BD6FC0FDD9216FAD14771F7B06CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/15C19BD6FC0FDD9216FAD14771F7B06CA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/59F5954CBED961E9C87AD9C4807070128A449B50EE51364726AD8715BAD1C7E
+9.pygtex) [135<./figures/pyraf-hedit-flat.png><./figures/pyraf-hedit-master-bias
+.png>]
+\openout4 = main.pyg
+
+(./_minted-main/6AE69E1D533BE125C808EFE4AC6044B1541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/B8E59A7D4020792C412DA75E589FF4FCA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C9FB40DDBA255309D2DF0496BB4B1965541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/6AE69E1D533BE125C808EFE4AC6044B1541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)) [136<./figures/pyraf-flatcombine.png>]
+\openout2 = unit-4/lesson-16.aux
+ (./unit-4/lesson-16.tex
+Clase 16.
+
+\openout9 = main.listing
+
+(./_minted-main/121A963A7DA98EB68DF350A930C9DE50E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/82F02AB1965473C7B7D4ECE9DA91663B541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/CE9F7655B51C5398660C74D3F31E8664E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/82F02AB1965473C7B7D4ECE9DA91663B541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7AA0865AC5D162A6E7BB34BA09EAA7E6A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/0AEE54C67A8753C0F9C96052F79CB172E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [137
+
+
+
+
+]
+<figures/ds9-campo-completo.png, id=1537, 457.71pt x 478.78876pt>
+File: figures/ds9-campo-completo.png Graphic file (type png)
+<use figures/ds9-campo-completo.png>
+Package luatex.def Info: figures/ds9-campo-completo.png  used on input line 33.
+
+(luatex.def)             Requested size: 310.50357pt x 324.81224pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/F9ED90681EBAFB6F3D9ADDDDF9C254ADA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/02DEAA661B291226CBF1FF110389A392A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/63257F3D2351F56701ADCAEE034353EFA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7AA0865AC5D162A6E7BB34BA09EAA7E6A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/3811EC7766D03D59B02FC37A568A4681E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [138<./figures/ds9-campo-completo.png>]
+<figures/ds9-noisses.png, id=1546, 468.62578pt x 460.34485pt>
+File: figures/ds9-noisses.png Graphic file (type png)
+<use figures/ds9-noisses.png>
+Package luatex.def Info: figures/ds9-noisses.png  used on input line 50.
+(luatex.def)             Requested size: 310.50357pt x 305.03671pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/82F02AB1965473C7B7D4ECE9DA91663B541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/44043C874A76EDD346E81086716A3B04E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [139<./figures/ds9-noisses.png>]
+\openout9 = main.listing
+
+(./_minted-main/87FEB59325CE4A6096D6DA8DD958D17DE9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7863B7109D1DA9941DB103734E172EC8541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/1C824DCB9928E7168ABF04A570B77543541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/89AE37F74AE998AC7322C5B745566E62A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2572EC367CCB3B31FCCA4824EF55F821541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7863B7109D1DA9941DB103734E172EC8541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2572EC367CCB3B31FCCA4824EF55F821541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7863B7109D1DA9941DB103734E172EC8541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/C5CCEFC89E7008DE8C359BDA6ED27EA4E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2572EC367CCB3B31FCCA4824EF55F821541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/E386FF9DD9A84A9C977760016A69DED1E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [140]
+\openout4 = main.pyg
+
+(./_minted-main/B9E62AEA6CC34EC81D7AA8C48EF46FF0541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/CCC3901475FA9E81D01A56B247C05BF6541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7863B7109D1DA9941DB103734E172EC8541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/80CDAE49E5B0A83842736311C48E8CF9E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+<figures/pyraf-hedit-objeto.png, id=1559, 258.9675pt x 166.74797pt>
+File: figures/pyraf-hedit-objeto.png Graphic file (type png)
+<use figures/pyraf-hedit-objeto.png>
+Package luatex.def Info: figures/pyraf-hedit-objeto.png  used on input line 112
+.
+(luatex.def)             Requested size: 443.57848pt x 285.64828pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/1F4A4ACA101090885595CA972E96514B541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2572EC367CCB3B31FCCA4824EF55F821541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/72B62691FF56B308CBF2559C1C8D7A18541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/5F31C77A7AC9962B3DFE80C62AAD45F6541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7E95F832E977E83EAC61494692D05ABF541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/3AE2EA0C3867B219EF54D914437E76BEA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/E14B420B7266F69A2B2B457F3BBEC804A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/8D625638FB8A490463AF90C3747F85C6E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+<figures/pyraf-object-correction.png, id=1561, 260.09673pt x 299.24297pt>
+File: figures/pyraf-object-correction.png Graphic file (type png)
+<use figures/pyraf-object-correction.png>
+Package luatex.def Info: figures/pyraf-object-correction.png  used on input lin
+e 125.
+(luatex.def)             Requested size: 310.50357pt x 357.23593pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
+9.pygtex) [141<./figures/pyraf-hedit-objeto.png>]
+\openout4 = main.pyg
+
+(./_minted-main/7AA0865AC5D162A6E7BB34BA09EAA7E6A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/3722ACD1112E9E6283C5686268E8D1E7E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+<figures/ds9-object-corrected.png, id=1570, 465.99094pt x 461.09766pt>
+File: figures/ds9-object-corrected.png Graphic file (type png)
+<use figures/ds9-object-corrected.png>
+Package luatex.def Info: figures/ds9-object-corrected.png  used on input line 1
+42.
+(luatex.def)             Requested size: 310.50357pt x 307.25227pt.
+[142<./figures/pyraf-object-correction.png>]
+\openout4 = main.pyg
+
+(./_minted-main/7AA0865AC5D162A6E7BB34BA09EAA7E6A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/33633A82A6483160B6F5676D4D7ED479E9066CE88DE613FA1374184A315C1E1
+E.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7AA0865AC5D162A6E7BB34BA09EAA7E6A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/CEC2F7DE1DA7EFA56FC27F18FE0A07DCA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7AA0865AC5D162A6E7BB34BA09EAA7E6A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/245410F8D5D980CE2A037D355F8378C78A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/F9ED90681EBAFB6F3D9ADDDDF9C254AD8A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/02DEAA661B291226CBF1FF110389A3928A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/F29DA66C5510FE9639FA3276219853D58A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/FF26B4FBEB6963270E26A8F057C573B48A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/70B052843BA480D3F2C14D8F8D6C4EB0A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/70B052843BA480D3F2C14D8F8D6C4EB0A10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+<figures/ds9-viuda-negra.png, id=1578, 450.55829pt x 445.28859pt>
+File: figures/ds9-viuda-negra.png Graphic file (type png)
+<use figures/ds9-viuda-negra.png>
+Package luatex.def Info: figures/ds9-viuda-negra.png  used on input line 157.
+(luatex.def)             Requested size: 310.50357pt x 306.88934pt.
+[143<./figures/ds9-object-corrected.png>]
+\openout4 = main.pyg
+
+(./_minted-main/C7DFACE1C617C76B38D465E469D75F1AA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/604CFD11E527EDFB119FD42C33A1A04EA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout9 = main.listing
+
+(./_minted-main/05457A1E5837AE2E10247236760EAD18E9066CE88DE613FA1374184A315C1E1
+E.pygtex) [144<./figures/ds9-viuda-negra.png>]
+<figures/pyraf-imshift-42.png, id=1591, 260.09673pt x 157.71422pt>
+File: figures/pyraf-imshift-42.png Graphic file (type png)
+<use figures/pyraf-imshift-42.png>
+Package luatex.def Info: figures/pyraf-imshift-42.png  used on input line 173.
+(luatex.def)             Requested size: 310.50357pt x 188.27905pt.
+
+\openout4 = main.pyg
+
+(./_minted-main/C7DFACE1C617C76B38D465E469D75F1AA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C7DFACE1C617C76B38D465E469D75F1AA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/E705AFAB7E911F8C26CDDF6986AF3C318A449B50EE51364726AD8715BAD1C7E
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/05FE1C96AA3BCCBB9A3BEE1A642221D3541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/03BEB51AFEA95DE5CCED817D20FEE95A541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C7DFACE1C617C76B38D465E469D75F1AA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/DBBF8220893D497D403BB9CDF49DB7A4541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C7DFACE1C617C76B38D465E469D75F1AA10B244115FA357BA46ABB99F7249CA
+9.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/DBBF8220893D497D403BB9CDF49DB7A4541C68F80C6A6F06151AFD63BAE50EB
+C.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C7DFACE1C617C76B38D465E469D75F1AA10B244115FA357BA46ABB99F7249CA
+9.pygtex)) [145<./figures/pyraf-imshift-42.png>] (./main.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 (./unit-1/lesson-1.aux) (./unit-1/lesson-2.aux) (./unit-1/lesson-3.aux) (./unit
 -1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux) (./unit-2/less
 on-7.aux) (./unit-2/lesson-8.aux) (./unit-3/lesson-9.aux) (./unit-3/lesson-10.a
-ux) (./unit-3/lesson-11.aux) (./unit-3/lesson-12.aux))
+ux) (./unit-3/lesson-11.aux) (./unit-3/lesson-12.aux) (./unit-4/lesson-13.aux) 
+(./unit-4/lesson-14.aux) (./unit-4/lesson-15.aux) (./unit-4/lesson-16.aux))
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F5FAABF768A11F6D568860247D0DF8F1;18289.
+(rerunfilecheck)             Checksum: DD04ADE86A9308CE1C825F98D37E79C1;24013.
 runsystem(rm main.pyg)...executed
 )
 
 Here is how much of LuaTeX's memory you used:
- 60941 strings out of 478382
- 156564,1977958 words of node,token memory allocated
- 1801 words of node memory still in use:
-   32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 3 glyph, 
-153 attribute, 95 glue_spec, 114 attribute_list, 4 write, 24 pdf_literal, 6 pdf_
-action, 24 pdf_colorstack nodes
-   avail lists: 1:17,2:6782,3:2313,4:469,5:331,6:251,7:7231,8:115,9:1433,10:31,1
-1:883,12:22
- 65878 multiletter control sequences out of 65536+600000
- 118 fonts using 44833583 bytes
- 95i,11n,114p,1150b,1341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67299 strings out of 478382
+ 156564,2373549 words of node,token memory allocated
+ 1824 words of node memory still in use:
+   32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_
+kern, 4 glyph, 155 attribute, 95 glue_spec, 115 attribute_list, 4 write, 24 pdf_
+literal, 7 pdf_action, 24 pdf_colorstack nodes
+   avail lists: 1:26,2:6835,3:2405,4:525,5:384,6:312,7:7259,8:144,9:1440,10:37,1
+1:897,12:30
+ 66951 multiletter control sequences out of 65536+600000
+ 118 fonts using 44833503 bytes
+ 95i,14n,114p,1210b,1571s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/fonts/ppviewer/CAMBRIA.TTC></usr/share/fonts/truetype/msttcorefonts/
 arial.ttf></usr/share/fonts/ppviewer/CAMBRIA.TTC></usr/share/fonts/ppviewer/CAMB
 RIA.TTC></usr/share/fonts/ppviewer/CONSOLAI.TTF></usr/share/fonts/ppviewer/CONSO
 LA.TTF></usr/share/fonts/ppviewer/CONSOLAB.TTF></usr/share/fonts/truetype/msttco
 refonts/Arial_Italic.ttf></usr/share/fonts/truetype/msttcorefonts/arial.ttf></us
 r/share/fonts/truetype/msttcorefonts/arialbd.ttf>
-Output written on main.pdf (108 pages, 6451629 bytes).
+Output written on main.pdf (146 pages, 9847533 bytes).
 
-PDF statistics: 1308 PDF objects out of 1440 (max. 8388607)
- 1077 compressed objects within 11 object streams
- 288 named destinations out of 1000 (max. 131072)
- 1064 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1680 PDF objects out of 1728 (max. 8388607)
+ 1393 compressed objects within 14 object streams
+ 376 named destinations out of 1000 (max. 131072)
+ 1280 words of extra memory for PDF output out of 10000 (max. 100000000)
 

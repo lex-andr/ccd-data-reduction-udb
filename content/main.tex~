@@ -43,7 +43,7 @@
 \renewcommand{\cftchapaftersnum}{ |} % put : after chapter number
 
 
-\includeonly{unit-3/lesson-12}
+\includeonly{unit-4/lesson-16}
 
 
 \usepackage{titlesec}
@@ -89,6 +89,7 @@
 \include{unit-2/lesson-5}
 \include{unit-2/lesson-6}
 \include{unit-2/lesson-7}
+\include{unit-2/lesson-8}
 
 \part{Python para datos CCD}
 \include{unit-3/lesson-9}
@@ -96,6 +97,11 @@
 \include{unit-3/lesson-11}
 \include{unit-3/lesson-12}
 
+\part{IRAF para datos CCD}
+\include{unit-4/lesson-13}
+\include{unit-4/lesson-14}
+\include{unit-4/lesson-15}
+\include{unit-4/lesson-16}
 
 
 

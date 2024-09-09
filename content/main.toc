@@ -1,105 +1,132 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {part}{1\hspace {1em}Introducción a Python}{5}{part.1}%
-\contentsline {chapter}{\numberline {1}Introducción a Python}{6}{chapter.1}%
-\contentsline {section}{\numberline {1}Nociones básicas}{6}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1}Python en diferentes sistemas operativos}{6}{subsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Python en Windows}{7}{subsubsection.1.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Python en Linux}{7}{subsubsection.1.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Python en Mac OSX}{8}{subsubsection.1.1.1.3}%
-\contentsline {subsection}{\numberline {1.2}Ejecutando Python}{9}{subsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Creando un entorno virtual}{10}{subsubsection.1.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}El editor Geany}{11}{subsubsection.1.1.2.2}%
-\contentsline {paragraph}{Geany en Windows:}{11}{subsubsection.1.1.2.2}%
-\contentsline {paragraph}{Configuración de Geany en Windows:}{11}{subsubsection.1.1.2.2}%
-\contentsline {paragraph}{Geany en Linux y Mac OSX:}{12}{Item.9}%
-\contentsline {subsubsection}{\numberline {1.2.3}Jupyter Notebook}{13}{subsubsection.1.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}Visual Studio Code y PyCharm}{15}{subsubsection.1.1.2.4}%
-\contentsline {subsection}{\numberline {1.3}Python como calculadora}{15}{subsection.1.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Operaciones aritméticas}{15}{subsubsection.1.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Operaciones matemáticas avanzadas}{17}{subsubsection.1.1.3.2}%
-\contentsline {chapter}{\numberline {2}Variables y contenedores}{19}{chapter.2}%
-\contentsline {section}{\numberline {2}Introducción}{19}{section.2.2}%
-\contentsline {subsection}{\numberline {2.1}Variables}{19}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Variables tipo int/float}{20}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Variables de tipo string}{20}{subsubsection.2.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Comentarios}{21}{subsubsection.2.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.4}Variables tipo bool}{22}{subsubsection.2.2.1.4}%
-\contentsline {subsection}{\numberline {2.2}Contenedores}{23}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Listas}{23}{subsubsection.2.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Tuplas}{26}{subsubsection.2.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Conjuntos}{27}{subsubsection.2.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Diccionarios}{28}{subsubsection.2.2.2.4}%
-\contentsline {chapter}{\numberline {3}Control de flujo y lógica}{30}{chapter.3}%
-\contentsline {section}{\numberline {3}Controles de flujo}{30}{section.3.3}%
-\contentsline {subsection}{\numberline {3.1}Condicionales}{30}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Declaraciones if}{30}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Declaraciones if-else}{31}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Declaraciones if-elif-else}{32}{subsubsection.3.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.4}Expresiones if-else}{33}{subsubsection.3.3.1.4}%
-\contentsline {subsection}{\numberline {3.2}Bucles}{34}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Bucle while}{34}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Bucle for}{36}{subsubsection.3.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Contenedores por comprensión}{39}{subsubsection.3.3.2.3}%
-\contentsline {chapter}{\numberline {4}Funciones}{41}{chapter.4}%
-\contentsline {section}{\numberline {4}Funciones en Python}{41}{section.4.4}%
-\contentsline {subsection}{\numberline {4.1}Funciones predefinidas}{41}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.2}Funciones definidas por el usuario}{42}{subsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Funciones sin parámetros}{43}{subsubsection.4.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Funciones con parámetros}{44}{subsubsection.4.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Funciones que devuelven un valor}{44}{subsubsection.4.4.2.3}%
-\contentsline {subsection}{\numberline {4.3}Más sobre funciones con parámetros}{45}{subsection.4.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Argumentos con un valor predeterminado}{46}{subsubsection.4.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Argumentos de palabras clave}{47}{subsubsection.4.4.3.2}%
-\contentsline {subsection}{\numberline {4.4}Problemas}{49}{subsection.4.4.4}%
-\contentsline {part}{2\hspace {1em}Introducción a la astronomía observacional}{50}{part.2}%
-\contentsline {chapter}{\numberline {5}Telescopios ópticos}{51}{chapter.5}%
-\contentsline {section}{\numberline {5}Telescopios}{51}{section.5.5}%
-\contentsline {subsection}{\numberline {5.1}Naturaleza la luz}{51}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.2}Principios básicos de óptica geométrica}{53}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.3}Reflexión y refracción}{53}{subsection.5.5.3}%
-\contentsline {subsection}{\numberline {5.4}Propiedades de telescopios}{54}{subsection.5.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}Recolección de luz}{54}{subsubsection.5.5.4.1}%
-\contentsline {chapter}{\numberline {6}Fotometría}{55}{chapter.6}%
-\contentsline {section}{\numberline {6}Conceptos de fotometría}{55}{section.6.6}%
-\contentsline {subsection}{\numberline {6.1}Sistema de magnitudes}{55}{subsection.6.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Flujo y luminosidad}{55}{subsubsection.6.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Magnitudes}{57}{subsubsection.6.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.3}Magnitudes bolométricas y absolutas}{59}{subsubsection.6.6.1.3}%
-\contentsline {subsubsection}{\numberline {6.1.4}Índices de color}{60}{subsubsection.6.6.1.4}%
-\contentsline {subsubsection}{\numberline {6.1.5}Filtros de color}{61}{subsubsection.6.6.1.5}%
-\contentsline {subsection}{\numberline {6.2}Radiación de cuerpo negro}{62}{subsection.6.6.2}%
-\contentsline {chapter}{\numberline {7}Espectroscopía}{64}{chapter.7}%
-\contentsline {section}{\numberline {7}Conceptos de espectroscopía}{64}{section.7.7}%
-\contentsline {subsection}{\numberline {7.1}Líneas espectrales}{64}{subsection.7.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Producción de líneas espectrales}{65}{subsubsection.7.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Tipos de espectros}{67}{subsubsection.7.7.1.2}%
-\contentsline {subsubsection}{\numberline {7.1.3}Clasificación espectral de estrellas}{68}{subsubsection.7.7.1.3}%
-\contentsline {subsection}{\numberline {7.2}Velocidades radiales}{68}{subsection.7.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}El efecto Doppler}{69}{subsubsection.7.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Sistemas binarios espectroscópicos}{70}{subsubsection.7.7.2.2}%
-\contentsline {chapter}{\numberline {8}Detectores CCD y calibración}{73}{chapter.8}%
-\contentsline {part}{3\hspace {1em}Python para datos CCD}{74}{part.3}%
-\contentsline {chapter}{\numberline {9}Visualización de datos con Python}{75}{chapter.9}%
-\contentsline {section}{\numberline {8}Numpy y Matplotlib}{75}{section.9.8}%
-\contentsline {subsection}{\numberline {8.1}Arreglos numéricos con numpy}{75}{subsection.9.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Arreglos de ceros y unos}{76}{subsubsection.9.8.1.1}%
-\contentsline {subsubsection}{\numberline {8.1.2}Arreglos ordenados}{77}{subsubsection.9.8.1.2}%
-\contentsline {subsubsection}{\numberline {8.1.3}Arreglos aleatorios}{78}{subsubsection.9.8.1.3}%
-\contentsline {subsection}{\numberline {8.2}Visualización con Matplotlib}{79}{subsection.9.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Gráfico de funciones}{79}{subsubsection.9.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Gráfico de histogramas}{80}{subsubsection.9.8.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Visualización de matrices}{81}{subsubsection.9.8.2.3}%
-\contentsline {subsubsection}{\numberline {8.2.4}Gráfico de una función de dos variables}{82}{subsubsection.9.8.2.4}%
-\contentsline {chapter}{\numberline {10}Reducción de datos con Python}{85}{chapter.10}%
-\contentsline {section}{\numberline {9}El paquete Astropy}{85}{section.10.9}%
-\contentsline {subsection}{\numberline {9.1}El módulo astropy.units}{85}{subsection.10.9.1}%
-\contentsline {subsection}{\numberline {9.2}Trabajando con tablas}{87}{subsection.10.9.2}%
-\contentsline {subsection}{\numberline {9.3}Un ejemplo un poco realista}{90}{subsection.10.9.3}%
-\contentsline {chapter}{\numberline {11}Imágenes BIAS y DARK}{93}{chapter.11}%
-\contentsline {section}{\numberline {10}El módulo ccdproc}{93}{section.11.10}%
-\contentsline {subsection}{\numberline {10.1}Creando un archivo master bias}{93}{subsection.11.10.1}%
-\contentsline {subsection}{\numberline {10.2}Creando un archivo master dark}{98}{subsection.11.10.2}%
-\contentsline {chapter}{\numberline {12}Master flat y calibración final}{100}{chapter.12}%
-\contentsline {section}{\numberline {11}Calibración de imágenes}{100}{section.12.11}%
-\contentsline {subsection}{\numberline {11.1}Creando un archivo master flat}{100}{subsection.12.11.1}%
-\contentsline {subsection}{\numberline {11.2}Calibrando las imágenes de objeto}{105}{subsection.12.11.2}%
+\contentsline {part}{1\hspace {1em}Introducción a Python}{6}{part.1}%
+\contentsline {chapter}{\numberline {1}Introducción a Python}{7}{chapter.1}%
+\contentsline {section}{\numberline {1}Nociones básicas}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1}Python en diferentes sistemas operativos}{7}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Python en Windows}{8}{subsubsection.1.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Python en Linux}{8}{subsubsection.1.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Python en Mac OSX}{9}{subsubsection.1.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}Ejecutando Python}{10}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Creando un entorno virtual}{11}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}El editor Geany}{12}{subsubsection.1.1.2.2}%
+\contentsline {paragraph}{Geany en Windows:}{12}{subsubsection.1.1.2.2}%
+\contentsline {paragraph}{Configuración de Geany en Windows:}{12}{subsubsection.1.1.2.2}%
+\contentsline {paragraph}{Geany en Linux y Mac OSX:}{13}{Item.9}%
+\contentsline {subsubsection}{\numberline {1.2.3}Jupyter Notebook}{14}{subsubsection.1.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Visual Studio Code y PyCharm}{16}{subsubsection.1.1.2.4}%
+\contentsline {subsection}{\numberline {1.3}Python como calculadora}{16}{subsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Operaciones aritméticas}{16}{subsubsection.1.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Operaciones matemáticas avanzadas}{18}{subsubsection.1.1.3.2}%
+\contentsline {chapter}{\numberline {2}Variables y contenedores}{20}{chapter.2}%
+\contentsline {section}{\numberline {2}Introducción}{20}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1}Variables}{20}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Variables tipo int/float}{21}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Variables de tipo string}{21}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Comentarios}{22}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Variables tipo bool}{23}{subsubsection.2.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}Contenedores}{24}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Listas}{24}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Tuplas}{27}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Conjuntos}{28}{subsubsection.2.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Diccionarios}{29}{subsubsection.2.2.2.4}%
+\contentsline {chapter}{\numberline {3}Control de flujo y lógica}{31}{chapter.3}%
+\contentsline {section}{\numberline {3}Controles de flujo}{31}{section.3.3}%
+\contentsline {subsection}{\numberline {3.1}Condicionales}{31}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Declaraciones if}{31}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Declaraciones if-else}{32}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Declaraciones if-elif-else}{33}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Expresiones if-else}{34}{subsubsection.3.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}Bucles}{35}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Bucle while}{35}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Bucle for}{37}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Contenedores por comprensión}{40}{subsubsection.3.3.2.3}%
+\contentsline {chapter}{\numberline {4}Funciones}{42}{chapter.4}%
+\contentsline {section}{\numberline {4}Funciones en Python}{42}{section.4.4}%
+\contentsline {subsection}{\numberline {4.1}Funciones predefinidas}{42}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.2}Funciones definidas por el usuario}{43}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Funciones sin parámetros}{44}{subsubsection.4.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Funciones con parámetros}{45}{subsubsection.4.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Funciones que devuelven un valor}{45}{subsubsection.4.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Más sobre funciones con parámetros}{46}{subsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Argumentos con un valor predeterminado}{47}{subsubsection.4.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Argumentos de palabras clave}{48}{subsubsection.4.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Problemas}{50}{subsection.4.4.4}%
+\contentsline {part}{2\hspace {1em}Introducción a la astronomía observacional}{51}{part.2}%
+\contentsline {chapter}{\numberline {5}Telescopios ópticos}{52}{chapter.5}%
+\contentsline {section}{\numberline {5}Telescopios}{52}{section.5.5}%
+\contentsline {subsection}{\numberline {5.1}Naturaleza la luz}{52}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.2}Principios básicos de óptica geométrica}{54}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.3}Reflexión y refracción}{54}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.4}Propiedades de telescopios}{55}{subsection.5.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Recolección de luz}{55}{subsubsection.5.5.4.1}%
+\contentsline {chapter}{\numberline {6}Fotometría}{56}{chapter.6}%
+\contentsline {section}{\numberline {6}Conceptos de fotometría}{56}{section.6.6}%
+\contentsline {subsection}{\numberline {6.1}Sistema de magnitudes}{56}{subsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Flujo y luminosidad}{56}{subsubsection.6.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Magnitudes}{58}{subsubsection.6.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Magnitudes bolométricas y absolutas}{60}{subsubsection.6.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.4}Índices de color}{61}{subsubsection.6.6.1.4}%
+\contentsline {subsubsection}{\numberline {6.1.5}Filtros de color}{62}{subsubsection.6.6.1.5}%
+\contentsline {subsection}{\numberline {6.2}Radiación de cuerpo negro}{63}{subsection.6.6.2}%
+\contentsline {chapter}{\numberline {7}Espectroscopía}{65}{chapter.7}%
+\contentsline {section}{\numberline {7}Conceptos de espectroscopía}{65}{section.7.7}%
+\contentsline {subsection}{\numberline {7.1}Líneas espectrales}{65}{subsection.7.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Producción de líneas espectrales}{66}{subsubsection.7.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Tipos de espectros}{68}{subsubsection.7.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Clasificación espectral de estrellas}{69}{subsubsection.7.7.1.3}%
+\contentsline {subsection}{\numberline {7.2}Velocidades radiales}{69}{subsection.7.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}El efecto Doppler}{70}{subsubsection.7.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Sistemas binarios espectroscópicos}{71}{subsubsection.7.7.2.2}%
+\contentsline {chapter}{\numberline {8}Detectores CCD y calibración}{74}{chapter.8}%
+\contentsline {section}{\numberline {8}Dispositivos de carga acoplada}{74}{section.8.8}%
+\contentsline {part}{3\hspace {1em}Python para datos CCD}{75}{part.3}%
+\contentsline {chapter}{\numberline {9}Visualización de datos con Python}{76}{chapter.9}%
+\contentsline {section}{\numberline {9}Numpy y Matplotlib}{76}{section.9.9}%
+\contentsline {subsection}{\numberline {9.1}Arreglos numéricos con numpy}{76}{subsection.9.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Arreglos de ceros y unos}{77}{subsubsection.9.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Arreglos ordenados}{78}{subsubsection.9.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}Arreglos aleatorios}{79}{subsubsection.9.9.1.3}%
+\contentsline {subsection}{\numberline {9.2}Visualización con Matplotlib}{80}{subsection.9.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Gráfico de funciones}{80}{subsubsection.9.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Gráfico de histogramas}{81}{subsubsection.9.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.3}Visualización de matrices}{82}{subsubsection.9.9.2.3}%
+\contentsline {subsubsection}{\numberline {9.2.4}Gráfico de una función de dos variables}{83}{subsubsection.9.9.2.4}%
+\contentsline {chapter}{\numberline {10}Reducción de datos con Python}{86}{chapter.10}%
+\contentsline {section}{\numberline {10}El paquete Astropy}{86}{section.10.10}%
+\contentsline {subsection}{\numberline {10.1}El módulo astropy.units}{86}{subsection.10.10.1}%
+\contentsline {subsection}{\numberline {10.2}Trabajando con tablas}{88}{subsection.10.10.2}%
+\contentsline {subsection}{\numberline {10.3}Un ejemplo un poco realista}{91}{subsection.10.10.3}%
+\contentsline {chapter}{\numberline {11}Imágenes BIAS y DARK}{94}{chapter.11}%
+\contentsline {section}{\numberline {11}El módulo ccdproc}{94}{section.11.11}%
+\contentsline {subsection}{\numberline {11.1}Creando un archivo master bias}{94}{subsection.11.11.1}%
+\contentsline {subsection}{\numberline {11.2}Creando un archivo master dark}{99}{subsection.11.11.2}%
+\contentsline {chapter}{\numberline {12}Master flat y calibración final}{101}{chapter.12}%
+\contentsline {section}{\numberline {12}Calibración de imágenes}{101}{section.12.12}%
+\contentsline {subsection}{\numberline {12.1}Creando un archivo master flat}{101}{subsection.12.12.1}%
+\contentsline {subsection}{\numberline {12.2}Calibrando las imágenes de objeto}{106}{subsection.12.12.2}%
+\contentsline {part}{4\hspace {1em}IRAF para datos CCD}{109}{part.4}%
+\contentsline {chapter}{\numberline {13}Un poco sobre sistemas Unix}{110}{chapter.13}%
+\contentsline {section}{\numberline {13}Introducción a la línea de comandos}{110}{section.13.13}%
+\contentsline {subsection}{\numberline {13.1}Usando la terminal}{110}{subsection.13.13.1}%
+\contentsline {subsubsection}{\numberline {13.1.1}El árbol de directorios}{111}{subsubsection.13.13.1.1}%
+\contentsline {subsubsection}{\numberline {13.1.2}Imprimir directorio actual con el comando pwd}{112}{subsubsection.13.13.1.2}%
+\contentsline {subsubsection}{\numberline {13.1.3}Listar elementos con el comando ls}{112}{subsubsection.13.13.1.3}%
+\contentsline {subsubsection}{\numberline {13.1.4}Cambiar de directorios con el comando cd}{113}{subsubsection.13.13.1.4}%
+\contentsline {subsubsection}{\numberline {13.1.5}Crear nuevos directorios con el comando mkdir}{114}{subsubsection.13.13.1.5}%
+\contentsline {subsubsection}{\numberline {13.1.6}Crear archivos con el comando touch}{114}{subsubsection.13.13.1.6}%
+\contentsline {subsubsection}{\numberline {13.1.7}Crear archivos con el comando ls}{115}{subsubsection.13.13.1.7}%
+\contentsline {subsubsection}{\numberline {13.1.8}Visualizar archivos de texto con gedit}{116}{subsubsection.13.13.1.8}%
+\contentsline {subsection}{\numberline {13.2}Ejercicios}{118}{subsection.13.13.2}%
+\contentsline {chapter}{\numberline {14}El software IRAF}{120}{chapter.14}%
+\contentsline {section}{\numberline {14}IRAF en GNU/Linux}{120}{section.14.14}%
+\contentsline {subsection}{\numberline {14.1}Instalación usando IRAF-Community}{121}{subsection.14.14.1}%
+\contentsline {subsection}{\numberline {14.2}Instalación usando astroconda}{123}{subsection.14.14.2}%
+\contentsline {subsection}{\numberline {14.3}Lanzando la interfaz}{124}{subsection.14.14.3}%
+\contentsline {chapter}{\numberline {15}Reducción de datos con IRAF}{129}{chapter.15}%
+\contentsline {section}{\numberline {15}Combinando imágenes}{129}{section.15.15}%
+\contentsline {subsection}{\numberline {15.1}Creando un archivo master bias}{129}{subsection.15.15.1}%
+\contentsline {subsection}{\numberline {15.2}Creando un archivo master flat}{132}{subsection.15.15.2}%
+\contentsline {chapter}{\numberline {16}Calibración final con IRAF}{137}{chapter.16}%
+\contentsline {section}{\numberline {16}Calibración de imágenes}{137}{section.16.16}%
+\contentsline {subsection}{\numberline {16.1}Imágenes de objeto}{137}{subsection.16.16.1}%
+\contentsline {subsection}{\numberline {16.2}Ejercicios}{145}{subsection.16.16.2}%

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{} cd ../flat}
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{} pwd}
+\PYG{g+go}{/home/user/OB0001/flat}
+\end{Verbatim}

@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+go}{imred/:}
+\PYG{g+go}{ argus/         ctioslit/       hydra/          kpnocoude/      vtel/}
+\PYG{g+go}{ bias/          dtoi/           iids/           kpnoslit/}
+\PYG{g+go}{ ccdred/        echelle/        irred/          quadred/}
+\PYG{g+go}{ crutil/        generic/        irs/            specred/}
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{} ccdred}
+\PYG{g+go}{ccdred/:}
+\PYG{g+go}{ badpiximage    ccdlist         combine         mkillumcor      setinstrument}
+\PYG{g+go}{ ccdgroups      ccdmask         darkcombine     mkillumflat     zerocombine}
+\PYG{g+go}{ ccdhedit       ccdproc         flatcombine     mkskycor}
+\PYG{g+go}{ ccdinstrument  ccdtest         mkfringecor     mkskyflat}
+\PYG{g+go}{\PYGZhy{}\PYGZhy{}\PYGZgt{} epar zerocombine}
+\end{Verbatim}

@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+gp+gpVirtualEnv}{(base)} \PYG{g+gp}{astronomer@PC:\PYGZti{} \PYGZdl{} }conda\PYG{+w}{ }create\PYG{+w}{ }\PYGZhy{}n\PYG{+w}{ }iraf27\PYG{+w}{ }\PYG{n+nv}{python}\PYG{o}{=}\PYG{l+m}{2}.7\PYG{+w}{ }iraf\PYGZhy{}all\PYG{+w}{ }pyraf\PYGZhy{}all\PYG{+w}{ }stsci
+\end{Verbatim}

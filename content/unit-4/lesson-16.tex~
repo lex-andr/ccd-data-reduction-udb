@@ -1,0 +1,39 @@
+\chapter{Calibración final con IRAF}
+En esta última clase revisaremos el procedimiento para calibrar las imágenes de objeto usando IRAF. Esto constituye la calibración básica y posteriormente es posible realizar cualquier tipo de análisis con las imágenes, ya sea análisis fotométrico o espectroscópico. 
+
+\section{Calibración de imágenes}
+El paso final de la calibración o reducción básica consiste en utilizar los archivos de master bias y master flat para corregir las imágenes de objeto. Recuerda que los datos de OSIRIS no necesitan ser corregidos por corriente oscura y por lo tanto no necesitamos de un master dark. 
+
+Comenzamos lanzando la interfaz de pyraf desde la terminal para luego movernos a la carpeta donde están nuestros datos:
+
+\begin{shell}
+$ pyraf
+--> cd OB0001/
+-->
+\end{shell}
+
+\subsection{Imágenes de objeto}
+Las imágenes de interés se encuentran dentro del directorio \pynorm{'object'}. Podemos movernos a esa carpeta y verificar su contenido. 
+
+\begin{shell}
+--> pwd
+/home/user/OB0001
+--> cd object
+--> ls
+\end{shell}
+
+La carpeta \pynorm{'object'} contiene 47 imágenes en total. Para visualizarlas, usamos el software \norbash{ds9} que instalamos anteriormente. Por ejemplo, con el siguiente comando se visualiza una de las imágenes de objeto, específicamente la tercera de la carpeta:
+
+\begin{shell}
+--> !ds9 0002611439-20200712-OSIRIS-OsirisBroadBandImage1.fits
+\end{shell}
+
+\begin{figure}[htb]
+  \centering
+	\includegraphics[width=0.7\textwidth]{figures/ds9-campo-completo.png}
+	\caption{}
+	\label{fig:ds9-campo-completo} 
+\end{figure}
+
+Para que obtengas el mismo resultado mostrado en la Figura \ref{fig:ds9-campo-completo}, 
+

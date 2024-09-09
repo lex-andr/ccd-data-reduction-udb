@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{g+gp}{astronomer@PC:\PYGZti{}/Documents/New\PYGZhy{}folder \PYGZdl{} }rm\PYG{+w}{ }*.pdf
+\PYG{g+gp}{astronomer@PC:\PYGZti{}/Documents/New\PYGZhy{}folder \PYGZdl{}}
+\end{Verbatim}
