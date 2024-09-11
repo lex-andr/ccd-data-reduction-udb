@@ -1,0 +1,363 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{birney2006observational}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fae66f6a8af77aa4a5ba4b5d94bae83a}{%
+           family={Birney},
+           familyi={B\bibinitperiod},
+           given={D\bibnamedelima Scott},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75a174d688f9d44246aeffe37b79c3eb}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Guillermo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=922c9861fd1904e276a0be8be8d0ce18}{%
+           family={Oesper},
+           familyi={O\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{2b3e13cce6477661b63adfac0e39b684}
+      \strng{fullhash}{2b3e13cce6477661b63adfac0e39b684}
+      \strng{bibnamehash}{2b3e13cce6477661b63adfac0e39b684}
+      \strng{authorbibnamehash}{2b3e13cce6477661b63adfac0e39b684}
+      \strng{authornamehash}{2b3e13cce6477661b63adfac0e39b684}
+      \strng{authorfullhash}{2b3e13cce6477661b63adfac0e39b684}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Observational astronomy}
+      \field{year}{2006}
+    \endentry
+    \entry{einstein1905heuristic}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+           family={Einstein},
+           familyi={E\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{bibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authorbibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authornamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authorfullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen der Physik}
+      \field{number}{6}
+      \field{title}{On a heuristic point of view about the creation and conversion of light}
+      \field{volume}{17}
+      \field{year}{1905}
+      \field{pages}{132\bibrangedash 148}
+      \range{pages}{17}
+    \endentry
+    \entry{gardner2023james}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=923576df60e7f39e4bf785ca0e12228c}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Jonathan\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc3554102857fc6267c8b009ce056d90}{%
+           family={Mather},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2edc693838040391c1036e72e2f9aa6}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={Randy},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31831494c2494418b2972a3cae5a8f1e}{%
+           family={Abell},
+           familyi={A\bibinitperiod},
+           given={James\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7826384aa73a0b912081f31a772e85a9}{%
+           family={Abernathy},
+           familyi={A\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38775f43c69a5b4c3c8e9c9e21407172}{%
+           family={Abney},
+           familyi={A\bibinitperiod},
+           given={Faith\bibnamedelima E},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=a312bfe03f7741fb3dfda4b465ef9ac2}{%
+           family={Abraham},
+           familyi={A\bibinitperiod},
+           given={John\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=900aa81c82a8c0313ab03bbe8a6a57bb}{%
+           family={Abraham},
+           familyi={A\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=2a25176bc584cacbd9f10776265d182f}{%
+           family={Abul-Huda},
+           familyi={A\bibinithyphendelim H\bibinitperiod},
+           given={Yasin\bibnamedelima M},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55af7c9a5f56147f0fb434f60069dc1d}{%
+           family={Acton},
+           familyi={A\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{b2b1c41893b23161a2c633b0802a3286}
+      \strng{fullhash}{3263195ddf8d716d7b4eaa188d56a09d}
+      \strng{bibnamehash}{b2b1c41893b23161a2c633b0802a3286}
+      \strng{authorbibnamehash}{b2b1c41893b23161a2c633b0802a3286}
+      \strng{authornamehash}{b2b1c41893b23161a2c633b0802a3286}
+      \strng{authorfullhash}{3263195ddf8d716d7b4eaa188d56a09d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
+      \field{number}{1048}
+      \field{title}{The James Webb space telescope mission}
+      \field{volume}{135}
+      \field{year}{2023}
+      \field{pages}{068001}
+      \range{pages}{1}
+    \endentry
+    \entry{halliday2010physics}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9d9a6552821ea504ab1a5c767dddff92}{%
+           family={Halliday},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8967f5a0664f741b0ef2530a47e698fa}{%
+           family={Resnick},
+           familyi={R\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64da2dfacb552fdff861e21b3e047ea6}{%
+           family={Krane},
+           familyi={K\bibinitperiod},
+           given={Kenneth\bibnamedelima S},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{f32f8b826a87a9943df15c89f78c8833}
+      \strng{fullhash}{f32f8b826a87a9943df15c89f78c8833}
+      \strng{bibnamehash}{f32f8b826a87a9943df15c89f78c8833}
+      \strng{authorbibnamehash}{f32f8b826a87a9943df15c89f78c8833}
+      \strng{authornamehash}{f32f8b826a87a9943df15c89f78c8833}
+      \strng{authorfullhash}{f32f8b826a87a9943df15c89f78c8833}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physics, Volume 2}
+      \field{year}{2010}
+    \endentry
+    \entry{howell2006handbook}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7e2c068016d626114ce231c8f2897d76}{%
+           family={Howell},
+           familyi={H\bibinitperiod},
+           given={Steve\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7e2c068016d626114ce231c8f2897d76}
+      \strng{fullhash}{7e2c068016d626114ce231c8f2897d76}
+      \strng{bibnamehash}{7e2c068016d626114ce231c8f2897d76}
+      \strng{authorbibnamehash}{7e2c068016d626114ce231c8f2897d76}
+      \strng{authornamehash}{7e2c068016d626114ce231c8f2897d76}
+      \strng{authorfullhash}{7e2c068016d626114ce231c8f2897d76}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{R. Ellis, J. Huchra, S. Kahn, G. Rieke, \& PB Stetson}
+      \field{title}{Handbook of CCD Astronomy, ed}
+      \field{year}{2006}
+    \endentry
+    \entry{karttunen2007fundamental}{book}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3b28cff1b105aa8001ea48962f2c41cd}{%
+           family={Karttunen},
+           familyi={K\bibinitperiod},
+           given={Hannu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eaad3a4106747647a1227b05a3843ec1}{%
+           family={Kröger},
+           familyi={K\bibinitperiod},
+           given={Pekka},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9993198a58e5b687fccd3b6108d9297}{%
+           family={Oja},
+           familyi={O\bibinitperiod},
+           given={Heikki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4de2d02fac9a607124f5870ed24b84ae}{%
+           family={Poutanen},
+           familyi={P\bibinitperiod},
+           given={Markku},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69a9a93d0d52205b4216db5f0567815f}{%
+           family={Donner},
+           familyi={D\bibinitperiod},
+           given={Karl\bibnamedelima Johan},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d67c9a3d707ebf7be7a6ffca400f1e96}
+      \strng{fullhash}{60bef483378930b83aba9074ee9e5140}
+      \strng{bibnamehash}{d67c9a3d707ebf7be7a6ffca400f1e96}
+      \strng{authorbibnamehash}{d67c9a3d707ebf7be7a6ffca400f1e96}
+      \strng{authornamehash}{d67c9a3d707ebf7be7a6ffca400f1e96}
+      \strng{authorfullhash}{60bef483378930b83aba9074ee9e5140}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamental astronomy}
+      \field{year}{2007}
+    \endentry
+    \entry{kitchin2013telescopes}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ada2f4c26e5b03a38a321c3a2434778f}{%
+           family={Kitchin},
+           familyi={K\bibinitperiod},
+           given={Christopher\bibnamedelima R},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ada2f4c26e5b03a38a321c3a2434778f}
+      \strng{fullhash}{ada2f4c26e5b03a38a321c3a2434778f}
+      \strng{bibnamehash}{ada2f4c26e5b03a38a321c3a2434778f}
+      \strng{authorbibnamehash}{ada2f4c26e5b03a38a321c3a2434778f}
+      \strng{authornamehash}{ada2f4c26e5b03a38a321c3a2434778f}
+      \strng{authorfullhash}{ada2f4c26e5b03a38a321c3a2434778f}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Telescopes and Techniques}
+      \field{year}{2013}
+    \endentry
+    \entry{young2020university}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cdcb55db9d535bec955f5911f1ac4e59}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Hugh\bibnamedelima D},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=073003dafd6f7a0d40236b25403e4573}{%
+           family={Freedman},
+           familyi={F\bibinitperiod},
+           given={Roger\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71fb7af2b2856710cfe2c472333c5dfc}{%
+           family={Ford},
+           familyi={F\bibinitperiod},
+           given={Albert\bibnamedelima Lewis},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson San Francisco}%
+      }
+      \strng{namehash}{bc8a4d33e59a8284d21198b6bf1b4410}
+      \strng{fullhash}{bc8a4d33e59a8284d21198b6bf1b4410}
+      \strng{bibnamehash}{bc8a4d33e59a8284d21198b6bf1b4410}
+      \strng{authorbibnamehash}{bc8a4d33e59a8284d21198b6bf1b4410}
+      \strng{authornamehash}{bc8a4d33e59a8284d21198b6bf1b4410}
+      \strng{authorfullhash}{bc8a4d33e59a8284d21198b6bf1b4410}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{University physics with modern physics}
+      \field{volume}{191}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

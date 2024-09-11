@@ -1,0 +1,16 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'main.blg'
+[83] biber:340> INFO - === Tue Sep 10, 2024, 23:17:02
+[99] Biber.pm:418> INFO - Reading 'main.bcf'
+[169] Biber.pm:978> INFO - Found 8 citekeys in bib section 0
+[182] Biber.pm:4401> INFO - Processing section 0
+[193] Biber.pm:4592> INFO - Looking for bibtex file 'references.bib' for section 0
+[194] bibtex.pm:1713> INFO - LaTeX decoding ...
+[203] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[303] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[303] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[303] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'es-ES'
+[312] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[320] bbl.pm:757> INFO - Output to main.bbl
+[320] Biber.pm:130> WARN - Duplicate entry key: 'einstein1905heuristic' in file 'references.bib', skipping ...
+[320] Biber.pm:132> INFO - WARNINGS: 1

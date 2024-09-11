@@ -16,10 +16,13 @@
 \setcounter{secnumdepth}{3} % Numbered subsubsections
 \setcounter{tocdepth}{3} % subsubsections in toc
 \setlength{\parskip}{\medskipamount}
-\usepackage[colorlinks, linkcolor=blue, urlcolor=blue]{hyperref}
+\usepackage[colorlinks, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref}
 \usepackage{url}
 \usepackage[left=3cm, right=3cm, top=2cm, bottom=2cm]{geometry}
 \usepackage{minted, verbatim}
+
+\usepackage[style=authoryear, backend=biber, natbib=true, refsegment=part]{biblatex}
+\addbibresource{references.bib}
 
 
 \usepackage{unicode-math} 
@@ -43,7 +46,7 @@
 \renewcommand{\cftchapaftersnum}{ |} % put : after chapter number
 
 
-%\includeonly{unit-4/lesson-16}
+%\includeonly{unit-2/lesson-8}
 
 
 \usepackage{titlesec}
@@ -74,6 +77,7 @@
 %\renewcommand*\thechapter{}
 \renewcommand{\chaptername}{Clase}
 \renewcommand{\tablename}{Tabla}
+\renewcommand\bibname{Referencias de la \partname ~\thepart}
 
 \maketitle
 
@@ -85,17 +89,23 @@
 \include{unit-1/lesson-3}
 \include{unit-1/lesson-4}
 
+
+
+
 \part{Introducción a la astronomía observacional}
 \include{unit-2/lesson-5}
 \include{unit-2/lesson-6}
 \include{unit-2/lesson-7}
 \include{unit-2/lesson-8}
+\printbibliography[segment=\therefsegment]
+
 
 \part{Python para datos CCD}
 \include{unit-3/lesson-9}
 \include{unit-3/lesson-10}
 \include{unit-3/lesson-11}
 \include{unit-3/lesson-12}
+
 
 \part{IRAF para datos CCD}
 \include{unit-4/lesson-13}

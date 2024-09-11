@@ -1,0 +1,67 @@
+@article{einstein1905heuristic,
+  title={On a heuristic point of view about the creation and conversion of light},
+  author={Einstein, Albert},
+  journal={Annalen der Physik},
+  volume={17},
+  number={6},
+  pages={132--148},
+  year={1905}
+}
+@book{birney2006observational,
+  title={Observational astronomy},
+  author={Birney, D Scott and Gonzalez, Guillermo and Oesper, David},
+  year={2006},
+  publisher={Cambridge University Press}
+}
+
+@article{einstein1905heuristic,
+  title={On a heuristic point of view about the creation and conversion of light},
+  author={Einstein, Albert},
+  journal={Annalen der Physik},
+  volume={17},
+  number={6},
+  pages={132--148},
+  year={1905}
+}
+
+@article{gardner2023james,
+  title={The James Webb space telescope mission},
+  author={Gardner, Jonathan P and Mather, John C and Abbott, Randy and Abell, James S and Abernathy, Mark and Abney, Faith E and Abraham, John G and Abraham, Roberto and Abul-Huda, Yasin M and Acton, Scott and others},
+  journal={Publications of the Astronomical Society of the Pacific},
+  volume={135},
+  number={1048},
+  pages={068001},
+  year={2023},
+  publisher={IOP Publishing}
+}
+
+@book{halliday2010physics,
+  title={Physics, Volume 2},
+  author={Halliday, David and Resnick, Robert and Krane, Kenneth S},
+  year={2010},
+  publisher={John Wiley \& Sons}
+}
+
+@book{karttunen2007fundamental,
+  title={Fundamental astronomy},
+  author={Karttunen, Hannu and Kr{\"o}ger, Pekka and Oja, Heikki and Poutanen, Markku and Donner, Karl Johan},
+  year={2007},
+  publisher={Springer}
+}
+
+@book{kitchin2013telescopes,
+  title={Telescopes and Techniques},
+  author={Kitchin, Christopher R},
+  year={2013},
+  publisher={Springer}
+}
+
+
+
+@book{young2020university,
+  title={University physics with modern physics},
+  author={Young, Hugh D and Freedman, Roger A and Ford, Albert Lewis},
+  volume={191},
+  year={2020},
+  publisher={Pearson San Francisco}
+}

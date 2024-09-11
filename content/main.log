@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.8.15)  9 SEP 2024 13:24
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.8.15)  10 SEP 2024 23:18
  system commands enabled.
 **main.tex
 (./main.tex
@@ -596,7 +596,234 @@ Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks33
 \verbatim@line=\toks34
 \verbatim@in@stream=\read5
-) (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count324
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count325
+\c@listtotal=\count326
+\c@listcount=\count327
+\c@liststart=\count328
+\c@liststop=\count329
+\c@citecount=\count330
+\c@citetotal=\count331
+\c@multicitecount=\count332
+\c@multicitetotal=\count333
+\c@instcount=\count334
+\c@maxnames=\count335
+\c@minnames=\count336
+\c@maxitems=\count337
+\c@minitems=\count338
+\c@citecounter=\count339
+\c@maxcitecounter=\count340
+\c@savedcitecounter=\count341
+\c@uniquelist=\count342
+\c@uniquename=\count343
+\c@refsection=\count344
+\c@refsegment=\count345
+\c@maxextratitle=\count346
+\c@maxextratitleyear=\count347
+\c@maxextraname=\count348
+\c@maxextradate=\count349
+\c@maxextraalpha=\count350
+\c@abbrvpenalty=\count351
+\c@highnamepenalty=\count352
+\c@lownamepenalty=\count353
+\c@maxparens=\count354
+\c@parenlevel=\count355
+\blx@tempcnta=\count356
+\blx@tempcntb=\count357
+\blx@tempcntc=\count358
+\c@blx@maxsection=\count359
+\blx@maxsegment@0=\count360
+\blx@notetype=\count361
+\blx@parenlevel@text=\count362
+\blx@parenlevel@foot=\count363
+\blx@sectionciteorder@0=\count364
+\blx@sectionciteorderinternal@0=\count365
+\blx@entrysetcounter=\count366
+\blx@biblioinstance=\count367
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read6
+\blx@bcfout=\write5
+\blx@langwohyphens=\language89
+\c@mincomprange=\count368
+\c@maxcomprange=\count369
+\c@mincompwidth=\count370
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count371
+\c@savedafterword=\count372
+\c@annotator=\count373
+\c@savedannotator=\count374
+\c@author=\count375
+\c@savedauthor=\count376
+\c@bookauthor=\count377
+\c@savedbookauthor=\count378
+\c@commentator=\count379
+\c@savedcommentator=\count380
+\c@editor=\count381
+\c@savededitor=\count382
+\c@editora=\count383
+\c@savededitora=\count384
+\c@editorb=\count385
+\c@savededitorb=\count386
+\c@editorc=\count387
+\c@savededitorc=\count388
+\c@foreword=\count389
+\c@savedforeword=\count390
+\c@holder=\count391
+\c@savedholder=\count392
+\c@introduction=\count393
+\c@savedintroduction=\count394
+\c@namea=\count395
+\c@savednamea=\count396
+\c@nameb=\count397
+\c@savednameb=\count398
+\c@namec=\count399
+\c@savednamec=\count400
+\c@translator=\count401
+\c@savedtranslator=\count402
+\c@shortauthor=\count403
+\c@savedshortauthor=\count404
+\c@shorteditor=\count405
+\c@savedshorteditor=\count406
+\c@labelname=\count407
+\c@savedlabelname=\count408
+\c@institution=\count409
+\c@savedinstitution=\count410
+\c@lista=\count411
+\c@savedlista=\count412
+\c@listb=\count413
+\c@savedlistb=\count414
+\c@listc=\count415
+\c@savedlistc=\count416
+\c@listd=\count417
+\c@savedlistd=\count418
+\c@liste=\count419
+\c@savedliste=\count420
+\c@listf=\count421
+\c@savedlistf=\count422
+\c@location=\count423
+\c@savedlocation=\count424
+\c@organization=\count425
+\c@savedorganization=\count426
+\c@origlocation=\count427
+\c@savedoriglocation=\count428
+\c@origpublisher=\count429
+\c@savedorigpublisher=\count430
+\c@publisher=\count431
+\c@savedpublisher=\count432
+\c@language=\count433
+\c@savedlanguage=\count434
+\c@origlanguage=\count435
+\c@savedoriglanguage=\count436
+\c@pageref=\count437
+\c@savedpageref=\count438
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+\c@textcitecount=\count439
+\c@textcitetotal=\count440
+\c@textcitemaxnames=\count441
+\c@biburlbigbreakpenalty=\count442
+\c@biburlbreakpenalty=\count443
+\c@biburlnumpenalty=\count444
+\c@biburlucpenalty=\count445
+\c@biburllcpenalty=\count446
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count447
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count448
+\c@bbx:relatedtotal=\count449
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2023-01-16 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
+
+)) (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
 Package: unicode-math-luatex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaL
@@ -609,17 +836,17 @@ Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX (/
 usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count324
-\l__fontspec_language_int=\count325
-\l__fontspec_strnum_int=\count326
-\l__fontspec_tmp_int=\count327
-\l__fontspec_tmpa_int=\count328
-\l__fontspec_tmpb_int=\count329
-\l__fontspec_tmpc_int=\count330
-\l__fontspec_em_int=\count331
-\l__fontspec_emdef_int=\count332
-\l__fontspec_strong_int=\count333
-\l__fontspec_strongdef_int=\count334
+\l__fontspec_script_int=\count450
+\l__fontspec_language_int=\count451
+\l__fontspec_strnum_int=\count452
+\l__fontspec_tmp_int=\count453
+\l__fontspec_tmpa_int=\count454
+\l__fontspec_tmpb_int=\count455
+\l__fontspec_tmpc_int=\count456
+\l__fontspec_em_int=\count457
+\l__fontspec_emdef_int=\count458
+\l__fontspec_strong_int=\count459
+\l__fontspec_strongdef_int=\count460
 \l__fontspec_tmpa_dim=\dimen190
 \l__fontspec_tmpb_dim=\dimen191
 \l__fontspec_tmpc_dim=\dimen192
@@ -636,10 +863,10 @@ Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting wit
 h LuaLaTeX
 Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
 h LuaLaTeX)
-\g__um_fam_int=\count335
-\g__um_fonts_used_int=\count336
-\l__um_primecount_int=\count337
-\g__um_primekern_muskip=\muskip18
+\g__um_fam_int=\count461
+\g__um_fonts_used_int=\count462
+\l__um_primecount_int=\count463
+\g__um_primekern_muskip=\muskip22
 (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
 luaotfload | cache : Lookup cache loaded from /home/alexis/.texlive2022/texmf-va
 r/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
@@ -688,11 +915,11 @@ Package fontspec Info: Font family 'Arial(1)' created for font 'Arial' with
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Arial(1)/m/n on input line 29.
+(Font)                  OT1/cmr/m/n --> TU/Arial(1)/m/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Arial(1)/m/it on input line 29.
+(Font)                  OT1/cmr/m/it --> TU/Arial(1)/m/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Arial(1)/b/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> TU/Arial(1)/b/n on input line 32.
 luaotfload | aux : font no 43 (nil) does not define feature smcp for script latn
  with language dflt
 luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn
@@ -772,9 +999,9 @@ Package fontspec Info: Font family 'Consolas(1)' created for font 'Consolas'
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Consolas(1)/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> TU/Consolas(1)/m/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Consolas(1)/b/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> TU/Consolas(1)/b/n on input line 33.
 
 Package fontspec Info: Could not resolve font "CambriaMath/B" (it probably
 (fontspec)             doesn't exist).
@@ -822,14 +1049,14 @@ lt;"<7.28175-9.47175>"CambriaMath:mode=base;script=math;language=dflt;+ssty=0;"
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 31.
+(Font)              `operators' in the math version `normal' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/CambriaMath(1)/m/n on input line 31.
+(Font)                  OT1/cmr/m/n --> TU/CambriaMath(1)/m/n on input line 34.
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 31.
+(Font)              `operators' in the math version `bold' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/CambriaMath(1)/b/n on input line 31
+(Font)                  OT1/cmr/bx/n --> TU/CambriaMath(1)/b/n on input line 34
 .
 
 Package fontspec Info: CambriaMath scale = 1.0001.
@@ -891,14 +1118,14 @@ uage=dflt;+ssty=1;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 31.
+(Font)              `symbols' in the math version `normal' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/CambriaMath(2)/m/n on input line 31
+(Font)                  OMS/cmsy/m/n --> TU/CambriaMath(2)/m/n on input line 34
 .
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 31.
+(Font)              `symbols' in the math version `bold' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/CambriaMath(2)/b/n on input line 31
+(Font)                  OMS/cmsy/b/n --> TU/CambriaMath(2)/b/n on input line 34
 .
 
 Package fontspec Info: CambriaMath scale = 0.9999.
@@ -949,34 +1176,34 @@ uage=dflt;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 3
-1.
+4.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/CambriaMath(3)/m/n on input line 31
+(Font)                  OMX/cmex/m/n --> TU/CambriaMath(3)/m/n on input line 34
 .
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 31.
+(Font)              `largesymbols' in the math version `bold' on input line 34.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/CambriaMath(3)/b/n on input line 31
+(Font)                  OMX/cmex/m/n --> TU/CambriaMath(3)/b/n on input line 34
 .
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 31.
+(Font)              scaled to size 10.95116pt on input line 34.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 7.99434pt on input line 31.
+(Font)              scaled to size 7.99434pt on input line 34.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 6.5707pt on input line 31.
+(Font)              scaled to size 6.5707pt on input line 34.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 31.
+(Font)              scaled to size 10.94882pt on input line 34.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 7.99265pt on input line 31.
+(Font)              scaled to size 7.99265pt on input line 34.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 6.5693pt on input line 31.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+(Font)              scaled to size 6.5693pt on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1033,16 +1260,16 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yc=\dimen258
 \pgf@xd=\dimen259
 \pgf@yd=\dimen260
-\w@pgf@writea=\write5
-\r@pgf@reada=\read6
-\c@pgf@counta=\count338
-\c@pgf@countb=\count339
-\c@pgf@countc=\count340
-\c@pgf@countd=\count341
+\w@pgf@writea=\write6
+\r@pgf@reada=\read7
+\c@pgf@counta=\count464
+\c@pgf@countb=\count465
+\c@pgf@countc=\count466
+\c@pgf@countd=\count467
 \t@pgf@toka=\toks39
 \t@pgf@tokb=\toks40
 \t@pgf@tokc=\toks41
-\pgf@sys@id@count=\count342
+\pgf@sys@id@count=\count468
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -1057,8 +1284,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count343
-\pgfsyssoftpath@bigbuffer@items=\count344
+\pgfsyssoftpath@smallbuffer@items=\count469
+\pgfsyssoftpath@bigbuffer@items=\count470
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -1069,7 +1296,7 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 e/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/tex
 live/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen261
-\pgfmath@count=\count345
+\pgfmath@count=\count471
 \pgfmath@box=\box65
 \pgfmath@toks=\toks42
 \pgfmath@stack@operand=\toks43
@@ -1094,7 +1321,7 @@ tex)
 thmetics.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathc
 alc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.
 code.tex
-\c@pgfmathroundto@lastzeros=\count346
+\c@pgfmathroundto@lastzeros=\count472
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -1132,7 +1359,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box66
 \pgf@hbox=\box67
 \pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count347
+\pgf@picture@serial@count=\count473
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -1165,8 +1392,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen285
-\pgf@sys@shading@range@num=\count348
-\pgf@shadingcount=\count349
+\pgf@sys@shading@range@num=\count474
+\pgf@shadingcount=\count475
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1214,19 +1441,19 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box72
 \tcb@lowerbox=\box73
 \tcb@phantombox=\box74
-\c@tcbbreakpart=\count350
-\c@tcblayer=\count351
-\c@tcolorbox@number=\count352
+\c@tcbbreakpart=\count476
+\c@tcblayer=\count477
+\c@tcolorbox@number=\count478
 \tcb@temp=\box75
 \tcb@temp=\box76
 \tcb@temp=\box77
 \tcb@temp=\box78
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '5.1.1'
-\c@tcbrastercolumn=\count353
-\c@tcbrasterrow=\count354
-\c@tcbrasternum=\count355
-\c@tcbraster=\count356
+\c@tcbrastercolumn=\count479
+\c@tcbrasterrow=\count480
+\c@tcbrasternum=\count481
+\c@tcbraster=\count482
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '5.1.1'
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share
@@ -1248,7 +1475,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count357
+\pgf@plot@mark@count=\count483
 \pgfplotmarksize=\dimen290
 )
 \tikz@lastx=\dimen291
@@ -1263,18 +1490,18 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box80
 \tikz@tempbox=\box81
 \tikz@tempbox@bg=\box82
-\tikztreelevel=\count358
-\tikznumberofchildren=\count359
-\tikznumberofcurrentchild=\count360
-\tikz@fig@count=\count361
+\tikztreelevel=\count484
+\tikznumberofchildren=\count485
+\tikznumberofcurrentchild=\count486
+\tikz@fig@count=\count487
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count362
-\pgfmatrixcurrentcolumn=\count363
-\pgf@matrix@numberofcolumns=\count364
+\pgfmatrixcurrentrow=\count488
+\pgfmatrixcurrentcolumn=\count489
+\pgf@matrix@numberofcolumns=\count490
 )
-\tikz@expandcount=\count365
+\tikz@expandcount=\count491
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1301,28 +1528,28 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '5.1.1'
 \tcbfitdim=\dimen299
 \tcb@lowerfitdim=\dimen300
 \tcb@upperfitdim=\dimen301
-\tcb@cur@hbadness=\count366
+\tcb@cur@hbadness=\count492
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.1.1'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '5.1.1'
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count367
+\lst@mode=\count493
 \lst@gtempboxa=\box87
 \lst@token=\toks47
-\lst@length=\count368
+\lst@length=\count494
 \lst@currlwidth=\dimen302
-\lst@column=\count369
-\lst@pos=\count370
+\lst@column=\count495
+\lst@pos=\count496
 \lst@lostspace=\dimen303
 \lst@width=\dimen304
-\lst@newlines=\count371
-\lst@lineno=\count372
+\lst@newlines=\count497
+\lst@lineno=\count498
 \lst@maxwidth=\dimen305
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count373
-\lst@skipnumbers=\count374
+\c@lstnumber=\count499
+\lst@skipnumbers=\count500
 \lst@framebox=\box88
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -1333,7 +1560,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '5.1.1'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '5.1.1'
 )
-\c@tcblisting=\count375
+\c@tcblisting=\count501
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
 Library `listings` is loaded instead. on input line 29.
@@ -1392,57 +1619,57 @@ Package: cprotect 2011/01/27 v1.0e (Bruno Le Floch)
 (/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-\CPT@WriteOut=\write6
-\c@CPT@WriteCount=\count376
-\c@CPT@numB=\count377
+\CPT@WriteOut=\write7
+\c@CPT@WriteCount=\count502
+\c@CPT@numB=\count503
 \CPT@commandatend@toks=\toks48
 )
-\inwd=\skip60
-\c@ipythcntr=\count378
+\inwd=\skip82
+\c@ipythcntr=\count504
 ) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip61
-\cftbeforetoctitleskip=\skip62
-\cftaftertoctitleskip=\skip63
-\cftbeforepartskip=\skip64
-\cftpartnumwidth=\skip65
-\cftpartindent=\skip66
-\cftbeforechapskip=\skip67
-\cftchapindent=\skip68
-\cftchapnumwidth=\skip69
-\cftbeforesecskip=\skip70
-\cftsecindent=\skip71
-\cftsecnumwidth=\skip72
-\cftbeforesubsecskip=\skip73
-\cftsubsecindent=\skip74
-\cftsubsecnumwidth=\skip75
-\cftbeforesubsubsecskip=\skip76
-\cftsubsubsecindent=\skip77
-\cftsubsubsecnumwidth=\skip78
-\cftbeforeparaskip=\skip79
-\cftparaindent=\skip80
-\cftparanumwidth=\skip81
-\cftbeforesubparaskip=\skip82
-\cftsubparaindent=\skip83
-\cftsubparanumwidth=\skip84
-\cftbeforeloftitleskip=\skip85
-\cftafterloftitleskip=\skip86
-\cftbeforefigskip=\skip87
-\cftfigindent=\skip88
-\cftfignumwidth=\skip89
-\c@lofdepth=\count379
-\c@lotdepth=\count380
-\cftbeforelottitleskip=\skip90
-\cftafterlottitleskip=\skip91
-\cftbeforetabskip=\skip92
-\cfttabindent=\skip93
-\cfttabnumwidth=\skip94
+\cftparskip=\skip83
+\cftbeforetoctitleskip=\skip84
+\cftaftertoctitleskip=\skip85
+\cftbeforepartskip=\skip86
+\cftpartnumwidth=\skip87
+\cftpartindent=\skip88
+\cftbeforechapskip=\skip89
+\cftchapindent=\skip90
+\cftchapnumwidth=\skip91
+\cftbeforesecskip=\skip92
+\cftsecindent=\skip93
+\cftsecnumwidth=\skip94
+\cftbeforesubsecskip=\skip95
+\cftsubsecindent=\skip96
+\cftsubsecnumwidth=\skip97
+\cftbeforesubsubsecskip=\skip98
+\cftsubsubsecindent=\skip99
+\cftsubsubsecnumwidth=\skip100
+\cftbeforeparaskip=\skip101
+\cftparaindent=\skip102
+\cftparanumwidth=\skip103
+\cftbeforesubparaskip=\skip104
+\cftsubparaindent=\skip105
+\cftsubparanumwidth=\skip106
+\cftbeforeloftitleskip=\skip107
+\cftafterloftitleskip=\skip108
+\cftbeforefigskip=\skip109
+\cftfigindent=\skip110
+\cftfignumwidth=\skip111
+\c@lofdepth=\count505
+\c@lotdepth=\count506
+\cftbeforelottitleskip=\skip112
+\cftafterlottitleskip=\skip113
+\cftbeforetabskip=\skip114
+\cfttabindent=\skip115
+\cfttabnumwidth=\skip116
 ) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box89
-\beforetitleunit=\skip95
-\aftertitleunit=\skip96
+\beforetitleunit=\skip117
+\aftertitleunit=\skip118
 \ttl@plus=\dimen310
 \ttl@minus=\dimen311
 \ttl@toksa=\toks49
@@ -1452,9 +1679,15 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 )
 runsystem(which pygmentize && touch main.aex)...executed
 runsystem(rm main.aex)...executed
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count507
+\@quotereset=\count508
 (./main.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 (./unit-1/lesson-1.aux) (./unit-1/lesson-2.aux) (./unit-1/lesson-3.aux) (./unit
 -1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux) (./unit-2/less
 on-7.aux) (./unit-2/lesson-8.aux) (./unit-3/lesson-9.aux) (./unit-3/lesson-10.a
@@ -1462,28 +1695,28 @@ ux) (./unit-3/lesson-11.aux) (./unit-3/lesson-12.aux) (./unit-4/lesson-13.aux)
 (./unit-4/lesson-14.aux) (./unit-4/lesson-15.aux) (./unit-4/lesson-16.aux))
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Info: Redefining \. on input line 71.
-LaTeX Info: Redefining \% on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1491,16 +1724,16 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count381
+\scratchcounter=\count509
 \scratchdimen=\dimen315
 \scratchbox=\box90
-\nofMPsegments=\count382
-\nofMParguments=\count383
+\nofMPsegments=\count510
+\nofMParguments=\count511
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count384
+\MPscratchCnt=\count512
 \MPscratchDim=\dimen316
-\MPnumerator=\count385
-\makeMPintoPDFobject=\count386
+\MPnumerator=\count513
+\makeMPintoPDFobject=\count514
 \everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1510,18 +1743,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 71.
-Package microtype Info: Applying patch `item' on input line 71.
-Package microtype Info: Applying patch `toc' on input line 71.
-Package microtype Info: Applying patch `eqnum' on input line 71.
-Package microtype Info: Applying patch `footnote' on input line 71.
+LaTeX Info: Redefining \microtypecontext on input line 74.
+Package microtype Info: Applying patch `item' on input line 74.
+Package microtype Info: Applying patch `toc' on input line 74.
+Package microtype Info: Applying patch `eqnum' on input line 74.
+Package microtype Info: Applying patch `footnote' on input line 74.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 71.
+LaTeX Info: Redefining \showhyphens on input line 74.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1529,11 +1762,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Arial' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 71.
+Package hyperref Info: Link coloring ON on input line 74.
 (./main.out) (./main.out)
-\@outlinefile=\write7
+\@outlinefile=\write8
 
-\openout7 = main.out
+\openout8 = main.out
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -1568,27 +1801,43 @@ Package hyperref Info: Link coloring ON on input line 71.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout5 = main.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+(./main.bbl)
+Package biblatex Info: Reference section=0 on input line 74.
+Package biblatex Info: Reference segment=0 on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 71.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 71.
-\c@lstlisting=\count387
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 74.
+\c@lstlisting=\count515
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `CambriaMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 79.
+(Font)              scaled to size 12.00128pt on input line 83.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 79.
+(Font)              scaled to size 8.00085pt on input line 83.
 LaTeX Font Info:    Font shape `TU/CambriaMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 79.
+(Font)              scaled to size 6.00064pt on input line 83.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 79.
+(Font)              scaled to size 11.99872pt on input line 83.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 79.
+(Font)              scaled to size 7.99915pt on input line 83.
 LaTeX Font Info:    Font shape `TU/CambriaMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 79.
+(Font)              scaled to size 5.99936pt on input line 83.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1596,15 +1845,19 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
+LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1] [2] [3] [4])
-\tf@toc=\write8
+\tf@toc=\write9
 
-\openout8 = main.toc
-[5] [6
+\openout9 = main.toc
+[5]
+Package biblatex Info: Reference segment=1 on input line 86.
+Package biblatex Info: Setting label 'refsegment:01' on input line 86.
+[6
 
 ]
 \openout2 = unit-1/lesson-1.aux
@@ -1715,9 +1968,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 (./_minted-main/6D7FCE9FEE471194AA8B5B6E47267F038A449B50EE51364726AD8715BAD1C7E
 9.pygtex) [9]
-\tcb@out=\write9
+\tcb@out=\write10
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/CC81935932C411523B5E31586DEF7985BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -1733,7 +1986,7 @@ C.pygtex)
 
 (./_minted-main/0ECF493029AB94140C3AB5C3F95C8AD3541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/DCE1321896A882B036C907401890FEC1BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -1749,7 +2002,7 @@ C.pygtex) [10]
 
 (./_minted-main/9106108552DFD4B2B515BAE473A9753EA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/56EBCA531CD63EDF331F4D3F4A7428E440A465C13C61724B730B788CC354837
 0.pygtex)
@@ -1761,7 +2014,7 @@ C.pygtex) [10]
 
 (./_minted-main/F291C47BAD436551001216D9C57497EBA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/DD842A04A294C11F9FB69BD61968E7A840A465C13C61724B730B788CC354837
 0.pygtex)
@@ -1781,7 +2034,7 @@ C.pygtex) [10]
 
 (./_minted-main/A81BE4E9B20632860D20A64C054C4150A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/F9DAE1AB1FB604435BBE5C7144A374C640A465C13C61724B730B788CC354837
 0.pygtex)
@@ -1789,7 +2042,7 @@ C.pygtex) [10]
 
 (./_minted-main/A81BE4E9B20632860D20A64C054C4150A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/27C1E8B7A74F7A17928504F6205E4B0C40A465C13C61724B730B788CC354837
 0.pygtex)
@@ -1829,7 +2082,7 @@ C.pygtex)
 
 (./_minted-main/FFA332A5371C7659C6CDD0F350E51CFEA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/4CF8939B0825AB3BE1B00B90E257E811E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -1837,7 +2090,7 @@ E.pygtex)
 
 (./_minted-main/59F5954CBED961E9C87AD9C480707012A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A9432188AC1F0A3CF8246D3E552A5687E9066CE88DE613FA1374184A315C1E1
 E.pygtex) [12]
@@ -1853,7 +2106,7 @@ E.pygtex) [12]
 
 (./_minted-main/01ED2647F97C98EC4CB4D957C31C134FA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D94E2D468C313BF4BC423CD45365EDBC40A465C13C61724B730B788CC354837
 0.pygtex)
@@ -1861,7 +2114,7 @@ E.pygtex) [12]
 
 (./_minted-main/7098579ED8928D5DCB8F21DB18EE66DBA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/F101DA8FA8B127486858DCA616D3080540A465C13C61724B730B788CC354837
 0.pygtex)
@@ -1894,7 +2147,7 @@ Overfull \hbox (39.69856pt too wide) in paragraph at lines 146--147
 
 (./_minted-main/91C57142DDF5A596C810FFCD18F103818A449B50EE51364726AD8715BAD1C7E
 9.pygtex) [13]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7EC9BC00832E1F536440D4B288EAED0A40A465C13C61724B730B788CC354837
 0.pygtex)
@@ -1902,7 +2155,7 @@ Overfull \hbox (39.69856pt too wide) in paragraph at lines 146--147
 
 (./_minted-main/38D51A0F6338E3318D830A1BD9052E898A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-<figures/jupyter-interface.png, id=773, 902.9986pt x 375.65344pt>
+<figures/jupyter-interface.png, id=803, 902.9986pt x 375.65344pt>
 File: figures/jupyter-interface.png Graphic file (type png)
 <use figures/jupyter-interface.png>
 Package luatex.def Info: figures/jupyter-interface.png  used on input line 162.
@@ -1921,12 +2174,12 @@ Package luatex.def Info: figures/jupyter-interface.png  used on input line 162.
 
 (./_minted-main/13D6D0D46E9AD39D526555821E6B9E24A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-<figures/Jupyter-code.png, id=774, 327.09703pt x 137.7647pt>
+<figures/Jupyter-code.png, id=804, 327.09703pt x 137.7647pt>
 File: figures/Jupyter-code.png Graphic file (type png)
 <use figures/Jupyter-code.png>
 Package luatex.def Info: figures/Jupyter-code.png  used on input line 171.
 (luatex.def)             Requested size: 212.91577pt x 89.67421pt.
-<figures/jupyter-markdown.png, id=775, 322.58015pt x 137.01187pt>
+<figures/jupyter-markdown.png, id=805, 322.58015pt x 137.01187pt>
 File: figures/jupyter-markdown.png Graphic file (type png)
 <use figures/jupyter-markdown.png>
 Package luatex.def Info: figures/jupyter-markdown.png  used on input line 171.
@@ -1984,11 +2237,11 @@ C.pygtex)
 
 (./_minted-main/E8C6A30B33684DCD61F58EDA855EA1A78A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/0ECF493029AB94140C3AB5C3F95C8AD382A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
  (./_minted-main/default.pygstyle)
 (./_minted-main/2512C1590C703FE7B419BFF1192E43D2BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -2039,35 +2292,35 @@ C.pygtex)
 
 (./_minted-main/42013D955B7058B221F1EC5BA0869DEF541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/CF036B0B5CD170E2F76417711A8A5D9682A15B1DCA8D177369A2514541E452D
 C.pygtex) [16]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/367764329430DB34BE92FD14A7A770EEBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6198E8833DC0AB507046567ABD3CAD0682A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/DBBF8220893D497D403BB9CDF49DB7A4BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A4648669433BF575F380B0487EAD4C1782A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/484CC042C65CBC34668BB467AE6437F7BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FA21996CAB35542FA82869BE1FDA422C82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2A52A5E65FC3C43F409550DFAD1F904FBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -2075,11 +2328,11 @@ C.pygtex)
 
 (./_minted-main/B519D08EF66FD54910EDBEDBA6181EC2541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/905E9C45E47663173F9D9F038C01A9E682A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/26AB0DB90D72E28AD0BA1E22EE510510BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex) [17
@@ -2205,11 +2458,11 @@ Missing character: There is no e (U+0065) in font nullfont!
 
 (./_minted-main/905E9C45E47663173F9D9F038C01A9E6541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9FE6734BF2B8BEECEF35809014BD2DC382A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/29DACDD04CA35BEFE9DF98CE6A5D58FABE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -2221,11 +2474,11 @@ C.pygtex)
 
 (./_minted-main/29DACDD04CA35BEFE9DF98CE6A5D58FA541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2584A3C0531ABF9688E50C2E56C8FD0E82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B026324C6904B2A9CB4B88D6D61C81D1BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -2257,7 +2510,7 @@ C.pygtex)
 
 (./_minted-main/6F08BD48EB52FB171F28DAC61CFD5BE4541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BDD75DB6859C2EC814D64E6160901EA582A15B1DCA8D177369A2514541E452D
 C.pygtex) [18
@@ -2327,7 +2580,7 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -2343,11 +2596,11 @@ C.pygtex)
 
 (./_minted-main/674F3DEF787399AF6E8148D5C09EC115541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3DBB38F0852E7579EC726AF15FE0B5D582A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -2363,19 +2616,19 @@ C.pygtex)
 
 (./_minted-main/B9628C4AB9B595F72F280B90C4FD093D541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/DB5341AFDBD4E87D9B7368FF9A5A936682A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/AFF9D944719B24376D58AB050C89834482A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2B547E7F2D89DAC70CD423F23456EA63BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)) [19
@@ -2500,7 +2753,7 @@ C.pygtex)
 
 (./_minted-main/36465F6F2C12CBA28CDD6A152D8CC919541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6C752053224795760314EBEBDE919A7782A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -2535,14 +2788,14 @@ C.pygtex)
 
 (./_minted-main/F49EB0010ED500C00D20A451C3716F20541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/872E8E4CD8FA8760C7D9A847F266C98582A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 2'
 
-\openout9 = main.listing
+\openout10 = main.listing
 (./_minted-main/pastie.pygstyle)
 (./_minted-main/B37477618518183B632750B6925923D982A15B1DCA8D177369A2514541E452D
 C.pygtex) [20
@@ -2622,7 +2875,7 @@ C.pygtex)
 
 (./_minted-main/EDCB5B280A371D1FE22BF3489485E147541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B7247AD385AC06E6B130DD59030DBCD282A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -2665,7 +2918,7 @@ C.pygtex)
 
 (./_minted-main/3AF0BF9DC137CB0122F491A03578FA8D541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FB84832102FCFD0B42A8C589253A665A82A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -2684,7 +2937,7 @@ C.pygtex)
 
 (./_minted-main/E978409205CF299400883C049BBB1BAC541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A5DAC0228470308DFEFA5A81276C3C0582A15B1DCA8D177369A2514541E452D
 C.pygtex) [21
@@ -2718,18 +2971,18 @@ Missing character: There is no e (U+0065) in font nullfont!
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 5'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/15ECC4CB9D726F0BCACF7A4DFC5432F0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D38B0A06DC6D3740FFE653DC309ABC5782A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 6'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B94F1F45AF7F309D26906C7B94092843BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -2777,14 +3030,14 @@ C.pygtex)
 
 (./_minted-main/1C2766C0203CA8489F178B9955964C54541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/914A803528A86E4B3388DA51D05DC53682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 7'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/0A422F0F914124727AD339148851F0A9BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -2808,7 +3061,7 @@ C.pygtex)
 
 (./_minted-main/552DACB15F2019C8F3F74C55BEFA242C541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/AF987A71F4A2CE0660585DC011889B4082A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -2979,14 +3232,14 @@ C.pygtex)
 
 (./_minted-main/F02F99BDFACFC9E776F627D90E27A7BB541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/F02F99BDFACFC9E776F627D90E27A7BB82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 9'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/79F5C9AEC1851D24424DE38AD3DE6F98BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -2998,14 +3251,14 @@ C.pygtex)
 
 (./_minted-main/072C1A5CFD6B485725E0E2D9854F8409541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6240BD8C0EC8A910637DA7B54E790F3A82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 10'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/79F5C9AEC1851D24424DE38AD3DE6F98BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3098,14 +3351,14 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/687B82C768C359FC957BBA4EF5C5786882A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 11'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2367D0D41BA13117405DFA47FDFF7B3BBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3117,14 +3370,14 @@ C.pygtex)
 
 (./_minted-main/2367D0D41BA13117405DFA47FDFF7B3B541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/8F3BD1F54D68AAB2C9E217CE76CB424B82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 12'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/DB469A3C93932F04B310C090231CF8FFBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex) [24
@@ -3155,19 +3408,19 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A2B352FB8FCD9CEDCF5045F2BDF5C4BD82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/322DB7A01FE08C8B94ED311E5B9EA1E0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/881BFF7FEAAF0C290A4954BAF1F8047982A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/819F47E3FB6C1CD3A83C7F479637EF93BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3179,7 +3432,7 @@ C.pygtex)
 
 (./_minted-main/B026324C6904B2A9CB4B88D6D61C81D1541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C992D1D95F1008B5423113F00C21FC4382A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -3191,11 +3444,11 @@ C.pygtex)
 
 (./_minted-main/BF0E22CEC92F7FDA7943D66433DD2A14541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/27157086AC99653AFFCD7C3DF58F87A082A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BF0E22CEC92F7FDA7943D66433DD2A14BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3203,11 +3456,11 @@ C.pygtex)
 
 (./_minted-main/EB844645E8E61DE0A4CF4B991E65E63E541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A7C0E100675B889BDD5611EDB492A8C082A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/56DB5AC089A94F9976CB3BCFD14E0EA0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex) [25
@@ -3342,11 +3595,11 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FE30D58DA5C5ABB1AC36EAB548C632DB82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/5F3CC6A676793CABC0BCF92B1884D32CBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3358,19 +3611,19 @@ C.pygtex)
 
 (./_minted-main/F390E8578DF35B2AEA35EA4D0D50CF1C541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D749A5D0DB848F952EE45C95C692C27682A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FAFBE8D473F33ACBD045B2D5BAC706DEBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3AE6B5117EE1FCDB6F9BE0069274C08D82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6790F7BDAA102204E4B234B7AB7D26C0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3382,11 +3635,11 @@ C.pygtex)
 
 (./_minted-main/8B11F83C3293F3B89A30807B3B69B58E541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/CD19CEB9B73168406C8C321F4C927A4982A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B251C0F803E2D1783437FD702DB71EB8BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3394,7 +3647,7 @@ C.pygtex)
 
 (./_minted-main/16F7381E2023A9B120A5485456415351541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2B63039DDE19C6D73B27D30ED63A236382A15B1DCA8D177369A2514541E452D
 C.pygtex) [26
@@ -3516,7 +3769,7 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/26AE632B67FC7A98944DC9F4AE51129ABE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3524,11 +3777,11 @@ Missing character: There is no e (U+0065) in font nullfont!
 
 (./_minted-main/172A961512EE3E4D5FD8A4F29B7C726E541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A17C9DA1ABB58CB1DCAF6988483732AD82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/5F3CC6A676793CABC0BCF92B1884D32CBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3544,19 +3797,19 @@ C.pygtex)
 
 (./_minted-main/52245840CC5C92FFA5EA44D60C7E9924541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/EA3723FD04EA16F3E3D48890CAA6597582A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A7F65C7E3835B906D98B9F1F95158908BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3B3C7CD5E0FBF0113D4A12A480D8E35B82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BCA6CD5EF1AD0D23A042A51BE08F9211BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3673,11 +3926,11 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/028358EF9C0F9C67EC8FEA2C27785E2D82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6464C4C1045F70D335797188ABDE762EBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3685,11 +3938,11 @@ C.pygtex)
 
 (./_minted-main/22A36F3599D94E9D6FF70C05E2AF060D541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7CB32830781B4DA623F5D6B6ACF3565682A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6464C4C1045F70D335797188ABDE762EBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3697,11 +3950,11 @@ C.pygtex)
 
 (./_minted-main/09E9FB56B0A40058BADC132D9D57A32E541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/12234F9F03E4181891351B3EC258423982A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FF787C23FCF9CC4A9B0F08631D67C533BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3713,19 +3966,19 @@ C.pygtex)
 
 (./_minted-main/9035BC569BE9112AAB1873B30A03E4D3541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E2E932B1DFE86AEDBF2A571D845B8BCE82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/07FE1E70F75C67EAFD38E4D9976BCD28BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/028FFCFA068ACE5383D5E2D7CCD59DDB82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9FDA6BA36EF7ACE69F55D6AA1FE1BA14BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3741,7 +3994,7 @@ C.pygtex)
 
 (./_minted-main/BA8D2B9408ED255EE92A112FE7BA59BE541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/66D0DB86262C9C98AB44B4167FB4C0CE82A15B1DCA8D177369A2514541E452D
 C.pygtex) [28
@@ -3876,7 +4129,7 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/79F5C9AEC1851D24424DE38AD3DE6F98BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -3904,19 +4157,19 @@ C.pygtex)
 
 (./_minted-main/2E3CC2759A091F8E7C0FE578A359D5D9541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/DF680FD71CA0E3EB8E856EB5F32B8CA882A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BEF6B724509B20D80E88259A98F56E36BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B6DB8078018594F8FDC7F3A4266EFA5E82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C83202DA22BA78AD2C126BEF2B51AFC0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex) [29
@@ -3999,19 +4252,19 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9979F576B5E2708DD86EA26CD51A27F482A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/1215DAABE7D469D2E1C0A80AF42FAA89BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7C829E06C2279AD2E7089821B3C4B8A682A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/18DFB246473F1CD7CCA1FC8A6DF4A36ABE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4027,27 +4280,27 @@ C.pygtex)
 
 (./_minted-main/F7A06066F1E78985472B81575FAB0040541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/1E56EE8120ABB5977A051E77BF990EEF82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/56DE2871CA0272086F4BD3AF50D078F4BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7D663EFC7E6A05D57BF4ACDECBDE0E2582A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/81F322B50CA74B8805725EBEBD0E24EBBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/05D0A75C10D601EEB60B84EBF87FF4F982A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/169B6C6224D15BBD45B6D9A9DC43C019BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)) [30
@@ -4190,7 +4443,7 @@ Clase 3.
 
 (./_minted-main/F78FFCB5C1E00AC6DC34B14F9971BF1B541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/65AE2276C1A77B70528AF5ED02BA6377E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -4227,14 +4480,14 @@ C.pygtex) [31
 
 
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/72328F4539FA3B6EAEF07DC6BFBC1A6F82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 1'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9FD8647F710807B95ED3160671B138E382A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -4242,14 +4495,14 @@ C.pygtex)
 
 (./_minted-main/F78FFCB5C1E00AC6DC34B14F9971BF1B541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/494DE337EBCF3E50D3BECF3A01E7B1CB82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 2'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E8B7AB421701EEF274266F44682E0B47BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4293,7 +4546,7 @@ C.pygtex)
 
 (./_minted-main/9F5393A12883534E7F4F719C0AD09375541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/788A70EB892FDE50B99A892031583240E9066CE88DE613FA1374184A315C1E1
 E.pygtex) [32
@@ -4354,14 +4607,14 @@ Missing character: There is no e (U+0065) in font nullfont!
 
 (./_minted-main/48D2C2E401C666907EBD72778F4259C5541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B8BBA3CB94618CDFD2E075E5535AEF2282A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 3'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A7178E1F42A86534B222C3E3A25DD59DBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4393,7 +4646,7 @@ C.pygtex)
 
 (./_minted-main/2367D0D41BA13117405DFA47FDFF7B3B541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B14BC2B4C03BDCF0C5DA083844E2304CE9066CE88DE613FA1374184A315C1E1
 E.pygtex) [33
@@ -4428,14 +4681,14 @@ Missing character: There is no e (U+0065) in font nullfont!
 
 (./_minted-main/C5C66F3E9D61D98D6A06A4E92F3207A5541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B43C58B1BF5E2F9475FFDD0630A5D32982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 4'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3FE2F698CE272D6924C79D7148FAD92EBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4447,7 +4700,7 @@ C.pygtex)
 
 (./_minted-main/48D2C2E401C666907EBD72778F4259C5541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D85DB8EF5EB5FDE889C8685659F1F2C5E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -4486,14 +4739,14 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/80C8CB18A248FE3D688ED61C59A0AC9982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 5'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/05E4A0FAA3F2581901C8795FDCC36DF1BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4529,7 +4782,7 @@ C.pygtex)
 
 (./_minted-main/F78FFCB5C1E00AC6DC34B14F9971BF1B541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BEBBC54A864A4EC4EF647C7B021FC6C7E9066CE88DE613FA1374184A315C1E1
 E.pygtex) [35
@@ -4560,14 +4813,14 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3D9EFD1E84F10513B155BE3569117D6B82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 6'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E08C9D5E075612C22F48D39CDA53FADABE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4631,7 +4884,7 @@ C.pygtex)
 
 (./_minted-main/304D82C0867E556F1B5E676E0D11F520541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/5E7C604A22DABA21FB670817BE72ACB382A15B1DCA8D177369A2514541E452D
 C.pygtex) [36
@@ -4665,7 +4918,7 @@ Missing character: There is no e (U+0065) in font nullfont!
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 7'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B8DAC6F4FAACDF4BB2AFB15B19CA48E1BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4685,7 +4938,7 @@ C.pygtex)
 
 (./_minted-main/304D82C0867E556F1B5E676E0D11F520541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/21A334F09781C0C333B8D9E65BA2D4B2E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -4701,7 +4954,7 @@ C.pygtex)
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E2AAC97F1079193CE37315CE35ACBF3482A15B1DCA8D177369A2514541E452D
 C.pygtex) [37
@@ -4735,7 +4988,7 @@ Missing character: There is no e (U+0065) in font nullfont!
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 8'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E08C9D5E075612C22F48D39CDA53FADABE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4751,14 +5004,14 @@ C.pygtex)
 
 (./_minted-main/C645DEA65BB482E04C8DDA4E0C1DEF22541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2D1AA018DFF71A0B8E57339BB96D26A982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 9'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/CEB136842AE8B141429ACC316BD4F19ABE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4774,14 +5027,14 @@ C.pygtex)
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/DAA1C9FC210FA4767A1ECD7626C34F6282A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 10'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C94208B262CD793E90F66A4ECAA1B65BBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4789,7 +5042,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BF6A1E2768B99C5EFDF30F339A53CE4F82A15B1DCA8D177369A2514541E452D
 C.pygtex) [38
@@ -4875,7 +5128,7 @@ Missing character: There is no e (U+0065) in font nullfont!
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 11'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7056710DBC47A596C1E9D5FBC9F7C391BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -4887,43 +5140,43 @@ C.pygtex)
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/44F013A155CD1B430B6903815A4A124482A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 12'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/0320DB7D2AAAE1DD9A569457B4A655FE82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 13'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/38A8011C97B40B916AC6D9B93982CC57BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C599363212752CBFAD2229611B554ED382A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 14'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3B4E209520F93AF4E96EF72D1E812F5CBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2B86F82F742D0CA878028BA2C626C67482A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 15'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/51D219CB69AA02B94234909192F5858BBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex) [39
@@ -5040,7 +5293,7 @@ C.pygtex)
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E310CE5E393ECE3B3E67BBE476BF308682A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -5063,22 +5316,22 @@ C.pygtex)
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/12CE36497E8712CA2C62F77795F7618A82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 17'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E82D116448ED518E3DFAF8D97A300EF8BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/92B1E9512D51AA495BD1037D6BF06E96E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/8E21B653EA2CE4D9DF2293076B54DDD282A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -5151,43 +5404,43 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6B72CA38006BC6DEF5B05C114DA8699482A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 19'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/78F9E6A84FC5946660BB3C83601A7F39BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/1C23D9B9DDEB879470CDEF9E08DA8ECF82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 20'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/714EF04F3AD06A63DC9238610F25422782A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 21'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/384D865EC298C4E3B62E312CC85720D4BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/444ADDC2E9E0921349E2757CD934007282A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 22'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D0ADD780E0C5D35A304582CB26AC0B02BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)) [41
@@ -5295,18 +5548,18 @@ C.pygtex)
 
 (./_minted-main/25EDE6EA20BF6D44D2F19EE6CA941407541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/841A83B58C0038373FFB66EE50E1707482A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 1'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/0B5D4D40A1F7FDA6688FD99DD6471B98BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D301EB4B7E441CC2421997742506A2D0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -5314,14 +5567,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/25EDE6EA20BF6D44D2F19EE6CA941407541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6C5C6E14BEB7011E1094B420C4D4C3C382A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 2'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/82DAA4A4277902E2B9A34300E59F3832BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex) [42
@@ -5410,14 +5663,14 @@ C.pygtex)
 
 (./_minted-main/25EDE6EA20BF6D44D2F19EE6CA941407541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/305155256BDF02EE1C57B8309807474782A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 3'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/664D63B1B31A8FE5921E6EB1E1A582D6BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex) (./figures/function_structure.tex)
@@ -5485,21 +5738,21 @@ C.pygtex)
 
 (./_minted-main/64672A10DE469FBE6988486F9582D37C541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/4DDF422074F8FF9958395B4C7758372482A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 4'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9FFB9EC4EC675FCB0C5642F8B9CA6DC282A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 5'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D822A831F695BF1C2079841C48E0ECAEBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -5551,21 +5804,21 @@ Missing character: There is no e (U+0065) in font nullfont!
 
 (./_minted-main/16F7381E2023A9B120A5485456415351541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/F1FC106BA7372786095ADC993608F1C382A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 6'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2D1FF3C67A5322D1C1A02F34F7BF54D682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 7'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/234254ABA6A142CEDC24350C9453A0ACBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -5590,14 +5843,14 @@ Overfull \hbox (48.57834pt too wide) in paragraph at lines 112--113
  []
 
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A9B2B31E9157EBC4A34939CB4E8DF77E82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 8'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C30F7472766D25AF1DC80B3FFC9A58C7BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex) [45
@@ -5662,7 +5915,7 @@ C.pygtex)
 
 (./_minted-main/2CD6EE2C70B0BDE53FBE6CAC3C8B8BB1541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C848BFA49A32B3B5A64BF940D6D7275182A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -5685,7 +5938,7 @@ C.pygtex)
 
 (./_minted-main/79F5C9AEC1851D24424DE38AD3DE6F98541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/87D5BBCA045B489C9E9A81E5F305151682A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -5700,25 +5953,25 @@ C.pygtex)
 
 (./_minted-main/31D30EEA8D0968D6458E0AD0027C9F80541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A4985722164F12DAF69CA4AE76BF1E6C82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 11'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/79F5C9AEC1851D24424DE38AD3DE6F98BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E9585898A08EBC4BB55C52C604DF494082A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 12'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2367D0D41BA13117405DFA47FDFF7B3BBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex) [46
@@ -5814,7 +6067,7 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/71716E458461E672A8F6980F7D17D2DF82A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -5841,14 +6094,14 @@ C.pygtex)
 
 (./_minted-main/5839A7782AA1AABFCB0F6378A136AAE7541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/50A18851759D3008F0402FAE2C955A4B82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 14'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2725B93834C68E3C3A2CE0F7EF2AE028BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -5856,25 +6109,25 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/18697449D7C48CF32CDD4F14857E68EE541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7C892829DF30FF18AD8D10769137837F82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 15'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/93B5DDC5F308C5699406063C351FAC4EBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/AD3DB54D9495F021FE57F788FB03D8DF82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 16'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/4C3B11B573692248CECA4AFC691B2CF6BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -5978,80 +6231,80 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BCB4C216ED0FB181ECDFAA670036C12B82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 17'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/80D2AAA08123016DFBF83A0C65472A6FBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C5B58303FB6101EBE57CCA07F334481882A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 18'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/80D2AAA08123016DFBF83A0C65472A6FBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/F47488F3DA933F0416CAA70E9D750CF082A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 19'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/EF2B1C71866984657819DD7BB1466BAABE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/611B6DFE81C8225B2F0F52F22B27775682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 20'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/EF2B1C71866984657819DD7BB1466BAABE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/39174604DDEFE48F89726A30198ED61382A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 21'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/0E12D35B853E4B02760F395C72539102BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9CD8189A49F04B9B1BD539FF3A6E256D82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 22'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/713A7EEA9EC12DA908628BFEE1E3587BBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/5839A7782AA1AABFCB0F6378A136AAE782A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 23'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/166C3043AE7AACE2C0DB81CA7E90A2B482A15B1DCA8D177369A2514541E452D
 C.pygtex) [48
@@ -6225,25 +6478,25 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/0D59FCE69D21F6DC8C9B0EB9E9911B2C82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 24'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/56C61150B05576B06A91A815AC55039B82A15B1DCA8D177369A2514541E452D
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BAB9A2446F06B3399359A15BB690F2A882A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 25'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/4D7B316C858F53B474F5127B9BF7924882A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -6263,14 +6516,14 @@ C.pygtex)
 
 (./_minted-main/18697449D7C48CF32CDD4F14857E68EE541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/74F2CB2493D737F14E3FB5EE40D045A682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 26'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E4D7A894EB02AB6D974100E5E9EBB12182A15B1DCA8D177369A2514541E452D
 C.pygtex) [49
@@ -6389,7 +6642,10 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/D801DD2754E838E5DF673EB8E0C8A069541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)) [50] [51
+C.pygtex)) [50]
+Package biblatex Info: Reference segment=2 on input line 95.
+Package biblatex Info: Setting label 'refsegment:02' on input line 95.
+[51
 
 
 
@@ -6401,42 +6657,69 @@ Clase 5.
 
 
 ]
-<figures/em_spectrum.png, id=1015, 676.4472pt x 118.041pt>
+<figures/em_spectrum.png, id=1045, 676.4472pt x 118.041pt>
 File: figures/em_spectrum.png Graphic file (type png)
 <use figures/em_spectrum.png>
 Package luatex.def Info: figures/em_spectrum.png  used on input line 20.
 (luatex.def)             Requested size: 443.57848pt x 77.40475pt.
 [53<./figures/em_spectrum.png>]
-<figures/light_laws.png, id=1023, 849.8952pt x 331.9602pt>
+<figures/light_laws.png, id=1053, 799.48688pt x 328.22626pt>
 File: figures/light_laws.png Graphic file (type png)
 <use figures/light_laws.png>
 Package luatex.def Info: figures/light_laws.png  used on input line 39.
-(luatex.def)             Requested size: 443.57848pt x 173.25851pt.
-[54<./figures/light_laws.png>]) [55]
+(luatex.def)             Requested size: 443.57848pt x 182.11263pt.
+[54<./figures/light_laws.png>]
+<figures/galilean-refractor.png, id=1067, 342.9061pt x 271.3889pt>
+File: figures/galilean-refractor.png Graphic file (type png)
+<use figures/galilean-refractor.png>
+Package luatex.def Info: figures/galilean-refractor.png  used on input line 53.
+
+(luatex.def)             Requested size: 310.50357pt x 245.76337pt.
+[55<./figures/galilean-refractor.png>]
+<figures/paraboloidal-telescope.png, id=1081, 475.02469pt x 301.125pt>
+File: figures/paraboloidal-telescope.png Graphic file (type png)
+<use figures/paraboloidal-telescope.png>
+Package luatex.def Info: figures/paraboloidal-telescope.png  used on input line
+ 66.
+(luatex.def)             Requested size: 354.86412pt x 224.96098pt.
+[56<./figures/paraboloidal-telescope.png>]
+<figures/types-of-telescopes.jpg, id=1091, 1361.085pt x 596.2275pt>
+File: figures/types-of-telescopes.jpg Graphic file (type jpg)
+<use figures/types-of-telescopes.jpg>
+Package luatex.def Info: figures/types-of-telescopes.jpg  used on input line 75
+.
+(luatex.def)             Requested size: 443.57848pt x 194.3084pt.
+<figures/atmosphere.png, id=1095, 713.3049pt x 318.7107pt>
+File: figures/atmosphere.png Graphic file (type png)
+<use figures/atmosphere.png>
+Package luatex.def Info: figures/atmosphere.png  used on input line 87.
+(luatex.def)             Requested size: 443.57848pt x 198.19673pt.
+[57<./figures/types-of-telescopes.jpg>]) [58<./figures/atmosphere.png>]
 \openout2 = unit-2/lesson-6.aux
- (./unit-2/lesson-6.tex
+ (./unit
+-2/lesson-6.tex
 Clase 6.
-[56
+[59
 
 
 
 
 ]
-<figures/Inverse_square_law.png, id=1041, 2569.6pt x 1713.40125pt>
+<figures/Inverse_square_law.png, id=1121, 2569.6pt x 1713.40125pt>
 File: figures/Inverse_square_law.png Graphic file (type png)
 <use figures/Inverse_square_law.png>
 Package luatex.def Info: figures/Inverse_square_law.png  used on input line 17.
 
 (luatex.def)             Requested size: 354.86412pt x 236.60649pt.
-[57<./figures/Inverse_square_law.png>] [58] [59] [60] [61]
-<figures/UBV-filter.png, id=1068, 519.44063pt x 426.84468pt>
+[60<./figures/Inverse_square_law.png>] [61] [62] [63] [64]
+<figures/UBV-filter.png, id=1149, 519.44063pt x 426.84468pt>
 File: figures/UBV-filter.png Graphic file (type png)
 <use figures/UBV-filter.png>
 Package luatex.def Info: figures/UBV-filter.png  used on input line 92.
 (luatex.def)             Requested size: 443.57848pt x 364.50659pt.
-[62<./figures/UBV-filter.png>]
+[65<./figures/UBV-filter.png>]
 
-LaTeX Warning: Reference `fig:planck-function' on page 63 undefined on input li
+LaTeX Warning: Reference `fig:planck-function' on page 66 undefined on input li
 ne 112.
 
 
@@ -6445,75 +6728,96 @@ Overfull \hbox (20.05603pt too wide) in paragraph at lines 111--113
 ón y $[]$
  []
 
-<figures/Black_body.png, id=1076, 480.3546pt x 368.3361pt>
+<figures/Black_body.png, id=1157, 480.3546pt x 368.3361pt>
 File: figures/Black_body.png Graphic file (type png)
 <use figures/Black_body.png>
 Package luatex.def Info: figures/Black_body.png  used on input line 116.
 (luatex.def)             Requested size: 443.57848pt x 340.1379pt.
-[63<./figures/Black_body.png>]) [64]
+[66<./figures/Black_body.png>]) [67]
 \openout2 = unit-2/lesson-7.aux
  (./unit-2/lesson-7.tex
 Clase 7.
-<figures/solar-spectrum.png, id=1088, 501.875pt x 50.1875pt>
+<figures/solar-spectrum.png, id=1169, 501.875pt x 50.1875pt>
 File: figures/solar-spectrum.png Graphic file (type png)
 <use figures/solar-spectrum.png>
 Package luatex.def Info: figures/solar-spectrum.png  used on input line 12.
 (luatex.def)             Requested size: 443.57848pt x 44.3604pt.
-[65
+[68
 
 
 
 
 <./figures/solar-spectrum.png>]
-<figures/H-spectrum.png, id=1099, 647.2983pt x 95.6373pt>
+<figures/H-spectrum.png, id=1180, 647.2983pt x 95.6373pt>
 File: figures/H-spectrum.png Graphic file (type png)
 <use figures/H-spectrum.png>
 Package luatex.def Info: figures/H-spectrum.png  used on input line 32.
 (luatex.def)             Requested size: 443.57848pt x 65.53886pt.
-[66]
-<figures/hydrogen-lines-transitions.png, id=1107, 501.875pt x 466.74374pt>
+[69]
+<figures/hydrogen-lines-transitions.png, id=1188, 501.875pt x 466.74374pt>
 File: figures/hydrogen-lines-transitions.png Graphic file (type png)
 <use figures/hydrogen-lines-transitions.png>
 Package luatex.def Info: figures/hydrogen-lines-transitions.png  used on input 
 line 41.
 (luatex.def)             Requested size: 354.86412pt x 330.0372pt.
-[67<./figures/H-spectrum.png><./figures/hydrogen-lines-transitions.png>]
-<figures/types-of-spectra.jpg, id=1119, 1284.8pt x 722.7pt>
+[70<./figures/H-spectrum.png><./figures/hydrogen-lines-transitions.png>]
+<figures/types-of-spectra.jpg, id=1201, 1284.8pt x 722.7pt>
 File: figures/types-of-spectra.jpg Graphic file (type jpg)
 <use figures/types-of-spectra.jpg>
 Package luatex.def Info: figures/types-of-spectra.jpg  used on input line 53.
 (luatex.def)             Requested size: 443.57848pt x 249.50821pt.
-[68<./figures/types-of-spectra.jpg>] [69] [70]
-<figures/doppler-shift.jpg, id=1145, 481.8pt x 200.75pt>
+[71<./figures/types-of-spectra.jpg>] [72] [73]
+<figures/doppler-shift.jpg, id=1225, 481.8pt x 200.75pt>
 File: figures/doppler-shift.jpg Graphic file (type jpg)
 <use figures/doppler-shift.jpg>
 Package luatex.def Info: figures/doppler-shift.jpg  used on input line 89.
 (luatex.def)             Requested size: 310.50357pt x 129.38013pt.
-[71<./figures/doppler-shift.jpg>]
-<figures/Orbits-binary.png, id=1155, 1163.3061pt x 730.8906pt>
+[74<./figures/doppler-shift.jpg>]
+<figures/Orbits-binary.png, id=1235, 1163.3061pt x 730.8906pt>
 File: figures/Orbits-binary.png Graphic file (type png)
 <use figures/Orbits-binary.png>
 Package luatex.def Info: figures/Orbits-binary.png  used on input line 105.
 (luatex.def)             Requested size: 443.57848pt x 278.68927pt.
-[72<./figures/Orbits-binary.png>]
-<figures/spectroscopic-binary-lc.png, id=1164, 635.37375pt x 437.38406pt>
+[75<./figures/Orbits-binary.png>]
+<figures/spectroscopic-binary-lc.png, id=1244, 635.37375pt x 437.38406pt>
 File: figures/spectroscopic-binary-lc.png Graphic file (type png)
 <use figures/spectroscopic-binary-lc.png>
 Package luatex.def Info: figures/spectroscopic-binary-lc.png  used on input lin
 e 116.
 (luatex.def)             Requested size: 443.57848pt x 305.36588pt.
-) [73<./figures/spectroscopic-binary-lc.png>]
+) [76<./figures/spectroscopic-binary-lc.png>]
 \openout2 = unit-2/lesson-8.aux
  (./unit-2/lesson-8.tex
 Clase 8.
-) [74
+<figures/energy_bands.png, id=1255, 2419.0375pt x 636.3775pt>
+File: figures/energy_bands.png Graphic file (type png)
+<use figures/energy_bands.png>
+Package luatex.def Info: figures/energy_bands.png  used on input line 16.
+(luatex.def)             Requested size: 443.57848pt x 116.68898pt.
+[77
 
 
 
 
-] [75
+] [78<./figures/Energy_bands.png>]
+<figures/below2.png, id=1272, 2007.5pt x 1587.9325pt>
+File: figures/below2.png Graphic file (type png)
+<use figures/below2.png>
+Package luatex.def Info: figures/below2.png  used on input line 34.
+(luatex.def)             Requested size: 212.91577pt x 168.39758pt.
+<figures/above2.png, id=1273, 2007.5pt x 1587.9325pt>
+File: figures/above2.png Graphic file (type png)
+<use figures/above2.png>
+Package luatex.def Info: figures/above2.png  used on input line 35.
+(luatex.def)             Requested size: 212.91577pt x 168.39758pt.
+[79<./figures/below2.png><./figures/above2.png>] [80] [81] [82]) [83] [84
 
 
+
+]
+Package biblatex Info: Reference segment=3 on input line 103.
+Package biblatex Info: Setting label 'refsegment:03' on input line 103.
+[85
 
 ]
 \openout2 = unit-3/lesson-9.aux
@@ -6577,10 +6881,10 @@ C.pygtex)
 
 (./_minted-main/60BB504C6D237EF94117733BE20E2D29541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B9352A2A925487D3E7F24DB5E649539682A15B1DCA8D177369A2514541E452D
-C.pygtex) [76
+C.pygtex) [86
 
 
 ]
@@ -6591,36 +6895,36 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/C6600D32C8D5F2AC9D8D5259C4180C4F541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B85FEAA50FA45940B273579FAF7487E482A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 2'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6D7FCE9FEE471194AA8B5B6E47267F03BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FA1FEC964E78D17B534BBF4E116E0EB882A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 3'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/50A8B76D929467D421D7BE6D3B5D5F00BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/8B9270481C4432ED0BE1727DEED550B982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 4'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/26AB0DB90D72E28AD0BA1E22EE510510BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -6632,21 +6936,21 @@ C.pygtex)
 
 (./_minted-main/CC737CF6671ADED014BE08C9E3BAAD44541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/13F6D98A2BFD5FB58595BEC5C15DD69C82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 5'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/164271C6921AFAD2BC42928E72947F7EBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/66F30EEAA4C0411DFED9DA98963827CA82A15B1DCA8D177369A2514541E452D
-C.pygtex) [77
+C.pygtex) [87
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -6768,29 +7072,29 @@ Missing character: There is no e (U+0065) in font nullfont!
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 6'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A774EB5FD33FECC443ADC2C83B56457ABE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/1722356DB8B3BA501190FA53639F803382A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 7'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9D34C724AA1F2F885AD6E5B3A728C9EFBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/37EB49C580BDB9672255C5ED8B2899D682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 8'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B8F9BEEB6B00720282F92B34408EC3C6BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -6806,39 +7110,39 @@ C.pygtex)
 
 (./_minted-main/B026324C6904B2A9CB4B88D6D61C81D1541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2F791461B637321AFE8D9C082054F5BB82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 9'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/304C1E4EE41D9B3E333E6618D375AAB7BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D3F061C1697F2E4742AFC8ABE3FA59A682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 10'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C2F23B5B543B1C867807FE9781E444E6BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3BC3B04C0D6AE0E03D974578D70BE28482A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 11'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B25FB31128B2D2C2E9A9BECC49404725BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [78
+9.pygtex) [88
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -6991,14 +7295,14 @@ C.pygtex)
 
 (./_minted-main/DED9EEEF0E7D8DE0AFAF41817F0CE389541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/223988808F12194D00935F3CE7893B4B82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 12'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7A37CAF1F6FB15650265E127BAE853D0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -7014,17 +7318,17 @@ C.pygtex)
 
 (./_minted-main/8A682A90B5230F568138FA5BC7EE94D4541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/8165BA516B7FFEF2179FDA4626DF627282A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 13'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D83BF44C08C8DDF6481FCAF0DE32C241BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [79
+9.pygtex) [89
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7102,14 +7406,14 @@ n/10.95 . Pa-ra crear un arre-glo que si-ga es-ta dis-tri-bu-ción se uti-li-za 
  []
 
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3A6F7B167170186D27E1BAB09E0B2AD082A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 14'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/048F7E994D0959A0200D7B126F8F93E5BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -7129,7 +7433,7 @@ C.pygtex)
 
 (./_minted-main/D7CB0044FE3B2A357B1F0976C2AC8F11541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/4F2338257C9D07F42739A849BC89CB7C82A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -7148,10 +7452,10 @@ C.pygtex)
 
 (./_minted-main/775D6B1824E55EEBA322E4D3FE87835B541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/5DB1BA45F6C9EFCE0CB6D59689D027D082A15B1DCA8D177369A2514541E452D
-C.pygtex) [80
+C.pygtex) [90
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7209,13 +7513,13 @@ Overfull \hbox (53.69884pt too wide) in paragraph at lines 187--188
  []
 
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BC2DAB40E541883FBCC14356AB04FD7082A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 17'
-<figures/matplotlib_lines.png, id=1203, 404.4711pt x 301.6068pt>
+<figures/matplotlib_lines.png, id=1334, 404.4711pt x 301.6068pt>
 File: figures/matplotlib_lines.png Graphic file (type png)
 <use figures/matplotlib_lines.png>
 Package luatex.def Info: figures/matplotlib_lines.png  used on input line 206.
@@ -7229,10 +7533,10 @@ C.pygtex)
 
 (./_minted-main/BFDD14487827B806DFC0B0E3C5E38A54541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7D8BC440E4A7EA21AA720281655B2E5D82A15B1DCA8D177369A2514541E452D
-C.pygtex) [81
+C.pygtex) [91
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7262,7 +7566,7 @@ Missing character: There is no e (U+0065) in font nullfont!
 <./figures/matplotlib_lines.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 18'
-<figures/matplotlib_hist.png, id=1209, 135.6267pt x 104.0688pt>
+<figures/matplotlib_hist.png, id=1340, 135.6267pt x 104.0688pt>
 File: figures/matplotlib_hist.png Graphic file (type png)
 <use figures/matplotlib_hist.png>
 Package luatex.def Info: figures/matplotlib_hist.png  used on input line 227.
@@ -7286,19 +7590,19 @@ Overfull \hbox (31.57803pt too wide) in paragraph at lines 230--231
  []
 
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/26FB8C4B73CBB57DA7CF08BA600E889C82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 19'
-<figures/matplotlib_matrix.png, id=1210, 118.5228pt x 100.2144pt>
+<figures/matplotlib_matrix.png, id=1341, 118.5228pt x 100.2144pt>
 File: figures/matplotlib_matrix.png Graphic file (type png)
 <use figures/matplotlib_matrix.png>
 Package luatex.def Info: figures/matplotlib_matrix.png  used on input line 245.
 
 (luatex.def)             Requested size: 310.50357pt x 262.58807pt.
-[82
+[92
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7326,7 +7630,7 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 <./figures/matplotlib_hist.png>]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/56941E7BD14920F7032BF9CB75A3D9B582A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -7341,17 +7645,17 @@ C.pygtex)
 
 (./_minted-main/2C3E605002732EDBF8157C2E11253B86541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D67FF5706C4D6815DF874B42C60A819182A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 21'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/8504E947914A66F0BAFB0C449D308FFF82A15B1DCA8D177369A2514541E452D
-C.pygtex) [83
+C.pygtex) [93
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7381,31 +7685,31 @@ Missing character: There is no e (U+0065) in font nullfont!
 <./figures/matplotlib_matrix.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 22'
-<figures/matplotlib_contour.png, id=1221, 129.8451pt x 100.6962pt>
+<figures/matplotlib_contour.png, id=1352, 129.8451pt x 100.6962pt>
 File: figures/matplotlib_contour.png Graphic file (type png)
 <use figures/matplotlib_contour.png>
 Package luatex.def Info: figures/matplotlib_contour.png  used on input line 277
 .
 (luatex.def)             Requested size: 310.50357pt x 240.79997pt.
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E41663210309A1245366221245CC7D6C82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 23'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7DF7755DD30183DE8EEA171C47D6181982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 24'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/06E6BD1249DEC936802D2A740853B44D82A15B1DCA8D177369A2514541E452D
-C.pygtex) [84
+C.pygtex) [94
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7461,19 +7765,19 @@ C.pygtex)
 
 (./_minted-main/86DFDE310E41F035B15F8FB33A911580541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/12763CF0EA37C561C65D683DD6F817E982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 26'
-<figures/matplotlib_2d_gaussian.png, id=1227, 137.313pt x 109.1277pt>
+<figures/matplotlib_2d_gaussian.png, id=1358, 137.313pt x 109.1277pt>
 File: figures/matplotlib_2d_gaussian.png Graphic file (type png)
 <use figures/matplotlib_2d_gaussian.png>
 Package luatex.def Info: figures/matplotlib_2d_gaussian.png  used on input line
  318.
 (luatex.def)             Requested size: 310.50357pt x 246.76721pt.
-) [85
+) [95
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7541,17 +7845,17 @@ C.pygtex)
 
 (./_minted-main/C4D5BF75C0F9B0FAE6FAD34539AE2826541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6C683FAE35B59653DE35598BBBF078C982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 1'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BB7D31CC4F2C082FD3788A73DEF7847C82A15B1DCA8D177369A2514541E452D
-C.pygtex) [86
+C.pygtex) [96
 
 
 
@@ -7573,7 +7877,7 @@ Missing character: There is no e (U+0065) in font nullfont!
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 2'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/DA6866D6A0F5BF1C31325408A0D43FEEBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -7589,14 +7893,14 @@ C.pygtex)
 
 (./_minted-main/9A65861BADDD864715C802C6BEEF6105541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/12E8634313A1DEB039DDF8DA8181721582A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 3'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/92CD41B609D59039B6691FF34FBBAA30BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -7608,21 +7912,21 @@ C.pygtex)
 
 (./_minted-main/8F6DB841166185F14FD87925FC54E9E3541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/520810827E10E2FB437CB22E6D1BB63C82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 4'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B343EB6D7DDEC7E524D9F879F9697C84BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/15085FBCB1C45439371B14EC732C3BC082A15B1DCA8D177369A2514541E452D
-C.pygtex) [87
+C.pygtex) [97
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7705,18 +8009,18 @@ Missing character: There is no e (U+0065) in font nullfont!
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 5'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B8BE2EBFB5C92CB5EBAF671C71303868BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7FDADB779740A12E32FDF469D085520482A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 6'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/CBD8BFB1681E7C76079884B38894AC14BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -7780,13 +8084,13 @@ C.pygtex)
 
 (./_minted-main/E35B4382E6BE702FBA12F42ECA26EF06A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/AC17BA5EC471FFFC90308E37D75BA19282A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 7'
-[88
+[98
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7860,7 +8164,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/A9391AC7E39DD775943376DBE2DFF158541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9F9D27F328DD3DDF25B248AE5856BAEE82A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -7871,14 +8175,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/71A15B456DAB4C7B9C98F33BD0E619C3541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D36D9D416C291461AF0FDEC8F1BCC87682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 10'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/78632FD351738BAD5F3C8124FD1AB9A7BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -7886,10 +8190,10 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/6137CDE4893C59F76F005A8123D8E8E6541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7D09C33207059AD00023DAEB809EEE3682A15B1DCA8D177369A2514541E452D
-C.pygtex) [89
+C.pygtex) [99
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -7946,7 +8250,7 @@ Missing character: There is no e (U+0065) in font nullfont!
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 11'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6FB8BCD372383D483398052CE7E84AA4BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -7954,14 +8258,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/F38021CA65B082E9B82B0E88D5BFAD09541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FD4322AB6C35BF223F0F4ED7228D4AAD82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 12'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B0D0A0C769F2ADED2FD40B8804FE3F24BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -7973,23 +8277,23 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/C9D4EE7BA50EBC3EEE2EF0161F5DA2AEA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2D4EDF7544441868D89A1EB8216F150082A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 13'
-<figures/binary_bias_example.png, id=1253, 145.2627pt x 200.9106pt>
+<figures/binary_bias_example.png, id=1384, 145.2627pt x 200.9106pt>
 File: figures/binary_bias_example.png Graphic file (type png)
 <use figures/binary_bias_example.png>
 Package luatex.def Info: figures/binary_bias_example.png  used on input line 17
 1.
 (luatex.def)             Requested size: 177.42868pt x 245.41711pt.
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/8F5A901870233FB153D32CA353050D8182A15B1DCA8D177369A2514541E452D
-C.pygtex) [90
+C.pygtex) [100
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8058,20 +8362,20 @@ Missing character: There is no e (U+0065) in font nullfont!
 <./figures/binary_bias_example.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 14'
-<figures/binary_flat_example.png, id=1260, 213.1965pt x 185.9748pt>
+<figures/binary_flat_example.png, id=1391, 213.1965pt x 185.9748pt>
 File: figures/binary_flat_example.png Graphic file (type png)
 <use figures/binary_flat_example.png>
 Package luatex.def Info: figures/binary_flat_example.png  used on input line 18
 1.
 (luatex.def)             Requested size: 221.78923pt x 193.47733pt.
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B0B9B92A273EAF5A97B34A79C242391082A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 15'
-<figures/binary_object_example.png, id=1261, 211.0284pt x 185.9748pt>
+<figures/binary_object_example.png, id=1392, 211.0284pt x 185.9748pt>
 File: figures/binary_object_example.png Graphic file (type png)
 <use figures/binary_object_example.png>
 Package luatex.def Info: figures/binary_object_example.png  used on input line 
@@ -8081,7 +8385,7 @@ Package luatex.def Info: figures/binary_object_example.png  used on input line
 \openout4 = main.pyg
 
 (./_minted-main/14241705640D22B183BF3BBF4CBD6DB4541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [91
+C.pygtex) [101
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8109,48 +8413,48 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 <./figures/binary_flat_example.png><./figures/binary_object_example.png>]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2D6A2B7ABD49E58AB125B30EFDAAB2D982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 16'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3F6F69FD2DD3154C351FE87A51AC6BEC82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 17'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/DAE8110C71B96604C8FE898EB42811BA82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 18'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7AB56B28C82A7E9D237E3A0E18C2761A82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 19'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7B4F179C20B29B93817E578EC10F105182A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 20'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/519BA64439E537A8214ACE9359CB13E682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 21'
-[92
+[102
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8230,26 +8534,26 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2945E945CC74547F838BC54D8AF9FB1582A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 22'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7911CF9B2799D19DFDD281AECFC29CCA82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 23'
-<figures/counts_hist_simulated.png, id=1272, 190.5519pt x 182.1204pt>
+<figures/counts_hist_simulated.png, id=1403, 190.5519pt x 182.1204pt>
 File: figures/counts_hist_simulated.png Graphic file (type png)
 <use figures/counts_hist_simulated.png>
 Package luatex.def Info: figures/counts_hist_simulated.png  used on input line 
 264.
 (luatex.def)             Requested size: 310.50357pt x 296.79526pt.
-) [93
+) [103
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8308,38 +8612,38 @@ Package hyperref Warning: Suppressing link with empty target on input line 14.
 \openout4 = main.pyg
 
 (./_minted-main/0569EB1F71B91FB4EF857083622C9D23541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [94
+C.pygtex) [104
 
 
 
 
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/0150970B1E18178A26A9815E5E450B2682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 1'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B4F2718B17EEE2E803189A7110714C9582A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 2'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/31FD3D3940DB8EB71571906E51E8697082A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 3'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/5CFDA142846275DAE1EC814E351A173DBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-<figures/overscan.png, id=1286, 417.7206pt x 302.0886pt>
+<figures/overscan.png, id=1417, 417.7206pt x 302.0886pt>
 File: figures/overscan.png Graphic file (type png)
 <use figures/overscan.png>
 Package luatex.def Info: figures/overscan.png  used on input line 45.
@@ -8349,10 +8653,10 @@ Package luatex.def Info: figures/overscan.png  used on input line 45.
 
 (./_minted-main/0272C8D1B8556035113B4A9EC00AFD6C541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FB8B7FE91C7C06E34D313E70969F2A6282A15B1DCA8D177369A2514541E452D
-C.pygtex) [95
+C.pygtex) [105
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8413,7 +8717,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/2649833B11918DC0296EC63FBDCF5CC8541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C98F94F2879E7A1A3C498ECFF48A791082A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -8428,20 +8732,20 @@ C.pygtex)
 
 (./_minted-main/3B4D767E83A096EFDD1FCDFF57925A6A541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/25A04C4EA8CF957E15A64D13E81194FE82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 6'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/1B35E014E0233B289A2508BB2F4B5E2F82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 7'
-[96
+[106
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8495,28 +8799,28 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 <./figures/overscan.png>]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6C56C808A2C044DD219FF509B88B356382A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 8'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/AE324E9938C7FE54E1B2E68743E8033382A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 9'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7E69213416B78B34AA7663C29F9A024F82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 10'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E032A869E4D3D47BE1351ED88205F9D982A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -8531,7 +8835,7 @@ C.pygtex)
 
 (./_minted-main/015B3AB25FCD3E9A7F9AA3C2D8964C70541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-<figures/first_bias.png, id=1302, 432.1746pt x 591.8913pt>
+<figures/first_bias.png, id=1433, 432.1746pt x 591.8913pt>
 File: figures/first_bias.png Graphic file (type png)
 <use figures/first_bias.png>
 Package luatex.def Info: figures/first_bias.png  used on input line 109.
@@ -8540,7 +8844,7 @@ Package luatex.def Info: figures/first_bias.png  used on input line 109.
 \openout4 = main.pyg
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [97
+C.pygtex) [107
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8594,14 +8898,14 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 <./figures/first_bias.png>]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FCCAE0A3E6B1110B96B93612DF1B542582A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 12'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/591F80227BCB9AA6A39E9F10FDF7D3FC82A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -8616,24 +8920,24 @@ C.pygtex)
 
 (./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/18237FDDEF099003AC63CB90A7F751C182A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 14'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BD5727D48066E632FBC8EE2AA25A437C82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 15'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/F237B7F9649804EBF40A8F78F03975AB82A15B1DCA8D177369A2514541E452D
-C.pygtex) [98
+C.pygtex) [108
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8698,7 +9002,7 @@ C.pygtex)
 
 (./_minted-main/43A653F1D164A7D29CF67FCEF932C8DC541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/40A1A5A29EB20CF0899967E205E1BAE782A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -8709,31 +9013,31 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/312867ADDA8C532A10F776C23BB756EA82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 18'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D57A3201662AD917771735B7738A0A4982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 19'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/68B869E2846E846DDC1BF91046CF295082A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 20'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/8E55A1192AA4BA47F3FF3530307E9740BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [99
+9.pygtex) [109
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8800,7 +9104,7 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/15CC52967F315E3B1F97FD936A52BCBD82A15B1DCA8D177369A2514541E452D
 C.pygtex
@@ -8812,7 +9116,7 @@ U/Consolas(0)/m/n/10.95 )|
 )
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 21'
-) [100
+) [110
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8864,7 +9168,7 @@ C.pygtex)
 
 (./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9C35FF4D61F36C44E045B59C7ED2938E82A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -8874,7 +9178,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 \openout4 = main.pyg
 
 (./_minted-main/2B7FB7E53878FE8B456DF82CFC73BAF7541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex) [101
+C.pygtex) [111
 
 
 
@@ -8893,34 +9197,34 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/09302BE1309EDD431164AA90867422BD82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 2'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/210F92731A10DA7E8404006291ABB8DE82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 3'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/971F2963B1A6BC6A6E74D9255EF84CAC82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 4'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9596FBF8CCD223669697EE4DB7C5FFF682A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 5'
-[102
+[112
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -8974,31 +9278,31 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 ]
-<figures/flat_trimmed.png, id=1332, 435.0654pt x 602.7318pt>
+<figures/flat_trimmed.png, id=1463, 435.0654pt x 602.7318pt>
 File: figures/flat_trimmed.png Graphic file (type png)
 <use figures/flat_trimmed.png>
 Package luatex.def Info: figures/flat_trimmed.png  used on input line 75.
 (luatex.def)             Requested size: 199.60895pt x 276.53343pt.
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6E649466B919E74824A8677423E00FB982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 6'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/5FD841A20DC89DCA3EAE553CA4DB7EE0BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7F53E0FFDDD042EEF851026C58F25A3A82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 7'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/566EB9E3A68C46DC07EBEDBC255D2ABBBE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
@@ -9006,17 +9310,17 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/921AE40EFA09C8A5F92D22ADAA6568D9541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/691F97CC299249840AA79637FA1F464D82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 8'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E823AF6E9AF9063AC2063155B0EFDC17BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
-9.pygtex) [103
+9.pygtex) [113
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -9083,14 +9387,14 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 <./figures/flat_trimmed.png>]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/F1E317B554D1010F8E2008E46D30D33382A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 9'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/4129EC5512BE697532B65FB2B9E51CAE82A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -9101,17 +9405,17 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/466E10C19744055A9A82097326F900E982A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 11'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/5D8D3BD50BC6E7C4DD4D9346B0025F8582A15B1DCA8D177369A2514541E452D
-C.pygtex) [104
+C.pygtex) [114
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -9168,28 +9472,28 @@ Missing character: There is no e (U+0065) in font nullfont!
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 12'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FE0D63DD8075718DC8912970B5B31A85BE65A8F1B5E4B8D5AB3B95F3B2CDA3C
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/391392128721EB318ABCA74E4FD1D19782A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 13'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/856F2301522A21DE0119239996854D1582A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 14'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2DDC4642D014B31E23D5DC6E6CD0A9CC82A15B1DCA8D177369A2514541E452D
-C.pygtex) [105
+C.pygtex) [115
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -9245,20 +9549,20 @@ Missing character: There is no e (U+0065) in font nullfont!
 ]
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 15'
-<figures/master_flats.png, id=1349, 714.7503pt x 567.3195pt>
+<figures/master_flats.png, id=1480, 714.7503pt x 567.3195pt>
 File: figures/master_flats.png Graphic file (type png)
 <use figures/master_flats.png>
 Package luatex.def Info: figures/master_flats.png  used on input line 209.
 (luatex.def)             Requested size: 354.86412pt x 281.6767pt.
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C08FB27C4D7024912088A2903EC3010C82A15B1DCA8D177369A2514541E452D
 C.pygtex)
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 16'
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7389E982D96B9EC50019A4F8584C1C7482A15B1DCA8D177369A2514541E452D
 C.pygtex)
@@ -9269,10 +9573,10 @@ warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 
 (./_minted-main/91E454EBA04C1ACA45D1EF5D17C65285541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/9FB9B05243BB0B2422076A4317B2C6B382A15B1DCA8D177369A2514541E452D
-C.pygtex) [106
+C.pygtex) [116
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -9315,12 +9619,12 @@ Missing character: There is no e (U+0065) in font nullfont!
 <./figures/master_flats.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'ipythcntr.
 18'
-<figures/reduced_images.png, id=1358, 714.7503pt x 1193.1777pt>
+<figures/reduced_images.png, id=1489, 714.7503pt x 1193.1777pt>
 File: figures/reduced_images.png Graphic file (type png)
 <use figures/reduced_images.png>
 Package luatex.def Info: figures/reduced_images.png  used on input line 270.
 (luatex.def)             Requested size: 354.86412pt x 592.41812pt.
-) [107
+) [117
 Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
@@ -9334,7 +9638,10 @@ Missing character: There is no g (U+0067) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-] [108<./figures/reduced_images.png>] [109
+] [118<./figures/reduced_images.png>]
+Package biblatex Info: Reference segment=4 on input line 110.
+Package biblatex Info: Setting label 'refsegment:04' on input line 110.
+[119
 
 
 
@@ -9347,22 +9654,22 @@ Clase 13.
 
 (./_minted-main/06B8B97764C7DAEA255DF9D38103A6B1D3773C8B440B993359565A23D713B17
 A.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
  (./_minted-main/tango.pygstyle)
 (./_minted-main/1E87ABAD275058642428FFF6C39E92D7E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [110
+E.pygtex) [120
 
 
 ]
 \openout4 = main.pyg
 
 (./_minted-main/3E98E629598C42C318F592C85674ED968A449B50EE51364726AD8715BAD1C7E
-9.pygtex) [111]
+9.pygtex) [121]
 \openout4 = main.pyg
 
 (./_minted-main/C6AD4D9C5B03D1B42AEC7D14899614DB8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7EA0193579E662AD546E21C5ED479F8EE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9398,7 +9705,7 @@ E.pygtex)
 
 (./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/8A45607572F777786AD50EB899C64F87E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9410,10 +9717,10 @@ E.pygtex)
 
 (./_minted-main/874947DD4696BE6473847EFD4D4611BE8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D8FD16053A2388D937D3A47ED7478153E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [112]
+E.pygtex) [122]
 \openout4 = main.pyg
 
 (./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
@@ -9430,7 +9737,7 @@ E.pygtex) [112]
 
 (./_minted-main/3F3F6AED1E8CAE091EE47EEA7EB0AE168A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2A481611DC960BF7937E44D28AF2165AE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9446,7 +9753,7 @@ E.pygtex)
 
 (./_minted-main/C6AD4D9C5B03D1B42AEC7D14899614DB8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/44B2566DA834EE37881D9EA9A608EDF2E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9462,7 +9769,7 @@ E.pygtex)
 
 (./_minted-main/0C22F99BD4736D8EBBB0ECDA75E7B2548A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/73ABFAD55F169B8026E26557E9933F3CE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9474,10 +9781,10 @@ E.pygtex)
 
 (./_minted-main/DDEA62553E43E934742F6835E54A6C938A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/33A09DD15064998F1A63F53596A8A7A5E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [113]
+E.pygtex) [123]
 \openout4 = main.pyg
 
 (./_minted-main/9E85C099A5D5155DA0F4671BA34C60648A449B50EE51364726AD8715BAD1C7E
@@ -9494,11 +9801,11 @@ E.pygtex) [113]
 
 (./_minted-main/9E85C099A5D5155DA0F4671BA34C60648A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3017FBEE26F2955BABBCF0C81783F700E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/19FC6DBDF96AF7EA646CF374DBF4831FE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9522,15 +9829,15 @@ E.pygtex)
 
 (./_minted-main/AF5D4D883C8C9C50711D86A7E1807CAB8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/82F2219656AF32DCA2C5AA04270373A9E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [114]
+E.pygtex) [124]
 \openout4 = main.pyg
 
 (./_minted-main/AF5D4D883C8C9C50711D86A7E1807CAB8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B4FB1941406A9B7A504C99BF6E62AFCFE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9538,7 +9845,7 @@ E.pygtex)
 
 (./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/78E11253033B011BCBF902FC0FBA9B9EE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9546,7 +9853,7 @@ E.pygtex)
 
 (./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/80CA213EF99F2C2B9BE9C3886B6B137DE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9570,7 +9877,7 @@ E.pygtex)
 
 (./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/50621BDEBCB759C4F4BCF5AA202A1438E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9581,7 +9888,7 @@ E.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/747DE66AAC7D145949B5B1647FB9FD318A449B50EE51364726AD8715BAD1C7E
-9.pygtex) [115]
+9.pygtex) [125]
 \openout4 = main.pyg
 
 (./_minted-main/BE0FB0394AF271A4013FFE21984AF4778A449B50EE51364726AD8715BAD1C7E
@@ -9594,15 +9901,15 @@ E.pygtex)
 
 (./_minted-main/BE0FB0394AF271A4013FFE21984AF4778A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E3D0B00EA65457E183EC55173AF1E886E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B3910D460DD53EDF0FD0CE117BA68EC1E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/36F9FD751879BD7BD142048BA0F74B64E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9618,10 +9925,10 @@ E.pygtex)
 
 (./_minted-main/8798336199E3EAEF5B2213295D26E6828A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/029CBB5C76272D2F2317692FFDC7D402E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [116]
+E.pygtex) [126]
 \openout4 = main.pyg
 
 (./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
@@ -9638,11 +9945,11 @@ E.pygtex) [116]
 
 (./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/53C617844FACB87F9CD5F30DAB6BF94AE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/FA67425BC3AAD3A3B6814B434453A2BEE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9654,15 +9961,15 @@ E.pygtex)
 
 (./_minted-main/B8E59A7D4020792C412DA75E589FF4FC8A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/CD615D8338B4DF2E0EB405BEAAFD985EE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/4931D3E7F5E542747BB4C21BFBCFAB18E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/1661D2CCC3AEC23B297907A8C75C77E4E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9670,10 +9977,10 @@ E.pygtex)
 
 (./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A92ECBFBC229DCAEC9FF78F271DCD54FE9066CE88DE613FA1374184A315C1E1
-E.pygtex) [117]
+E.pygtex) [127]
 \openout4 = main.pyg
 
 (./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
@@ -9686,11 +9993,11 @@ E.pygtex) [117]
 
 (./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/AEA9A269908B80CD9CEFE58B89063D20E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/BCC527EBE864E6B7440FCD239EB8A9C0E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9698,7 +10005,7 @@ E.pygtex)
 
 (./_minted-main/1D7B40BDBD81FFFF93F083725954F1F28A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/B9009656949B708CCFE86CB9D6649A55E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9706,11 +10013,11 @@ E.pygtex)
 
 (./_minted-main/7AAB2F78CD69BF5027B311ED4D9D59518A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/33D29F2AD4826D4C99B9488CE11571C5E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [118]
-\openout9 = main.listing
+E.pygtex) [128]
+\openout10 = main.listing
 
 (./_minted-main/9A990E0A65390FD6FDD2813677F0EFB0E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9718,10 +10025,10 @@ E.pygtex)
 
 (./_minted-main/0C22F99BD4736D8EBBB0ECDA75E7B2548A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7846959333008E5169A8FC7923AD5176E9066CE88DE613FA1374184A315C1E1
-E.pygtex)) [119]
+E.pygtex)) [129]
 \openout2 = unit-4/lesson-14.aux
  (./unit-4/lesson-14.tex
 Clase 14.
@@ -9734,20 +10041,20 @@ Clase 14.
 
 (./_minted-main/EB2D505950D2B192BACEBBA7E4FF8A288A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/961A10F2EC32592245F9C66EDADC804BE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/38F60CCEDE9FE459AB0495BC728D305CE9066CE88DE613FA1374184A315C1E1
-E.pygtex) [120
+E.pygtex) [130
 
 
 
 
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/873DD83D0831499B4F41555B595DF008E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9755,39 +10062,39 @@ E.pygtex)
 
 (./_minted-main/E8DD36A5E4086E63E105442262DEEA918A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/7F229E23C41BBC29F831C6D3736225CCE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A0B804D2222F077AB014AB148FF0E76BE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/A529865B288660EE0FE801ED50489025E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/5CA2056C9A60B9749AE02EEC792CA160E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/06ABCB97F2B98F599CB471DC24B53A7DE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/F38E783C2EC6E7AD01CD876ABB3098DCE9066CE88DE613FA1374184A315C1E1
-E.pygtex) [121]
-\openout9 = main.listing
+E.pygtex) [131]
+\openout10 = main.listing
 
 (./_minted-main/9139039C59C1B5C523B7C98217BEED05E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/72DB785C05CCC2B209B7ACBA0BBB4FD7E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/94C24942547626F8EDA2007205D9A09DE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9795,34 +10102,34 @@ E.pygtex)
 
 (./_minted-main/12CCEF7B801436355B025A2FFC4F9EA58A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/DA48E20A36C08E884437835208A81491E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [122]
+E.pygtex) [132]
 \openout4 = main.pyg
 
 (./_minted-main/12CCEF7B801436355B025A2FFC4F9EA58A449B50EE51364726AD8715BAD1C7E
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/215D50130934BB740CEA1FCF14413705E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/50DDEAE9DADAA4A723B9BAFA1CF301F0E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/09D670A4B13F9F7F1DBC6B5B2E45774BE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/4D320054BB78D510C0B032803B491F54E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/43D4047B507443641474E89F31A73CE4E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [123]
+E.pygtex) [133]
 \openout4 = main.pyg
 
 (./_minted-main/46667170DE66E9FCDAF350F3F5D4D785A10B244115FA357BA46ABB99F7249CA
@@ -9843,7 +10150,7 @@ E.pygtex) [123]
 
 (./_minted-main/5E84F31D90CDC509F44A6872C3CE3B0BA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-<figures/ecl-output.png, id=1452, 481.4236pt x 266.87202pt>
+<figures/ecl-output.png, id=1583, 481.4236pt x 266.87202pt>
 File: figures/ecl-output.png Graphic file (type png)
 <use figures/ecl-output.png>
 Package luatex.def Info: figures/ecl-output.png  used on input line 151.
@@ -9865,10 +10172,10 @@ Package luatex.def Info: figures/ecl-output.png  used on input line 151.
 
 (./_minted-main/FFD3D4E01826451EA0086E483753E49CA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D594676AA60E9FA49FF821E5C121F0CBE9066CE88DE613FA1374184A315C1E1
-E.pygtex) [124<./figures/ecl-output.png>]
+E.pygtex) [134<./figures/ecl-output.png>]
 \openout4 = main.pyg
 
 (./_minted-main/FFD3D4E01826451EA0086E483753E49CA10B244115FA357BA46ABB99F7249CA
@@ -9877,7 +10184,7 @@ E.pygtex) [124<./figures/ecl-output.png>]
 
 (./_minted-main/CF5A599A81A8CB56B42D3062039C840CA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/1452E138FBDC3688C26DB014C0B4A4AFE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -9913,10 +10220,10 @@ E.pygtex)
 
 (./_minted-main/475A842B4A0A3EEE00DFB9429BED20E2A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/37320DB2812D1C361464A17D82BC41A8E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [125]
+E.pygtex) [135]
 \openout4 = main.pyg
 
 (./_minted-main/2F851AEEE4D0F07D942EEDB1BC7FC2EBA10B244115FA357BA46ABB99F7249CA
@@ -9965,11 +10272,11 @@ E.pygtex) [125]
 
 (./_minted-main/44858AC758E67BB62A95C0F7D8F82154A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3E23E865C71D28049F24DCDC985E9C03E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [126]
-<figures/pyraf-epar-example.png, id=1468, 258.21469pt x 281.92828pt>
+E.pygtex) [136]
+<figures/pyraf-epar-example.png, id=1599, 258.21469pt x 281.92828pt>
 File: figures/pyraf-epar-example.png Graphic file (type png)
 <use figures/pyraf-epar-example.png>
 Package luatex.def Info: figures/pyraf-epar-example.png  used on input line 239
@@ -9987,7 +10294,7 @@ Package luatex.def Info: figures/pyraf-epar-example.png  used on input line 239
 \openout4 = main.pyg
 
 (./_minted-main/28D07647484F1751AAB8BAA5F22B806BA10B244115FA357BA46ABB99F7249CA
-9.pygtex)) [127<./figures/pyraf-epar-example.png>] [128]
+9.pygtex)) [137<./figures/pyraf-epar-example.png>] [138]
 \openout2 = unit-4/lesson-15.aux
  (./unit-4/lesson-15.te
 x
@@ -9997,7 +10304,7 @@ Clase 15.
 
 (./_minted-main/F2F0BB95FABF88E9E1D93E8D8BD38333A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/F2F0BB95FABF88E9E1D93E8D8BD38333E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10009,16 +10316,16 @@ E.pygtex)
 
 (./_minted-main/119CF76B990CB7A741756B03270C5037541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D506248D4955D96FFB1A8FAE8733B07FE9066CE88DE613FA1374184A315C1E1
-E.pygtex) [129
+E.pygtex) [139
 
 
 
 
 ]
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/4DE573C84AD210C443EBC29BB97DB2C9E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10026,7 +10333,7 @@ E.pygtex)
 
 (./_minted-main/A7C4582BD968121153DC87A5C0A12003541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/F4DBCC2A0EEE94765A797DE071D52086E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10034,14 +10341,14 @@ E.pygtex)
 
 (./_minted-main/A7C4582BD968121153DC87A5C0A12003541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/57AFF3DA6F1834899BA2FDAB10E4DC83E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C3012635649767666CF858F98D8E47BEE9066CE88DE613FA1374184A315C1E1
-E.pygtex) [130]
+E.pygtex) [140]
 \openout4 = main.pyg
 
 (./_minted-main/9CB6B36E1B440172CD56367654D5688D541C68F80C6A6F06151AFD63BAE50EB
@@ -10050,11 +10357,11 @@ C.pygtex)
 
 (./_minted-main/475A842B4A0A3EEE00DFB9429BED20E2A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D594D5EC6DBB0FEE274D29F6AACFDEA0E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-<figures/pyraf-zerocombine.png, id=1492, 259.3439pt x 281.92828pt>
+<figures/pyraf-zerocombine.png, id=1623, 259.3439pt x 281.92828pt>
 File: figures/pyraf-zerocombine.png Graphic file (type png)
 <use figures/pyraf-zerocombine.png>
 Package luatex.def Info: figures/pyraf-zerocombine.png  used on input line 79.
@@ -10083,8 +10390,8 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/59F5954CBED961E9C87AD9C4807070128A449B50EE51364726AD8715BAD1C7E
-9.pygtex) [131<./figures/pyraf-zerocombine.png>]
-\openout9 = main.listing
+9.pygtex) [141<./figures/pyraf-zerocombine.png>]
+\openout10 = main.listing
 
 (./_minted-main/4DC160AFAF434B0E86DAEF9C34A395D6E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10100,18 +10407,18 @@ C.pygtex)
 
 (./_minted-main/15C19BD6FC0FDD9216FAD14771F7B06CA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/6BCB9FCBBBBF2EA882000784B679F73CE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D605B7884888B9CC6E77E6E9679B51E8E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/59598A031C880A15D95B148FD81126B8E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [132]
+E.pygtex) [142]
 \openout4 = main.pyg
 
 (./_minted-main/89AE37F74AE998AC7322C5B745566E62A10B244115FA357BA46ABB99F7249CA
@@ -10132,7 +10439,7 @@ C.pygtex)
 
 (./_minted-main/314D8277A796F191BC197B79709DA3B8541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3434A0A223B86AEC9F5ADD5158D31D81E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10140,7 +10447,7 @@ E.pygtex)
 
 (./_minted-main/0AE1620A800861025D1A0428FE9BBD3E541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/0B0A61E48E0D14F251EE85559278A115E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10148,11 +10455,11 @@ E.pygtex)
 
 (./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/8D625638FB8A490463AF90C3747F85C6E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [133]
-<figures/pyraf-correct-flat.png, id=1508, 258.9675pt x 271.76532pt>
+E.pygtex) [143]
+<figures/pyraf-correct-flat.png, id=1639, 258.9675pt x 271.76532pt>
 File: figures/pyraf-correct-flat.png Graphic file (type png)
 <use figures/pyraf-correct-flat.png>
 Package luatex.def Info: figures/pyraf-correct-flat.png  used on input line 174
@@ -10221,10 +10528,10 @@ Overfull \hbox (10.20192pt too wide) in paragraph at lines 179--180
  []
 
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C75F833C6077A54C28FE25B29DD15900E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [134<./figures/pyraf-correct-flat.png>]
+E.pygtex) [144<./figures/pyraf-correct-flat.png>]
 \openout4 = main.pyg
 
 (./_minted-main/8C976A88759BE6B3491F2CF81EB2FDF6A10B244115FA357BA46ABB99F7249CA
@@ -10233,12 +10540,12 @@ E.pygtex) [134<./figures/pyraf-correct-flat.png>]
 
 (./_minted-main/4D86331A46B92EDBD1B84E4BDF2A879FA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-<figures/pyraf-hedit-flat.png, id=1517, 255.95625pt x 165.99516pt>
+<figures/pyraf-hedit-flat.png, id=1648, 255.95625pt x 165.99516pt>
 File: figures/pyraf-hedit-flat.png Graphic file (type png)
 <use figures/pyraf-hedit-flat.png>
 Package luatex.def Info: figures/pyraf-hedit-flat.png  used on input line 194.
 (luatex.def)             Requested size: 212.91577pt x 138.08241pt.
-<figures/pyraf-hedit-master-bias.png, id=1518, 257.83829pt x 169.00641pt>
+<figures/pyraf-hedit-master-bias.png, id=1649, 257.83829pt x 169.00641pt>
 File: figures/pyraf-hedit-master-bias.png Graphic file (type png)
 <use figures/pyraf-hedit-master-bias.png>
 Package luatex.def Info: figures/pyraf-hedit-master-bias.png  used on input lin
@@ -10269,7 +10576,7 @@ e 195.
 
 (./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/2D370E244CC8CFD8E991AAE2413874E1E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10285,11 +10592,11 @@ C.pygtex)
 
 (./_minted-main/C9D6E9E55A1A229EE1BBF99DC49D27EEA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/D4938929B8B58370DC8BEFD711EED641E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-<figures/pyraf-flatcombine.png, id=1519, 257.08546pt x 289.83281pt>
+<figures/pyraf-flatcombine.png, id=1650, 257.08546pt x 289.83281pt>
 File: figures/pyraf-flatcombine.png Graphic file (type png)
 <use figures/pyraf-flatcombine.png>
 Package luatex.def Info: figures/pyraf-flatcombine.png  used on input line 220.
@@ -10307,7 +10614,7 @@ Package luatex.def Info: figures/pyraf-flatcombine.png  used on input line 220.
 \openout4 = main.pyg
 
 (./_minted-main/59F5954CBED961E9C87AD9C4807070128A449B50EE51364726AD8715BAD1C7E
-9.pygtex) [135<./figures/pyraf-hedit-flat.png><./figures/pyraf-hedit-master-bias
+9.pygtex) [145<./figures/pyraf-hedit-flat.png><./figures/pyraf-hedit-master-bias
 .png>]
 \openout4 = main.pyg
 
@@ -10324,12 +10631,12 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/6AE69E1D533BE125C808EFE4AC6044B1541C68F80C6A6F06151AFD63BAE50EB
-C.pygtex)) [136<./figures/pyraf-flatcombine.png>]
+C.pygtex)) [146<./figures/pyraf-flatcombine.png>]
 \openout2 = unit-4/lesson-16.aux
  (./unit-4/lesson-16.tex
 Clase 16.
 
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/121A963A7DA98EB68DF350A930C9DE50E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10337,7 +10644,7 @@ E.pygtex)
 
 (./_minted-main/82F02AB1965473C7B7D4ECE9DA91663B541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/CE9F7655B51C5398660C74D3F31E8664E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10349,16 +10656,16 @@ C.pygtex)
 
 (./_minted-main/7AA0865AC5D162A6E7BB34BA09EAA7E6A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/0AEE54C67A8753C0F9C96052F79CB172E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [137
+E.pygtex) [147
 
 
 
 
 ]
-<figures/ds9-campo-completo.png, id=1537, 457.71pt x 478.78876pt>
+<figures/ds9-campo-completo.png, id=1668, 457.71pt x 478.78876pt>
 File: figures/ds9-campo-completo.png Graphic file (type png)
 <use figures/ds9-campo-completo.png>
 Package luatex.def Info: figures/ds9-campo-completo.png  used on input line 33.
@@ -10381,11 +10688,11 @@ Package luatex.def Info: figures/ds9-campo-completo.png  used on input line 33.
 
 (./_minted-main/7AA0865AC5D162A6E7BB34BA09EAA7E6A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3811EC7766D03D59B02FC37A568A4681E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [138<./figures/ds9-campo-completo.png>]
-<figures/ds9-noisses.png, id=1546, 468.62578pt x 460.34485pt>
+E.pygtex) [148<./figures/ds9-campo-completo.png>]
+<figures/ds9-noisses.png, id=1677, 468.62578pt x 460.34485pt>
 File: figures/ds9-noisses.png Graphic file (type png)
 <use figures/ds9-noisses.png>
 Package luatex.def Info: figures/ds9-noisses.png  used on input line 50.
@@ -10395,11 +10702,11 @@ Package luatex.def Info: figures/ds9-noisses.png  used on input line 50.
 
 (./_minted-main/82F02AB1965473C7B7D4ECE9DA91663B541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/44043C874A76EDD346E81086716A3B04E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [139<./figures/ds9-noisses.png>]
-\openout9 = main.listing
+E.pygtex) [149<./figures/ds9-noisses.png>]
+\openout10 = main.listing
 
 (./_minted-main/87FEB59325CE4A6096D6DA8DD958D17DE9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10431,7 +10738,7 @@ C.pygtex)
 
 (./_minted-main/7863B7109D1DA9941DB103734E172EC8541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/C5CCEFC89E7008DE8C359BDA6ED27EA4E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10439,10 +10746,10 @@ E.pygtex)
 
 (./_minted-main/2572EC367CCB3B31FCCA4824EF55F821541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/E386FF9DD9A84A9C977760016A69DED1E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [140]
+E.pygtex) [150]
 \openout4 = main.pyg
 
 (./_minted-main/B9E62AEA6CC34EC81D7AA8C48EF46FF0541C68F80C6A6F06151AFD63BAE50EB
@@ -10455,11 +10762,11 @@ C.pygtex)
 
 (./_minted-main/7863B7109D1DA9941DB103734E172EC8541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/80CDAE49E5B0A83842736311C48E8CF9E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-<figures/pyraf-hedit-objeto.png, id=1559, 258.9675pt x 166.74797pt>
+<figures/pyraf-hedit-objeto.png, id=1690, 258.9675pt x 166.74797pt>
 File: figures/pyraf-hedit-objeto.png Graphic file (type png)
 <use figures/pyraf-hedit-objeto.png>
 Package luatex.def Info: figures/pyraf-hedit-objeto.png  used on input line 112
@@ -10498,11 +10805,11 @@ C.pygtex)
 
 (./_minted-main/E14B420B7266F69A2B2B457F3BBEC804A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/8D625638FB8A490463AF90C3747F85C6E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-<figures/pyraf-object-correction.png, id=1561, 260.09673pt x 299.24297pt>
+<figures/pyraf-object-correction.png, id=1692, 260.09673pt x 299.24297pt>
 File: figures/pyraf-object-correction.png Graphic file (type png)
 <use figures/pyraf-object-correction.png>
 Package luatex.def Info: figures/pyraf-object-correction.png  used on input lin
@@ -10516,27 +10823,27 @@ e 125.
 \openout4 = main.pyg
 
 (./_minted-main/BCE09C0DFECDD436C30B463E2F8C0EE1A10B244115FA357BA46ABB99F7249CA
-9.pygtex) [141<./figures/pyraf-hedit-objeto.png>]
+9.pygtex) [151<./figures/pyraf-hedit-objeto.png>]
 \openout4 = main.pyg
 
 (./_minted-main/7AA0865AC5D162A6E7BB34BA09EAA7E6A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/3722ACD1112E9E6283C5686268E8D1E7E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
-<figures/ds9-object-corrected.png, id=1570, 465.99094pt x 461.09766pt>
+<figures/ds9-object-corrected.png, id=1701, 465.99094pt x 461.09766pt>
 File: figures/ds9-object-corrected.png Graphic file (type png)
 <use figures/ds9-object-corrected.png>
 Package luatex.def Info: figures/ds9-object-corrected.png  used on input line 1
 42.
 (luatex.def)             Requested size: 310.50357pt x 307.25227pt.
-[142<./figures/pyraf-object-correction.png>]
+[152<./figures/pyraf-object-correction.png>]
 \openout4 = main.pyg
 
 (./_minted-main/7AA0865AC5D162A6E7BB34BA09EAA7E6A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/33633A82A6483160B6F5676D4D7ED479E9066CE88DE613FA1374184A315C1E1
 E.pygtex)
@@ -10580,12 +10887,12 @@ E.pygtex)
 
 (./_minted-main/70B052843BA480D3F2C14D8F8D6C4EB0A10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-<figures/ds9-viuda-negra.png, id=1578, 450.55829pt x 445.28859pt>
+<figures/ds9-viuda-negra.png, id=1709, 450.55829pt x 445.28859pt>
 File: figures/ds9-viuda-negra.png Graphic file (type png)
 <use figures/ds9-viuda-negra.png>
 Package luatex.def Info: figures/ds9-viuda-negra.png  used on input line 157.
 (luatex.def)             Requested size: 310.50357pt x 306.88934pt.
-[143<./figures/ds9-object-corrected.png>]
+[153<./figures/ds9-object-corrected.png>]
 \openout4 = main.pyg
 
 (./_minted-main/C7DFACE1C617C76B38D465E469D75F1AA10B244115FA357BA46ABB99F7249CA
@@ -10594,11 +10901,11 @@ Package luatex.def Info: figures/ds9-viuda-negra.png  used on input line 157.
 
 (./_minted-main/604CFD11E527EDFB119FD42C33A1A04EA10B244115FA357BA46ABB99F7249CA
 9.pygtex)
-\openout9 = main.listing
+\openout10 = main.listing
 
 (./_minted-main/05457A1E5837AE2E10247236760EAD18E9066CE88DE613FA1374184A315C1E1
-E.pygtex) [144<./figures/ds9-viuda-negra.png>]
-<figures/pyraf-imshift-42.png, id=1591, 260.09673pt x 157.71422pt>
+E.pygtex) [154<./figures/ds9-viuda-negra.png>]
+<figures/pyraf-imshift-42.png, id=1722, 260.09673pt x 157.71422pt>
 File: figures/pyraf-imshift-42.png Graphic file (type png)
 <use figures/pyraf-imshift-42.png>
 Package luatex.def Info: figures/pyraf-imshift-42.png  used on input line 173.
@@ -10643,9 +10950,10 @@ C.pygtex)
 \openout4 = main.pyg
 
 (./_minted-main/C7DFACE1C617C76B38D465E469D75F1AA10B244115FA357BA46ABB99F7249CA
-9.pygtex)) [145<./figures/pyraf-imshift-42.png>] (./main.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+9.pygtex)) [155<./figures/pyraf-imshift-42.png>] (./main.aux
+LaTeX Info: Redefining \sptext on input line 23.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 (./unit-1/lesson-1.aux) (./unit-1/lesson-2.aux) (./unit-1/lesson-3.aux) (./unit
 -1/lesson-4.aux) (./unit-2/lesson-5.aux) (./unit-2/lesson-6.aux) (./unit-2/less
 on-7.aux) (./unit-2/lesson-8.aux) (./unit-3/lesson-9.aux) (./unit-3/lesson-10.a
@@ -10655,32 +10963,35 @@ ux) (./unit-3/lesson-11.aux) (./unit-3/lesson-12.aux) (./unit-4/lesson-13.aux)
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DD04ADE86A9308CE1C825F98D37E79C1;24013.
+(rerunfilecheck)             Checksum: DB36F38019395420ACE32D01A8D982C9;25210.
 runsystem(rm main.pyg)...executed
+Package logreq Info: Writing requests to 'main.run.xml'.
+
+\openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 67299 strings out of 478382
- 156564,2373549 words of node,token memory allocated
- 1824 words of node memory still in use:
+ 74687 strings out of 478382
+ 156272,2848258 words of node,token memory allocated
+ 1922 words of node memory still in use:
    32 hlist, 2 vlist, 14 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_
-kern, 4 glyph, 155 attribute, 95 glue_spec, 115 attribute_list, 4 write, 24 pdf_
-literal, 7 pdf_action, 24 pdf_colorstack nodes
-   avail lists: 1:26,2:6835,3:2405,4:525,5:384,6:312,7:7259,8:144,9:1440,10:37,1
-1:897,12:30
- 66951 multiletter control sequences out of 65536+600000
- 118 fonts using 44833503 bytes
- 95i,14n,114p,1210b,1571s stack positions out of 10000i,1000n,20000p,200000b,200000s
+kern, 4 glyph, 169 attribute, 105 glue_spec, 122 attribute_list, 4 write, 24 pdf
+_literal, 8 pdf_action, 24 pdf_colorstack nodes
+   avail lists: 1:32,2:6840,3:2406,4:523,5:376,6:319,7:7262,8:146,9:1441,10:35,1
+1:898,12:30
+ 74141 multiletter control sequences out of 65536+600000
+ 118 fonts using 44833743 bytes
+ 95i,14n,114p,1210b,2226s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/fonts/ppviewer/CAMBRIA.TTC></usr/share/fonts/truetype/msttcorefonts/
 arial.ttf></usr/share/fonts/ppviewer/CAMBRIA.TTC></usr/share/fonts/ppviewer/CAMB
 RIA.TTC></usr/share/fonts/ppviewer/CONSOLAI.TTF></usr/share/fonts/ppviewer/CONSO
 LA.TTF></usr/share/fonts/ppviewer/CONSOLAB.TTF></usr/share/fonts/truetype/msttco
 refonts/Arial_Italic.ttf></usr/share/fonts/truetype/msttcorefonts/arial.ttf></us
 r/share/fonts/truetype/msttcorefonts/arialbd.ttf>
-Output written on main.pdf (146 pages, 9847533 bytes).
+Output written on main.pdf (156 pages, 11316527 bytes).
 
-PDF statistics: 1680 PDF objects out of 1728 (max. 8388607)
- 1393 compressed objects within 14 object streams
- 376 named destinations out of 1000 (max. 131072)
- 1280 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1812 PDF objects out of 2073 (max. 8388607)
+ 1498 compressed objects within 15 object streams
+ 407 named destinations out of 1000 (max. 131072)
+ 1328 words of extra memory for PDF output out of 10000 (max. 100000000)
 
