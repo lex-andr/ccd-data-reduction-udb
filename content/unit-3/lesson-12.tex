@@ -24,7 +24,7 @@ import numpy as np
 from astropy.stats import mad_std
 
 #- Modulos para visualización
-from show_image import show_image 
+from functions import show_image 
 \end{pyin}
 
 Como encontramos anteriormente, las imágenes de corriente oscura tienen diferentes tiempos de exposición. Las imágenes de flat también tienen diferentes tiempos de exposición. Para poder corregir las imágenes flat por corriente oscura, necesitamos agruparlas de acuerdo al tiempo de exposición para que coincidan con las de corriente oscura. La función que nos ayudará a conseguirlo se llama \pynorm{find_nearest_dark_exposure()} y debemos importarla.

@@ -16,6 +16,8 @@ Este ejemplo está basado en la guía <<\href{}{CCD Data reduction guide}>> de P
 \begin{pyin}
 from ccdproc import CCDData, ImageFileCollection
 import pathlib
+import numpy as np
+from astropy.stats import mad_std
 \end{pyin}
 
 \begin{pyin}[]
@@ -55,11 +57,194 @@ calibrated_data = Path('.', 'example-reduced')
 calibrated_data.mkdir(exist_ok=True)
 \end{pyin}
 
-Ahora creamos una colección de archivos con todos los datos:
+Ahora creamos una colección de archivos con todas las imágenes dentro de la carpeta \pynorm{'example-cryo-lfc}. Esta colección tendrá las imágenes bias, flat y las de objeto.
 \begin{pyin}
 files = ImageFileCollection(cryo_path)
 \end{pyin}
-La variable \pynorm
 
+Para quedarnos únicamente con las de bias, que son las que nos interesan por el momento, debemos filtrarlas con una de las funciones dentro del módulo \pynorm{ImageFileCollection}. Dicha función se llama \pynorm{files_filtered()} y podemos usarla de la siguiente manera:
+
+\begin{pyin}[]
+#- Seleccionando solo imágenes tipo bias
+biases = files.files_filtered(include_path=True, imagetyp='BIAS')
+\end{pyin}
+
+Para entender qué es lo que haremos con todas estas imágenes, primero aplicaremos el procedimiento a una sola imagen y veremos el resultado. Comencemos seleccionando la primera imagen de nuestra lista:
+
+\begin{pyin}[]
+#- Seleccionando una sola imagen
+first_bias = CCDData.read(biases[0], unit='adu')
+\end{pyin}
+
+Como vemos en la Figura \ref{fig:overscan}, a pesar que el overscan de este instrumento inicia a partir del píxel 2048, la intensidad se mantiene constante para los tres tipos de imágenes a partir del píxel 2055 aproximadamente. Por lo tanto, debemos sustraer ese valor de intensidad a nuestra imagen. Primero importamos la función que nos permite realizar esa tarea:
+
+\begin{pyin}
+from ccdproc import subtract_overscan
+\end{pyin}
+
+Para estos datos específicos, la usamos de la siguiente manera:
+
+\begin{pyin}
+bias_overscan_substracted = subtract_overscan(first_bias, 
+                                       overscan=first_bias[:, 2055: ],
+                                       median=True)
+\end{pyin}
+
+Ahora debemos recortar la imagen para no utilizar los píxeles extra y quedarnos solo con los píxeles físicos. Primero importamos la función que utilizaremos:
+
+\begin{pyin}
+from ccdproc import trim_image
+\end{pyin}
+
+Y la utilizamos: 
+
+\begin{pyin}
+trimmed_bias = trim_image(bias_overscan_substracted[ :, :2048])
+\end{pyin}
+
+En la Figura \ref{fig:bias_compared} se compara la imagen inicial, llamada \pynorm{first_bias} y la imagen final, llamada \pynorm{trimmed_bias}. Como puedes notar, se redujo la intensidad de la imagen además que en el eje horizontal ahora hay menos píxeles. 
+
+\begin{figure}[htb]
+  \centering
+	\includegraphics[width=0.45\textwidth]{figures/first_bias.png}
+	\caption{Comparación de una imagen de bias antes y después de sustraer el overscan.}
+	\label{fig:bias_compared} 
+\end{figure}
+
+Ahora que hemos comprendido el resultado de este procedimiento, podemos aplicarlo a todas las imágenes de bias usando un ciclo \pynorm{for}:
+
+\begin{pyin}
+for ccd_file, file_name in files.ccds(imagetyp='BIAS', 
+                                      ccd_kwargs={'unit': 'adu'}, 
+                                      return_fname=True):
+
+    #- Restar el oberscan
+    ccd_file = subtract_overscan(ccd_file, 
+                                 overscan=ccd_file[: , 2055:], 
+                                 median = True)
+
+    #- Recortar los archivos
+    ccd_file = trim_image(ccd_file[:, :2048])
+
+    #- Guardar el resultado
+    ccd_file.write(calibrated_data / file_name )
+\end{pyin}
+
+Con los datos corregidos, vamos a crear un archivo master bias, que es simplemente un promedio de todas las imágenes de bias. Primero seleccionamos las imágenes que acabamos de corregir:
+
+\begin{pyin}[]
+#- Creando una colección de imágenes
+reduced_images = ImageFileCollection(calibrated_data)
+
+calibrated_biases = reduced_images.files_filtered(imagetyp='bias', 
+                                                  include_path=True)
+\end{pyin}
+
+Para crear el master bias, debemos usar la función \pynorm{combine()} del módulo \pynorm{ccdproc}. Primero la importamos:
+
+\begin{pyin}
+from ccdproc import combine
+\end{pyin}
+
+La utilizamos de la siguiente manera:
+
+\begin{pyin}[]
+#- Creando un master bias
+combined_bias = combine(calibrated_biases,
+                        method='average',
+                        sigma_clip=True, sigma_clip_low_thresh=5,
+                        sigma_clip_high_thresh=5,
+                        sigma_clip_func=np.ma.median, 
+                        sigma_clip_dev_func=mad_std,
+                        mem_limit=350e6
+                        )
+\end{pyin}
+
+Actualizamos la información del archivo y además lo guardamos:
+\begin{pyin}[]
+#- Actualizando la meta data
+combined_bias.meta['combined'] = True
+
+#- Guardando el archivo
+combined_bias.write(calibrated_data / 'master_bias.fits')
+\end{pyin}
 
 \subsection{Creando un archivo master dark}
+Para crear el archivo master dar, primero debemos sustraer el overscan y recortar las imágenes de dark current. Ya hemos definido la variable \pynorm{cryo_path} como la ubicación de nuestros archivos. Dentro de esa ubicación se encuentra el directorio llamado \pynorm{darks}. Para acceder a esos archivos, por lo tanto, debemos definir esa ruta:
+
+\begin{pyin}[]
+#- Ruta a las imágenes dark
+lfc_darks_raw = ImageFileCollection(cryo_path / 'darks')
+\end{pyin}
+
+Aplicamos el mismo ciclo \pynorm{for} a todas las imágenes dark para restarles el overscan y recortarlas:
+
+\begin{pyin}
+for ccd, file_name in lfc_darks_raw.ccds(imagetyp='DARK',            
+                                         ccd_kwargs={'unit': 'adu'},
+                                         return_fname=True           
+                                        ):    
+    # Subtract the overscan
+    ccd = subtract_overscan(ccd, overscan=ccd[:, 2055:], 
+                            median=True)
+    
+    # Trim the overscan
+    ccd = trim_image(ccd[:, :2048])
+    
+    # Save the result
+    ccd.write(calibrated_data / file_name, overwrite=True)
+\end{pyin}
+
+Ahora debemos actualizar nuestra colección de imágenes reducidas:
+
+\begin{pyin}
+reduced_images.refresh()
+\end{pyin}
+
+Las imágenes dark tienen diferentes tiempos de exposición, por lo que debemos crear un archivo master dark para cada uno de ellos. Primero creamos un set con dichos tiempos:
+
+\begin{pyin}
+darks = reduced_images.summary['imagetyp'] == 'DARK'
+dark_times = set(reduced_images.summary['exptime'][darks])
+print(dark_times)
+\end{pyin}
+\begin{pyprint}
+{300.0, 70.0, 7.0}
+\end{pyprint}
+
+Ahora usamos un ciclo for que itera sobre cada tiempo de exposición y luego:
+\begin{itemize}
+  \item Selecciona todas las imágenes dark para el tiempo de exposición dado
+  \item Combina esas imágenes dark
+  \item Actualiza su información
+  \item Guarda los archivos combinados
+\end{itemize}
+
+\begin{pyin}
+for exp_time in sorted(dark_times):
+
+    #- Selecciona las imágenes dark dentro de la carpeta
+    calibrated_darks = reduced_images.files_filtered(imagetyp='dark',
+                                                     exptime=exp_time,
+                                                     include_path=True)
+
+    #- Combina las imágenes
+    combined_dark = combine(calibratwrite(ed_darks,
+                            method='average',
+                            sigma_clip=True, sigma_clip_low_thresh=5,
+                            sigma_clip_high_thresh=5,
+                            sigma_clip_func=np.ma.median, 
+                            sigma_clip_dev_func=mad_std,
+                            mem_limit=350e6
+                            )
+
+    #- Actualiza la información
+    combined_dark.meta['combined'] = True
+
+    #- Guarda los archivos
+    dark_file_name = 'combined_dark_{:6.3f}.fits'.format(exp_time)
+    combined_dark.write(calibrated_data / dark_file_name)
+\end{pyin}
+
+Con esto hemos creado los tres archivos master dark, uno para cada tiempo de exposición. 
+

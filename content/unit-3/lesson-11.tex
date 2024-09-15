@@ -15,14 +15,14 @@ Este ejemplo está basado en la guía <<\href{}{CCD Data reduction guide}>> de P
 
 \begin{pyin}
 from ccdproc import CCDData, ImageFileCollection
-import pathlib
+from pathlib import Path
 import numpy as np
 from astropy.stats import mad_std
 \end{pyin}
 
 \begin{pyin}[]
 #- Definiendo la ruta a los datos
-cryo_path = pathlib.Path('example-cryo-LFC')
+cryo_path = Path('example-cryo-LFC')
 
 #- Leyendo unas cuantas imágenes
 bias_lfc   = CCDData.read(cryo_path / 'ccd.001.0.fits', unit='count')
@@ -229,7 +229,7 @@ for exp_time in sorted(dark_times):
                                                      include_path=True)
 
     #- Combina las imágenes
-    combined_dark = combine(calibratwrite(ed_darks,
+    combined_dark = combine(calibrated_darks,
                             method='average',
                             sigma_clip=True, sigma_clip_low_thresh=5,
                             sigma_clip_high_thresh=5,
@@ -247,4 +247,3 @@ for exp_time in sorted(dark_times):
 \end{pyin}
 
 Con esto hemos creado los tres archivos master dark, uno para cada tiempo de exposición. 
-

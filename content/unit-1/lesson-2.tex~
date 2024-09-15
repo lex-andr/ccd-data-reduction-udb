@@ -320,7 +320,7 @@ print(my_set)
 {1, 2, 3, 4, 5, 6}
 \end{pyprint}
 
-Para eliminar un elemento se utilizan los métodos \pynorm{remove()} o \pynorm{discard()}, como puedes comprobar:
+Para eliminar un elemento se utilizan los métodos \pynorm{remove()} o \pynorm{doscard()}, como puedes comprobar:
 
 \begin{pyin}
 my_set.remove(3) 
